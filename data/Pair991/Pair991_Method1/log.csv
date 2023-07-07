@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "k < n.length", "k >= n.length"
+2, Increments, 6, "k++", "k--"
+3, Math, 9, "sum / n.length", "sum * n.length"
+4, ConditionalsBoundary, 6, "k < n.length", "k <= n.length"

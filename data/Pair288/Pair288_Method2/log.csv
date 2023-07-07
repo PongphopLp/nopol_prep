@@ -1,0 +1,8 @@
+1, NegateConditionals, 8, "i < limit", "i >= limit"
+2, NegateConditionals, 11, "b1 == b2", "b1 != b2"
+3, ConditionalsBoundary, 8, "i < limit", "i <= limit"
+4, Math, 15, "(b1 & 0xff) - (b2 & 0xff)", "(b1 & 0xff) + (b2 & 0xff)"
+5, Math, 15, "b1 & 0xff", "b1 | 0xff"
+6, Math, 15, "b2 & 0xff", "b2 | 0xff"
+7, Math, 18, "a1Len - a2Len", "a1Len + a2Len"
+8, Increments, 8, "i++", "i--"

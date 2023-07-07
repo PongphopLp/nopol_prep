@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "s1 != null", "s1 == null"
+2, NegateConditionals, 10, "s2 != null", "s2 == null"

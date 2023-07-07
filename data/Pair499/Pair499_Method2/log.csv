@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "i >= 0", "i < 0"
+2, Increments, 6, "i--", "i++"
+3, Math, 5, "polynom.length - 1", "polynom.length + 1"
+4, Math, 6, "polynom.length - 2", "polynom.length + 2"
+5, Math, 7, "sum * x + polynom[i]", "sum * x - polynom[i]"
+6, Math, 7, "sum * x", "sum / x"
+7, ConditionalsBoundary, 6, "i >= 0", "i > 0"

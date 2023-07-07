@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 8, "System.arraycopy(array,prefixLength,newArray,0,newLength);
+", "DELETED"
+2, Math, 5, "array.length - prefixLength", "array.length + prefixLength"
+3, NegateConditionals, 7, "newLength == 0", "newLength != 0"

@@ -1,0 +1,8 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < 4", "i >= 4"
+3, Math, 7, "(4 - 1 - i) * 8", "(4 - 1 - i) / 8"
+4, Math, 7, "4 - 1 - i", "4 + 1 + i"
+5, Math, 8, "((int)b[i + offset] & 0xFF) << shift", "((int)b[i + offset] & 0xFF) >> shift"
+6, Math, 8, "(int)b[i + offset] & 0xFF", "(int)b[i + offset] | 0xFF"
+7, Math, 8, "i + offset", "i - offset"
+8, ConditionalsBoundary, 6, "i < 4", "i <= 4"

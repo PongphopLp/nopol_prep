@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "name == null", "name != null"
+2, NegateConditionals, 10, "scopes != null", "scopes == null"

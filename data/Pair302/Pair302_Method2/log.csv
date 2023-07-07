@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "string1 == null", "string1 != null"
+2, NegateConditionals, 6, "string2 == null", "string2 != null"
+3, NegateConditionals, 7, "string3 == null", "string3 != null"
+4, NegateConditionals, 8, "string4 == null", "string4 != null"

@@ -1,0 +1,5 @@
+1, Increments, 8, "i++", "i--"
+2, ConditionalsBoundary, 8, "i < boolean1.length", "i <= boolean1.length"
+3, NegateConditionals, 5, "boolean1.length != boolean2.length", "boolean1.length == boolean2.length"
+4, NegateConditionals, 8, "i < boolean1.length", "i >= boolean1.length"
+5, NegateConditionals, 9, "boolean1[i] != boolean2[i]", "boolean1[i] == boolean2[i]"

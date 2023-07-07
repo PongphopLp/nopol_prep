@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "pMod != 0", "pMod == 0"
+2, Math, 5, "aSize % aMinRecSize", "aSize * aMinRecSize"
+3, Math, 7, "aSize + aMinRecSize - pMod", "aSize + aMinRecSize + pMod"
+4, Math, 7, "aSize + aMinRecSize", "aSize - aMinRecSize"

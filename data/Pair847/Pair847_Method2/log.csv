@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "param == null", "param != null"
+2, NegateConditionals, 5, "param.length() == 0", "param.length() != 0"

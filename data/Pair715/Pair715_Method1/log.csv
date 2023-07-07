@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "_val < 100", "_val >= 100"
+2, NegateConditionals, 6, "_val < 10", "_val >= 10"
+3, Math, 7, ""00" + _val", ""00" - _val"
+4, Math, 9, ""0" + _val", ""0" - _val"
+5, Math, 11, """ + _val", """ - _val"
+6, ConditionalsBoundary, 5, "_val < 100", "_val <= 100"
+7, ConditionalsBoundary, 6, "_val < 10", "_val <= 10"

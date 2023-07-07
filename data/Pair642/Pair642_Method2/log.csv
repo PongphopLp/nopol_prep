@@ -1,0 +1,8 @@
+1, Math, 6, "(r << 8) | (bytes[offset++ % bytes.length] & 0xff)", "(r << 8) & (bytes[offset++ % bytes.length] & 0xff)"
+2, Math, 6, "r << 8", "r >> 8"
+3, Math, 6, "bytes[offset++ % bytes.length] & 0xff", "bytes[offset++ % bytes.length] | 0xff"
+4, Math, 6, "offset++ % bytes.length", "offset++ * bytes.length"
+5, NegateConditionals, 6, "n < 4", "n >= 4"
+6, ConditionalsBoundary, 6, "n < 4", "n <= 4"
+7, Increments, 6, "++n", "--n"
+8, Increments, 6, "offset++", "offset--"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "l <= Integer.MIN_VALUE", "l < Integer.MIN_VALUE"
+2, ConditionalsBoundary, 8, "l >= Integer.MAX_VALUE", "l > Integer.MAX_VALUE"
+3, NegateConditionals, 5, "l <= Integer.MIN_VALUE", "l > Integer.MIN_VALUE"
+4, NegateConditionals, 8, "l >= Integer.MAX_VALUE", "l < Integer.MAX_VALUE"

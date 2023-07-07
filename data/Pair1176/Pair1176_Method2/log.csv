@@ -1,0 +1,12 @@
+1, ConditionalsBoundary, 7, "(pos=in.indexOf(what,lp)) > -1", "(pos=in.indexOf(what,lp)) >= -1"
+2, ConditionalsBoundary, 12, "lp < in.length()", "lp <= in.length()"
+3, VoidMethodCalls, 8, "sb.append(in.substring(lp,pos));
+", "DELETED"
+4, VoidMethodCalls, 9, "sb.append(with);
+", "DELETED"
+5, VoidMethodCalls, 13, "sb.append(in.substring(lp));
+", "DELETED"
+6, InvertNegatives, 7, "-1", "1"
+7, NegateConditionals, 7, "(pos=in.indexOf(what,lp)) > -1", "(pos=in.indexOf(what,lp)) <= -1"
+8, NegateConditionals, 12, "lp < in.length()", "lp >= in.length()"
+9, Math, 10, "pos + what.length()", "pos - what.length()"

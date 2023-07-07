@@ -1,0 +1,16 @@
+01, NegateConditionals, 5, "source == null", "source != null"
+02, NegateConditionals, 11, "(pos=source.indexOf(findToken)) < 0", "(pos=source.indexOf(findToken)) >= 0"
+03, NegateConditionals, 14, "sb == null", "sb != null"
+04, NegateConditionals, 17, "pos > 0", "pos <= 0"
+05, NegateConditionals, 23, "source.length() > 0", "source.length() <= 0"
+06, NegateConditionals, 24, "sb == null", "sb != null"
+07, VoidMethodCalls, 18, "sb.append(source.substring(0,pos));
+", "DELETED"
+08, VoidMethodCalls, 20, "sb.append(replaceToken);
+", "DELETED"
+09, VoidMethodCalls, 28, "sb.append(source);
+", "DELETED"
+10, ConditionalsBoundary, 11, "(pos=source.indexOf(findToken)) < 0", "(pos=source.indexOf(findToken)) <= 0"
+11, ConditionalsBoundary, 17, "pos > 0", "pos >= 0"
+12, ConditionalsBoundary, 23, "source.length() > 0", "source.length() >= 0"
+13, Math, 21, "pos + findToken.length()", "pos - findToken.length()"

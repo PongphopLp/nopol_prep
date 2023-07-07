@@ -1,0 +1,8 @@
+1, Math, 17, "c1 - c2", "c1 + c2"
+2, Math, 22, "n1 - n2", "n1 + n2"
+3, NegateConditionals, 7, "k < lim", "k >= lim"
+4, NegateConditionals, 10, "c1 != c2", "c1 == c2"
+5, NegateConditionals, 13, "c1 != c2", "c1 == c2"
+6, NegateConditionals, 16, "c1 != c2", "c1 == c2"
+7, ConditionalsBoundary, 7, "k < lim", "k <= lim"
+8, Increments, 7, "k++", "k--"

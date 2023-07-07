@@ -1,0 +1,6 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 5, "key.length >= prefix.length", "key.length > prefix.length"
+3, ConditionalsBoundary, 6, "i < prefix.length", "i <= prefix.length"
+4, NegateConditionals, 5, "key.length >= prefix.length", "key.length < prefix.length"
+5, NegateConditionals, 6, "i < prefix.length", "i >= prefix.length"
+6, NegateConditionals, 6, "key[i] != prefix[i]", "key[i] == prefix[i]"

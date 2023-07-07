@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "hora1 == null", "hora1 != null"
+2, NegateConditionals, 5, "hora2 == null", "hora2 != null"
+3, NegateConditionals, 12, "h1 > h2", "h1 <= h2"
+4, NegateConditionals, 13, "h1 == h2", "h1 != h2"
+5, NegateConditionals, 14, "m1 > m2", "m1 <= m2"
+6, ConditionalsBoundary, 12, "h1 > h2", "h1 >= h2"
+7, ConditionalsBoundary, 14, "m1 > m2", "m1 >= m2"

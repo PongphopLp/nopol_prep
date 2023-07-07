@@ -1,0 +1,5 @@
+1, Increments, 6, "++k", "--k"
+2, NegateConditionals, 6, "k < s.length", "k >= s.length"
+3, NegateConditionals, 7, "mx < s[k]", "mx >= s[k]"
+4, ConditionalsBoundary, 6, "k < s.length", "k <= s.length"
+5, ConditionalsBoundary, 7, "mx < s[k]", "mx <= s[k]"

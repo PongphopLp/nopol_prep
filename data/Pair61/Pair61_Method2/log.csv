@@ -1,0 +1,12 @@
+01, Increments, 6, "i++", "i--"
+02, Increments, 7, "j++", "j--"
+03, Increments, 12, "i++", "i--"
+04, NegateConditionals, 6, "i < keys.size()", "i >= keys.size()"
+05, NegateConditionals, 7, "j < scheme.length", "j >= scheme.length"
+06, NegateConditionals, 12, "i < keyValues.size()", "i >= keyValues.size()"
+07, VoidMethodCalls, 8, "keyValues.add(data[j]);
+", "DELETED"
+08, ConditionalsBoundary, 6, "i < keys.size()", "i <= keys.size()"
+09, ConditionalsBoundary, 7, "j < scheme.length", "j <= scheme.length"
+10, ConditionalsBoundary, 12, "i < keyValues.size()", "i <= keyValues.size()"
+11, Math, 8, "scheme[j].indexOf(".") + 1", "scheme[j].indexOf(".") - 1"

@@ -1,0 +1,4 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < fixed.length", "i <= fixed.length"
+3, NegateConditionals, 5, "i < fixed.length", "i >= fixed.length"
+4, NegateConditionals, 6, "temp[i] != fixed[i]", "temp[i] == fixed[i]"

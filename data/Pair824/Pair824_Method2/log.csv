@@ -1,0 +1,4 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < numParam", "i <= numParam"
+3, Math, 7, "sum / numParam", "sum * numParam"
+4, NegateConditionals, 6, "i < numParam", "i >= numParam"

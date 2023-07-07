@@ -1,0 +1,11 @@
+1, Increments, 6, "i++", "i--"
+2, VoidMethodCalls, 8, "buf.append((char)in[i]);
+", "DELETED"
+3, VoidMethodCalls, 11, "buf.append(".");
+", "DELETED"
+4, NegateConditionals, 6, "i < in.length", "i >= in.length"
+5, NegateConditionals, 7, "in[i] >= (byte)0x20", "in[i] < (byte)0x20"
+6, NegateConditionals, 7, "in[i] < (byte)0x7F", "in[i] >= (byte)0x7F"
+7, ConditionalsBoundary, 6, "i < in.length", "i <= in.length"
+8, ConditionalsBoundary, 7, "in[i] >= (byte)0x20", "in[i] > (byte)0x20"
+9, ConditionalsBoundary, 7, "in[i] < (byte)0x7F", "in[i] <= (byte)0x7F"

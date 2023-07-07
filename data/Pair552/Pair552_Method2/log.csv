@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "x >= 0", "x < 0"
+2, NegateConditionals, 5, "x < width", "x >= width"
+3, NegateConditionals, 7, "x < 0", "x >= 0"
+4, Math, 6, "x % width", "x * width"
+5, ConditionalsBoundary, 5, "x >= 0", "x > 0"
+6, ConditionalsBoundary, 5, "x < width", "x <= width"
+7, ConditionalsBoundary, 7, "x < 0", "x <= 0"

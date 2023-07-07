@@ -1,0 +1,5 @@
+1, Increments, 9, "++i", "--i"
+2, NegateConditionals, 6, "i < length", "i >= length"
+3, NegateConditionals, 8, "i < length", "i >= length"
+4, ConditionalsBoundary, 6, "i < length", "i <= length"
+5, ConditionalsBoundary, 8, "i < length", "i <= length"

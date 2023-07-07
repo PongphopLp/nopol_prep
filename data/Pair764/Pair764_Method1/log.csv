@@ -1,0 +1,17 @@
+01, ConditionalsBoundary, 11, "l < 10", "l <= 10"
+02, ConditionalsBoundary, 16, "l < 10", "l <= 10"
+03, NegateConditionals, 11, "l < 10", "l >= 10"
+04, NegateConditionals, 16, "l < 10", "l >= 10"
+05, Math, 10, "calendar.get(Calendar.MONTH) + 1", "calendar.get(Calendar.MONTH) - 1"
+06, VoidMethodCalls, 8, "calendar.setTime(date);
+", "DELETED"
+07, VoidMethodCalls, 9, "value.append(calendar.get(Calendar.YEAR));
+", "DELETED"
+08, VoidMethodCalls, 12, "value.append("0");
+", "DELETED"
+09, VoidMethodCalls, 14, "value.append(l);
+", "DELETED"
+10, VoidMethodCalls, 17, "value.append("0");
+", "DELETED"
+11, VoidMethodCalls, 19, "value.append(l);
+", "DELETED"

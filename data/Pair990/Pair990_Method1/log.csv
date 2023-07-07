@@ -1,0 +1,7 @@
+1, Math, 6, "2.0 * Math.PI", "2.0 / Math.PI"
+2, Math, 7, "2.0 * Math.PI", "2.0 / Math.PI"
+3, InvertNegatives, 6, "-Math.PI", "Math.PI"
+4, ConditionalsBoundary, 6, "r < -Math.PI", "r <= -Math.PI"
+5, ConditionalsBoundary, 7, "r > Math.PI", "r >= Math.PI"
+6, NegateConditionals, 6, "r < -Math.PI", "r >= -Math.PI"
+7, NegateConditionals, 7, "r > Math.PI", "r <= Math.PI"

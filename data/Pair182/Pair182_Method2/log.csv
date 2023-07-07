@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < data.length", "i <= data.length"
+2, ConditionalsBoundary, 6, "data[i] < min", "data[i] <= min"
+3, NegateConditionals, 6, "i < data.length", "i >= data.length"
+4, NegateConditionals, 6, "data[i] < min", "data[i] >= min"
+5, Increments, 6, "++i", "--i"

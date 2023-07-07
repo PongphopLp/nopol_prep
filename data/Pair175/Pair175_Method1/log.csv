@@ -1,0 +1,13 @@
+01, ConditionalsBoundary, 9, "in.indexOf(sp) < 0", "in.indexOf(sp) <= 0"
+02, ConditionalsBoundary, 15, "(p2=in.indexOf(sp,pointer)) >= 0", "(p2=in.indexOf(sp,pointer)) > 0"
+03, ConditionalsBoundary, 18, "pointer >= in.length()", "pointer > in.length()"
+04, ConditionalsBoundary, 22, "i < vl", "i <= vl"
+05, VoidMethodCalls, 16, "vecTmp.addElement(in.substring(pointer,p2));
+", "DELETED"
+06, Math, 14, "in + sp", "in - sp"
+07, Math, 17, "p2 + sp.length()", "p2 - sp.length()"
+08, Increments, 22, "i++", "i--"
+09, NegateConditionals, 9, "in.indexOf(sp) < 0", "in.indexOf(sp) >= 0"
+10, NegateConditionals, 15, "(p2=in.indexOf(sp,pointer)) >= 0", "(p2=in.indexOf(sp,pointer)) < 0"
+11, NegateConditionals, 18, "pointer >= in.length()", "pointer < in.length()"
+12, NegateConditionals, 22, "i < vl", "i >= vl"

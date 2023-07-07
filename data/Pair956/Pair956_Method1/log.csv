@@ -1,0 +1,7 @@
+1, Math, 6, "val - 360.", "val + 360."
+2, Math, 7, "val + 360.", "val - 360."
+3, ConditionalsBoundary, 6, "val > 180", "val >= 180"
+4, ConditionalsBoundary, 7, "val < -180.", "val <= -180."
+5, NegateConditionals, 6, "val > 180", "val <= 180"
+6, NegateConditionals, 7, "val < -180.", "val >= -180."
+7, InvertNegatives, 7, "-180.", "180."

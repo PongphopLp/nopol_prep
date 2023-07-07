@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "locale == null", "locale != null"
+2, NegateConditionals, 5, "locales == null", "locales != null"
+3, NegateConditionals, 5, "locales.length == 0", "locales.length != 0"
+4, NegateConditionals, 8, "i < locales.length", "i >= locales.length"
+5, Increments, 8, "i++", "i--"
+6, InvertNegatives, 6, "-1", "1"
+7, InvertNegatives, 13, "-1", "1"
+8, ConditionalsBoundary, 8, "i < locales.length", "i <= locales.length"

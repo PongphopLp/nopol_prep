@@ -1,0 +1,7 @@
+1, Increments, 14, "i++", "i--"
+2, ConditionalsBoundary, 14, "i < x.length", "i <= x.length"
+3, NegateConditionals, 5, "x == y", "x != y"
+4, NegateConditionals, 8, "x == null", "x != null"
+5, NegateConditionals, 11, "x.length != y.length", "x.length == y.length"
+6, NegateConditionals, 14, "i < x.length", "i >= x.length"
+7, NegateConditionals, 15, "y[i] != x[i]", "y[i] == x[i]"

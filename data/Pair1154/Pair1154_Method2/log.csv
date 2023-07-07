@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "flag >= 'a'", "flag > 'a'"
+2, ConditionalsBoundary, 5, "flag <= 'z'", "flag < 'z'"
+3, ConditionalsBoundary, 8, "flag >= 'A'", "flag > 'A'"
+4, ConditionalsBoundary, 8, "flag <= 'Z'", "flag < 'Z'"
+5, NegateConditionals, 5, "flag >= 'a'", "flag < 'a'"
+6, NegateConditionals, 5, "flag <= 'z'", "flag > 'z'"
+7, NegateConditionals, 8, "flag >= 'A'", "flag < 'A'"
+8, NegateConditionals, 8, "flag <= 'Z'", "flag > 'Z'"

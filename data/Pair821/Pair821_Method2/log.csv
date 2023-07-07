@@ -1,0 +1,5 @@
+1, Math, 10, "array1[i] + array2[i]", "array1[i] - array2[i]"
+2, NegateConditionals, 5, "array1.length != array2.length", "array1.length == array2.length"
+3, NegateConditionals, 9, "i < array1.length", "i >= array1.length"
+4, ConditionalsBoundary, 9, "i < array1.length", "i <= array1.length"
+5, Increments, 9, "i++", "i--"

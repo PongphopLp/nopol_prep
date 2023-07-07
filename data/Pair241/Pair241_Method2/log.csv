@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "null != iaOld", "null == iaOld"
+2, NegateConditionals, 6, "iaOld.length == iaNew.length", "iaOld.length != iaNew.length"
+3, NegateConditionals, 7, "i < iaNew.length", "i >= iaNew.length"
+4, NegateConditionals, 8, "iaNew[i] != iaOld[i]", "iaNew[i] == iaOld[i]"
+5, ConditionalsBoundary, 7, "i < iaNew.length", "i <= iaNew.length"
+6, Increments, 7, "i++", "i--"

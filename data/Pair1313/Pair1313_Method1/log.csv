@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 9, "stringOffset < hexData.length()", "stringOffset <= hexData.length()"
+2, Math, 5, "(hexData.length() + 1) / 2", "(hexData.length() + 1) * 2"
+3, Math, 5, "hexData.length() + 1", "hexData.length() - 1"
+4, Math, 10, "stringOffset + 2", "stringOffset - 2"
+5, Increments, 12, "byteOffset++", "byteOffset--"
+6, NegateConditionals, 9, "stringOffset < hexData.length()", "stringOffset >= hexData.length()"

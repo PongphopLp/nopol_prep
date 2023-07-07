@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < d.length", "i <= d.length"
+2, ConditionalsBoundary, 6, "d[i] < dmin", "d[i] <= dmin"
+3, NegateConditionals, 6, "i < d.length", "i >= d.length"
+4, NegateConditionals, 6, "d[i] < dmin", "d[i] >= dmin"
+5, Increments, 6, "i++", "i--"

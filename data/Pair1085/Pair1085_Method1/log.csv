@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "seq.length() > 0", "seq.length() <= 0"
+2, NegateConditionals, 6, "i < any.length", "i >= any.length"
+3, NegateConditionals, 7, "seq.length() >= any[i].length()", "seq.length() < any[i].length()"
+4, ConditionalsBoundary, 5, "seq.length() > 0", "seq.length() >= 0"
+5, ConditionalsBoundary, 6, "i < any.length", "i <= any.length"
+6, ConditionalsBoundary, 7, "seq.length() >= any[i].length()", "seq.length() > any[i].length()"
+7, Increments, 6, "i++", "i--"

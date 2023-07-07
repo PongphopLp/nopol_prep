@@ -1,0 +1,18 @@
+01, NegateConditionals, 5, "string == null", "string != null"
+02, NegateConditionals, 5, "words == null", "words != null"
+03, NegateConditionals, 5, "startHighlight == null", "startHighlight != null"
+04, NegateConditionals, 5, "endHighlight == null", "endHighlight != null"
+05, NegateConditionals, 10, "x < words.length", "x >= words.length"
+06, NegateConditionals, 13, "x != words.length - 1", "x == words.length - 1"
+07, Increments, 10, "x++", "x--"
+08, VoidMethodCalls, 9, "regexp.append("(?i)\\b(");
+", "DELETED"
+09, VoidMethodCalls, 12, "regexp.append(words[x]);
+", "DELETED"
+10, VoidMethodCalls, 14, "regexp.append("|");
+", "DELETED"
+11, VoidMethodCalls, 17, "regexp.append(")");
+", "DELETED"
+12, ConditionalsBoundary, 10, "x < words.length", "x <= words.length"
+13, Math, 13, "words.length - 1", "words.length + 1"
+14, Math, 18, "startHighlight + "$1" + endHighlight", "startHighlight - "$1" - endHighlight"

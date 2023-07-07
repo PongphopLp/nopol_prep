@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "k < d.length", "k >= d.length"
+2, NegateConditionals, 7, "d[k] > high", "d[k] <= high"
+3, Increments, 6, "k++", "k--"
+4, ConditionalsBoundary, 6, "k < d.length", "k <= d.length"
+5, ConditionalsBoundary, 7, "d[k] > high", "d[k] >= high"

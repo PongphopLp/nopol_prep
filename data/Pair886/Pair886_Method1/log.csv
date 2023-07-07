@@ -1,0 +1,8 @@
+1, NegateConditionals, 8, "i < ln", "i >= ln"
+2, NegateConditionals, 9, "list.get(i) == o", "list.get(i) != o"
+3, NegateConditionals, 20, "it.next() == o", "it.next() != o"
+4, ConditionalsBoundary, 8, "i < ln", "i <= ln"
+5, InvertNegatives, 14, "-1", "1"
+6, InvertNegatives, 25, "-1", "1"
+7, Increments, 12, "i++", "i--"
+8, Increments, 23, "i++", "i--"

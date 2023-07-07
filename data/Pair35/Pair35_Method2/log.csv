@@ -1,0 +1,2 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 7, "b != full[i++]", "b == full[i++]"

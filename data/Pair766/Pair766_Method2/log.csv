@@ -1,0 +1,5 @@
+1, Increments, 6, "eos++", "eos--"
+2, NegateConditionals, 6, "eos < length", "eos >= length"
+3, NegateConditionals, 6, "block[eos + offset] != 0x00", "block[eos + offset] == 0x00"
+4, ConditionalsBoundary, 6, "eos < length", "eos <= length"
+5, Math, 6, "eos + offset", "eos - offset"

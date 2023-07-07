@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "bytes1.length == bytes2.length", "bytes1.length != bytes2.length"
+2, NegateConditionals, 6, "i < bytes1.length", "i >= bytes1.length"
+3, NegateConditionals, 7, "bytes1[i] == bytes2[i]", "bytes1[i] != bytes2[i]"
+4, Increments, 6, "i++", "i--"
+5, ConditionalsBoundary, 6, "i < bytes1.length", "i <= bytes1.length"

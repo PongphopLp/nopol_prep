@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "i == 38", "i != 38"
+2, NegateConditionals, 6, "i == 60", "i != 60"
+3, NegateConditionals, 7, "i == 62", "i != 62"
+4, NegateConditionals, 8, "i == 34", "i != 34"

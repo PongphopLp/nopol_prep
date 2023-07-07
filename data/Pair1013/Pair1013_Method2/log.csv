@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < numbers.length", "i <= numbers.length"
+2, ConditionalsBoundary, 6, "numbers[i] > max", "numbers[i] >= max"
+3, NegateConditionals, 6, "i < numbers.length", "i >= numbers.length"
+4, NegateConditionals, 6, "numbers[i] > max", "numbers[i] <= max"
+5, Increments, 6, "++i", "--i"

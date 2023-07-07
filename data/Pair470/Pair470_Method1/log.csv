@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "toParse == null", "toParse != null"
+2, NegateConditionals, 7, "toParse.compareTo("1") == 0", "toParse.compareTo("1") != 0"
+3, NegateConditionals, 8, "toParse.compareTo("0") == 0", "toParse.compareTo("0") != 0"
+4, NegateConditionals, 9, "toParse.toLowerCase().compareTo("true") == 0", "toParse.toLowerCase().compareTo("true") != 0"
+5, NegateConditionals, 10, "toParse.toLowerCase().compareTo("false") == 0", "toParse.toLowerCase().compareTo("false") != 0"

@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < bytenum", "i >= bytenum"
+3, Math, 8, "arr[idx + i] & 0xff", "arr[idx + i] | 0xff"
+4, Math, 8, "idx + i", "idx - i"
+5, ConditionalsBoundary, 6, "i < bytenum", "i <= bytenum"

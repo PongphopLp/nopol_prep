@@ -1,0 +1,3 @@
+1, VoidMethodCalls, 13, "list.add(token);
+", "DELETED"
+2, NegateConditionals, 5, "prop == null", "prop != null"

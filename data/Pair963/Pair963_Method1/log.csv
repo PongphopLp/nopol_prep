@@ -1,0 +1,2 @@
+1, NegateConditionals, 7, "index != -1", "index == -1"
+2, InvertNegatives, 7, "-1", "1"

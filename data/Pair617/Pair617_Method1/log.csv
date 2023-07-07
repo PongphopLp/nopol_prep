@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "i < n", "i >= n"
+2, NegateConditionals, 6, "charBarWidths[i] != candidate[i]", "charBarWidths[i] == candidate[i]"
+3, ConditionalsBoundary, 5, "i < n", "i <= n"
+4, Increments, 5, "i++", "i--"

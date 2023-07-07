@@ -1,0 +1,8 @@
+1, NegateConditionals, 8, "i >= 0", "i < 0"
+2, NegateConditionals, 10, "value < 0", "value >= 0"
+3, Increments, 8, "i--", "i++"
+4, ConditionalsBoundary, 8, "i >= 0", "i > 0"
+5, ConditionalsBoundary, 10, "value < 0", "value <= 0"
+6, Math, 8, "b.length - 1", "b.length + 1"
+7, Math, 13, "result | (value << power)", "result & (value << power)"
+8, Math, 13, "value << power", "value >> power"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 10, "addS.length() < 2", "addS.length() >= 2"
+2, NegateConditionals, 14, "addS.length() < 2", "addS.length() >= 2"
+3, Math, 8, "calendar.get(Calendar.MONTH) + 1", "calendar.get(Calendar.MONTH) - 1"
+4, Math, 10, "'0' + addS", "'0' - addS"
+5, Math, 14, "'0' + addS", "'0' - addS"
+6, ConditionalsBoundary, 10, "addS.length() < 2", "addS.length() <= 2"
+7, ConditionalsBoundary, 14, "addS.length() < 2", "addS.length() <= 2"

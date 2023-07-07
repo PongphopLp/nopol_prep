@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, Increments, 8, "count++", "count--"
+3, ConditionalsBoundary, 6, "i < n", "i <= n"
+4, NegateConditionals, 6, "i < n", "i >= n"
+5, NegateConditionals, 7, "c == seq.charAt(i)", "c != seq.charAt(i)"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 8, "stringCompareValue == 0", "stringCompareValue != 0"
+2, NegateConditionals, 12, "dotsCompareValue == 0", "dotsCompareValue != 0"
+3, NegateConditionals, 15, "dotsCompareValue > 0", "dotsCompareValue <= 0"
+4, Math, 11, "s1.length() - s2.length()", "s1.length() + s2.length()"
+5, PrimitiveReturns, 16, "1", "0"
+6, ConditionalsBoundary, 15, "dotsCompareValue > 0", "dotsCompareValue >= 0"
+7, InvertNegatives, 18, "-1", "1"

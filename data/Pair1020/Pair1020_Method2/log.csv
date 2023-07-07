@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "i < values.length", "i <= values.length"
+2, ConditionalsBoundary, 6, "values[i - 1] >= values[i]", "values[i - 1] > values[i]"
+3, Increments, 5, "i++", "i--"
+4, NegateConditionals, 5, "i < values.length", "i >= values.length"
+5, NegateConditionals, 6, "values[i - 1] >= values[i]", "values[i - 1] < values[i]"
+6, Math, 6, "i - 1", "i + 1"

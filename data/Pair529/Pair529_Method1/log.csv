@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "pos < bytes.length", "pos <= bytes.length"
+2, NegateConditionals, 5, "pos < bytes.length", "pos >= bytes.length"

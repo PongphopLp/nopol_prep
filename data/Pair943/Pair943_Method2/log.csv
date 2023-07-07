@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "k >= 0", "k < 0"
+2, NegateConditionals, 7, "k > 0", "k <= 0"
+3, Increments, 8, "k--", "k++"
+4, ConditionalsBoundary, 5, "k >= 0", "k > 0"
+5, ConditionalsBoundary, 7, "k > 0", "k >= 0"

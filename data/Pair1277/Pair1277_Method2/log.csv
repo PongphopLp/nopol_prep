@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < chars.length", "i >= chars.length"
+2, Increments, 6, "i++", "i--"
+3, Increments, 8, "offset++", "offset--"
+4, ConditionalsBoundary, 6, "i < chars.length", "i <= chars.length"

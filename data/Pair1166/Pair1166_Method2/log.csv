@@ -1,0 +1,4 @@
+1, Math, 5, "arg1.doubleValue() - arg2.doubleValue()", "arg1.doubleValue() + arg2.doubleValue()"
+2, Math, 6, "arg1.floatValue() - arg2.floatValue()", "arg1.floatValue() + arg2.floatValue()"
+3, Math, 7, "arg1.longValue() - arg2.longValue()", "arg1.longValue() + arg2.longValue()"
+4, Math, 8, "arg1.intValue() - arg2.intValue()", "arg1.intValue() + arg2.intValue()"

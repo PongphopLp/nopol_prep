@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "divisor != 0", "divisor == 0"
+2, NegateConditionals, 7, "(dividend % divisor) == 0", "(dividend % divisor) != 0"
+3, Math, 7, "dividend % divisor", "dividend * divisor"
+4, Math, 7, "dividend / divisor", "dividend * divisor"
+5, Math, 7, "(dividend / divisor) + 1", "(dividend / divisor) - 1"
+6, Math, 7, "dividend / divisor", "dividend * divisor"

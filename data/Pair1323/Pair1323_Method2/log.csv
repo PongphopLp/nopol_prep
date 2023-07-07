@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 8, "date1.compareTo(date2) > 0", "date1.compareTo(date2) >= 0"
+2, NegateConditionals, 5, "date1 == null", "date1 != null"
+3, NegateConditionals, 5, "date2 == null", "date2 != null"
+4, NegateConditionals, 8, "date1.compareTo(date2) > 0", "date1.compareTo(date2) <= 0"

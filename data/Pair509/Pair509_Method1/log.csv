@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "p >= 0", "p < 0"
+2, NegateConditionals, 6, "p == 0", "p != 0"
+3, NegateConditionals, 11, "i < p", "i >= p"
+4, PrimitiveReturns, 7, "1", "0"
+5, Increments, 11, "++i", "--i"
+6, Math, 12, "a * result", "a / result"
+7, ConditionalsBoundary, 5, "p >= 0", "p > 0"
+8, ConditionalsBoundary, 11, "i < p", "i <= p"

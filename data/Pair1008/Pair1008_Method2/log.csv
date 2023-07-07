@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "sample > 32767", "sample >= 32767"
+2, ConditionalsBoundary, 8, "sample < -32768", "sample <= -32768"
+3, InvertNegatives, 8, "-32768", "32768"
+4, PrimitiveReturns, 6, "0x7fff", "0"
+5, PrimitiveReturns, 9, "0xffff8000", "0"
+6, NegateConditionals, 5, "sample > 32767", "sample <= 32767"
+7, NegateConditionals, 8, "sample < -32768", "sample >= -32768"

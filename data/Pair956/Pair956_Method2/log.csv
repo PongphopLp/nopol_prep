@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "phi < -180.", "phi >= -180."
+2, NegateConditionals, 6, "phi > 180.", "phi <= 180."
+3, ConditionalsBoundary, 5, "phi < -180.", "phi <= -180."
+4, ConditionalsBoundary, 6, "phi > 180.", "phi >= 180."
+5, InvertNegatives, 5, "-180.", "180."

@@ -1,0 +1,7 @@
+1, Math, 7, "(result << 8) + (content[index + i] & 0xff)", "(result << 8) - (content[index + i] & 0xff)"
+2, Math, 7, "result << 8", "result >> 8"
+3, Math, 7, "content[index + i] & 0xff", "content[index + i] | 0xff"
+4, Math, 7, "index + i", "index - i"
+5, ConditionalsBoundary, 6, "i < size", "i <= size"
+6, NegateConditionals, 6, "i < size", "i >= size"
+7, Increments, 6, "i++", "i--"

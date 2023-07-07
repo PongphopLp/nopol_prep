@@ -1,0 +1,7 @@
+1, VoidMethodCalls, 14, "padded.append(' ');
+", "DELETED"
+2, NegateConditionals, 5, "text.length() == width", "text.length() != width"
+3, NegateConditionals, 8, "text.length() > width", "text.length() <= width"
+4, NegateConditionals, 13, "padded.length() < width", "padded.length() >= width"
+5, ConditionalsBoundary, 8, "text.length() > width", "text.length() >= width"
+6, ConditionalsBoundary, 13, "padded.length() < width", "padded.length() <= width"

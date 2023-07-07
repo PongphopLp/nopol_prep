@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "a > 180", "a <= 180"
+2, NegateConditionals, 7, "a < -180", "a >= -180"
+3, InvertNegatives, 7, "-180", "180"
+4, ConditionalsBoundary, 6, "a > 180", "a >= 180"
+5, ConditionalsBoundary, 7, "a < -180", "a <= -180"

@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "loader1 == loader2", "loader1 != loader2"
+2, NegateConditionals, 8, "loader2 == null", "loader2 != null"
+3, NegateConditionals, 11, "loader1 == null", "loader1 != null"
+4, NegateConditionals, 14, "loader2 != null", "loader2 == null"
+5, NegateConditionals, 15, "loader2 == loader1", "loader2 != loader1"

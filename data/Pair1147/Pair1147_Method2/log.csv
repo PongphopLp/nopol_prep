@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 7, "i < fileList.length", "i <= fileList.length"
+2, Increments, 7, "i++", "i--"
+3, NegateConditionals, 5, "fileList == null", "fileList != null"
+4, NegateConditionals, 6, "f == null", "f != null"
+5, NegateConditionals, 7, "i < fileList.length", "i >= fileList.length"

@@ -1,0 +1,5 @@
+1, InvertNegatives, 12, "-1", "1"
+2, NegateConditionals, 11, "val1 > val2", "val1 <= val2"
+3, NegateConditionals, 15, "val1 < val2", "val1 >= val2"
+4, ConditionalsBoundary, 11, "val1 > val2", "val1 >= val2"
+5, ConditionalsBoundary, 15, "val1 < val2", "val1 <= val2"

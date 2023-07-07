@@ -1,0 +1,7 @@
+1, Increments, 5, "i++", "i--"
+2, Increments, 6, "j++", "j--"
+3, ConditionalsBoundary, 5, "i < matrizA.length", "i <= matrizA.length"
+4, ConditionalsBoundary, 6, "j < matrizA[i].length", "j <= matrizA[i].length"
+5, NegateConditionals, 5, "i < matrizA.length", "i >= matrizA.length"
+6, NegateConditionals, 6, "j < matrizA[i].length", "j >= matrizA[i].length"
+7, NegateConditionals, 7, "matrizA[i][j] != matrizB[i][j]", "matrizA[i][j] == matrizB[i][j]"

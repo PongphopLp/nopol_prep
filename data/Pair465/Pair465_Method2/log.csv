@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "--i >= 0", "--i < 0"
+2, NegateConditionals, 6, "array[i] == value", "array[i] != value"
+3, InvertNegatives, 10, "-1", "1"
+4, ConditionalsBoundary, 5, "--i >= 0", "--i > 0"
+5, Increments, 5, "--i", "++i"

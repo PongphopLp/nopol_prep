@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "x.length() <= 1", "x.length() < 1"
+2, NegateConditionals, 5, "x.length() <= 1", "x.length() > 1"

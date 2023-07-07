@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 8, "i < actives.length", "i <= actives.length"
+2, Increments, 8, "i++", "i--"
+3, NegateConditionals, 5, "actives == null", "actives != null"
+4, NegateConditionals, 8, "i < actives.length", "i >= actives.length"

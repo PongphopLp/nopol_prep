@@ -1,0 +1,8 @@
+1, Math, 7, "ret + ((char)value[i])", "ret - ((char)value[i])"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 6, "i < value.length", "i >= value.length"
+4, NegateConditionals, 7, "value[i] >= 32", "value[i] < 32"
+5, NegateConditionals, 7, "value[i] <= 126", "value[i] > 126"
+6, ConditionalsBoundary, 6, "i < value.length", "i <= value.length"
+7, ConditionalsBoundary, 7, "value[i] >= 32", "value[i] > 32"
+8, ConditionalsBoundary, 7, "value[i] <= 126", "value[i] < 126"

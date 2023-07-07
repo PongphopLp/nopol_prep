@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 9, "next.compareTo(candidate) < 0", "next.compareTo(candidate) <= 0"
+2, NegateConditionals, 9, "next.compareTo(candidate) < 0", "next.compareTo(candidate) >= 0"

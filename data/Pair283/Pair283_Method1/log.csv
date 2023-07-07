@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < position + fill.length", "i <= position + fill.length"
+2, NegateConditionals, 5, "i < position + fill.length", "i >= position + fill.length"
+3, Increments, 5, "i++", "i--"
+4, Math, 5, "position + fill.length", "position - fill.length"
+5, Math, 6, "i - position", "i + position"

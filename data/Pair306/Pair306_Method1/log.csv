@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "s == null", "s != null"
+2, NegateConditionals, 5, "text == null", "text != null"
+3, NegateConditionals, 5, "delimiter == null", "delimiter != null"
+4, NegateConditionals, 8, "pos == -1", "pos != -1"
+5, InvertNegatives, 8, "-1", "1"
+6, Math, 7, "delimiter + text + delimiter", "delimiter - text - delimiter"
+7, Math, 9, "text + delimiter", "text - delimiter"

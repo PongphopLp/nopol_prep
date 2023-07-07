@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "currentPos_ < len_", "currentPos_ <= len_"
+2, ConditionalsBoundary, 6, "delim_.indexOf(s_.charAt(currentPos_)) >= 0", "delim_.indexOf(s_.charAt(currentPos_)) > 0"
+3, Increments, 6, "currentPos_++", "currentPos_--"
+4, NegateConditionals, 6, "currentPos_ < len_", "currentPos_ >= len_"
+5, NegateConditionals, 6, "delim_.indexOf(s_.charAt(currentPos_)) >= 0", "delim_.indexOf(s_.charAt(currentPos_)) < 0"

@@ -1,0 +1,12 @@
+01, InvertNegatives, 15, "-1", "1"
+02, NegateConditionals, 5, "line == null", "line != null"
+03, NegateConditionals, 8, "from == null", "from != null"
+04, NegateConditionals, 15, "pos == -1", "pos != -1"
+05, NegateConditionals, 20, "pos != line.length()", "pos == line.length()"
+06, NegateConditionals, 25, "line_pos < line.length()", "line_pos >= line.length()"
+07, ConditionalsBoundary, 25, "line_pos < line.length()", "line_pos <= line.length()"
+08, Math, 23, "chunk.length() + from.length()", "chunk.length() - from.length()"
+09, VoidMethodCalls, 19, "buf.append(chunk);
+", "DELETED"
+10, VoidMethodCalls, 21, "buf.append(to);
+", "DELETED"

@@ -1,0 +1,9 @@
+1, Increments, 10, "i++", "i--"
+2, ConditionalsBoundary, 5, "in.length() >= desiredLen", "in.length() > desiredLen"
+3, ConditionalsBoundary, 10, "i < desiredLen", "i <= desiredLen"
+4, NegateConditionals, 5, "in.length() >= desiredLen", "in.length() < desiredLen"
+5, NegateConditionals, 10, "i < desiredLen", "i >= desiredLen"
+6, VoidMethodCalls, 9, "result.append(in);
+", "DELETED"
+7, VoidMethodCalls, 11, "result.append(padChar);
+", "DELETED"

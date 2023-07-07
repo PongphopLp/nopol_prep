@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "numbers == null", "numbers != null"
+2, NegateConditionals, 5, "numbers.length == 0", "numbers.length != 0"
+3, NegateConditionals, 9, "i < numbers.length", "i >= numbers.length"
+4, NegateConditionals, 10, "numbers[i] > curMax", "numbers[i] <= curMax"
+5, ConditionalsBoundary, 9, "i < numbers.length", "i <= numbers.length"
+6, ConditionalsBoundary, 10, "numbers[i] > curMax", "numbers[i] >= curMax"
+7, Increments, 9, "i++", "i--"

@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "input.length != 4", "input.length == 4"
+2, Math, 9, "(input[0] & 0xff) << 24", "(input[0] & 0xff) >> 24"
+3, Math, 9, "input[0] & 0xff", "input[0] | 0xff"
+4, Math, 10, "(input[1] & 0xff) << 16", "(input[1] & 0xff) >> 16"
+5, Math, 10, "input[1] & 0xff", "input[1] | 0xff"
+6, Math, 11, "(input[2] & 0xff) << 8", "(input[2] & 0xff) >> 8"
+7, Math, 11, "input[2] & 0xff", "input[2] | 0xff"
+8, Math, 12, "input[3] & 0xff", "input[3] | 0xff"

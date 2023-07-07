@@ -1,0 +1,53 @@
+01, NegateConditionals, 13, "value > 0", "value <= 0"
+02, NegateConditionals, 17, "group == 3", "group != 3"
+03, NegateConditionals, 19, "j < remdr", "j >= remdr"
+04, Increments, 13, "group++", "group--"
+05, Increments, 19, "j++", "j--"
+06, VoidMethodCalls, 20, "t.append(unitLetter[group]);
+", "DELETED"
+07, VoidMethodCalls, 27, "t.append(unitLetter[group]);
+", "DELETED"
+08, VoidMethodCalls, 29, "t.append(unitLetter[group]);
+", "DELETED"
+09, VoidMethodCalls, 30, "t.append(unitLetter[group]);
+", "DELETED"
+10, VoidMethodCalls, 32, "t.append(unitLetter[group]);
+", "DELETED"
+11, VoidMethodCalls, 33, "t.append(unitLetter[group]);
+", "DELETED"
+12, VoidMethodCalls, 34, "t.append(unitLetter[group]);
+", "DELETED"
+13, VoidMethodCalls, 36, "t.append(unitLetter[group]);
+", "DELETED"
+14, VoidMethodCalls, 37, "t.append(fiveLetter[group]);
+", "DELETED"
+15, VoidMethodCalls, 39, "t.append(fiveLetter[group]);
+", "DELETED"
+16, VoidMethodCalls, 41, "t.append(fiveLetter[group]);
+", "DELETED"
+17, VoidMethodCalls, 42, "t.append(unitLetter[group]);
+", "DELETED"
+18, VoidMethodCalls, 44, "t.append(fiveLetter[group]);
+", "DELETED"
+19, VoidMethodCalls, 45, "t.append(unitLetter[group]);
+", "DELETED"
+20, VoidMethodCalls, 46, "t.append(unitLetter[group]);
+", "DELETED"
+21, VoidMethodCalls, 48, "t.append(fiveLetter[group]);
+", "DELETED"
+22, VoidMethodCalls, 49, "t.append(unitLetter[group]);
+", "DELETED"
+23, VoidMethodCalls, 50, "t.append(unitLetter[group]);
+", "DELETED"
+24, VoidMethodCalls, 51, "t.append(unitLetter[group]);
+", "DELETED"
+25, VoidMethodCalls, 53, "t.append(unitLetter[group]);
+", "DELETED"
+26, VoidMethodCalls, 54, "t.append(unitLetter[group + 1]);
+", "DELETED"
+27, Math, 14, "value % divisor[group]", "value * divisor[group]"
+28, Math, 15, "value / divisor[group]", "value * divisor[group]"
+29, Math, 54, "group + 1", "group - 1"
+30, Math, 58, "t + s", "t - s"
+31, ConditionalsBoundary, 13, "value > 0", "value >= 0"
+32, ConditionalsBoundary, 19, "j < remdr", "j <= remdr"

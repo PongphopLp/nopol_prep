@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 7, "System.arraycopy(i,0,j,0,size);
+", "DELETED"
+2, NegateConditionals, 6, "size > i.length", "size <= i.length"
+3, ConditionalsBoundary, 6, "size > i.length", "size >= i.length"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 10, "leftNumber.doubleValue() > rightNumber.doubleValue()", "leftNumber.doubleValue() >= rightNumber.doubleValue()"
+2, NegateConditionals, 5, "left == null", "left != null"
+3, NegateConditionals, 5, "right == null", "right != null"
+4, NegateConditionals, 10, "leftNumber.doubleValue() > rightNumber.doubleValue()", "leftNumber.doubleValue() <= rightNumber.doubleValue()"

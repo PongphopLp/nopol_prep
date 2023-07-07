@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "i < b.length", "i >= b.length"
+2, NegateConditionals, 8, "c == 0", "c != 0"
+3, ConditionalsBoundary, 6, "i < b.length", "i <= b.length"
+4, Increments, 6, "i++", "i--"
+5, VoidMethodCalls, 11, "sb.append((char)c);
+", "DELETED"

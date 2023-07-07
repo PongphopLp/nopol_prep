@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "value > 1", "value >= 1"
+2, ConditionalsBoundary, 6, "value < -1", "value <= -1"
+3, NegateConditionals, 5, "value > 1", "value <= 1"
+4, NegateConditionals, 6, "value < -1", "value >= -1"
+5, InvertNegatives, 6, "-1", "1"
+6, InvertNegatives, 6, "-1", "1"

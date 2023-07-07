@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "one == null", "one != null"
+2, NegateConditionals, 5, "two == null", "two != null"
+3, NegateConditionals, 6, "one == null", "one != null"
+4, NegateConditionals, 6, "two == null", "two != null"
+5, NegateConditionals, 7, "one.length != two.length", "one.length == two.length"
+6, NegateConditionals, 8, "i < one.length", "i >= one.length"
+7, ConditionalsBoundary, 8, "i < one.length", "i <= one.length"
+8, Increments, 8, "i++", "i--"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "a < b", "a <= b"
+2, ConditionalsBoundary, 5, "b - a < eps", "b - a <= eps"
+3, ConditionalsBoundary, 6, "a - b < eps", "a - b <= eps"
+4, Math, 5, "b - a", "b + a"
+5, Math, 6, "a - b", "a + b"
+6, NegateConditionals, 5, "a < b", "a >= b"
+7, NegateConditionals, 5, "b - a < eps", "b - a >= eps"
+8, NegateConditionals, 6, "a - b < eps", "a - b >= eps"

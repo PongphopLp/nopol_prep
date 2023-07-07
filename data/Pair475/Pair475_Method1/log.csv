@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "blockSize == 16", "blockSize != 16"
+2, NegateConditionals, 6, "blockSize == 24", "blockSize != 24"
+3, NegateConditionals, 7, "blockSize != 32", "blockSize == 32"
+4, PrimitiveReturns, 8, "14", "0"

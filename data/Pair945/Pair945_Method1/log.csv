@@ -1,0 +1,5 @@
+1, InvertNegatives, 5, "-180", "180"
+2, ConditionalsBoundary, 5, "lng < -180", "lng <= -180"
+3, ConditionalsBoundary, 8, "lng > 180", "lng >= 180"
+4, NegateConditionals, 5, "lng < -180", "lng >= -180"
+5, NegateConditionals, 8, "lng > 180", "lng <= 180"

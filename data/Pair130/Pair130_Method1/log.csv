@@ -1,0 +1,5 @@
+1, Increments, 9, "k++", "k--"
+2, NegateConditionals, 7, "i >= 0", "i < 0"
+3, Math, 8, "((int)(dataArray[k] & 0xff)) << i", "((int)(dataArray[k] & 0xff)) >> i"
+4, Math, 8, "dataArray[k] & 0xff", "dataArray[k] | 0xff"
+5, ConditionalsBoundary, 7, "i >= 0", "i > 0"

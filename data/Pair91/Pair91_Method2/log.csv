@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 9, "sb.append(temp);
+", "DELETED"
+2, VoidMethodCalls, 10, "sb.append(" ");
+", "DELETED"

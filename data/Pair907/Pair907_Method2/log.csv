@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 7, "destidx < count", "destidx <= count"
+2, NegateConditionals, 7, "destidx < count", "destidx >= count"
+3, Increments, 7, "destidx++", "destidx--"
+4, Increments, 9, "srcidx++", "srcidx--"

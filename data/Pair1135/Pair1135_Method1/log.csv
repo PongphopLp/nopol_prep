@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < n", "i >= n"
+2, NegateConditionals, 7, "text1.charAt(i) != text2.charAt(i)", "text1.charAt(i) == text2.charAt(i)"
+3, ConditionalsBoundary, 6, "i < n", "i <= n"
+4, Increments, 6, "i++", "i--"

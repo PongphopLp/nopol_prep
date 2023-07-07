@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i < puzzleSize", "i >= puzzleSize"
+2, NegateConditionals, 5, "A[i] == element", "A[i] != element"
+3, InvertNegatives, 6, "-1", "1"
+4, ConditionalsBoundary, 5, "i < puzzleSize", "i <= puzzleSize"
+5, Increments, 5, "i++", "i--"

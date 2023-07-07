@@ -1,0 +1,5 @@
+1, Increments, 10, "num++", "num--"
+2, Increments, 12, "i++", "i--"
+3, Math, 9, "i + motif.length()", "i - motif.length()"
+4, NegateConditionals, 7, "str1.indexOf(motif,i) != -1", "str1.indexOf(motif,i) == -1"
+5, InvertNegatives, 7, "-1", "1"

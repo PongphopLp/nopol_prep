@@ -1,0 +1,6 @@
+1, Math, 7, "b - a + 1", "b - a - 1"
+2, Math, 7, "b - a", "b + a"
+3, Increments, 8, "x++", "x--"
+4, Increments, 8, "i++", "i--"
+5, ConditionalsBoundary, 8, "x <= b", "x < b"
+6, NegateConditionals, 8, "x <= b", "x > b"

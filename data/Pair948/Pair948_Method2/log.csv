@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "date != null", "date == null"
+2, NegateConditionals, 5, "compareWithDate == null", "compareWithDate != null"
+3, NegateConditionals, 8, "date == null", "date != null"
+4, NegateConditionals, 8, "compareWithDate != null", "compareWithDate == null"
+5, NegateConditionals, 11, "date == compareWithDate", "date != compareWithDate"
+6, PrimitiveReturns, 9, "1", "0"
+7, InvertNegatives, 6, "-1", "1"
+8, InvertNegatives, 15, "-date.compareTo(compareWithDate)", "date.compareTo(compareWithDate)"

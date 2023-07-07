@@ -1,0 +1,5 @@
+1, InvertNegatives, 11, "-1", "1"
+2, ConditionalsBoundary, 6, "i < len", "i <= len"
+3, NegateConditionals, 6, "i < len", "i >= len"
+4, NegateConditionals, 7, "data[i] == 0", "data[i] != 0"
+5, Increments, 6, "i++", "i--"

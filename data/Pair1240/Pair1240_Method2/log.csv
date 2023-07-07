@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < string.length()", "i <= string.length()"
+2, Increments, 11, "i++", "i--"
+3, InvertNegatives, 14, "-1", "1"
+4, NegateConditionals, 6, "i < string.length()", "i >= string.length()"
+5, NegateConditionals, 7, "string.charAt(i) == c", "string.charAt(i) != c"

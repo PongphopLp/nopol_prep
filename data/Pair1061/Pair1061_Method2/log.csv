@@ -1,0 +1,6 @@
+1, NegateConditionals, 7, "i >= 0", "i < 0"
+2, ConditionalsBoundary, 7, "i >= 0", "i > 0"
+3, Math, 7, "len - 1", "len + 1"
+4, Math, 9, "byteArray[offset + i] & 0x00FF", "byteArray[offset + i] | 0x00FF"
+5, Math, 9, "offset + i", "offset - i"
+6, Increments, 7, "i--", "i++"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "b < minimum", "b <= minimum"
+2, ConditionalsBoundary, 9, "c < minimum", "c <= minimum"
+3, NegateConditionals, 6, "b < minimum", "b >= minimum"
+4, NegateConditionals, 9, "c < minimum", "c >= minimum"

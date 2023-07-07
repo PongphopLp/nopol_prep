@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 7, "i >= 0", "i > 0"
+2, Math, 5, "coeff.length - 1", "coeff.length + 1"
+3, Math, 7, "n - 1", "n + 1"
+4, Math, 8, "coeff[i] + (r * t)", "coeff[i] - (r * t)"
+5, Math, 8, "r * t", "r / t"
+6, NegateConditionals, 7, "i >= 0", "i < 0"
+7, Increments, 7, "i--", "i++"

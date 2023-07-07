@@ -1,0 +1,8 @@
+1, Math, 7, "(4 - 1 - i) * 8", "(4 - 1 - i) / 8"
+2, Math, 7, "4 - 1 - i", "4 + 1 + i"
+3, Math, 8, "(b[i + offset] & 0x000000FF) << shift", "(b[i + offset] & 0x000000FF) >> shift"
+4, Math, 8, "b[i + offset] & 0x000000FF", "b[i + offset] | 0x000000FF"
+5, Math, 8, "i + offset", "i - offset"
+6, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+7, NegateConditionals, 6, "i < 4", "i >= 4"
+8, Increments, 6, "i++", "i--"

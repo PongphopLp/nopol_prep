@@ -1,0 +1,11 @@
+1, Math, 9, "s.length() + 32", "s.length() - 32"
+2, Math, 13, "to + x.length()", "to - x.length()"
+3, NegateConditionals, 5, "s == null", "s != null"
+4, NegateConditionals, 8, "to < 0", "to >= 0"
+5, NegateConditionals, 10, "to >= 0", "to < 0"
+6, ConditionalsBoundary, 8, "to < 0", "to <= 0"
+7, ConditionalsBoundary, 10, "to >= 0", "to > 0"
+8, VoidMethodCalls, 11, "d.append(s.substring(from,to));
+", "DELETED"
+9, VoidMethodCalls, 12, "d.append(y);
+", "DELETED"

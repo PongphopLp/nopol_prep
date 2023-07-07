@@ -1,0 +1,7 @@
+1, Math, 5, "offset - 1", "offset + 1"
+2, Math, 6, "offset + len", "offset - len"
+3, Increments, 7, "++i", "--i"
+4, ConditionalsBoundary, 7, "++i < lim", "++i <= lim"
+5, NegateConditionals, 7, "++i < lim", "++i >= lim"
+6, NegateConditionals, 8, "buf[i] == c", "buf[i] != c"
+7, InvertNegatives, 12, "-1", "1"

@@ -1,0 +1,8 @@
+1, Math, 8, "my + n", "my - n"
+2, Math, 9, "child - my", "child + my"
+3, NegateConditionals, 5, "my >= child", "my < child"
+4, NegateConditionals, 5, "n < 0", "n >= 0"
+5, NegateConditionals, 8, "(my + n) > child", "(my + n) <= child"
+6, ConditionalsBoundary, 5, "my >= child", "my > child"
+7, ConditionalsBoundary, 5, "n < 0", "n <= 0"
+8, ConditionalsBoundary, 8, "(my + n) > child", "(my + n) >= child"

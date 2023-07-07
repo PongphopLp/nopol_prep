@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "sb.length() < len", "sb.length() <= len"
+2, ConditionalsBoundary, 9, "j < len", "j <= len"
+3, Math, 9, "sb.length() - len", "sb.length() + len"
+4, Increments, 9, "i++", "i--"
+5, Increments, 9, "j++", "j--"
+6, NegateConditionals, 6, "sb.length() < len", "sb.length() >= len"
+7, NegateConditionals, 9, "j < len", "j >= len"
+8, NegateConditionals, 10, "sb.charAt(i) != s.charAt(j)", "sb.charAt(i) == s.charAt(j)"

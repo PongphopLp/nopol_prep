@@ -1,0 +1,9 @@
+1, NegateConditionals, 6, "needed <= 0", "needed > 0"
+2, VoidMethodCalls, 10, "java.util.Arrays.fill(padding,c);
+", "DELETED"
+3, VoidMethodCalls, 12, "sb.append(padding);
+", "DELETED"
+4, VoidMethodCalls, 13, "sb.append(s);
+", "DELETED"
+5, Math, 5, "length - s.length()", "length + s.length()"
+6, ConditionalsBoundary, 6, "needed <= 0", "needed < 0"

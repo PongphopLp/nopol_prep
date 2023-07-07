@@ -1,0 +1,6 @@
+1, Increments, 6, "i++", "i--"
+2, Math, 7, "x[i] - xold[i]", "x[i] + xold[i]"
+3, NegateConditionals, 6, "i < x.length", "i >= x.length"
+4, NegateConditionals, 7, "Math.abs(x[i] - xold[i]) > tolx", "Math.abs(x[i] - xold[i]) <= tolx"
+5, ConditionalsBoundary, 6, "i < x.length", "i <= x.length"
+6, ConditionalsBoundary, 7, "Math.abs(x[i] - xold[i]) > tolx", "Math.abs(x[i] - xold[i]) >= tolx"

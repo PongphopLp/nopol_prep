@@ -1,0 +1,10 @@
+1, ConditionalsBoundary, 7, "l_iIndex < p_InputList.size()", "l_iIndex <= p_InputList.size()"
+2, VoidMethodCalls, 9, "l_sbResult.append((String)p_InputList.get(l_iIndex));
+", "DELETED"
+3, VoidMethodCalls, 12, "l_sbResult.append(",");
+", "DELETED"
+4, VoidMethodCalls, 13, "l_sbResult.append((String)p_InputList.get(l_iIndex));
+", "DELETED"
+5, Increments, 15, "l_iIndex++", "l_iIndex--"
+6, NegateConditionals, 7, "l_iIndex < p_InputList.size()", "l_iIndex >= p_InputList.size()"
+7, NegateConditionals, 8, "l_iIndex == 0", "l_iIndex != 0"

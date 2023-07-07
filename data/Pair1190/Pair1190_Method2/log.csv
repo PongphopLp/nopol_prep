@@ -1,0 +1,4 @@
+1, Math, 7, "valStr + "st"", "valStr - "st""
+2, Math, 10, "valStr + "nd"", "valStr - "nd""
+3, Math, 13, "valStr + "rd"", "valStr - "rd""
+4, Math, 15, "valStr + "th"", "valStr - "th""

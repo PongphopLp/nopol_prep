@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "string.length() > max", "string.length() >= max"
+2, NegateConditionals, 5, "string.length() > max", "string.length() <= max"

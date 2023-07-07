@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "s == null", "s != null"
+2, NegateConditionals, 6, "s.length() == 0", "s.length() != 0"
+3, NegateConditionals, 9, "n < len", "n >= len"
+4, NegateConditionals, 9, "s.charAt(n) == c", "s.charAt(n) != c"
+5, Increments, 10, "n++", "n--"
+6, ConditionalsBoundary, 9, "n < len", "n <= len"

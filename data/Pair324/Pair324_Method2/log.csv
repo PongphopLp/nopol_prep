@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "param1 != null", "param1 == null"
+2, NegateConditionals, 6, "param2 != null", "param2 == null"
+3, VoidMethodCalls, 7, "param1.addAll(param2);
+", "DELETED"

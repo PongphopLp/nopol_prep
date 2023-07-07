@@ -1,0 +1,62 @@
+01, NegateConditionals, 6, "n >= 1000", "n < 1000"
+02, NegateConditionals, 10, "n >= 900", "n < 900"
+03, NegateConditionals, 14, "n >= 500", "n < 500"
+04, NegateConditionals, 16, "n >= 600", "n < 600"
+05, NegateConditionals, 22, "n >= 400", "n < 400"
+06, NegateConditionals, 26, "n >= 100", "n < 100"
+07, NegateConditionals, 30, "n >= 90", "n < 90"
+08, NegateConditionals, 34, "n >= 50", "n < 50"
+09, NegateConditionals, 36, "n >= 60", "n < 60"
+10, NegateConditionals, 42, "n >= 40", "n < 40"
+11, NegateConditionals, 46, "n >= 10", "n < 10"
+12, ConditionalsBoundary, 6, "n >= 1000", "n > 1000"
+13, ConditionalsBoundary, 10, "n >= 900", "n > 900"
+14, ConditionalsBoundary, 14, "n >= 500", "n > 500"
+15, ConditionalsBoundary, 16, "n >= 600", "n > 600"
+16, ConditionalsBoundary, 22, "n >= 400", "n > 400"
+17, ConditionalsBoundary, 26, "n >= 100", "n > 100"
+18, ConditionalsBoundary, 30, "n >= 90", "n > 90"
+19, ConditionalsBoundary, 34, "n >= 50", "n > 50"
+20, ConditionalsBoundary, 36, "n >= 60", "n > 60"
+21, ConditionalsBoundary, 42, "n >= 40", "n > 40"
+22, ConditionalsBoundary, 46, "n >= 10", "n > 10"
+23, VoidMethodCalls, 7, "buf.append("M");
+", "DELETED"
+24, VoidMethodCalls, 11, "buf.append("CM");
+", "DELETED"
+25, VoidMethodCalls, 15, "buf.append("D");
+", "DELETED"
+26, VoidMethodCalls, 17, "buf.append("C");
+", "DELETED"
+27, VoidMethodCalls, 23, "buf.append("CD");
+", "DELETED"
+28, VoidMethodCalls, 27, "buf.append("C");
+", "DELETED"
+29, VoidMethodCalls, 31, "buf.append("XC");
+", "DELETED"
+30, VoidMethodCalls, 35, "buf.append("L");
+", "DELETED"
+31, VoidMethodCalls, 37, "buf.append("X");
+", "DELETED"
+32, VoidMethodCalls, 43, "buf.append("XL");
+", "DELETED"
+33, VoidMethodCalls, 47, "buf.append("X");
+", "DELETED"
+34, VoidMethodCalls, 51, "buf.append("I");
+", "DELETED"
+35, VoidMethodCalls, 53, "buf.append("II");
+", "DELETED"
+36, VoidMethodCalls, 55, "buf.append("III");
+", "DELETED"
+37, VoidMethodCalls, 57, "buf.append("IV");
+", "DELETED"
+38, VoidMethodCalls, 59, "buf.append("V");
+", "DELETED"
+39, VoidMethodCalls, 61, "buf.append("VI");
+", "DELETED"
+40, VoidMethodCalls, 63, "buf.append("VII");
+", "DELETED"
+41, VoidMethodCalls, 65, "buf.append("VIII");
+", "DELETED"
+42, VoidMethodCalls, 67, "buf.append("IX");
+", "DELETED"

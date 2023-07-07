@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 9, "stringLength <= maximumLength", "stringLength < maximumLength"
+2, Math, 12, "string.substring(0,maximumLength) + (suffix == null ? "" : suffix)", "string.substring(0,maximumLength) - (suffix == null ? "" : suffix)"
+3, NegateConditionals, 5, "string == null", "string != null"
+4, NegateConditionals, 9, "stringLength <= maximumLength", "stringLength > maximumLength"
+5, NegateConditionals, 12, "suffix == null", "suffix != null"

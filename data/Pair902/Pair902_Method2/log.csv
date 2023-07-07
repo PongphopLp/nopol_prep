@@ -1,0 +1,6 @@
+1, Increments, 6, "si++", "si--"
+2, Increments, 6, "di++", "di--"
+3, NegateConditionals, 6, "si < data.length", "si >= data.length"
+4, NegateConditionals, 6, "di < dd.length", "di >= dd.length"
+5, ConditionalsBoundary, 6, "si < data.length", "si <= data.length"
+6, ConditionalsBoundary, 6, "di < dd.length", "di <= dd.length"

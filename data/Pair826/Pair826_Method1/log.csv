@@ -1,0 +1,6 @@
+1, Math, 10, "sum / length", "sum * length"
+2, PrimitiveReturns, 5, "0.f", "0"
+3, ConditionalsBoundary, 7, "i < length", "i <= length"
+4, NegateConditionals, 5, "length == 0", "length != 0"
+5, NegateConditionals, 7, "i < length", "i >= length"
+6, Increments, 7, "++i", "--i"

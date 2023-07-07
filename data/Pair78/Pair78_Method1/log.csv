@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "i < 16", "i >= 16"
+2, NegateConditionals, 6, "src1[i] != src2[i]", "src1[i] == src2[i]"
+3, ConditionalsBoundary, 5, "i < 16", "i <= 16"
+4, Increments, 5, "i++", "i--"

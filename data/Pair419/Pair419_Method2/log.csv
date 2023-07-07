@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "x1 == x2", "x1 != x2"
+2, NegateConditionals, 5, "y1 == y2", "y1 != y2"

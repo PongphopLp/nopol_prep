@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "object1 == null", "object1 != null"
+2, NegateConditionals, 6, "object2 == null", "object2 != null"
+3, NegateConditionals, 8, "object2 == null", "object2 != null"
+4, NegateConditionals, 11, "object1.compareTo(object2) == 0", "object1.compareTo(object2) != 0"

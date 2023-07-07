@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "i < one.length", "i >= one.length"
+2, NegateConditionals, 6, "j < one[i].length", "j >= one[i].length"
+3, NegateConditionals, 7, "one[i][j] == two[i][j]", "one[i][j] != two[i][j]"
+4, ConditionalsBoundary, 5, "i < one.length", "i <= one.length"
+5, ConditionalsBoundary, 6, "j < one[i].length", "j <= one[i].length"
+6, Increments, 5, "i++", "i--"
+7, Increments, 6, "j++", "j--"

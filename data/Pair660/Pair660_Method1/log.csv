@@ -1,0 +1,39 @@
+01, Increments, 6, "i++", "i--"
+02, Math, 8, "p_byte >> 4 & 0xf", "p_byte >> 4 | 0xf"
+03, Math, 8, "p_byte >> 4", "p_byte << 4"
+04, Math, 9, "p_byte & 0xf", "p_byte | 0xf"
+05, ConditionalsBoundary, 6, "i < 2", "i <= 2"
+06, VoidMethodCalls, 11, "strBuf.append('0');
+", "DELETED"
+07, VoidMethodCalls, 13, "strBuf.append('1');
+", "DELETED"
+08, VoidMethodCalls, 15, "strBuf.append('2');
+", "DELETED"
+09, VoidMethodCalls, 17, "strBuf.append('3');
+", "DELETED"
+10, VoidMethodCalls, 19, "strBuf.append('4');
+", "DELETED"
+11, VoidMethodCalls, 21, "strBuf.append('5');
+", "DELETED"
+12, VoidMethodCalls, 23, "strBuf.append('6');
+", "DELETED"
+13, VoidMethodCalls, 25, "strBuf.append('7');
+", "DELETED"
+14, VoidMethodCalls, 27, "strBuf.append('8');
+", "DELETED"
+15, VoidMethodCalls, 29, "strBuf.append('9');
+", "DELETED"
+16, VoidMethodCalls, 31, "strBuf.append('A');
+", "DELETED"
+17, VoidMethodCalls, 33, "strBuf.append('B');
+", "DELETED"
+18, VoidMethodCalls, 35, "strBuf.append('C');
+", "DELETED"
+19, VoidMethodCalls, 37, "strBuf.append('D');
+", "DELETED"
+20, VoidMethodCalls, 39, "strBuf.append('E');
+", "DELETED"
+21, VoidMethodCalls, 41, "strBuf.append('F');
+", "DELETED"
+22, NegateConditionals, 6, "i < 2", "i >= 2"
+23, NegateConditionals, 8, "i == 0", "i != 0"

@@ -1,0 +1,19 @@
+01, Math, 10, "array.length - 1", "array.length + 1"
+02, ConditionalsBoundary, 8, "i < array.length", "i <= array.length"
+03, ConditionalsBoundary, 10, "buffer.toString().length() >= length", "buffer.toString().length() > length"
+04, ConditionalsBoundary, 10, "i < (array.length - 1)", "i <= (array.length - 1)"
+05, ConditionalsBoundary, 15, "buffer.length() > 0", "buffer.length() >= 0"
+06, ConditionalsBoundary, 19, "i < result.size()", "i <= result.size()"
+07, VoidMethodCalls, 9, "buffer.append(array[i]);
+", "DELETED"
+08, VoidMethodCalls, 11, "result.add(buffer.toString());
+", "DELETED"
+09, VoidMethodCalls, 16, "result.add(buffer.toString());
+", "DELETED"
+10, Increments, 8, "i++", "i--"
+11, Increments, 19, "i++", "i--"
+12, NegateConditionals, 8, "i < array.length", "i >= array.length"
+13, NegateConditionals, 10, "buffer.toString().length() >= length", "buffer.toString().length() < length"
+14, NegateConditionals, 10, "i < (array.length - 1)", "i >= (array.length - 1)"
+15, NegateConditionals, 15, "buffer.length() > 0", "buffer.length() <= 0"
+16, NegateConditionals, 19, "i < result.size()", "i >= result.size()"

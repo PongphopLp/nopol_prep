@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < size", "i <= size"
+2, Math, 5, "y & 0xffffffffL", "y | 0xffffffffL"
+3, Math, 7, "x[i] & 0xffffffffL", "x[i] | 0xffffffffL"
+4, NegateConditionals, 6, "i < size", "i >= size"
+5, Increments, 6, "i++", "i--"

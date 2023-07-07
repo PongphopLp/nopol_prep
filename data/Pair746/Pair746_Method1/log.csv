@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "pos < 0", "pos >= 0"
+2, NegateConditionals, 5, "pos >= ids.length", "pos < ids.length"
+3, NegateConditionals, 7, "i < pos", "i >= pos"
+4, NegateConditionals, 8, "id == ids[i]", "id != ids[i]"
+5, Increments, 7, "i++", "i--"
+6, ConditionalsBoundary, 5, "pos < 0", "pos <= 0"
+7, ConditionalsBoundary, 5, "pos >= ids.length", "pos > ids.length"
+8, ConditionalsBoundary, 7, "i < pos", "i <= pos"

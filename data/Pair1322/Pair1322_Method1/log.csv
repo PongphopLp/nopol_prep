@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "(hexString.length() % 2) == 1", "(hexString.length() % 2) != 1"
+2, NegateConditionals, 11, "i < hexString.length()", "i >= hexString.length()"
+3, Increments, 14, "idx++", "idx--"
+4, Math, 5, "hexString.length() % 2", "hexString.length() * 2"
+5, Math, 10, "hexString.length() / 2", "hexString.length() * 2"
+6, Math, 12, "i + 2", "i - 2"
+7, ConditionalsBoundary, 11, "i < hexString.length()", "i <= hexString.length()"

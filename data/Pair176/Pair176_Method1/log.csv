@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "(Double)o1 > (Double)o2", "(Double)o1 >= (Double)o2"
+2, ConditionalsBoundary, 9, "(Double)o1 < (Double)o2", "(Double)o1 <= (Double)o2"
+3, NegateConditionals, 6, "(Double)o1 > (Double)o2", "(Double)o1 <= (Double)o2"
+4, NegateConditionals, 9, "(Double)o1 < (Double)o2", "(Double)o1 >= (Double)o2"
+5, InvertNegatives, 10, "-1", "1"

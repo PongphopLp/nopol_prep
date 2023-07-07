@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "offset < 0", "offset <= 0"
+2, ConditionalsBoundary, 5, "offset >= token.length", "offset > token.length"
+3, ConditionalsBoundary, 7, "index < candidates.length", "index <= candidates.length"
+4, Increments, 7, "index++", "index--"
+5, NegateConditionals, 5, "offset < 0", "offset >= 0"
+6, NegateConditionals, 5, "offset >= token.length", "offset < token.length"
+7, NegateConditionals, 5, "candidates.length == 0", "candidates.length != 0"
+8, NegateConditionals, 7, "index < candidates.length", "index >= candidates.length"

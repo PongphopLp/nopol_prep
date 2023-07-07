@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "termos1.length != termos2.length", "termos1.length == termos2.length"
+2, NegateConditionals, 8, "i < termos1.length", "i >= termos1.length"
+3, Increments, 8, "i++", "i--"
+4, ConditionalsBoundary, 8, "i < termos1.length", "i <= termos1.length"

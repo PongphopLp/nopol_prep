@@ -1,0 +1,7 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 7, "i < size", "i >= size"
+3, Math, 8, "from + i", "from - i"
+4, Math, 9, "(res << 8) | (((long)temp) & 0xFF)", "(res << 8) & (((long)temp) & 0xFF)"
+5, Math, 9, "res << 8", "res >> 8"
+6, Math, 9, "((long)temp) & 0xFF", "((long)temp) | 0xFF"
+7, ConditionalsBoundary, 7, "i < size", "i <= size"

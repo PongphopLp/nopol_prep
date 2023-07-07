@@ -1,0 +1,6 @@
+1, Math, 8, "(int)256 + bytes[i]", "(int)256 - bytes[i]"
+2, NegateConditionals, 6, "i < 4", "i >= 4"
+3, NegateConditionals, 8, "bytes[i] >= 0", "bytes[i] < 0"
+4, Increments, 6, "++i", "--i"
+5, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+6, ConditionalsBoundary, 8, "bytes[i] >= 0", "bytes[i] > 0"

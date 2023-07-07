@@ -1,0 +1,10 @@
+1, NegateConditionals, 8, "pattern == null", "pattern != null"
+2, NegateConditionals, 9, "(e=str.indexOf(pattern,s)) >= 0", "(e=str.indexOf(pattern,s)) < 0"
+3, VoidMethodCalls, 10, "result.append(str.substring(s,e));
+", "DELETED"
+4, VoidMethodCalls, 11, "result.append(replace);
+", "DELETED"
+5, VoidMethodCalls, 14, "result.append(str.substring(s));
+", "DELETED"
+6, ConditionalsBoundary, 9, "(e=str.indexOf(pattern,s)) >= 0", "(e=str.indexOf(pattern,s)) > 0"
+7, Math, 12, "e + pattern.length()", "e - pattern.length()"

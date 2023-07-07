@@ -1,0 +1,16 @@
+01, Math, 6, "a.length - 1", "a.length + 1"
+02, Math, 8, "a.length - 1", "a.length + 1"
+03, Math, 8, "pos + 1", "pos - 1"
+04, Math, 8, "aa.length - pos", "aa.length + pos"
+05, VoidMethodCalls, 7, "System.arraycopy(a,0,aa,0,pos);
+", "DELETED"
+06, VoidMethodCalls, 8, "System.arraycopy(a,pos + 1,aa,pos,aa.length - pos);
+", "DELETED"
+07, NegateConditionals, 5, "pos < 0", "pos >= 0"
+08, NegateConditionals, 5, "pos >= a.length", "pos < a.length"
+09, NegateConditionals, 7, "pos > 0", "pos <= 0"
+10, NegateConditionals, 8, "pos < a.length - 1", "pos >= a.length - 1"
+11, ConditionalsBoundary, 5, "pos < 0", "pos <= 0"
+12, ConditionalsBoundary, 5, "pos >= a.length", "pos > a.length"
+13, ConditionalsBoundary, 7, "pos > 0", "pos >= 0"
+14, ConditionalsBoundary, 8, "pos < a.length - 1", "pos <= a.length - 1"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "null == p_source", "null != p_source"
+2, NegateConditionals, 5, "null == p_destination", "null != p_destination"
+3, NegateConditionals, 5, "p_source.length != p_destination.length", "p_source.length == p_destination.length"
+4, NegateConditionals, 6, "i < p_source.length", "i >= p_source.length"
+5, NegateConditionals, 6, "p_destination[i] != p_source[i]", "p_destination[i] == p_source[i]"
+6, Increments, 6, "i++", "i--"
+7, ConditionalsBoundary, 6, "i < p_source.length", "i <= p_source.length"

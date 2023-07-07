@@ -1,0 +1,5 @@
+1, NegateConditionals, 7, "i < a.length", "i >= a.length"
+2, NegateConditionals, 9, "buff > res", "buff <= res"
+3, Increments, 7, "i++", "i--"
+4, ConditionalsBoundary, 7, "i < a.length", "i <= a.length"
+5, ConditionalsBoundary, 9, "buff > res", "buff >= res"

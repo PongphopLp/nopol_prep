@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "x == '.'", "x != '.'"
+2, NegateConditionals, 6, "x == '+'", "x != '+'"
+3, NegateConditionals, 7, "x == '-'", "x != '-'"
+4, NegateConditionals, 8, "x >= '0'", "x < '0'"
+5, NegateConditionals, 8, "x <= '9'", "x > '9'"
+6, ConditionalsBoundary, 8, "x >= '0'", "x > '0'"
+7, ConditionalsBoundary, 8, "x <= '9'", "x < '9'"

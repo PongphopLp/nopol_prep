@@ -1,0 +1,7 @@
+1, NegateConditionals, 7, "i < numberOfBytes", "i >= numberOfBytes"
+2, Increments, 7, "i++", "i--"
+3, Math, 8, "((((long)bytes[offset + i])) & 0xff) << (i * 8)", "((((long)bytes[offset + i])) & 0xff) >> (i * 8)"
+4, Math, 8, "(((long)bytes[offset + i])) & 0xff", "(((long)bytes[offset + i])) | 0xff"
+5, Math, 8, "offset + i", "offset - i"
+6, Math, 8, "i * 8", "i / 8"
+7, ConditionalsBoundary, 7, "i < numberOfBytes", "i <= numberOfBytes"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "aChar == 't'", "aChar != 't'"
+2, NegateConditionals, 6, "aChar == 'r'", "aChar != 'r'"
+3, NegateConditionals, 7, "aChar == 'n'", "aChar != 'n'"
+4, NegateConditionals, 8, "aChar == 'f'", "aChar != 'f'"

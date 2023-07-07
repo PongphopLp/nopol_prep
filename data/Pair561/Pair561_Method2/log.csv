@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "i < 8", "i >= 8"
+2, Increments, 6, "i++", "i--"
+3, Math, 6, "((long)in[idx + i] & 0xff) << i * 8", "((long)in[idx + i] & 0xff) >> i * 8"
+4, Math, 6, "(long)in[idx + i] & 0xff", "(long)in[idx + i] | 0xff"
+5, Math, 6, "idx + i", "idx - i"
+6, Math, 6, "i * 8", "i / 8"
+7, ConditionalsBoundary, 6, "i < 8", "i <= 8"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 11, "i < length", "i <= length"
+2, Increments, 11, "i++", "i--"
+3, NegateConditionals, 6, "arr.length == length", "arr.length != length"
+4, NegateConditionals, 11, "i < length", "i >= length"

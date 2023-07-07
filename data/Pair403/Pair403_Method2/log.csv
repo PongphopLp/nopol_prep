@@ -1,0 +1,12 @@
+01, Math, 19, "alias.length + argv.length - 1", "alias.length + argv.length + 1"
+02, Math, 19, "alias.length + argv.length", "alias.length - argv.length"
+03, Math, 21, "argv.length - 1", "argv.length + 1"
+04, VoidMethodCalls, 20, "System.arraycopy(alias,0,result,0,alias.length);
+", "DELETED"
+05, VoidMethodCalls, 21, "System.arraycopy(argv,1,result,alias.length,argv.length - 1);
+", "DELETED"
+06, NegateConditionals, 9, "argv == null", "argv != null"
+07, NegateConditionals, 9, "argv.length == 0", "argv.length != 0"
+08, NegateConditionals, 12, "aliases == null", "aliases != null"
+09, NegateConditionals, 12, "aliases.size() == 0", "aliases.size() != 0"
+10, NegateConditionals, 16, "alias == null", "alias != null"

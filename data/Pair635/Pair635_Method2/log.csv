@@ -1,0 +1,5 @@
+1, Increments, 5, "i++", "i--"
+2, NegateConditionals, 5, "i < s.length()", "i >= s.length()"
+3, NegateConditionals, 5, "s.charAt(i) == ' '", "s.charAt(i) != ' '"
+4, NegateConditionals, 5, "s.charAt(i) == '\t'", "s.charAt(i) != '\t'"
+5, ConditionalsBoundary, 5, "i < s.length()", "i <= s.length()"

@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 12, "ulist.add(o);
+", "DELETED"
+2, Math, 7, "s * 4 / 3", "s * 4 * 3"
+3, Math, 7, "s * 4", "s / 4"

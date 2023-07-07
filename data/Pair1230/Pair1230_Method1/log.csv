@@ -1,0 +1,25 @@
+01, ConditionalsBoundary, 7, "index < len", "index <= len"
+02, VoidMethodCalls, 11, "outBuffer.append('\\');
+", "DELETED"
+03, VoidMethodCalls, 13, "outBuffer.append(' ');
+", "DELETED"
+04, VoidMethodCalls, 15, "outBuffer.append("\\\\");
+", "DELETED"
+05, VoidMethodCalls, 17, "outBuffer.append("\\t");
+", "DELETED"
+06, VoidMethodCalls, 19, "outBuffer.append("\\n");
+", "DELETED"
+07, VoidMethodCalls, 21, "outBuffer.append("\\r");
+", "DELETED"
+08, VoidMethodCalls, 23, "outBuffer.append("\\f");
+", "DELETED"
+09, VoidMethodCalls, 26, "outBuffer.append('\\');
+", "DELETED"
+10, VoidMethodCalls, 28, "outBuffer.append(c);
+", "DELETED"
+11, InvertNegatives, 25, "-1", "1"
+12, Math, 6, "len * 2", "len / 2"
+13, Increments, 7, "index++", "index--"
+14, NegateConditionals, 7, "index < len", "index >= len"
+15, NegateConditionals, 10, "index == 0", "index != 0"
+16, NegateConditionals, 25, ""=: \t\r\n\f#!".indexOf(c) != -1", ""=: \t\r\n\f#!".indexOf(c) == -1"

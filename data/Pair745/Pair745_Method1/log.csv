@@ -1,0 +1,7 @@
+1, Math, 6, "x % y", "x * y"
+2, Math, 9, "-x % y", "-x * y"
+3, Math, 10, "y - tmp", "y + tmp"
+4, ConditionalsBoundary, 5, "x >= 0", "x > 0"
+5, InvertNegatives, 9, "-x", "x"
+6, NegateConditionals, 5, "x >= 0", "x < 0"
+7, NegateConditionals, 10, "tmp == 0", "tmp != 0"

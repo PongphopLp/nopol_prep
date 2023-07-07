@@ -1,0 +1,13 @@
+01, Math, 21, "index + target.length()", "index - target.length()"
+02, NegateConditionals, 5, "source == null", "source != null"
+03, NegateConditionals, 11, "source.indexOf(target) > -1", "source.indexOf(target) <= -1"
+04, NegateConditionals, 15, "index < 0", "index >= 0"
+05, VoidMethodCalls, 16, "hold.append(source.substring(previousIndex));
+", "DELETED"
+06, VoidMethodCalls, 19, "hold.append(source.substring(previousIndex,index));
+", "DELETED"
+07, VoidMethodCalls, 20, "hold.append(replacement);
+", "DELETED"
+08, ConditionalsBoundary, 11, "source.indexOf(target) > -1", "source.indexOf(target) >= -1"
+09, ConditionalsBoundary, 15, "index < 0", "index <= 0"
+10, InvertNegatives, 11, "-1", "1"

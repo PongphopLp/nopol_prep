@@ -1,0 +1,6 @@
+1, Increments, 9, "i++", "i--"
+2, ConditionalsBoundary, 9, "i < length", "i <= length"
+3, Math, 10, "offset + i", "offset - i"
+4, NegateConditionals, 5, "word.length != length", "word.length == length"
+5, NegateConditionals, 9, "i < length", "i >= length"
+6, NegateConditionals, 10, "word[i] != key[offset + i]", "word[i] == key[offset + i]"

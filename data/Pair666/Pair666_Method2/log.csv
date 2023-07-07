@@ -1,0 +1,5 @@
+1, Increments, 7, "offset++", "offset--"
+2, NegateConditionals, 6, "shift < 32", "shift >= 32"
+3, Math, 7, "(((int)bytes[offset++]) & 0xff) << shift", "(((int)bytes[offset++]) & 0xff) >> shift"
+4, Math, 7, "((int)bytes[offset++]) & 0xff", "((int)bytes[offset++]) | 0xff"
+5, ConditionalsBoundary, 6, "shift < 32", "shift <= 32"

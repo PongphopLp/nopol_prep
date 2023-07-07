@@ -1,0 +1,12 @@
+01, Math, 22, "name + " is out of the interval "", "name - " is out of the interval ""
+02, Math, 29, "minValue + ";" + maxValue", "minValue - ";" - maxValue"
+03, VoidMethodCalls, 36, "errList.add(errMsg);
+", "DELETED"
+04, ConditionalsBoundary, 8, "minValue <= val", "minValue < val"
+05, ConditionalsBoundary, 11, "minValue < val", "minValue <= val"
+06, ConditionalsBoundary, 15, "maxValue >= val", "maxValue > val"
+07, ConditionalsBoundary, 18, "maxValue > val", "maxValue >= val"
+08, NegateConditionals, 8, "minValue <= val", "minValue > val"
+09, NegateConditionals, 11, "minValue < val", "minValue >= val"
+10, NegateConditionals, 15, "maxValue >= val", "maxValue < val"
+11, NegateConditionals, 18, "maxValue > val", "maxValue <= val"

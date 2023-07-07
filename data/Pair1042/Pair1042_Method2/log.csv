@@ -1,0 +1,6 @@
+1, Increments, 6, "++i", "--i"
+2, ConditionalsBoundary, 6, "i < str1.length()", "i <= str1.length()"
+3, ConditionalsBoundary, 6, "i < str2.length()", "i <= str2.length()"
+4, NegateConditionals, 6, "i < str1.length()", "i >= str1.length()"
+5, NegateConditionals, 6, "i < str2.length()", "i >= str2.length()"
+6, NegateConditionals, 6, "str1.charAt(i) == str2.charAt(i)", "str1.charAt(i) != str2.charAt(i)"

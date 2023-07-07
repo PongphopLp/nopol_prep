@@ -1,0 +1,13 @@
+01, NegateConditionals, 6, "i < digest.length", "i >= digest.length"
+02, NegateConditionals, 8, "b < 0", "b >= 0"
+03, NegateConditionals, 9, "value < 16", "value >= 16"
+04, ConditionalsBoundary, 6, "i < digest.length", "i <= digest.length"
+05, ConditionalsBoundary, 8, "b < 0", "b <= 0"
+06, ConditionalsBoundary, 9, "value < 16", "value <= 16"
+07, Increments, 6, "++i", "--i"
+08, Math, 8, "(b & 0x7F) + (b < 0 ? 128 : 0)", "(b & 0x7F) - (b < 0 ? 128 : 0)"
+09, Math, 8, "b & 0x7F", "b | 0x7F"
+10, VoidMethodCalls, 9, "buffer.append(value < 16 ? "0" : "");
+", "DELETED"
+11, VoidMethodCalls, 10, "buffer.append(Integer.toHexString(value));
+", "DELETED"

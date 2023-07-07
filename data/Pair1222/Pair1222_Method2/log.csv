@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "0 != rem", "0 == rem"
+2, Math, 5, "value % modulus", "value * modulus"
+3, Math, 7, "1 + (value / modulus)", "1 - (value / modulus)"
+4, Math, 7, "value / modulus", "value * modulus"
+5, Math, 8, "temp * modulus", "temp / modulus"

@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 7, "i < in.length", "i <= in.length"
+2, InvertNegatives, 5, "-1", "1"
+3, Math, 5, "in.length + -1", "in.length - -1"
+4, Increments, 7, "i++", "i--"
+5, Increments, 9, "j++", "j--"
+6, NegateConditionals, 7, "i < in.length", "i >= in.length"
+7, NegateConditionals, 8, "i != skip", "i == skip"

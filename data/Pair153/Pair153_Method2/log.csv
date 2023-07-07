@@ -1,0 +1,2 @@
+1, NegateConditionals, 8, "toComp != seond[i++]", "toComp == seond[i++]"
+2, Increments, 8, "i++", "i--"

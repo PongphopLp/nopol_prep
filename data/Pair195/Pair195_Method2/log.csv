@@ -1,0 +1,8 @@
+1, NegateConditionals, 9, "char1Len < char2Len", "char1Len >= char2Len"
+2, NegateConditionals, 15, "i < max", "i >= max"
+3, NegateConditionals, 16, "(ret=chars1[i] - chars2[i]) != 0", "(ret=chars1[i] - chars2[i]) == 0"
+4, Math, 16, "chars1[i] - chars2[i]", "chars1[i] + chars2[i]"
+5, Math, 20, "char1Len - char2Len", "char1Len + char2Len"
+6, ConditionalsBoundary, 9, "char1Len < char2Len", "char1Len <= char2Len"
+7, ConditionalsBoundary, 15, "i < max", "i <= max"
+8, Increments, 15, "i++", "i--"

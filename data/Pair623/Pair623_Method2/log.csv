@@ -1,0 +1,3 @@
+1, NegateConditionals, 6, "date.getYear() == today.getYear()", "date.getYear() != today.getYear()"
+2, NegateConditionals, 6, "date.getMonth() == today.getMonth()", "date.getMonth() != today.getMonth()"
+3, NegateConditionals, 6, "date.getDate() == today.getDate()", "date.getDate() != today.getDate()"

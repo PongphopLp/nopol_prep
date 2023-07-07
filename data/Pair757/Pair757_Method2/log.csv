@@ -1,0 +1,14 @@
+01, InvertNegatives, 12, "-1", "1"
+02, NegateConditionals, 6, "sData.length() == 0", "sData.length() != 0"
+03, NegateConditionals, 10, "data.length() > 0", "data.length() <= 0"
+04, NegateConditionals, 12, "next != -1", "next == -1"
+05, NegateConditionals, 14, "next < data.length()", "next >= data.length()"
+06, NegateConditionals, 19, "data.length() > 0", "data.length() <= 0"
+07, ConditionalsBoundary, 10, "data.length() > 0", "data.length() >= 0"
+08, ConditionalsBoundary, 14, "next < data.length()", "next <= data.length()"
+09, ConditionalsBoundary, 19, "data.length() > 0", "data.length() >= 0"
+10, Math, 15, "next + len", "next - len"
+11, VoidMethodCalls, 16, "vtData.addElement(item);
+", "DELETED"
+12, VoidMethodCalls, 19, "vtData.addElement(data);
+", "DELETED"

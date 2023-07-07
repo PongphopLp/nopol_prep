@@ -1,0 +1,8 @@
+1, Math, 8, "key + "="", "key - "=""
+2, Math, 12, "i + key.length() + 1", "i - key.length() - 1"
+3, ConditionalsBoundary, 9, "i < 0", "i <= 0"
+4, ConditionalsBoundary, 14, "k < 0", "k <= 0"
+5, NegateConditionals, 5, "source == null", "source != null"
+6, NegateConditionals, 5, "key == null", "key != null"
+7, NegateConditionals, 9, "i < 0", "i >= 0"
+8, NegateConditionals, 14, "k < 0", "k >= 0"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "string.length() > 0", "string.length() >= 0"
+2, Increments, 11, "i++", "i--"
+3, NegateConditionals, 5, "string != null", "string == null"
+4, NegateConditionals, 5, "string.length() > 0", "string.length() <= 0"

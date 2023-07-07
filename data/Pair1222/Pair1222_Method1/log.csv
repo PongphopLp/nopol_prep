@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "0 != (time % period)", "0 == (time % period)"
+2, Math, 5, "time % period", "time * period"
+3, Math, 6, "time % period", "time * period"
+4, Math, 7, "time - temp + period", "time - temp - period"
+5, Math, 7, "time - temp", "time + temp"

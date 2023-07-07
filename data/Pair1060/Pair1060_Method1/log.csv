@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "caractere > 64", "caractere <= 64"
+2, NegateConditionals, 5, "caractere < 91", "caractere >= 91"
+3, NegateConditionals, 5, "caractere > 96", "caractere <= 96"
+4, NegateConditionals, 5, "caractere < 123", "caractere >= 123"
+5, ConditionalsBoundary, 5, "caractere > 64", "caractere >= 64"
+6, ConditionalsBoundary, 5, "caractere < 91", "caractere <= 91"
+7, ConditionalsBoundary, 5, "caractere > 96", "caractere >= 96"
+8, ConditionalsBoundary, 5, "caractere < 123", "caractere <= 123"

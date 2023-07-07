@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 8, "i < data1.length", "i <= data1.length"
+2, NegateConditionals, 5, "data1 == data2", "data1 != data2"
+3, NegateConditionals, 6, "data1 == null", "data1 != null"
+4, NegateConditionals, 6, "data2 == null", "data2 != null"
+5, NegateConditionals, 7, "data1.length != data2.length", "data1.length == data2.length"
+6, NegateConditionals, 8, "i < data1.length", "i >= data1.length"
+7, NegateConditionals, 9, "data1[i] != data2[i]", "data1[i] == data2[i]"
+8, Increments, 8, "i++", "i--"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "'0' <= ch", "'0' > ch"
+2, NegateConditionals, 5, "ch <= '9'", "ch > '9'"
+3, NegateConditionals, 6, "ch == '+'", "ch != '+'"
+4, NegateConditionals, 6, "ch == '-'", "ch != '-'"
+5, NegateConditionals, 6, "ch == '.'", "ch != '.'"
+6, ConditionalsBoundary, 5, "'0' <= ch", "'0' < ch"
+7, ConditionalsBoundary, 5, "ch <= '9'", "ch < '9'"

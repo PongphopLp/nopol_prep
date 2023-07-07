@@ -1,0 +1,6 @@
+1, Increments, 6, "i--", "i++"
+2, ConditionalsBoundary, 6, "i >= 0", "i > 0"
+3, Math, 6, "src.length - 1", "src.length + 1"
+4, NegateConditionals, 5, "src.length != des.length", "src.length == des.length"
+5, NegateConditionals, 6, "i >= 0", "i < 0"
+6, NegateConditionals, 7, "src[i] != des[i]", "src[i] == des[i]"

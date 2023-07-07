@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "x < hexString.length()", "x <= hexString.length()"
+2, Math, 5, "hexString.length() / 2", "hexString.length() * 2"
+3, Math, 7, "x + 2", "x - 2"
+4, Math, 8, "x / 2", "x * 2"
+5, NegateConditionals, 6, "x < hexString.length()", "x >= hexString.length()"

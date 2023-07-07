@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "j < 4", "j >= 4"
+2, Increments, 6, "j++", "j--"
+3, Math, 6, "(b << 8) | (bytes[j + offset] & 0xFF)", "(b << 8) & (bytes[j + offset] & 0xFF)"
+4, Math, 6, "b << 8", "b >> 8"
+5, Math, 6, "bytes[j + offset] & 0xFF", "bytes[j + offset] | 0xFF"
+6, Math, 6, "j + offset", "j - offset"
+7, ConditionalsBoundary, 6, "j < 4", "j <= 4"

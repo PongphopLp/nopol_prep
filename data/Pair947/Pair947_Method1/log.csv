@@ -1,0 +1,14 @@
+01, VoidMethodCalls, 7, "cal1.setTime(date1);
+", "DELETED"
+02, VoidMethodCalls, 8, "cal2.setTime(date2);
+", "DELETED"
+03, NegateConditionals, 21, "date1Year == date2Year", "date1Year != date2Year"
+04, NegateConditionals, 21, "date1Month == date2Month", "date1Month != date2Month"
+05, NegateConditionals, 21, "date1Day == date2Day", "date1Day != date2Day"
+06, NegateConditionals, 21, "date1Hour == date2Hour", "date1Hour != date2Hour"
+07, NegateConditionals, 21, "date1Minute == date2Minute", "date1Minute != date2Minute"
+08, NegateConditionals, 21, "date1Second == date2Second", "date1Second != date2Second"
+09, Math, 10, "cal1.get(Calendar.MONTH) + 1", "cal1.get(Calendar.MONTH) - 1"
+10, Math, 16, "cal2.get(Calendar.MONTH) + 1", "cal2.get(Calendar.MONTH) - 1"
+11, PrimitiveReturns, 25, "2", "0"
+12, PrimitiveReturns, 28, "1", "0"

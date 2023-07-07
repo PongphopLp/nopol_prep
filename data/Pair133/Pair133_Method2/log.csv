@@ -1,0 +1,13 @@
+01, NegateConditionals, 5, "str == null", "str != null"
+02, NegateConditionals, 6, "delims == null", "delims != null"
+03, NegateConditionals, 6, "delims.length() == 0", "delims.length() != 0"
+04, NegateConditionals, 12, "newpos != -1", "newpos == -1"
+05, NegateConditionals, 19, "i < cnt", "i >= cnt"
+06, Increments, 19, "i++", "i--"
+07, InvertNegatives, 12, "-1", "1"
+08, VoidMethodCalls, 13, "v.addElement(str.substring(pos,newpos));
+", "DELETED"
+09, VoidMethodCalls, 17, "v.addElement(str.substring(pos));
+", "DELETED"
+10, Math, 14, "newpos + delims.length()", "newpos - delims.length()"
+11, ConditionalsBoundary, 19, "i < cnt", "i <= cnt"

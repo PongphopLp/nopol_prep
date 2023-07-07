@@ -1,0 +1,23 @@
+01, Increments, 18, "f++", "f--"
+02, Increments, 19, "n++", "n--"
+03, Increments, 23, "f++", "f--"
+04, Math, 31, "formats.indexOf('\n',f) + 1", "formats.indexOf('\n',f) - 1"
+05, NegateConditionals, 9, "f < formatslen", "f >= formatslen"
+06, NegateConditionals, 14, "fch == '\n'", "fch != '\n'"
+07, NegateConditionals, 14, "n >= nlen", "n < nlen"
+08, NegateConditionals, 15, "fch == '\n'", "fch != '\n'"
+09, NegateConditionals, 15, "n >= nlen", "n < nlen"
+10, NegateConditionals, 17, "fch == nch", "fch != nch"
+11, NegateConditionals, 17, "fch == 'x'", "fch != 'x'"
+12, NegateConditionals, 22, "fch == ' '", "fch != ' '"
+13, NegateConditionals, 25, "formats.charAt(f) == '\n'", "formats.charAt(f) != '\n'"
+14, NegateConditionals, 32, "f == 0", "f != 0"
+15, VoidMethodCalls, 10, "sb.setLength(0);
+", "DELETED"
+16, VoidMethodCalls, 20, "sb.append(nch);
+", "DELETED"
+17, VoidMethodCalls, 24, "sb.append(' ');
+", "DELETED"
+18, ConditionalsBoundary, 9, "f < formatslen", "f <= formatslen"
+19, ConditionalsBoundary, 14, "n >= nlen", "n > nlen"
+20, ConditionalsBoundary, 15, "n >= nlen", "n > nlen"

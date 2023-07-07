@@ -1,0 +1,10 @@
+1, InvertNegatives, 13, "-1", "1"
+2, NegateConditionals, 6, "src != null", "src == null"
+3, NegateConditionals, 6, "ori != null", "ori == null"
+4, NegateConditionals, 6, "tar != null", "tar == null"
+5, NegateConditionals, 13, "source.indexOf(ori,byPassingIndex) != -1", "source.indexOf(ori,byPassingIndex) == -1"
+6, VoidMethodCalls, 26, "e.printStackTrace();
+", "DELETED"
+7, Math, 15, "appearedIndex + oriLength", "appearedIndex - oriLength"
+8, Math, 16, "appearedIndex + oriLength", "appearedIndex - oriLength"
+9, Math, 17, "appearedIndex + tarLength", "appearedIndex - tarLength"

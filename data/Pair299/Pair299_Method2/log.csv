@@ -1,0 +1,8 @@
+1, Increments, 6, "i++", "i--"
+2, Math, 10, "(ai & 0xff) - (bi & 0xff)", "(ai & 0xff) + (bi & 0xff)"
+3, Math, 10, "ai & 0xff", "ai | 0xff"
+4, Math, 10, "bi & 0xff", "bi | 0xff"
+5, Math, 13, "a.length - b.length", "a.length + b.length"
+6, NegateConditionals, 6, "i < len", "i >= len"
+7, NegateConditionals, 9, "ai != bi", "ai == bi"
+8, ConditionalsBoundary, 6, "i < len", "i <= len"

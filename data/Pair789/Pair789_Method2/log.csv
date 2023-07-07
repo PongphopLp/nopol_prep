@@ -1,0 +1,15 @@
+01, Math, 21, "i - j", "i + j"
+02, Math, 25, "line2.length - j", "line2.length + j"
+03, Increments, 11, "counter++", "counter--"
+04, Increments, 20, "counter++", "counter--"
+05, NegateConditionals, 5, "line == null", "line != null"
+06, NegateConditionals, 9, "(i=line.indexOf(oldString,i)) >= 0", "(i=line.indexOf(oldString,i)) < 0"
+07, NegateConditionals, 19, "(i=line.indexOf(oldString,i)) > 0", "(i=line.indexOf(oldString,i)) <= 0"
+08, VoidMethodCalls, 16, "buf.append(line2,0,i).append(newString2);
+", "DELETED"
+09, VoidMethodCalls, 21, "buf.append(line2,j,i - j).append(newString2);
+", "DELETED"
+10, VoidMethodCalls, 25, "buf.append(line2,j,line2.length - j);
+", "DELETED"
+11, ConditionalsBoundary, 9, "(i=line.indexOf(oldString,i)) >= 0", "(i=line.indexOf(oldString,i)) > 0"
+12, ConditionalsBoundary, 19, "(i=line.indexOf(oldString,i)) > 0", "(i=line.indexOf(oldString,i)) >= 0"

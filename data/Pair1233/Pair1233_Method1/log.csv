@@ -1,0 +1,17 @@
+01, Increments, 38, "position++", "position--"
+02, NegateConditionals, 5, "position < 0", "position >= 0"
+03, NegateConditionals, 10, "position < userAgent.length()", "position >= userAgent.length()"
+04, NegateConditionals, 13, "c == ' '", "c != ' '"
+05, NegateConditionals, 13, "c == '/'", "c != '/'"
+06, NegateConditionals, 16, "c == ';'", "c != ';'"
+07, NegateConditionals, 16, "c == ')'", "c != ')'"
+08, NegateConditionals, 20, "";/)([".indexOf(c) > -1", "";/)([".indexOf(c) <= -1"
+09, NegateConditionals, 23, "c == ' '", "c != ' '"
+10, InvertNegatives, 20, "-1", "1"
+11, ConditionalsBoundary, 5, "position < 0", "position <= 0"
+12, ConditionalsBoundary, 10, "position < userAgent.length()", "position <= userAgent.length()"
+13, ConditionalsBoundary, 20, "";/)([".indexOf(c) > -1", "";/)([".indexOf(c) >= -1"
+14, VoidMethodCalls, 26, "res.append(c);
+", "DELETED"
+15, VoidMethodCalls, 29, "res.append(c);
+", "DELETED"

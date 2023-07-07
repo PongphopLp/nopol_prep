@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < bcommand.length", "i <= bcommand.length"
+3, NegateConditionals, 5, "bcommand.length == brecieved.length", "bcommand.length != brecieved.length"
+4, NegateConditionals, 6, "i < bcommand.length", "i >= bcommand.length"
+5, NegateConditionals, 7, "bcommand[i] != brecieved[i]", "bcommand[i] == brecieved[i]"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "loop < size", "loop <= size"
+2, Math, 6, "8L * ((long)size - 1L)", "8L / ((long)size - 1L)"
+3, Math, 6, "(long)size - 1L", "(long)size + 1L"
+4, Math, 8, "((long)b[offset + loop] & 0x00ff) << sw", "((long)b[offset + loop] & 0x00ff) >> sw"
+5, Math, 8, "(long)b[offset + loop] & 0x00ff", "(long)b[offset + loop] | 0x00ff"
+6, Math, 8, "offset + loop", "offset - loop"
+7, NegateConditionals, 7, "loop < size", "loop >= size"
+8, Increments, 7, "loop++", "loop--"

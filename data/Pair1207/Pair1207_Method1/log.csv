@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i == '&'", "i != '&'"
+2, NegateConditionals, 6, "i == '<'", "i != '<'"
+3, NegateConditionals, 7, "i == '>'", "i != '>'"
+4, NegateConditionals, 8, "i == '"'", "i != '"'"
+5, Math, 9, """ + (char)i", """ - (char)i"

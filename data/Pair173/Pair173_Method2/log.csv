@@ -1,0 +1,8 @@
+1, InvertNegatives, 10, "-1", "1"
+2, InvertNegatives, 14, "-1", "1"
+3, Math, 12, "pos + 1", "pos - 1"
+4, Math, 16, "pos + 1", "pos - 1"
+5, NegateConditionals, 5, "localeString != null", "localeString == null"
+6, NegateConditionals, 8, "localeString.length() == 0", "localeString.length() != 0"
+7, NegateConditionals, 10, "pos == -1", "pos != -1"
+8, NegateConditionals, 14, "pos == -1", "pos != -1"

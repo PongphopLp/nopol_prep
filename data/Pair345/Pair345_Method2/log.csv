@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "data1 == null", "data1 != null"
+2, NegateConditionals, 5, "data2 == null", "data2 != null"
+3, NegateConditionals, 6, "data1 != null", "data1 == null"
+4, NegateConditionals, 6, "data2 == null", "data2 != null"
+5, NegateConditionals, 6, "data1 == null", "data1 != null"
+6, NegateConditionals, 6, "data2 != null", "data2 == null"
+7, NegateConditionals, 7, "data1.compareTo(data2) == 0", "data1.compareTo(data2) != 0"

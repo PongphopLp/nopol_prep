@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "cToCheck == ' '", "cToCheck != ' '"
+2, NegateConditionals, 5, "cToCheck == '\r'", "cToCheck != '\r'"
+3, NegateConditionals, 5, "cToCheck == '\n'", "cToCheck != '\n'"
+4, NegateConditionals, 5, "cToCheck == '\t'", "cToCheck != '\t'"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "y < 0.", "y <= 0."
+2, ConditionalsBoundary, 7, "z < 0.", "z <= 0."
+3, ConditionalsBoundary, 11, "z < 0.", "z <= 0."
+4, NegateConditionals, 6, "y < 0.", "y >= 0."
+5, NegateConditionals, 7, "z < 0.", "z >= 0."
+6, NegateConditionals, 11, "z < 0.", "z >= 0."
+7, Math, 5, "y / z", "y * z"
+8, Math, 8, "2. * Math.PI", "2. / Math.PI"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 7, "((Number)lhs).doubleValue() < ((Number)rhs).doubleValue()", "((Number)lhs).doubleValue() <= ((Number)rhs).doubleValue()"
+2, NegateConditionals, 5, "null == lhs", "null != lhs"
+3, NegateConditionals, 5, "null == rhs", "null != rhs"
+4, NegateConditionals, 7, "((Number)lhs).doubleValue() < ((Number)rhs).doubleValue()", "((Number)lhs).doubleValue() >= ((Number)rhs).doubleValue()"

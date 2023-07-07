@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "options.length > 0", "options.length >= 0"
+2, ConditionalsBoundary, 7, "i < options.length", "i <= options.length"
+3, Increments, 7, "i++", "i--"
+4, NegateConditionals, 6, "options != null", "options == null"
+5, NegateConditionals, 6, "options.length > 0", "options.length <= 0"
+6, NegateConditionals, 7, "i < options.length", "i >= options.length"
+7, NegateConditionals, 8, "value == null", "value != null"
+8, NegateConditionals, 9, "options[i] == null", "options[i] != null"

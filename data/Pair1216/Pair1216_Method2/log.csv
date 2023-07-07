@@ -1,0 +1,5 @@
+1, InvertNegatives, 9, "-1", "1"
+2, NegateConditionals, 5, "i < text.length()", "i >= text.length()"
+3, NegateConditionals, 7, "value == delimiter", "value != delimiter"
+4, ConditionalsBoundary, 5, "i < text.length()", "i <= text.length()"
+5, Increments, 5, "++i", "--i"

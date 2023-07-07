@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i < 16", "i >= 16"
+2, NegateConditionals, 6, "a[i] != b[i + 4]", "a[i] == b[i + 4]"
+3, ConditionalsBoundary, 5, "i < 16", "i <= 16"
+4, Math, 6, "i + 4", "i - 4"
+5, Increments, 5, "i++", "i--"

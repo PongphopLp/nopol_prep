@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "i < j", "i <= j"
+2, ConditionalsBoundary, 6, "i < k", "i <= k"
+3, ConditionalsBoundary, 9, "j < k", "j <= k"
+4, NegateConditionals, 5, "i < j", "i >= j"
+5, NegateConditionals, 6, "i < k", "i >= k"
+6, NegateConditionals, 9, "j < k", "j >= k"

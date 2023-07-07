@@ -1,0 +1,3 @@
+1, NegateConditionals, 5, "obj == null", "obj != null"
+2, NegateConditionals, 10, "((Number)obj).intValue() == 0", "((Number)obj).intValue() != 0"
+3, NegateConditionals, 28, "Integer.parseInt((String)obj) != 0", "Integer.parseInt((String)obj) == 0"

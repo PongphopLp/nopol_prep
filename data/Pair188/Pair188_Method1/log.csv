@@ -1,0 +1,5 @@
+1, Math, 8, "index + separator.length()", "index - separator.length()"
+2, ConditionalsBoundary, 8, "index >= 0", "index > 0"
+3, NegateConditionals, 5, "str == null", "str != null"
+4, NegateConditionals, 6, "separator == null", "separator != null"
+5, NegateConditionals, 8, "index >= 0", "index < 0"

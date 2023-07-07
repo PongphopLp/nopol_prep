@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "letra >= 'A'", "letra > 'A'"
+2, ConditionalsBoundary, 5, "letra <= 'Z'", "letra < 'Z'"
+3, ConditionalsBoundary, 5, "letra >= 'a'", "letra > 'a'"
+4, ConditionalsBoundary, 5, "letra <= 'z'", "letra < 'z'"
+5, NegateConditionals, 5, "letra >= 'A'", "letra < 'A'"
+6, NegateConditionals, 5, "letra <= 'Z'", "letra > 'Z'"
+7, NegateConditionals, 5, "letra >= 'a'", "letra < 'a'"
+8, NegateConditionals, 5, "letra <= 'z'", "letra > 'z'"

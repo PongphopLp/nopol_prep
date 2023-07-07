@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "version == null", "version != null"
+2, NegateConditionals, 6, "version.length() == 0", "version.length() != 0"

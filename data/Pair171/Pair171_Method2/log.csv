@@ -1,0 +1,8 @@
+1, NegateConditionals, 7, "a.intValue() < b.intValue()", "a.intValue() >= b.intValue()"
+2, NegateConditionals, 10, "a.intValue() == b.intValue()", "a.intValue() != b.intValue()"
+3, NegateConditionals, 13, "a.intValue() > b.intValue()", "a.intValue() <= b.intValue()"
+4, PrimitiveReturns, 14, "1", "0"
+5, ConditionalsBoundary, 7, "a.intValue() < b.intValue()", "a.intValue() <= b.intValue()"
+6, ConditionalsBoundary, 13, "a.intValue() > b.intValue()", "a.intValue() >= b.intValue()"
+7, InvertNegatives, 8, "-1", "1"
+8, InvertNegatives, 16, "-2", "2"

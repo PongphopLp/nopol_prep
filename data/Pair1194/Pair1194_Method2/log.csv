@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "upper < '0'", "upper <= '0'"
+2, ConditionalsBoundary, 6, "upper > '9'", "upper >= '9'"
+3, ConditionalsBoundary, 6, "upper < 'A'", "upper <= 'A'"
+4, ConditionalsBoundary, 6, "upper > 'F'", "upper >= 'F'"
+5, NegateConditionals, 6, "upper < '0'", "upper >= '0'"
+6, NegateConditionals, 6, "upper > '9'", "upper <= '9'"
+7, NegateConditionals, 6, "upper < 'A'", "upper >= 'A'"
+8, NegateConditionals, 6, "upper > 'F'", "upper <= 'F'"

@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "args.length > pos", "args.length >= pos"
+2, NegateConditionals, 5, "args.length > pos", "args.length <= pos"

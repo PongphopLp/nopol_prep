@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "input == null", "input != null"
+2, NegateConditionals, 6, "input.length() > limit", "input.length() <= limit"
+3, NegateConditionals, 8, "elipsis != null", "elipsis == null"
+4, ConditionalsBoundary, 6, "input.length() > limit", "input.length() >= limit"

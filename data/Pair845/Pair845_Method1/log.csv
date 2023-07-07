@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < source.length()", "i <= source.length()"
+2, ConditionalsBoundary, 8, "i >= source.length()", "i > source.length()"
+3, Increments, 6, "i++", "i--"
+4, NegateConditionals, 6, "i < source.length()", "i >= source.length()"
+5, NegateConditionals, 8, "i >= source.length()", "i < source.length()"
+6, InvertNegatives, 8, "-1", "1"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "i < data.length", "i <= data.length"
+2, VoidMethodCalls, 14, "System.arraycopy(groomedData,0,packedData,0,bytesCopied);
+", "DELETED"
+3, Increments, 7, "i++", "i--"
+4, Increments, 10, "bytesCopied++", "bytesCopied--"
+5, NegateConditionals, 7, "i < data.length", "i >= data.length"

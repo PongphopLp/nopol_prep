@@ -1,0 +1,8 @@
+1, Math, 7, ""000" + temp", ""000" - temp"
+2, Math, 10, ""00" + temp", ""00" - temp"
+3, Math, 13, ""0" + temp", ""0" - temp"
+4, Math, 18, "temp.length() - 4", "temp.length() + 4"
+5, NegateConditionals, 6, "temp.length() == 1", "temp.length() != 1"
+6, NegateConditionals, 9, "temp.length() == 2", "temp.length() != 2"
+7, NegateConditionals, 12, "temp.length() == 3", "temp.length() != 3"
+8, NegateConditionals, 15, "temp.length() == 4", "temp.length() != 4"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "target.length < base.length + startIndex", "target.length <= base.length + startIndex"
+2, ConditionalsBoundary, 8, "i < base.length", "i <= base.length"
+3, NegateConditionals, 5, "target.length < base.length + startIndex", "target.length >= base.length + startIndex"
+4, NegateConditionals, 8, "i < base.length", "i >= base.length"
+5, NegateConditionals, 9, "base[i] != target[i + startIndex]", "base[i] == target[i + startIndex]"
+6, Math, 5, "base.length + startIndex", "base.length - startIndex"
+7, Math, 9, "i + startIndex", "i - startIndex"
+8, Increments, 8, "i++", "i--"

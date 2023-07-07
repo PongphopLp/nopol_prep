@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "null == str", "null != str"
+2, NegateConditionals, 9, "null == str", "null != str"

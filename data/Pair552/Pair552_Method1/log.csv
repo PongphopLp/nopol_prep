@@ -1,0 +1,6 @@
+1, Math, 5, "a / b", "a * b"
+2, Math, 6, "a - n * b", "a + n * b"
+3, Math, 6, "n * b", "n / b"
+4, Math, 7, "result + b", "result - b"
+5, NegateConditionals, 7, "result < 0", "result >= 0"
+6, ConditionalsBoundary, 7, "result < 0", "result <= 0"

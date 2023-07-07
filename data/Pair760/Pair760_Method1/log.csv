@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 5, "segment == null", "segment != null"
+3, NegateConditionals, 6, "segment.length() == 0", "segment.length() != 0"
+4, NegateConditionals, 7, "str.indexOf(segment) >= 0", "str.indexOf(segment) < 0"
+5, ConditionalsBoundary, 7, "str.indexOf(segment) >= 0", "str.indexOf(segment) > 0"

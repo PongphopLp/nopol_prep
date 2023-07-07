@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 5, "polje.length == 0", "polje.length != 0"
+3, NegateConditionals, 7, "i < polje.length", "i >= polje.length"
+4, Math, 10, "zbroj / polje.length", "zbroj * polje.length"
+5, ConditionalsBoundary, 7, "i < polje.length", "i <= polje.length"

@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < t.length", "i <= t.length"
+2, ConditionalsBoundary, 6, "t[i] < m", "t[i] <= m"
+3, NegateConditionals, 6, "i < t.length", "i >= t.length"
+4, NegateConditionals, 6, "t[i] < m", "t[i] >= m"
+5, Increments, 6, "i++", "i--"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "size != 0", "size == 0"
+2, NegateConditionals, 5, "ratio != 0", "ratio == 0"
+3, NegateConditionals, 5, "multiplier != 0", "multiplier == 0"
+4, Math, 6, "(size * ratio) + (size * (multiplier - 1))", "(size * ratio) - (size * (multiplier - 1))"
+5, Math, 6, "size * ratio", "size / ratio"
+6, Math, 6, "size * (multiplier - 1)", "size / (multiplier - 1)"
+7, Math, 6, "multiplier - 1", "multiplier + 1"

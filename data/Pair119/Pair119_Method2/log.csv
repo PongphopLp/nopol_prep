@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "source.length < i", "source.length >= i"
+2, NegateConditionals, 6, "i < match.length", "i >= match.length"
+3, NegateConditionals, 7, "source[i] != match[i]", "source[i] == match[i]"
+4, Increments, 10, "i++", "i--"
+5, ConditionalsBoundary, 6, "source.length < i", "source.length <= i"
+6, ConditionalsBoundary, 6, "i < match.length", "i <= match.length"

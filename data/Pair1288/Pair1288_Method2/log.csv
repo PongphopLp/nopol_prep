@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "index < count", "index >= count"
+2, NegateConditionals, 7, "c1 == c2", "c1 != c2"
+3, ConditionalsBoundary, 5, "index < count", "index <= count"
+4, Increments, 5, "++index", "--index"

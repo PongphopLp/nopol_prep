@@ -1,0 +1,8 @@
+1, Math, 6, "offset + 2", "offset - 2"
+2, Math, 8, "(bytes[end - i - 1] & 0xff) << (8 * i)", "(bytes[end - i - 1] & 0xff) >> (8 * i)"
+3, Math, 8, "bytes[end - i - 1] & 0xff", "bytes[end - i - 1] | 0xff"
+4, Math, 8, "end - i - 1", "end + i + 1"
+5, Math, 8, "8 * i", "8 / i"
+6, ConditionalsBoundary, 7, "i < 2", "i <= 2"
+7, NegateConditionals, 7, "i < 2", "i >= 2"
+8, Increments, 7, "i++", "i--"

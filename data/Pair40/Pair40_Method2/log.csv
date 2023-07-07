@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "parameterValue != null", "parameterValue == null"
+2, NegateConditionals, 8, "parameterValue.length() < 1", "parameterValue.length() >= 1"
+3, VoidMethodCalls, 7, "parameterValue.trim();
+", "DELETED"
+4, ConditionalsBoundary, 8, "parameterValue.length() < 1", "parameterValue.length() <= 1"

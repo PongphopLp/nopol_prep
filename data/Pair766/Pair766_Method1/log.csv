@@ -1,0 +1,6 @@
+1, Math, 6, "_o + _l", "_o - _l"
+2, Math, 7, "i - _o", "i + _o"
+3, NegateConditionals, 6, "i < _o + _l", "i >= _o + _l"
+4, NegateConditionals, 6, "_b[i] == 0", "_b[i] != 0"
+5, ConditionalsBoundary, 6, "i < _o + _l", "i <= _o + _l"
+6, Increments, 6, "i++", "i--"

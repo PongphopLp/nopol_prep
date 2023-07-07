@@ -1,0 +1,6 @@
+1, Math, 8, "Math.min(4,i) * 0.1 * (1 - commonality)", "Math.min(4,i) / 0.1 / (1 - commonality)"
+2, Math, 8, "1 - commonality", "1 + commonality"
+3, NegateConditionals, 7, "i < n", "i >= n"
+4, NegateConditionals, 7, "s1.charAt(i) != s2.charAt(i)", "s1.charAt(i) == s2.charAt(i)"
+5, ConditionalsBoundary, 7, "i < n", "i <= n"
+6, Increments, 7, "i++", "i--"

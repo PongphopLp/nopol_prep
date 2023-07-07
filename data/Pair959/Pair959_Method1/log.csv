@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "angle > 180.0", "angle <= 180.0"
+2, NegateConditionals, 6, "angle < -180.0", "angle >= -180.0"
+3, ConditionalsBoundary, 5, "angle > 180.0", "angle >= 180.0"
+4, ConditionalsBoundary, 6, "angle < -180.0", "angle <= -180.0"
+5, InvertNegatives, 6, "-180.0", "180.0"

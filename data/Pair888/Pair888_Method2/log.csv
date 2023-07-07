@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < cs.size()", "i <= cs.size()"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 6, "i < cs.size()", "i >= cs.size()"
+4, NegateConditionals, 8, "c.intValue() == x", "c.intValue() != x"

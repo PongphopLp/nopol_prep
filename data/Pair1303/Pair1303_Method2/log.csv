@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "value < (long)Integer.MIN_VALUE", "value <= (long)Integer.MIN_VALUE"
+2, ConditionalsBoundary, 8, "value > (long)Integer.MAX_VALUE", "value >= (long)Integer.MAX_VALUE"
+3, NegateConditionals, 5, "value < (long)Integer.MIN_VALUE", "value >= (long)Integer.MIN_VALUE"
+4, NegateConditionals, 8, "value > (long)Integer.MAX_VALUE", "value <= (long)Integer.MAX_VALUE"

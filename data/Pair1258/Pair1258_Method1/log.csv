@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "rank > startRank", "rank >= startRank"
+2, ConditionalsBoundary, 5, "rank < endRank", "rank <= endRank"
+3, ConditionalsBoundary, 6, "rank > endRank", "rank >= endRank"
+4, ConditionalsBoundary, 6, "rank < startRank", "rank <= startRank"
+5, NegateConditionals, 5, "rank > startRank", "rank <= startRank"
+6, NegateConditionals, 5, "rank < endRank", "rank >= endRank"
+7, NegateConditionals, 6, "rank > endRank", "rank <= endRank"
+8, NegateConditionals, 6, "rank < startRank", "rank >= startRank"

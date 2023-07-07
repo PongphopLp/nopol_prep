@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "stringA == null", "stringA != null"
+2, NegateConditionals, 6, "stringB == null", "stringB != null"
+3, NegateConditionals, 13, "stringB == null", "stringB != null"
+4, NegateConditionals, 14, "stringA.compareTo(stringB) == 0", "stringA.compareTo(stringB) != 0"

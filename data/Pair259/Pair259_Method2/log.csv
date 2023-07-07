@@ -1,0 +1,6 @@
+1, NegateConditionals, 9, "map == null", "map != null"
+2, NegateConditionals, 9, "target == null", "target != null"
+3, NegateConditionals, 20, "(lastdot=target.lastIndexOf(".")) >= 0", "(lastdot=target.lastIndexOf(".")) < 0"
+4, NegateConditionals, 21, "curr.length() > best.length()", "curr.length() <= best.length()"
+5, ConditionalsBoundary, 20, "(lastdot=target.lastIndexOf(".")) >= 0", "(lastdot=target.lastIndexOf(".")) > 0"
+6, ConditionalsBoundary, 21, "curr.length() > best.length()", "curr.length() >= best.length()"

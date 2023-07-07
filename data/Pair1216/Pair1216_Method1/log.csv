@@ -1,0 +1,5 @@
+1, InvertNegatives, 5, "-1", "1"
+2, NegateConditionals, 7, "pos < text.length()", "pos >= text.length()"
+3, NegateConditionals, 8, "text.charAt(pos) == c", "text.charAt(pos) != c"
+4, Increments, 12, "pos++", "pos--"
+5, ConditionalsBoundary, 7, "pos < text.length()", "pos <= text.length()"

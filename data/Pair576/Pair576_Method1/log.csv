@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < fila.length", "i >= fila.length"
+2, Increments, 6, "i++", "i--"
+3, Math, 7, "fila[i] * columna[i]", "fila[i] / columna[i]"
+4, ConditionalsBoundary, 6, "i < fila.length", "i <= fila.length"

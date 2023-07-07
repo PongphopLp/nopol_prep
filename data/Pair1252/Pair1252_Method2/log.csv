@@ -1,0 +1,14 @@
+01, ConditionalsBoundary, 9, "buf.length() > 0", "buf.length() >= 0"
+02, ConditionalsBoundary, 12, "buf.length() > 0", "buf.length() >= 0"
+03, Math, 12, "buf.length() - 1", "buf.length() + 1"
+04, Math, 13, "buf.length() - 1", "buf.length() + 1"
+05, VoidMethodCalls, 10, "buf.deleteCharAt(0);
+", "DELETED"
+06, VoidMethodCalls, 13, "buf.deleteCharAt(buf.length() - 1);
+", "DELETED"
+07, NegateConditionals, 5, "str == null", "str != null"
+08, NegateConditionals, 5, "str.length() == 0", "str.length() != 0"
+09, NegateConditionals, 9, "buf.length() > 0", "buf.length() <= 0"
+10, NegateConditionals, 9, "buf.charAt(0) == character", "buf.charAt(0) != character"
+11, NegateConditionals, 12, "buf.length() > 0", "buf.length() <= 0"
+12, NegateConditionals, 12, "buf.charAt(buf.length() - 1) == character", "buf.charAt(buf.length() - 1) != character"

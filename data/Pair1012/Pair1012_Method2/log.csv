@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "i < array.length", "i <= array.length"
+2, ConditionalsBoundary, 6, "array[i - 1] > array[i]", "array[i - 1] >= array[i]"
+3, Increments, 5, "++i", "--i"
+4, NegateConditionals, 5, "i < array.length", "i >= array.length"
+5, NegateConditionals, 6, "array[i - 1] > array[i]", "array[i - 1] <= array[i]"
+6, Math, 6, "i - 1", "i + 1"

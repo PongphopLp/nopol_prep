@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "start > bytes.length", "start >= bytes.length"
+2, NegateConditionals, 5, "start > bytes.length", "start <= bytes.length"
+3, NegateConditionals, 6, "i != bytes.length", "i == bytes.length"
+4, NegateConditionals, 7, "bytes[i] == value", "bytes[i] != value"
+5, InvertNegatives, 5, "-1", "1"
+6, InvertNegatives, 9, "-1", "1"
+7, Increments, 6, "i++", "i--"

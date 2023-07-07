@@ -1,0 +1,5 @@
+1, InvertNegatives, 11, "-1", "1"
+2, ConditionalsBoundary, 5, "i < bs.length", "i <= bs.length"
+3, NegateConditionals, 5, "i < bs.length", "i >= bs.length"
+4, NegateConditionals, 7, "b == t", "b != t"
+5, Increments, 5, "i++", "i--"

@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < b.length", "i <= b.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < b.length", "i >= b.length"
+4, NegateConditionals, 5, "a[offset + i] != b[i]", "a[offset + i] == b[i]"
+5, Math, 5, "offset + i", "offset - i"

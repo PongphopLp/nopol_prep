@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "intValue >= 0", "intValue < 0"
+2, NegateConditionals, 5, "intValue <= 9", "intValue > 9"
+3, ConditionalsBoundary, 5, "intValue >= 0", "intValue > 0"
+4, ConditionalsBoundary, 5, "intValue <= 9", "intValue < 9"

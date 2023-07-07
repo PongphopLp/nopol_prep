@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "i < args.length", "i <= args.length"
+2, ConditionalsBoundary, 6, "(i + 1) < args.length", "(i + 1) <= args.length"
+3, Increments, 5, "i++", "i--"
+4, Math, 6, "i + 1", "i - 1"
+5, Math, 7, "i + 1", "i - 1"
+6, NegateConditionals, 5, "i < args.length", "i >= args.length"
+7, NegateConditionals, 6, "(i + 1) < args.length", "(i + 1) >= args.length"

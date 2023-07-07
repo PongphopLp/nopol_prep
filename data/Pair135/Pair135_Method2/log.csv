@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "text.length != password.length", "text.length == password.length"
+2, NegateConditionals, 6, "i < text.length", "i >= text.length"
+3, NegateConditionals, 6, "i < password.length", "i >= password.length"
+4, NegateConditionals, 7, "text[i] != password[i]", "text[i] == password[i]"
+5, Increments, 6, "i++", "i--"
+6, ConditionalsBoundary, 6, "i < text.length", "i <= text.length"
+7, ConditionalsBoundary, 6, "i < password.length", "i <= password.length"

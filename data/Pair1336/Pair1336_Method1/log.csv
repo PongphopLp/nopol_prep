@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "i >= 0", "i > 0"
+2, Math, 5, "device.length() / 2", "device.length() * 2"
+3, Math, 7, "len - 1", "len + 1"
+4, Math, 8, "i * 2", "i / 2"
+5, Math, 8, "i * 2 + 2", "i * 2 - 2"
+6, Math, 8, "i * 2", "i / 2"
+7, Increments, 7, "i--", "i++"
+8, NegateConditionals, 7, "i >= 0", "i < 0"

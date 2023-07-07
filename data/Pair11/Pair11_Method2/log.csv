@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 10, "sb.append(separators);
+", "DELETED"
+2, VoidMethodCalls, 12, "sb.append(s);
+", "DELETED"
+3, ConditionalsBoundary, 9, "sb.length() > 0", "sb.length() >= 0"
+4, NegateConditionals, 9, "sb.length() > 0", "sb.length() <= 0"

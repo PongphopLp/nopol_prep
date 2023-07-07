@@ -1,0 +1,11 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 6, "str.length() >= len", "str.length() < len"
+3, NegateConditionals, 8, "ii > 0", "ii <= 0"
+4, Increments, 8, "ii--", "ii++"
+5, ConditionalsBoundary, 6, "str.length() >= len", "str.length() > len"
+6, ConditionalsBoundary, 8, "ii > 0", "ii >= 0"
+7, Math, 8, "len - str.length()", "len + str.length()"
+8, VoidMethodCalls, 8, "sb.append(c);
+", "DELETED"
+9, VoidMethodCalls, 9, "sb.append(str);
+", "DELETED"

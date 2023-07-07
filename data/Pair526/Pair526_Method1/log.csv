@@ -1,0 +1,14 @@
+01, ConditionalsBoundary, 15, "i < copyArray1.length", "i <= copyArray1.length"
+02, NegateConditionals, 6, "array1 == null", "array1 != null"
+03, NegateConditionals, 6, "array2 == null", "array2 != null"
+04, NegateConditionals, 9, "array1 != null", "array1 == null"
+05, NegateConditionals, 9, "array2 != null", "array2 == null"
+06, NegateConditionals, 9, "array1.length == array2.length", "array1.length != array2.length"
+07, NegateConditionals, 15, "i < copyArray1.length", "i >= copyArray1.length"
+08, NegateConditionals, 16, "copyArray1[i] == null", "copyArray1[i] != null"
+09, NegateConditionals, 16, "copyArray2[i] != null", "copyArray2[i] == null"
+10, Increments, 15, "i++", "i--"
+11, VoidMethodCalls, 12, "System.arraycopy(array1,0,copyArray1,0,array1.length);
+", "DELETED"
+12, VoidMethodCalls, 13, "System.arraycopy(array2,0,copyArray2,0,array2.length);
+", "DELETED"

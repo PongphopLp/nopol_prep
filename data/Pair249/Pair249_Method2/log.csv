@@ -1,0 +1,8 @@
+1, InvertNegatives, 14, "-1", "1"
+2, NegateConditionals, 7, "aName == null", "aName != null"
+3, NegateConditionals, 7, "bName == null", "bName != null"
+4, NegateConditionals, 10, "aName != null", "aName == null"
+5, NegateConditionals, 10, "bName == null", "bName != null"
+6, NegateConditionals, 13, "aName == null", "aName != null"
+7, NegateConditionals, 13, "bName != null", "bName == null"
+8, PrimitiveReturns, 11, "1", "0"

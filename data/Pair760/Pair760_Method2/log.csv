@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 8, "str.indexOf(searchStr) >= 0", "str.indexOf(searchStr) > 0"
+2, NegateConditionals, 5, "str == null", "str != null"
+3, NegateConditionals, 5, "searchStr == null", "searchStr != null"
+4, NegateConditionals, 8, "str.indexOf(searchStr) >= 0", "str.indexOf(searchStr) < 0"

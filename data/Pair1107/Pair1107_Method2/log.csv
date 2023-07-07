@@ -1,0 +1,5 @@
+1, Math, 8, "str.substring(0,limit - appendage.length()) + appendage", "str.substring(0,limit - appendage.length()) - appendage"
+2, Math, 8, "limit - appendage.length()", "limit + appendage.length()"
+3, NegateConditionals, 5, "str == null", "str != null"
+4, NegateConditionals, 5, "str.length() <= limit", "str.length() > limit"
+5, ConditionalsBoundary, 5, "str.length() <= limit", "str.length() < limit"

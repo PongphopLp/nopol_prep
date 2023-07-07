@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < source.length", "i <= source.length"
+2, NegateConditionals, 5, "i < source.length", "i >= source.length"
+3, NegateConditionals, 6, "source[i] == match", "source[i] != match"
+4, InvertNegatives, 10, "-1", "1"
+5, Increments, 5, "i++", "i--"

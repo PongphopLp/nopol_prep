@@ -1,0 +1,10 @@
+1, Increments, 11, "i++", "i--"
+2, VoidMethodCalls, 12, "sb.append(strings[i]).append(separator);
+", "DELETED"
+3, NegateConditionals, 5, "strings.length == 0", "strings.length != 0"
+4, NegateConditionals, 5, "from >= to", "from < to"
+5, NegateConditionals, 11, "i < to - 1", "i >= to - 1"
+6, ConditionalsBoundary, 5, "from >= to", "from > to"
+7, ConditionalsBoundary, 11, "i < to - 1", "i <= to - 1"
+8, Math, 11, "to - 1", "to + 1"
+9, Math, 14, "to - 1", "to + 1"

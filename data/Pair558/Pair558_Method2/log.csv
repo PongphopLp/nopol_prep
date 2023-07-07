@@ -1,0 +1,7 @@
+1, Math, 7, "(word << 8) + (src[i + srcOff] & 0xff)", "(word << 8) - (src[i + srcOff] & 0xff)"
+2, Math, 7, "word << 8", "word >> 8"
+3, Math, 7, "src[i + srcOff] & 0xff", "src[i + srcOff] | 0xff"
+4, Math, 7, "i + srcOff", "i - srcOff"
+5, ConditionalsBoundary, 6, "i <= 7", "i < 7"
+6, NegateConditionals, 6, "i <= 7", "i > 7"
+7, Increments, 6, "i++", "i--"

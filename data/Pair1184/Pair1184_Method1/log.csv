@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "v > 255", "v <= 255"
+2, NegateConditionals, 8, "v < 0", "v >= 0"
+3, ConditionalsBoundary, 5, "v > 255", "v >= 255"
+4, ConditionalsBoundary, 8, "v < 0", "v <= 0"

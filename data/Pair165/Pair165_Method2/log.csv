@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "s == null", "s != null"
+2, VoidMethodCalls, 9, "vec.addElement(st.nextToken());
+", "DELETED"
+3, VoidMethodCalls, 12, "vec.copyInto(array);
+", "DELETED"

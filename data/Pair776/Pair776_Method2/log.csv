@@ -1,0 +1,7 @@
+1, Increments, 6, "++i", "--i"
+2, Math, 6, "offset + length", "offset - length"
+3, Math, 8, "b & 0xFF", "b | 0xFF"
+4, Math, 9, ""0" + currentHexString", ""0" - currentHexString"
+5, NegateConditionals, 6, "i < (offset + length)", "i >= (offset + length)"
+6, NegateConditionals, 9, "currentHexString.length() == 1", "currentHexString.length() != 1"
+7, ConditionalsBoundary, 6, "i < (offset + length)", "i <= (offset + length)"

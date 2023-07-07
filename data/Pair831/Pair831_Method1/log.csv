@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "loop < lhs.length", "loop <= lhs.length"
+2, Math, 7, "rhsOffset + loop", "rhsOffset - loop"
+3, Increments, 6, "loop++", "loop--"
+4, NegateConditionals, 6, "loop < lhs.length", "loop >= lhs.length"
+5, NegateConditionals, 7, "lhs[loop] != rhs[rhsOffset + loop]", "lhs[loop] == rhs[rhsOffset + loop]"

@@ -1,0 +1,25 @@
+01, Increments, 18, "n++", "n--"
+02, Increments, 21, "i++", "i--"
+03, NegateConditionals, 9, "argv == null", "argv != null"
+04, NegateConditionals, 16, "argv.length > 1", "argv.length <= 1"
+05, NegateConditionals, 16, "argv[0] != null", "argv[0] == null"
+06, NegateConditionals, 20, "argv != null", "argv == null"
+07, NegateConditionals, 21, "i < argv.length - 1", "i >= argv.length - 1"
+08, NegateConditionals, 24, "argv.length > 0", "argv.length <= 0"
+09, VoidMethodCalls, 10, "System.out.println("USAGE: echo [[-n] <string>]\n" + "       Echoes the <string> to the output.\n" + "       Parameter \"-n\" supressed the newline\n"+ "       at the end of the output.");
+", "DELETED"
+10, VoidMethodCalls, 22, "strbuf.append(argv[i] + " ");
+", "DELETED"
+11, VoidMethodCalls, 25, "strbuf.append(argv[argv.length - 1]);
+", "DELETED"
+12, VoidMethodCalls, 29, "strbuf.append("\n");
+", "DELETED"
+13, VoidMethodCalls, 31, "System.out.print(strbuf.toString());
+", "DELETED"
+14, ConditionalsBoundary, 16, "argv.length > 1", "argv.length >= 1"
+15, ConditionalsBoundary, 21, "i < argv.length - 1", "i <= argv.length - 1"
+16, ConditionalsBoundary, 24, "argv.length > 0", "argv.length >= 0"
+17, Math, 10, ""USAGE: echo [[-n] <string>]\n" + "       Echoes the <string> to the output.\n" + "       Parameter \"-n\" supressed the newline\n"+ "       at the end of the output."", ""USAGE: echo [[-n] <string>]\n" - "       Echoes the <string> to the output.\n" - "       Parameter \"-n\" supressed the newline\n"- "       at the end of the output.""
+18, Math, 21, "argv.length - 1", "argv.length + 1"
+19, Math, 22, "argv[i] + " "", "argv[i] - " ""
+20, Math, 25, "argv.length - 1", "argv.length + 1"

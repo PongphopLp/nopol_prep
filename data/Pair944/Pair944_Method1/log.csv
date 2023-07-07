@@ -1,0 +1,14 @@
+01, Math, 8, "now.get(Calendar.MONTH) + 1", "now.get(Calendar.MONTH) - 1"
+02, Math, 13, "birthDate.get(Calendar.MONTH) + 1", "birthDate.get(Calendar.MONTH) - 1"
+03, Math, 15, "curYear - birthYear", "curYear + birthYear"
+04, Math, 17, "curYear - birthYear", "curYear + birthYear"
+05, Math, 20, "curYear - birthYear - 1", "curYear + birthYear + 1"
+06, NegateConditionals, 16, "curMonth > birthMonth", "curMonth <= birthMonth"
+07, NegateConditionals, 16, "curMonth == birthMonth", "curMonth != birthMonth"
+08, NegateConditionals, 16, "curDay >= birthDay", "curDay < birthDay"
+09, ConditionalsBoundary, 16, "curMonth > birthMonth", "curMonth >= birthMonth"
+10, ConditionalsBoundary, 16, "curDay >= birthDay", "curDay > birthDay"
+11, VoidMethodCalls, 6, "now.setTime(dEnd);
+", "DELETED"
+12, VoidMethodCalls, 11, "birthDate.setTime(dStart);
+", "DELETED"

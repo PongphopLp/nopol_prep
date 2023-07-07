@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < nEnd", "i <= nEnd"
+2, NegateConditionals, 6, "i < nEnd", "i >= nEnd"
+3, NegateConditionals, 6, "aCmpBytes[i] != aBytes[nOffset + i]", "aCmpBytes[i] == aBytes[nOffset + i]"
+4, Increments, 6, "++i", "--i"
+5, Math, 6, "nOffset + i", "nOffset - i"

@@ -1,0 +1,2 @@
+1, VoidMethodCalls, 8, "buffer.append(s).append("\n");
+", "DELETED"

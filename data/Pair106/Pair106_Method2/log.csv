@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "bytes.length < magicNumber.length", "bytes.length <= magicNumber.length"
+2, ConditionalsBoundary, 8, "i < magicNumber.length", "i <= magicNumber.length"
+3, NegateConditionals, 5, "bytes.length < magicNumber.length", "bytes.length >= magicNumber.length"
+4, NegateConditionals, 8, "i < magicNumber.length", "i >= magicNumber.length"
+5, NegateConditionals, 9, "bytes[i] != magicNumber[i]", "bytes[i] == magicNumber[i]"
+6, Increments, 8, "i++", "i--"

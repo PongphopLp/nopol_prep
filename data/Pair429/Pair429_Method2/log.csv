@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "i < lastLambda.length", "i <= lastLambda.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < lastLambda.length", "i >= lastLambda.length"
+4, NegateConditionals, 5, "lastLambda[i] != lambda[i]", "lastLambda[i] == lambda[i]"

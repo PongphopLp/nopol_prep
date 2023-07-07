@@ -1,0 +1,3 @@
+1, NegateConditionals, 8, "null == str", "null != str"
+2, NegateConditionals, 9, "str.trim().length() < 1", "str.trim().length() >= 1"
+3, ConditionalsBoundary, 9, "str.trim().length() < 1", "str.trim().length() <= 1"

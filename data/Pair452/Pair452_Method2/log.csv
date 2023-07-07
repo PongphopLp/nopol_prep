@@ -1,0 +1,9 @@
+1, NegateConditionals, 8, "index < newLength", "index >= newLength"
+2, VoidMethodCalls, 7, "System.arraycopy(array,0,newArray,0,index);
+", "DELETED"
+3, VoidMethodCalls, 9, "System.arraycopy(array,index + 1,newArray,index,newLength - index);
+", "DELETED"
+4, Math, 5, "array.length - 1", "array.length + 1"
+5, Math, 9, "index + 1", "index - 1"
+6, Math, 9, "newLength - index", "newLength + index"
+7, ConditionalsBoundary, 8, "index < newLength", "index <= newLength"

@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < len", "i >= len"
+3, NegateConditionals, 7, "pArray[i] == pChar", "pArray[i] != pChar"
+4, ConditionalsBoundary, 6, "i < len", "i <= len"
+5, InvertNegatives, 11, "-1", "1"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "i < byteArray.length", "i <= byteArray.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < byteArray.length", "i >= byteArray.length"
+4, NegateConditionals, 6, "byteArray[i] == 0", "byteArray[i] != 0"

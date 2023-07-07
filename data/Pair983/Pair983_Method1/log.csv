@@ -1,0 +1,11 @@
+01, Increments, 6, "i++", "i--"
+02, NegateConditionals, 6, "i < data.length", "i >= data.length"
+03, NegateConditionals, 6, "i < endIndex", "i >= endIndex"
+04, NegateConditionals, 8, "c < ' '", "c >= ' '"
+05, NegateConditionals, 8, "c > 127", "c <= 127"
+06, VoidMethodCalls, 9, "buf.append(c);
+", "DELETED"
+07, ConditionalsBoundary, 6, "i < data.length", "i <= data.length"
+08, ConditionalsBoundary, 6, "i < endIndex", "i <= endIndex"
+09, ConditionalsBoundary, 8, "c < ' '", "c <= ' '"
+10, ConditionalsBoundary, 8, "c > 127", "c >= 127"

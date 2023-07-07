@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "src == null", "src != null"
+2, NegateConditionals, 6, "src.length <= n", "src.length > n"
+3, VoidMethodCalls, 13, "System.arraycopy(src,0,l,0,n);
+", "DELETED"
+4, VoidMethodCalls, 14, "System.arraycopy(src,n,r,0,r.length);
+", "DELETED"
+5, ConditionalsBoundary, 6, "src.length <= n", "src.length < n"
+6, Math, 12, "src.length - n", "src.length + n"

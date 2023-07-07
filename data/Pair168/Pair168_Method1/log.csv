@@ -1,0 +1,6 @@
+1, Math, 5, "end - 1", "end + 1"
+2, Increments, 5, "i--", "i++"
+3, InvertNegatives, 10, "-1", "1"
+4, NegateConditionals, 5, "i >= start", "i < start"
+5, NegateConditionals, 6, "array[i] == target", "array[i] != target"
+6, ConditionalsBoundary, 5, "i >= start", "i > start"

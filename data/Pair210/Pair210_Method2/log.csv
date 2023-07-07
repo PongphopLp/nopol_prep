@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "i < orig.length", "i <= orig.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < orig.length", "i >= orig.length"
+4, NegateConditionals, 5, "orig[i] != dest[i]", "orig[i] == dest[i]"

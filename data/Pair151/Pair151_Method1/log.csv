@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "sl > tok.length", "sl >= tok.length"
+2, ConditionalsBoundary, 7, "s < sl", "s <= sl"
+3, NegateConditionals, 6, "sl > tok.length", "sl <= tok.length"
+4, NegateConditionals, 7, "s < sl", "s >= sl"
+5, NegateConditionals, 7, "sub[s] != tok[s]", "sub[s] == tok[s]"
+6, Increments, 7, "s++", "s--"

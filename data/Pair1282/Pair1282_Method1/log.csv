@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "ss.length > idx", "ss.length >= idx"
+2, NegateConditionals, 5, "ss.length > idx", "ss.length <= idx"

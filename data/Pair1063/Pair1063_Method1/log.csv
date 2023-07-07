@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "alength != blength", "alength == blength"
+2, NegateConditionals, 9, "i < alength", "i >= alength"
+3, NegateConditionals, 10, "a[astart + i] != b[bstart + i]", "a[astart + i] == b[bstart + i]"
+4, ConditionalsBoundary, 9, "i < alength", "i <= alength"
+5, Math, 10, "astart + i", "astart - i"
+6, Math, 10, "bstart + i", "bstart - i"
+7, Increments, 9, "i++", "i--"

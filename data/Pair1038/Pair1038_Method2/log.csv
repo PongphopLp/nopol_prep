@@ -1,0 +1,8 @@
+1, Increments, 8, "--i", "++i"
+2, ConditionalsBoundary, 8, "--i >= 0", "--i > 0"
+3, NegateConditionals, 5, "first == second", "first != second"
+4, NegateConditionals, 6, "first == null", "first != null"
+5, NegateConditionals, 6, "second == null", "second != null"
+6, NegateConditionals, 7, "first.length != second.length", "first.length == second.length"
+7, NegateConditionals, 8, "--i >= 0", "--i < 0"
+8, NegateConditionals, 8, "first[i] != second[i]", "first[i] == second[i]"

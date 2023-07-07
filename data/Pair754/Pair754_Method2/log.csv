@@ -1,0 +1,6 @@
+1, Increments, 5, "num--", "num++"
+2, Increments, 5, "offs1++", "offs1--"
+3, Increments, 5, "offs2++", "offs2--"
+4, NegateConditionals, 5, "num-- > 0", "num-- <= 0"
+5, NegateConditionals, 5, "a1[offs1++] != a2[offs2++]", "a1[offs1++] == a2[offs2++]"
+6, ConditionalsBoundary, 5, "num-- > 0", "num-- >= 0"

@@ -1,0 +1,4 @@
+1, InvertNegatives, 10, "-1", "1"
+2, Math, 15, "src.substring(0,pos) + with", "src.substring(0,pos) - with"
+3, Math, 16, "pos + replace.length()", "pos - replace.length()"
+4, NegateConditionals, 10, "pos == -1", "pos != -1"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "v < min", "v >= min"
+2, NegateConditionals, 8, "v > max", "v <= max"
+3, ConditionalsBoundary, 5, "v < min", "v <= min"
+4, ConditionalsBoundary, 8, "v > max", "v >= max"

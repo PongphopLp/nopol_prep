@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 8, "i < n", "i <= n"
+2, NegateConditionals, 6, "iN == n", "iN != n"
+3, NegateConditionals, 8, "i < n", "i >= n"
+4, Increments, 8, "i++", "i--"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 12, "i < int1.length", "i <= int1.length"
+2, Increments, 14, "i++", "i--"
+3, Math, 12, "(i < int1.length) & result", "(i < int1.length) | result"
+4, NegateConditionals, 6, "int1 == null", "int1 != null"
+5, NegateConditionals, 6, "int2 == null", "int2 != null"
+6, NegateConditionals, 9, "int1.length == int2.length", "int1.length != int2.length"
+7, NegateConditionals, 12, "i < int1.length", "i >= int1.length"
+8, NegateConditionals, 13, "int1[i] == int2[i]", "int1[i] != int2[i]"

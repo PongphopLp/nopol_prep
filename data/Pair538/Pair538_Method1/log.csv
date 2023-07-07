@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 11, "i < p_D0.length", "i <= p_D0.length"
+2, NegateConditionals, 5, "p_D0 == p_D1", "p_D0 != p_D1"
+3, NegateConditionals, 8, "p_D0 == null", "p_D0 != null"
+4, NegateConditionals, 8, "p_D1 == null", "p_D1 != null"
+5, NegateConditionals, 8, "p_D0.length != p_D1.length", "p_D0.length == p_D1.length"
+6, NegateConditionals, 11, "i < p_D0.length", "i >= p_D0.length"
+7, NegateConditionals, 12, "p_D0[i] != p_D1[i]", "p_D0[i] == p_D1[i]"
+8, Increments, 11, "i++", "i--"

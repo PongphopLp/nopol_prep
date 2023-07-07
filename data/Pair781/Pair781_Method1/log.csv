@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "at < 0", "at <= 0"
+2, Math, 5, "(at % len + len) % len", "(at % len + len) * len"
+3, Math, 5, "at % len + len", "at % len - len"
+4, Math, 5, "at % len", "at * len"
+5, Math, 6, "at % len", "at * len"
+6, NegateConditionals, 5, "at < 0", "at >= 0"

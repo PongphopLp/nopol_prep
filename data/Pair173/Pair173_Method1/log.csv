@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 11, "stt.nextToken();
+", "DELETED"
+2, VoidMethodCalls, 21, "stt.nextToken();
+", "DELETED"
+3, NegateConditionals, 5, "language == null", "language != null"
+4, NegateConditionals, 5, "language.length() == 0", "language.length() != 0"

@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < data.length", "i >= data.length"
+3, NegateConditionals, 8, "alt < answer", "alt >= answer"
+4, ConditionalsBoundary, 6, "i < data.length", "i <= data.length"
+5, ConditionalsBoundary, 8, "alt < answer", "alt <= answer"

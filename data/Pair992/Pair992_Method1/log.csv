@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < sn.length", "i >= sn.length"
+3, NegateConditionals, 7, "result < sn[i]", "result >= sn[i]"
+4, ConditionalsBoundary, 6, "i < sn.length", "i <= sn.length"
+5, ConditionalsBoundary, 7, "result < sn[i]", "result <= sn[i]"

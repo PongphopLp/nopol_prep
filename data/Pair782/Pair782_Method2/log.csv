@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 8, "i < length", "i <= length"
+2, VoidMethodCalls, 6, "System.arraycopy(data,offset,stringData,0,length);
+", "DELETED"
+3, Increments, 8, "i++", "i--"
+4, NegateConditionals, 8, "i < length", "i >= length"

@@ -1,0 +1,5 @@
+1, InvertNegatives, 7, "-1", "1"
+2, PrimitiveReturns, 9, "1", "0"
+3, ConditionalsBoundary, 7, "m1 < m2", "m1 <= m2"
+4, NegateConditionals, 7, "m1 < m2", "m1 >= m2"
+5, NegateConditionals, 8, "m1 == m2", "m1 != m2"

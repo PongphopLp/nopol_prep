@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR)", "cal1.get(Calendar.YEAR) != cal2.get(Calendar.YEAR)"
+2, NegateConditionals, 6, "cal1.get(Calendar.DAY_OF_YEAR) == cal2.get(Calendar.DAY_OF_YEAR)", "cal1.get(Calendar.DAY_OF_YEAR) != cal2.get(Calendar.DAY_OF_YEAR)"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "ch == 32", "ch != 32"
+2, NegateConditionals, 8, "ch == 10", "ch != 10"
+3, NegateConditionals, 11, "ch == 13", "ch != 13"
+4, NegateConditionals, 14, "ch == 9", "ch != 9"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "lLowerBoundary > lUpperBoundary", "lLowerBoundary >= lUpperBoundary"
+2, ConditionalsBoundary, 12, "pValue < lLowerBoundary", "pValue <= lLowerBoundary"
+3, ConditionalsBoundary, 15, "pValue > lUpperBoundary", "pValue >= lUpperBoundary"
+4, NegateConditionals, 7, "lLowerBoundary > lUpperBoundary", "lLowerBoundary <= lUpperBoundary"
+5, NegateConditionals, 12, "pValue < lLowerBoundary", "pValue >= lLowerBoundary"
+6, NegateConditionals, 15, "pValue > lUpperBoundary", "pValue <= lUpperBoundary"

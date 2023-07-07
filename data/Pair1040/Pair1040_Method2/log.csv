@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "newpass.length != repass.length", "newpass.length == repass.length"
+2, NegateConditionals, 10, "i < newpass.length", "i >= newpass.length"
+3, NegateConditionals, 11, "newpass[i] != repass[i]", "newpass[i] == repass[i]"
+4, ConditionalsBoundary, 10, "i < newpass.length", "i <= newpass.length"
+5, Increments, 10, "i++", "i--"

@@ -1,0 +1,3 @@
+1, Math, 7, "off + len", "off - len"
+2, NegateConditionals, 7, "bytes[off + len] == 0", "bytes[off + len] != 0"
+3, Increments, 10, "len++", "len--"

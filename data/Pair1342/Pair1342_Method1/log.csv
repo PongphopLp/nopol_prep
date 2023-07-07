@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "--i >= 0", "--i < 0"
+2, NegateConditionals, 7, "s.charAt(i) == c", "s.charAt(i) != c"
+3, ConditionalsBoundary, 6, "--i >= 0", "--i > 0"
+4, Increments, 6, "--i", "++i"
+5, Increments, 7, "count++", "count--"

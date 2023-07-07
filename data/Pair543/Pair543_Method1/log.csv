@@ -1,0 +1,8 @@
+1, Increments, 8, "++offset", "--offset"
+2, Increments, 12, "++offset", "--offset"
+3, Math, 7, "(buf[offset] << 8) & 0xFF00", "(buf[offset] << 8) | 0xFF00"
+4, Math, 7, "buf[offset] << 8", "buf[offset] >> 8"
+5, Math, 8, "buf[++offset] & 0x00FF", "buf[++offset] | 0x00FF"
+6, Math, 11, "buf[offset] & 0x00FF", "buf[offset] | 0x00FF"
+7, Math, 12, "(buf[++offset] << 8) & 0xFF00", "(buf[++offset] << 8) | 0xFF00"
+8, Math, 12, "buf[++offset] << 8", "buf[++offset] >> 8"

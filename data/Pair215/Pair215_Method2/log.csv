@@ -1,0 +1,8 @@
+1, Increments, 9, "i++", "i--"
+2, NegateConditionals, 5, "pts1 == pts2", "pts1 != pts2"
+3, NegateConditionals, 6, "pts1 == null", "pts1 != null"
+4, NegateConditionals, 6, "pts2 == null", "pts2 != null"
+5, NegateConditionals, 7, "pts1.length != pts2.length", "pts1.length == pts2.length"
+6, NegateConditionals, 9, "i < pts1.length", "i >= pts1.length"
+7, NegateConditionals, 10, "pts1[i] != pts2[i]", "pts1[i] == pts2[i]"
+8, ConditionalsBoundary, 9, "i < pts1.length", "i <= pts1.length"

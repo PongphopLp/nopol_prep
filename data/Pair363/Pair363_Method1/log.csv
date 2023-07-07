@@ -1,0 +1,9 @@
+1, Math, 6, "val.length / 2", "val.length * 2"
+2, Math, 7, "val.length % 2", "val.length * 2"
+3, Math, 11, "(val[mid] + val[mid - 1]) / 2", "(val[mid] + val[mid - 1]) * 2"
+4, Math, 11, "val[mid] + val[mid - 1]", "val[mid] - val[mid - 1]"
+5, Math, 11, "mid - 1", "mid + 1"
+6, VoidMethodCalls, 5, "Arrays.sort(val);
+", "DELETED"
+7, NegateConditionals, 7, "(val.length % 2) > 0", "(val.length % 2) <= 0"
+8, ConditionalsBoundary, 7, "(val.length % 2) > 0", "(val.length % 2) >= 0"

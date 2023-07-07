@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "length-- > 0", "length-- >= 0"
+2, NegateConditionals, 6, "length-- > 0", "length-- <= 0"
+3, Math, 6, "(v << 8) | (b[offset++] & 0xff)", "(v << 8) & (b[offset++] & 0xff)"
+4, Math, 6, "v << 8", "v >> 8"
+5, Math, 6, "b[offset++] & 0xff", "b[offset++] | 0xff"
+6, Increments, 6, "length--", "length++"
+7, Increments, 6, "offset++", "offset--"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "j < 4", "j <= 4"
+2, Increments, 6, "++j", "--j"
+3, NegateConditionals, 6, "j < 4", "j >= 4"
+4, Math, 8, "arr[j] & 0x000000FF", "arr[j] | 0x000000FF"

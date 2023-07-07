@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i < max", "i >= max"
+2, ConditionalsBoundary, 5, "i < max", "i <= max"
+3, Increments, 5, "i++", "i--"
+4, VoidMethodCalls, 8, "to.add(object);
+", "DELETED"

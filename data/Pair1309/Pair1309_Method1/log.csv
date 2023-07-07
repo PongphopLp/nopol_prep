@@ -1,0 +1,9 @@
+1, ConditionalsBoundary, 11, "oldIndex < source.length()", "oldIndex <= source.length()"
+2, VoidMethodCalls, 8, "sb.append(source.substring(oldIndex,newIndex)).append(to);
+", "DELETED"
+3, VoidMethodCalls, 11, "sb.append(source.substring(oldIndex));
+", "DELETED"
+4, Math, 9, "newIndex + from.length()", "newIndex - from.length()"
+5, NegateConditionals, 7, "-1 != (newIndex=source.indexOf(from,oldIndex))", "-1 == (newIndex=source.indexOf(from,oldIndex))"
+6, NegateConditionals, 11, "oldIndex < source.length()", "oldIndex >= source.length()"
+7, InvertNegatives, 7, "-1", "1"

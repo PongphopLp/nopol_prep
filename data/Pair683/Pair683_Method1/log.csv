@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "oldStr == null", "oldStr != null"
+2, NegateConditionals, 5, "newStr != null", "newStr == null"
+3, NegateConditionals, 8, "oldStr != null", "oldStr == null"
+4, NegateConditionals, 8, "newStr == null", "newStr != null"
+5, NegateConditionals, 11, "oldStr == null", "oldStr != null"
+6, NegateConditionals, 11, "newStr == null", "newStr != null"

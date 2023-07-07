@@ -1,0 +1,12 @@
+1, NegateConditionals, 8, "i < numberOfWords", "i >= numberOfWords"
+2, NegateConditionals, 10, "j < lengthOfWord", "j >= lengthOfWord"
+3, ConditionalsBoundary, 8, "i < numberOfWords", "i <= numberOfWords"
+4, ConditionalsBoundary, 10, "j < lengthOfWord", "j <= lengthOfWord"
+5, Increments, 8, "i++", "i--"
+6, Increments, 10, "j++", "j--"
+7, VoidMethodCalls, 11, "w.append(alphabet[r.nextInt(len)]);
+", "DELETED"
+8, VoidMethodCalls, 13, "words.add(w.toString());
+", "DELETED"
+9, VoidMethodCalls, 16, "words.toArray(w);
+", "DELETED"

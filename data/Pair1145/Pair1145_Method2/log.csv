@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "i < aliases.length", "i <= aliases.length"
+2, ConditionalsBoundary, 13, "i < aliases.length", "i <= aliases.length"
+3, Increments, 6, "i++", "i--"
+4, Increments, 13, "i++", "i--"
+5, NegateConditionals, 5, "url == null", "url != null"
+6, NegateConditionals, 6, "i < aliases.length", "i >= aliases.length"
+7, NegateConditionals, 7, "aliases[i] == null", "aliases[i] != null"
+8, NegateConditionals, 13, "i < aliases.length", "i >= aliases.length"

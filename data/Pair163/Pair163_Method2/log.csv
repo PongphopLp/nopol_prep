@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "--i >= 0", "--i > 0"
+2, Increments, 7, "--i", "++i"
+3, NegateConditionals, 5, "name1.length != name2.length", "name1.length == name2.length"
+4, NegateConditionals, 6, "name1 == name2", "name1 != name2"
+5, NegateConditionals, 7, "--i >= 0", "--i < 0"
+6, NegateConditionals, 7, "name1[i] != name2[i]", "name1[i] == name2[i]"

@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "date1 == null", "date1 != null"
+2, NegateConditionals, 6, "date2 == null", "date2 != null"
+3, NegateConditionals, 7, "date1.getTime() > date2.getTime()", "date1.getTime() <= date2.getTime()"
+4, NegateConditionals, 8, "date1.getTime() < date2.getTime()", "date1.getTime() >= date2.getTime()"
+5, ConditionalsBoundary, 7, "date1.getTime() > date2.getTime()", "date1.getTime() >= date2.getTime()"
+6, ConditionalsBoundary, 8, "date1.getTime() < date2.getTime()", "date1.getTime() <= date2.getTime()"

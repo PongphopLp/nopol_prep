@@ -1,0 +1,7 @@
+1, Increments, 6, "i++", "i--"
+2, Increments, 7, "j++", "j--"
+3, NegateConditionals, 5, "groupSet0.length != groupSet1.length", "groupSet0.length == groupSet1.length"
+4, NegateConditionals, 6, "i < groupSet0.length", "i >= groupSet0.length"
+5, NegateConditionals, 7, "j < groupSet1.length", "j >= groupSet1.length"
+6, ConditionalsBoundary, 6, "i < groupSet0.length", "i <= groupSet0.length"
+7, ConditionalsBoundary, 7, "j < groupSet1.length", "j <= groupSet1.length"

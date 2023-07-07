@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i2 > i1", "i2 <= i1"
+2, NegateConditionals, 9, "i3 > max", "i3 <= max"
+3, ConditionalsBoundary, 6, "i2 > i1", "i2 >= i1"
+4, ConditionalsBoundary, 9, "i3 > max", "i3 >= max"

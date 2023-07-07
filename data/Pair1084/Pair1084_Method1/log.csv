@@ -1,0 +1,13 @@
+01, InvertNegatives, 13, "-1", "1"
+02, NegateConditionals, 6, "index < 0", "index >= 0"
+03, NegateConditionals, 10, "newString == null", "newString != null"
+04, NegateConditionals, 13, "index != -1", "index == -1"
+05, ConditionalsBoundary, 6, "index < 0", "index <= 0"
+06, Math, 11, "original.length() + replace.length()", "original.length() - replace.length()"
+07, Math, 16, "index + oldString.length()", "index - oldString.length()"
+08, VoidMethodCalls, 14, "buf.append(original.substring(last,index));
+", "DELETED"
+09, VoidMethodCalls, 15, "buf.append(replace);
+", "DELETED"
+10, VoidMethodCalls, 19, "buf.append(original.substring(last));
+", "DELETED"

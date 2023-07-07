@@ -1,0 +1,5 @@
+1, InvertNegatives, 8, "-1", "1"
+2, InvertNegatives, 8, "-1", "1"
+3, Math, 9, "indexBegin + beignStr.length()", "indexBegin - beignStr.length()"
+4, NegateConditionals, 8, "indexBegin != -1", "indexBegin == -1"
+5, NegateConditionals, 8, "indexEnd != -1", "indexEnd == -1"

@@ -1,0 +1,10 @@
+1, Increments, 6, "i++", "i--"
+2, VoidMethodCalls, 9, "match.append(string1.charAt(i));
+", "DELETED"
+3, NegateConditionals, 6, "i < string1.length()", "i >= string1.length()"
+4, NegateConditionals, 7, "string1.length() > i", "string1.length() <= i"
+5, NegateConditionals, 7, "string2.length() > i", "string2.length() <= i"
+6, NegateConditionals, 8, "string1.charAt(i) == string2.charAt(i)", "string1.charAt(i) != string2.charAt(i)"
+7, ConditionalsBoundary, 6, "i < string1.length()", "i <= string1.length()"
+8, ConditionalsBoundary, 7, "string1.length() > i", "string1.length() >= i"
+9, ConditionalsBoundary, 7, "string2.length() > i", "string2.length() >= i"

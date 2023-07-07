@@ -1,0 +1,11 @@
+1, NegateConditionals, 10, "iNext != -1", "iNext == -1"
+2, NegateConditionals, 17, "strPiece.length() > 0", "strPiece.length() <= 0"
+3, VoidMethodCalls, 12, "vResult.addElement(strPiece);
+", "DELETED"
+4, VoidMethodCalls, 18, "vResult.addElement(strPiece);
+", "DELETED"
+5, VoidMethodCalls, 21, "vResult.copyInto(arstrResult);
+", "DELETED"
+6, ConditionalsBoundary, 17, "strPiece.length() > 0", "strPiece.length() >= 0"
+7, InvertNegatives, 10, "-1", "1"
+8, Math, 13, "iNext + iDelimWidth", "iNext - iDelimWidth"

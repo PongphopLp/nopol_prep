@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "aStatus != null", "aStatus == null"
+2, Math, 12, ""tracking.content.table2." + aStatus", ""tracking.content.table2." - aStatus"

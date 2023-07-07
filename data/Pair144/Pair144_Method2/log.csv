@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "b1 == null", "b1 != null"
+2, NegateConditionals, 5, "b2 == null", "b2 != null"
+3, NegateConditionals, 8, "b1.length == b2.length", "b1.length != b2.length"
+4, NegateConditionals, 12, "n-- != 0", "n-- == 0"
+5, NegateConditionals, 13, "b1[i++] != b2[j++]", "b1[i++] == b2[j++]"
+6, Increments, 12, "n--", "n++"
+7, Increments, 13, "i++", "i--"
+8, Increments, 13, "j++", "j--"

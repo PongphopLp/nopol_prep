@@ -1,0 +1,7 @@
+1, Math, 5, "year & 0x0003", "year | 0x0003"
+2, Math, 5, "year % 100", "year * 100"
+3, Math, 6, "modHundred & 0x0003", "modHundred | 0x0003"
+4, NegateConditionals, 6, "0 == modFour", "0 != modFour"
+5, NegateConditionals, 6, "modHundred != 0", "modHundred == 0"
+6, NegateConditionals, 6, "0 == modHundred", "0 != modHundred"
+7, NegateConditionals, 6, "0 == (modHundred & 0x0003)", "0 != (modHundred & 0x0003)"

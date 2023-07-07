@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "index < depth", "index <= depth"
+2, Math, 5, "prefixStr.length() * depth", "prefixStr.length() / depth"
+3, Increments, 6, "index++", "index--"
+4, VoidMethodCalls, 7, "strBuf.append(prefixStr);
+", "DELETED"
+5, NegateConditionals, 6, "index < depth", "index >= depth"

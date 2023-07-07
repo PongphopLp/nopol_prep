@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < targets.length", "i <= targets.length"
+2, ConditionalsBoundary, 6, "highest < targets[i]", "highest <= targets[i]"
+3, NegateConditionals, 6, "i < targets.length", "i >= targets.length"
+4, NegateConditionals, 6, "highest < targets[i]", "highest >= targets[i]"
+5, Increments, 6, "++i", "--i"

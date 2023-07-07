@@ -1,0 +1,6 @@
+1, Math, 9, "i % 2", "i * 2"
+2, Math, 13, "i % c", "i * c"
+3, NegateConditionals, 9, "i % 2 == 0", "i % 2 != 0"
+4, NegateConditionals, 12, "c <= Math.sqrt(i)", "c > Math.sqrt(i)"
+5, NegateConditionals, 13, "i % c == 0", "i % c != 0"
+6, ConditionalsBoundary, 12, "c <= Math.sqrt(i)", "c < Math.sqrt(i)"

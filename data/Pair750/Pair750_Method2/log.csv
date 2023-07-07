@@ -1,0 +1,12 @@
+01, NegateConditionals, 8, "val >= minValue", "val < minValue"
+02, NegateConditionals, 11, "val > minValue", "val <= minValue"
+03, NegateConditionals, 15, "val <= maxValue", "val > maxValue"
+04, NegateConditionals, 18, "val < maxValue", "val >= maxValue"
+05, Math, 25, "name + " is out the interval "", "name - " is out the interval ""
+06, Math, 27, "minValue + ";" + maxValue", "minValue - ";" - maxValue"
+07, VoidMethodCalls, 29, "errList.add(errMsg);
+", "DELETED"
+08, ConditionalsBoundary, 8, "val >= minValue", "val > minValue"
+09, ConditionalsBoundary, 11, "val > minValue", "val >= minValue"
+10, ConditionalsBoundary, 15, "val <= maxValue", "val < maxValue"
+11, ConditionalsBoundary, 18, "val < maxValue", "val <= maxValue"

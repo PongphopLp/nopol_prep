@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "month < 10", "month <= 10"
+2, NegateConditionals, 6, "month < 10", "month >= 10"
+3, Math, 5, "cal.get(Calendar.MONTH) + 1", "cal.get(Calendar.MONTH) - 1"
+4, Math, 6, ""0" + Integer.toString(month)", ""0" - Integer.toString(month)"

@@ -1,0 +1,8 @@
+1, Increments, 11, "index++", "index--"
+2, NegateConditionals, 5, "b1 == b2", "b1 != b2"
+3, NegateConditionals, 6, "b1 == null", "b1 != null"
+4, NegateConditionals, 6, "b2 == null", "b2 != null"
+5, NegateConditionals, 8, "length != b2.length", "length == b2.length"
+6, NegateConditionals, 11, "index < length", "index >= length"
+7, NegateConditionals, 12, "b1[index] == b2[index]", "b1[index] != b2[index]"
+8, ConditionalsBoundary, 11, "index < length", "index <= length"

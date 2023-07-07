@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "i < size", "i >= size"
+2, NegateConditionals, 5, "0 < mask[i]", "0 >= mask[i]"
+3, NegateConditionals, 5, "id != mask[i]", "id == mask[i]"
+4, NegateConditionals, 6, "0 == id", "0 != id"
+5, ConditionalsBoundary, 5, "i < size", "i <= size"
+6, ConditionalsBoundary, 5, "0 < mask[i]", "0 <= mask[i]"
+7, Increments, 5, "++i", "--i"

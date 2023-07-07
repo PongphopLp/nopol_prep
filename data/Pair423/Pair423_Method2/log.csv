@@ -1,0 +1,1 @@
+1, NegateConditionals, 5, "first.size() != second.size()", "first.size() == second.size()"

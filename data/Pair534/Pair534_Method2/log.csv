@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "args1.size() != args2.size()", "args1.size() == args2.size()"
+2, NegateConditionals, 6, "i < args1.size()", "i >= args1.size()"
+3, ConditionalsBoundary, 6, "i < args1.size()", "i <= args1.size()"
+4, Increments, 6, "i++", "i--"

@@ -1,0 +1,4 @@
+1, InvertNegatives, 6, "-Double.MAX_VALUE", "Double.MAX_VALUE"
+2, NegateConditionals, 5, "x.length == 0", "x.length != 0"
+3, NegateConditionals, 8, "max < v", "max >= v"
+4, ConditionalsBoundary, 8, "max < v", "max <= v"

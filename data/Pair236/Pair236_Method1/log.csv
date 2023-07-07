@@ -1,0 +1,4 @@
+1, NegateConditionals, 7, "rowsA != rowsB", "rowsA == rowsB"
+2, NegateConditionals, 11, "i < rowsA", "i >= rowsA"
+3, ConditionalsBoundary, 11, "i < rowsA", "i <= rowsA"
+4, Increments, 11, "i++", "i--"

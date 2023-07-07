@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "cntr < len", "cntr >= len"
+2, NegateConditionals, 9, "num < 16", "num >= 16"
+3, Increments, 6, "cntr++", "cntr--"
+4, ConditionalsBoundary, 6, "cntr < len", "cntr <= len"
+5, ConditionalsBoundary, 9, "num < 16", "num <= 16"
+6, Math, 7, "data[offset + cntr] & 0xFF", "data[offset + cntr] | 0xFF"
+7, Math, 7, "offset + cntr", "offset - cntr"
+8, Math, 15, "myStr + Integer.toHexString(num) + " "", "myStr - Integer.toHexString(num) - " ""

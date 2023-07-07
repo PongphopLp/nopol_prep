@@ -1,0 +1,9 @@
+1, VoidMethodCalls, 7, "cal.setTime(date1);
+", "DELETED"
+2, VoidMethodCalls, 11, "cal.setTime(date2);
+", "DELETED"
+3, NegateConditionals, 5, "date1 == null", "date1 != null"
+4, NegateConditionals, 5, "date2 == null", "date2 != null"
+5, NegateConditionals, 12, "year == cal.get(Calendar.YEAR)", "year != cal.get(Calendar.YEAR)"
+6, NegateConditionals, 12, "month == cal.get(Calendar.MONTH)", "month != cal.get(Calendar.MONTH)"
+7, NegateConditionals, 12, "day == cal.get(Calendar.DAY_OF_MONTH)", "day != cal.get(Calendar.DAY_OF_MONTH)"

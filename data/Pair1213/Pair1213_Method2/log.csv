@@ -1,0 +1,12 @@
+1, NegateConditionals, 6, "(i=line.indexOf(oldString,i)) >= 0", "(i=line.indexOf(oldString,i)) < 0"
+2, NegateConditionals, 14, "(i=line.indexOf(oldString,i)) > 0", "(i=line.indexOf(oldString,i)) <= 0"
+3, VoidMethodCalls, 11, "buf.append(line2,0,i).append(newString2);
+", "DELETED"
+4, VoidMethodCalls, 15, "buf.append(line2,j,i - j).append(newString2);
+", "DELETED"
+5, VoidMethodCalls, 19, "buf.append(line2,j,line2.length - j);
+", "DELETED"
+6, ConditionalsBoundary, 6, "(i=line.indexOf(oldString,i)) >= 0", "(i=line.indexOf(oldString,i)) > 0"
+7, ConditionalsBoundary, 14, "(i=line.indexOf(oldString,i)) > 0", "(i=line.indexOf(oldString,i)) >= 0"
+8, Math, 15, "i - j", "i + j"
+9, Math, 19, "line2.length - j", "line2.length + j"

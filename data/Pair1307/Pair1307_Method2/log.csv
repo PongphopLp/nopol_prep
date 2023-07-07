@@ -1,0 +1,12 @@
+01, Math, 10, "replacedExpression.substring(0,oldStringIndex) + replacedExpression.substring(oldStringIndex + oldString.length())", "replacedExpression.substring(0,oldStringIndex) - replacedExpression.substring(oldStringIndex + oldString.length())"
+02, Math, 10, "oldStringIndex + oldString.length()", "oldStringIndex - oldString.length()"
+03, Math, 13, "oldStringIndex + newString.length()", "oldStringIndex - newString.length()"
+04, VoidMethodCalls, 11, "buffer.insert(oldStringIndex,newString);
+", "DELETED"
+05, NegateConditionals, 6, "replacedExpression != null", "replacedExpression == null"
+06, NegateConditionals, 9, "oldStringIndex > -1", "oldStringIndex <= -1"
+07, NegateConditionals, 14, "charCtr < replacedExpression.length()", "charCtr >= replacedExpression.length()"
+08, InvertNegatives, 9, "-1", "1"
+09, InvertNegatives, 18, "-1", "1"
+10, ConditionalsBoundary, 9, "oldStringIndex > -1", "oldStringIndex >= -1"
+11, ConditionalsBoundary, 14, "charCtr < replacedExpression.length()", "charCtr <= replacedExpression.length()"

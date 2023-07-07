@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "d > max", "d <= max"
+2, ConditionalsBoundary, 6, "d > max", "d >= max"

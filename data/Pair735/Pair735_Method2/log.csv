@@ -1,0 +1,5 @@
+1, Increments, 7, "fromIndex++", "fromIndex--"
+2, NegateConditionals, 5, "fromIndex < array.length", "fromIndex >= array.length"
+3, NegateConditionals, 6, "array[fromIndex] == value", "array[fromIndex] != value"
+4, ConditionalsBoundary, 5, "fromIndex < array.length", "fromIndex <= array.length"
+5, InvertNegatives, 9, "-1", "1"

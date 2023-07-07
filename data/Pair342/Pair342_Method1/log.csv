@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 6, "cal1.setTime(debut);
+", "DELETED"
+2, VoidMethodCalls, 9, "cal1.setTime(fin);
+", "DELETED"
+3, NegateConditionals, 12, "dfin == ddebut", "dfin != ddebut"
+4, NegateConditionals, 12, "yeardeb == yearfin", "yeardeb != yearfin"

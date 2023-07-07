@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < xs.length", "i <= xs.length"
+2, Math, 6, "(xs[i] - meanXs) * (ys[i] - meanYs)", "(xs[i] - meanXs) / (ys[i] - meanYs)"
+3, Math, 6, "xs[i] - meanXs", "xs[i] + meanXs"
+4, Math, 6, "ys[i] - meanYs", "ys[i] + meanYs"
+5, NegateConditionals, 6, "i < xs.length", "i >= xs.length"
+6, Increments, 6, "++i", "--i"

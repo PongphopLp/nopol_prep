@@ -1,0 +1,8 @@
+1, Increments, 6, "i++", "i--"
+2, Math, 7, "b1[i] & 0xff", "b1[i] | 0xff"
+3, Math, 8, "b2[i] & 0xff", "b2[i] | 0xff"
+4, Math, 9, "byte1 - byte2", "byte1 + byte2"
+5, Math, 12, "b1.length - b2.length", "b1.length + b2.length"
+6, NegateConditionals, 6, "i < max", "i >= max"
+7, NegateConditionals, 10, "diff != 0", "diff == 0"
+8, ConditionalsBoundary, 6, "i < max", "i <= max"

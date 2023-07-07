@@ -1,0 +1,3 @@
+1, NegateConditionals, 5, "args != null", "args == null"
+2, NegateConditionals, 5, "index < args.length", "index >= args.length"
+3, ConditionalsBoundary, 5, "index < args.length", "index <= args.length"

@@ -1,0 +1,6 @@
+1, Increments, 8, "x++", "x--"
+2, Increments, 11, "count++", "count--"
+3, NegateConditionals, 8, "x < size", "x >= size"
+4, NegateConditionals, 9, "values[x] != 0", "values[x] == 0"
+5, Math, 14, "total / count", "total * count"
+6, ConditionalsBoundary, 8, "x < size", "x <= size"

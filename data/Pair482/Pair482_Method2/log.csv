@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "(year & 0x3) == 0", "(year & 0x3) != 0"
+2, NegateConditionals, 7, "year % 100 == 0", "year % 100 != 0"
+3, NegateConditionals, 8, "year % 400 == 0", "year % 400 != 0"
+4, Math, 5, "year & 0x3", "year | 0x3"
+5, Math, 7, "year % 100", "year * 100"
+6, Math, 8, "year % 400", "year * 400"

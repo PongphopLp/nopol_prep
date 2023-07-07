@@ -1,0 +1,9 @@
+1, Math, 12, "totalLength - value.length()", "totalLength + value.length()"
+2, NegateConditionals, 5, "value == null", "value != null"
+3, NegateConditionals, 8, "value.length() >= totalLength", "value.length() < totalLength"
+4, NegateConditionals, 12, "i < totalLength - value.length()", "i >= totalLength - value.length()"
+5, ConditionalsBoundary, 8, "value.length() >= totalLength", "value.length() > totalLength"
+6, ConditionalsBoundary, 12, "i < totalLength - value.length()", "i <= totalLength - value.length()"
+7, VoidMethodCalls, 13, "sb.append(padding);
+", "DELETED"
+8, Increments, 12, "i++", "i--"

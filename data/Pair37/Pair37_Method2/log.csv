@@ -1,0 +1,5 @@
+1, Increments, 7, "x++", "x--"
+2, ConditionalsBoundary, 7, "x < one.length", "x <= one.length"
+3, NegateConditionals, 5, "one.length != two.length", "one.length == two.length"
+4, NegateConditionals, 7, "x < one.length", "x >= one.length"
+5, NegateConditionals, 8, "one[x] != two[x]", "one[x] == two[x]"

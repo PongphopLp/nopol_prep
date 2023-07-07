@@ -1,0 +1,14 @@
+01, InvertNegatives, 8, "-1", "1"
+02, Math, 7, "off + i", "off - i"
+03, Math, 8, "-1 * v", "-1 / v"
+04, Increments, 6, "i++", "i--"
+05, NegateConditionals, 6, "i < len", "i >= len"
+06, NegateConditionals, 8, "v < 0", "v >= 0"
+07, NegateConditionals, 9, "v < 16", "v >= 16"
+08, VoidMethodCalls, 9, "sb.append('0');
+", "DELETED"
+09, VoidMethodCalls, 10, "sb.append(Integer.toHexString(v));
+", "DELETED"
+10, ConditionalsBoundary, 6, "i < len", "i <= len"
+11, ConditionalsBoundary, 8, "v < 0", "v <= 0"
+12, ConditionalsBoundary, 9, "v < 16", "v <= 16"

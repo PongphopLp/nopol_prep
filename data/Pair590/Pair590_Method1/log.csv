@@ -1,0 +1,7 @@
+1, Math, 8, "1.0 / product", "1.0 * product"
+2, Increments, 7, "exponent++", "exponent--"
+3, Increments, 11, "exponent--", "exponent++"
+4, ConditionalsBoundary, 6, "exponent < 0", "exponent <= 0"
+5, NegateConditionals, 6, "exponent < 0", "exponent >= 0"
+6, NegateConditionals, 7, "exponent != 0", "exponent == 0"
+7, NegateConditionals, 11, "exponent != 0", "exponent == 0"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 8, "i < arr.size()", "i >= arr.size()"
+2, Increments, 8, "i++", "i--"
+3, ConditionalsBoundary, 8, "i < arr.size()", "i <= arr.size()"
+4, Math, 11, "total / size", "total * size"

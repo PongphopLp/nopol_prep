@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < pString.length()", "i <= pString.length()"
+3, ConditionalsBoundary, 6, "pChars.indexOf(pString.charAt(i)) >= 0", "pChars.indexOf(pString.charAt(i)) > 0"
+4, NegateConditionals, 6, "i < pString.length()", "i >= pString.length()"
+5, NegateConditionals, 6, "pChars.indexOf(pString.charAt(i)) >= 0", "pChars.indexOf(pString.charAt(i)) < 0"

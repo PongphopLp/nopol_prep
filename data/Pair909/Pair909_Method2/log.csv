@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 7, "i < start + length", "i <= start + length"
+2, NegateConditionals, 7, "i < start + length", "i >= start + length"
+3, Math, 7, "start + length", "start - length"
+4, Increments, 7, "i++", "i--"
+5, Increments, 9, "j++", "j--"

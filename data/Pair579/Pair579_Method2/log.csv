@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "a == null", "a != null"
+2, NegateConditionals, 5, "b == null", "b != null"
+3, NegateConditionals, 8, "a == null", "a != null"
+4, NegateConditionals, 8, "b != null", "b == null"
+5, NegateConditionals, 11, "a != null", "a == null"
+6, NegateConditionals, 11, "b == null", "b != null"
+7, NegateConditionals, 14, "a.intValue() != b.intValue()", "a.intValue() == b.intValue()"

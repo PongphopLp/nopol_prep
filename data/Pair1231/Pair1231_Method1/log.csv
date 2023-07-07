@@ -1,0 +1,5 @@
+1, Math, 7, ""0" + str1", ""0" - str1"
+2, NegateConditionals, 6, "i < 10", "i >= 10"
+3, NegateConditionals, 6, "i >= 0", "i < 0"
+4, ConditionalsBoundary, 6, "i < 10", "i <= 10"
+5, ConditionalsBoundary, 6, "i >= 0", "i > 0"

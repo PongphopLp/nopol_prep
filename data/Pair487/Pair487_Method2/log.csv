@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "d < 123", "d >= 123"
+2, NegateConditionals, 5, "d > 96", "d <= 96"
+3, NegateConditionals, 5, "d < 91", "d >= 91"
+4, NegateConditionals, 5, "d > 64", "d <= 64"
+5, ConditionalsBoundary, 5, "d < 123", "d <= 123"
+6, ConditionalsBoundary, 5, "d > 96", "d >= 96"
+7, ConditionalsBoundary, 5, "d < 91", "d <= 91"
+8, ConditionalsBoundary, 5, "d > 64", "d >= 64"

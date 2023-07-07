@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 8, "i < ar.length", "i <= ar.length"
+2, ConditionalsBoundary, 9, "m < ar[i]", "m <= ar[i]"
+3, NegateConditionals, 8, "i < ar.length", "i >= ar.length"
+4, NegateConditionals, 9, "m < ar[i]", "m >= ar[i]"
+5, Increments, 8, "++i", "--i"

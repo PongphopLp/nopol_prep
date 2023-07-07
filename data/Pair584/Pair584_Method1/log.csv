@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "val % width == 0", "val % width != 0"
+2, Math, 5, "val % width", "val * width"
+3, Math, 6, "val + (width - (val % width))", "val - (width - (val % width))"
+4, Math, 6, "width - (val % width)", "width + (val % width)"
+5, Math, 6, "val % width", "val * width"

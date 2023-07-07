@@ -1,0 +1,7 @@
+1, Increments, 11, "i++", "i--"
+2, NegateConditionals, 5, "string == null", "string != null"
+3, NegateConditionals, 6, "string.length() == 0", "string.length() != 0"
+4, NegateConditionals, 11, "i < res.size()", "i >= res.size()"
+5, VoidMethodCalls, 9, "res.addElement(stk.nextToken());
+", "DELETED"
+6, ConditionalsBoundary, 11, "i < res.size()", "i <= res.size()"

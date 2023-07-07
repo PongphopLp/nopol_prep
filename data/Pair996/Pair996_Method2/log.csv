@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < toIndex", "i <= toIndex"
+2, NegateConditionals, 6, "i < toIndex", "i >= toIndex"
+3, Increments, 6, "i++", "i--"
+4, Math, 5, "toIndex - fromIndex", "toIndex + fromIndex"
+5, Math, 6, "i - fromIndex", "i + fromIndex"

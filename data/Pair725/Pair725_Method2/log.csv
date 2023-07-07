@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "a[startA] == b[startB]", "a[startA] != b[startB]"
+2, NegateConditionals, 5, "a[startA] == 0", "a[startA] != 0"
+3, Math, 6, "a[startA] - b[startB]", "a[startA] + b[startB]"
+4, Increments, 5, "startA++", "startA--"
+5, Increments, 5, "startB++", "startB--"

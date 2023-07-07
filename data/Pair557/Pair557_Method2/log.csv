@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 8, "index < oneArray.length", "index <= oneArray.length"
+2, Math, 6, "oneArray.length - anotherArray.length", "oneArray.length + anotherArray.length"
+3, Math, 10, "oneArray[index] - anotherArray[index]", "oneArray[index] + anotherArray[index]"
+4, Increments, 8, "index++", "index--"
+5, NegateConditionals, 5, "oneArray.length != anotherArray.length", "oneArray.length == anotherArray.length"
+6, NegateConditionals, 8, "index < oneArray.length", "index >= oneArray.length"
+7, NegateConditionals, 9, "oneArray[index] != anotherArray[index]", "oneArray[index] == anotherArray[index]"

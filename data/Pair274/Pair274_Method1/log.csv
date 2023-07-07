@@ -1,0 +1,4 @@
+1, NegateConditionals, 7, "r < m", "r >= m"
+2, Increments, 7, "r++", "r--"
+3, Math, 8, "v1[r] * v2[r]", "v1[r] / v2[r]"
+4, ConditionalsBoundary, 7, "r < m", "r <= m"

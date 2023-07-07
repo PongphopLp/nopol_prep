@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "file == null", "file != null"
+2, NegateConditionals, 8, "i < list.length", "i >= list.length"
+3, ConditionalsBoundary, 8, "i < list.length", "i <= list.length"
+4, InvertNegatives, 6, "-1", "1"
+5, InvertNegatives, 13, "-1", "1"
+6, Increments, 8, "i++", "i--"

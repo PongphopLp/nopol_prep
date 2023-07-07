@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "d1 == null", "d1 != null"
+2, NegateConditionals, 5, "d2 == null", "d2 != null"
+3, NegateConditionals, 10, "cal1.get(Calendar.DAY_OF_YEAR) == cal2.get(Calendar.DAY_OF_YEAR)", "cal1.get(Calendar.DAY_OF_YEAR) != cal2.get(Calendar.DAY_OF_YEAR)"
+4, NegateConditionals, 10, "cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR)", "cal1.get(Calendar.YEAR) != cal2.get(Calendar.YEAR)"
+5, VoidMethodCalls, 7, "cal1.setTime(d1);
+", "DELETED"
+6, VoidMethodCalls, 9, "cal2.setTime(d2);
+", "DELETED"

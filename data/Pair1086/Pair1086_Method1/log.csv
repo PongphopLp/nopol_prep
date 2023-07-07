@@ -1,0 +1,6 @@
+1, Math, 8, "(data[offset + i] + 256) % 256", "(data[offset + i] + 256) * 256"
+2, Math, 8, "data[offset + i] + 256", "data[offset + i] - 256"
+3, Math, 8, "offset + i", "offset - i"
+4, ConditionalsBoundary, 6, "i < length", "i <= length"
+5, NegateConditionals, 6, "i < length", "i >= length"
+6, Increments, 6, "i++", "i--"

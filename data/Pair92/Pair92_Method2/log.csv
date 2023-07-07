@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "i < attachFileName.size()", "i <= attachFileName.size()"
+2, Math, 9, "text + fileName + ","", "text - fileName - ",""
+3, Math, 12, "text.length() - 1", "text.length() + 1"
+4, Increments, 7, "i++", "i--"
+5, NegateConditionals, 6, "attachFileName != null", "attachFileName == null"
+6, NegateConditionals, 7, "i < attachFileName.size()", "i >= attachFileName.size()"

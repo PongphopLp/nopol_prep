@@ -1,0 +1,7 @@
+1, Math, 9, "a1[i] - a2[i]", "a1[i] + a2[i]"
+2, NegateConditionals, 5, "a1.length != a2.length", "a1.length == a2.length"
+3, NegateConditionals, 8, "i < a1.length", "i >= a1.length"
+4, NegateConditionals, 9, "Math.abs(a1[i] - a2[i]) > precision", "Math.abs(a1[i] - a2[i]) <= precision"
+5, ConditionalsBoundary, 8, "i < a1.length", "i <= a1.length"
+6, ConditionalsBoundary, 9, "Math.abs(a1[i] - a2[i]) > precision", "Math.abs(a1[i] - a2[i]) >= precision"
+7, Increments, 8, "i++", "i--"

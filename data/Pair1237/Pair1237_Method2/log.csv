@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "o == null", "o != null"
+2, NegateConditionals, 11, "ids != null", "ids == null"
+3, NegateConditionals, 11, "0 < ids.length", "0 >= ids.length"
+4, ConditionalsBoundary, 11, "0 < ids.length", "0 <= ids.length"

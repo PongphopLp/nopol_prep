@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 9, "length1 < length2", "length1 <= length2"
+2, ConditionalsBoundary, 19, "i < length", "i <= length"
+3, Increments, 19, "i++", "i--"
+4, NegateConditionals, 9, "length1 < length2", "length1 >= length2"
+5, NegateConditionals, 19, "i < length", "i >= length"
+6, NegateConditionals, 20, "shorter.charAt(i) != longer.charAt(i)", "shorter.charAt(i) == longer.charAt(i)"

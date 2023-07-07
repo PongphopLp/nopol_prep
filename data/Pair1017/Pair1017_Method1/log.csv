@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "k < values.length", "k <= values.length"
+2, Increments, 5, "k++", "k--"
+3, NegateConditionals, 5, "k < values.length", "k >= values.length"
+4, NegateConditionals, 5, "values[0] != values[k]", "values[0] == values[k]"

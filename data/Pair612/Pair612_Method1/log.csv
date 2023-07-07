@@ -1,0 +1,6 @@
+1, Increments, 7, "++i", "--i"
+2, Increments, 10, "bytesCopied++", "bytesCopied--"
+3, NegateConditionals, 7, "i < data.length", "i >= data.length"
+4, ConditionalsBoundary, 7, "i < data.length", "i <= data.length"
+5, VoidMethodCalls, 14, "System.arraycopy(groomedData,0,packedData,0,bytesCopied);
+", "DELETED"

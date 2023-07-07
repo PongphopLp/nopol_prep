@@ -1,0 +1,7 @@
+1, InvertNegatives, 16, "-1", "1"
+2, NegateConditionals, 7, "stepChar < stringLength", "stepChar >= stringLength"
+3, NegateConditionals, 8, "data.charAt(stepChar) == '\\'", "data.charAt(stepChar) != '\\'"
+4, NegateConditionals, 11, "data.charAt(stepChar) == quoteChar", "data.charAt(stepChar) != quoteChar"
+5, ConditionalsBoundary, 7, "stepChar < stringLength", "stepChar <= stringLength"
+6, Increments, 9, "++stepChar", "--stepChar"
+7, Increments, 14, "++stepChar", "--stepChar"

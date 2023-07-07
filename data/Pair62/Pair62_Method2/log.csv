@@ -1,0 +1,13 @@
+01, Increments, 7, "++i", "--i"
+02, NegateConditionals, 7, "i < len", "i >= len"
+03, NegateConditionals, 8, "md5[i] < 0", "md5[i] >= 0"
+04, NegateConditionals, 13, "rs.length() == 1", "rs.length() != 1"
+05, VoidMethodCalls, 9, "res.append(Integer.toHexString(md5[i] + 256));
+", "DELETED"
+06, VoidMethodCalls, 14, "res.append('0');
+", "DELETED"
+07, VoidMethodCalls, 16, "res.append(rs);
+", "DELETED"
+08, Math, 9, "md5[i] + 256", "md5[i] - 256"
+09, ConditionalsBoundary, 7, "i < len", "i <= len"
+10, ConditionalsBoundary, 8, "md5[i] < 0", "md5[i] <= 0"

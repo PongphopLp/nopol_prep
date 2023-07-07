@@ -1,0 +1,4 @@
+1, Increments, 9, "index++", "index--"
+2, NegateConditionals, 7, "shift != 32", "shift == 32"
+3, Math, 8, "(0x000000ff & ((int)array[index])) << shift", "(0x000000ff & ((int)array[index])) >> shift"
+4, Math, 8, "0x000000ff & ((int)array[index])", "0x000000ff | ((int)array[index])"

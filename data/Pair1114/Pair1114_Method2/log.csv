@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "s == null", "s != null"
+2, NegateConditionals, 9, "len <= a_maxChars", "len > a_maxChars"
+3, NegateConditionals, 13, "a_appendToEnd != null", "a_appendToEnd == null"
+4, ConditionalsBoundary, 9, "len <= a_maxChars", "len < a_maxChars"

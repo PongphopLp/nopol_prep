@@ -1,0 +1,9 @@
+1, NegateConditionals, 5, "first == null", "first != null"
+2, NegateConditionals, 5, "second == null", "second != null"
+3, NegateConditionals, 15, "firstCal.get(Calendar.YEAR) == secondCal.get(Calendar.YEAR)", "firstCal.get(Calendar.YEAR) != secondCal.get(Calendar.YEAR)"
+4, NegateConditionals, 15, "firstCal.get(Calendar.MONTH) == secondCal.get(Calendar.MONTH)", "firstCal.get(Calendar.MONTH) != secondCal.get(Calendar.MONTH)"
+5, NegateConditionals, 15, "firstCal.get(Calendar.DAY_OF_MONTH) == secondCal.get(Calendar.DAY_OF_MONTH)", "firstCal.get(Calendar.DAY_OF_MONTH) != secondCal.get(Calendar.DAY_OF_MONTH)"
+6, VoidMethodCalls, 12, "firstCal.setTime(first);
+", "DELETED"
+7, VoidMethodCalls, 14, "secondCal.setTime(second);
+", "DELETED"

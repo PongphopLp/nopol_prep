@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "constructorTypes.length != paramTypes.length", "constructorTypes.length == paramTypes.length"
+2, NegateConditionals, 7, "i < constructorTypes.length", "i >= constructorTypes.length"
+3, Increments, 7, "i++", "i--"
+4, ConditionalsBoundary, 7, "i < constructorTypes.length", "i <= constructorTypes.length"

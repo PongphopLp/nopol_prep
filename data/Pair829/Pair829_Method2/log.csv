@@ -1,0 +1,8 @@
+1, Increments, 8, "i++", "i--"
+2, ConditionalsBoundary, 5, "val.length + off > msg.length", "val.length + off >= msg.length"
+3, ConditionalsBoundary, 8, "i < val.length", "i <= val.length"
+4, Math, 5, "val.length + off", "val.length - off"
+5, Math, 9, "i + off", "i - off"
+6, NegateConditionals, 5, "val.length + off > msg.length", "val.length + off <= msg.length"
+7, NegateConditionals, 8, "i < val.length", "i >= val.length"
+8, NegateConditionals, 9, "val[i] != msg[i + off]", "val[i] == msg[i + off]"

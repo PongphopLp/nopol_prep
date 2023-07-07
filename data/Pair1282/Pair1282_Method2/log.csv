@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "array.length > posicao", "array.length <= posicao"
+2, ConditionalsBoundary, 5, "array.length > posicao", "array.length >= posicao"

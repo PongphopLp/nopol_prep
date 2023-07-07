@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "h < 10", "h <= 10"
+2, ConditionalsBoundary, 10, "m < 10", "m <= 10"
+3, NegateConditionals, 7, "h < 10", "h >= 10"
+4, NegateConditionals, 10, "m < 10", "m >= 10"
+5, Math, 7, ""0" + h", ""0" - h"
+6, Math, 8, """ + h", """ - h"
+7, Math, 10, "":0" + m", "":0" - m"
+8, Math, 11, "":" + m", "":" - m"

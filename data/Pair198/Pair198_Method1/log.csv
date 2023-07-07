@@ -1,0 +1,5 @@
+1, Increments, 6, "start++", "start--"
+2, Increments, 6, "i++", "i--"
+3, ConditionalsBoundary, 5, "i < subBytes.length", "i <= subBytes.length"
+4, NegateConditionals, 5, "i < subBytes.length", "i >= subBytes.length"
+5, NegateConditionals, 6, "bytes[start++] != subBytes[i++]", "bytes[start++] == subBytes[i++]"

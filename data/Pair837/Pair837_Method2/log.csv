@@ -1,0 +1,6 @@
+1, NegateConditionals, 8, "i < res_sent.length()", "i >= res_sent.length()"
+2, NegateConditionals, 10, "cur != '"'", "cur == '"'"
+3, Increments, 8, "i++", "i--"
+4, InvertNegatives, 24, "-1", "1"
+5, ConditionalsBoundary, 8, "i < res_sent.length()", "i <= res_sent.length()"
+6, Math, 18, "str_id + "\">"", "str_id - "\">""

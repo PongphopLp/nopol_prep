@@ -1,0 +1,25 @@
+01, NegateConditionals, 7, "i < len", "i >= len"
+02, ConditionalsBoundary, 7, "i < len", "i <= len"
+03, Increments, 7, "i++", "i--"
+04, VoidMethodCalls, 11, "sb.append("&quot;");
+", "DELETED"
+05, VoidMethodCalls, 14, "sb.append(c);
+", "DELETED"
+06, VoidMethodCalls, 18, "sb.append("&lt;");
+", "DELETED"
+07, VoidMethodCalls, 21, "sb.append(c);
+", "DELETED"
+08, VoidMethodCalls, 25, "sb.append("&gt;");
+", "DELETED"
+09, VoidMethodCalls, 28, "sb.append(c);
+", "DELETED"
+10, VoidMethodCalls, 33, "sb.append("&lt;br&gt;");
+", "DELETED"
+11, VoidMethodCalls, 36, "sb.append("<br>");
+", "DELETED"
+12, VoidMethodCalls, 40, "sb.append(c);
+", "DELETED"
+13, VoidMethodCalls, 44, "sb.append("&amp;");
+", "DELETED"
+14, VoidMethodCalls, 46, "sb.append(c);
+", "DELETED"

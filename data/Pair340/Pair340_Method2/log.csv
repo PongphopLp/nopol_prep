@@ -1,0 +1,13 @@
+1, VoidMethodCalls, 9, "c1.clear();
+", "DELETED"
+2, VoidMethodCalls, 10, "c1.setTime(date1);
+", "DELETED"
+3, VoidMethodCalls, 12, "c2.clear();
+", "DELETED"
+4, VoidMethodCalls, 13, "c2.setTime(date2);
+", "DELETED"
+5, NegateConditionals, 5, "date1 == null", "date1 != null"
+6, NegateConditionals, 5, "date2 == null", "date2 != null"
+7, NegateConditionals, 14, "c1.get(Calendar.DATE) == c2.get(Calendar.DATE)", "c1.get(Calendar.DATE) != c2.get(Calendar.DATE)"
+8, NegateConditionals, 14, "c1.get(Calendar.MONTH) == c2.get(Calendar.MONTH)", "c1.get(Calendar.MONTH) != c2.get(Calendar.MONTH)"
+9, NegateConditionals, 14, "c1.get(Calendar.YEAR) == c2.get(Calendar.YEAR)", "c1.get(Calendar.YEAR) != c2.get(Calendar.YEAR)"

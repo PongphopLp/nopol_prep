@@ -1,0 +1,9 @@
+1, NegateConditionals, 5, "source == null", "source != null"
+2, NegateConditionals, 9, "srclen >= toLen", "srclen < toLen"
+3, NegateConditionals, 14, "i < padLen", "i >= padLen"
+4, ConditionalsBoundary, 9, "srclen >= toLen", "srclen > toLen"
+5, ConditionalsBoundary, 14, "i < padLen", "i <= padLen"
+6, Increments, 14, "i++", "i--"
+7, Math, 11, "toLen - srclen", "toLen + srclen"
+8, VoidMethodCalls, 13, "System.arraycopy(source.toCharArray(),0,result,padLen,srclen);
+", "DELETED"

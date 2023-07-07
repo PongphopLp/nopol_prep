@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "left == right", "left != right"
+2, NegateConditionals, 6, "left == null", "left != null"
+3, NegateConditionals, 6, "right == null", "right != null"
+4, NegateConditionals, 7, "left.getClass() == right.getClass()", "left.getClass() != right.getClass()"

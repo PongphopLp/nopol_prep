@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "current < bytes.length", "current <= bytes.length"
+2, Increments, 5, "current++", "current--"
+3, NegateConditionals, 5, "current < bytes.length", "current >= bytes.length"
+4, NegateConditionals, 6, "bytes[current] == 0", "bytes[current] != 0"

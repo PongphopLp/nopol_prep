@@ -1,0 +1,8 @@
+1, Increments, 17, "i++", "i--"
+2, ConditionalsBoundary, 17, "i < ch1.length", "i <= ch1.length"
+3, NegateConditionals, 5, "ch1 == null", "ch1 != null"
+4, NegateConditionals, 6, "ch2 == null", "ch2 != null"
+5, NegateConditionals, 13, "ch2 == null", "ch2 != null"
+6, NegateConditionals, 16, "ch1.length != ch2.length", "ch1.length == ch2.length"
+7, NegateConditionals, 17, "i < ch1.length", "i >= ch1.length"
+8, NegateConditionals, 18, "ch1[i] != ch2[i]", "ch1[i] == ch2[i]"

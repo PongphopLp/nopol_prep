@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "inicial == null", "inicial != null"
+2, NegateConditionals, 7, "comprimentoInicial == comprimentoTotal", "comprimentoInicial != comprimentoTotal"
+3, NegateConditionals, 9, "i < (comprimentoTotal - comprimentoInicial)", "i >= (comprimentoTotal - comprimentoInicial)"
+4, VoidMethodCalls, 10, "sb.append(adicionar);
+", "DELETED"
+5, ConditionalsBoundary, 9, "i < (comprimentoTotal - comprimentoInicial)", "i <= (comprimentoTotal - comprimentoInicial)"
+6, Math, 9, "comprimentoTotal - comprimentoInicial", "comprimentoTotal + comprimentoInicial"
+7, Increments, 9, "i++", "i--"

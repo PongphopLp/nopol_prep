@@ -1,0 +1,12 @@
+1, VoidMethodCalls, 7, "Collections.sort(mapValues);
+", "DELETED"
+2, VoidMethodCalls, 8, "Collections.sort(mapKeys);
+", "DELETED"
+3, VoidMethodCalls, 10, "Collections.reverse(mapValues);
+", "DELETED"
+4, VoidMethodCalls, 20, "passedMap.remove(key);
+", "DELETED"
+5, VoidMethodCalls, 21, "mapKeys.remove(key);
+", "DELETED"
+6, VoidMethodCalls, 22, "someMap.put(key,val);
+", "DELETED"

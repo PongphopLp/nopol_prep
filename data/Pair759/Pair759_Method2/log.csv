@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "b >= 0", "b > 0"
+2, ConditionalsBoundary, 6, "s >= a", "s > a"
+3, ConditionalsBoundary, 7, "s < a", "s <= a"
+4, Math, 5, "a + b", "a - b"
+5, NegateConditionals, 6, "b >= 0", "b < 0"
+6, NegateConditionals, 6, "s >= a", "s < a"
+7, NegateConditionals, 7, "s < a", "s >= a"

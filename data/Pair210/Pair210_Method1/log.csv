@@ -1,0 +1,4 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < len", "i <= len"
+3, NegateConditionals, 6, "i < len", "i >= len"
+4, NegateConditionals, 7, "pattern1[i] != pattern2[i]", "pattern1[i] == pattern2[i]"

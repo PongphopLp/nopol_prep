@@ -1,0 +1,3 @@
+1, Math, 5, "args.length - 1", "args.length + 1"
+2, ConditionalsBoundary, 6, "argIndex > lastIndex", "argIndex >= lastIndex"
+3, NegateConditionals, 6, "argIndex > lastIndex", "argIndex <= lastIndex"

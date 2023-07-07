@@ -1,0 +1,13 @@
+01, Math, 20, "pos + needle.length()", "pos - needle.length()"
+02, VoidMethodCalls, 18, "result.append(haystack.substring(searchPos,pos));
+", "DELETED"
+03, VoidMethodCalls, 19, "result.append(replacement);
+", "DELETED"
+04, VoidMethodCalls, 25, "result.append(haystack.substring(searchPos));
+", "DELETED"
+05, InvertNegatives, 12, "-1", "1"
+06, NegateConditionals, 5, "needle == null", "needle != null"
+07, NegateConditionals, 5, "needle.length() == 0", "needle.length() != 0"
+08, NegateConditionals, 12, "pos == -1", "pos != -1"
+09, NegateConditionals, 15, "result == null", "result != null"
+10, NegateConditionals, 22, "result == null", "result != null"

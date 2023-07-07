@@ -1,0 +1,8 @@
+1, InvertNegatives, 6, "-1", "1"
+2, InvertNegatives, 7, "-1", "1"
+3, InvertNegatives, 9, "-1", "1"
+4, NegateConditionals, 7, "beginpos != -1", "beginpos == -1"
+5, NegateConditionals, 9, "endpos != -1", "endpos == -1"
+6, Math, 8, "beginpos + beginString.length()", "beginpos - beginString.length()"
+7, Math, 10, "beginpos + beginString.length()", "beginpos - beginString.length()"
+8, Math, 10, "beginpos + beginString.length() + endpos", "beginpos - beginString.length() - endpos"

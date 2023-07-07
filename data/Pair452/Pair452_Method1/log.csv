@@ -1,0 +1,11 @@
+1, NegateConditionals, 6, "idx > 0", "idx <= 0"
+2, NegateConditionals, 9, "idx < newVals.length", "idx >= newVals.length"
+3, VoidMethodCalls, 7, "System.arraycopy(vals,0,newVals,0,idx);
+", "DELETED"
+4, VoidMethodCalls, 10, "System.arraycopy(vals,idx + 1,newVals,idx,newVals.length - idx);
+", "DELETED"
+5, Math, 5, "vals.length - 1", "vals.length + 1"
+6, Math, 10, "idx + 1", "idx - 1"
+7, Math, 10, "newVals.length - idx", "newVals.length + idx"
+8, ConditionalsBoundary, 6, "idx > 0", "idx >= 0"
+9, ConditionalsBoundary, 9, "idx < newVals.length", "idx <= newVals.length"

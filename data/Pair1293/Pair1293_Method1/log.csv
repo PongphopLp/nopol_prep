@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "inicio.compareTo(ponto) <= 0", "inicio.compareTo(ponto) > 0"
+2, NegateConditionals, 5, "fim.compareTo(ponto) >= 0", "fim.compareTo(ponto) < 0"
+3, ConditionalsBoundary, 5, "inicio.compareTo(ponto) <= 0", "inicio.compareTo(ponto) < 0"
+4, ConditionalsBoundary, 5, "fim.compareTo(ponto) >= 0", "fim.compareTo(ponto) > 0"

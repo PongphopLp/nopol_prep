@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 9, "length > 0", "length >= 0"
+2, NegateConditionals, 6, "length != oid2.length", "length == oid2.length"
+3, NegateConditionals, 9, "length > 0", "length <= 0"
+4, NegateConditionals, 10, "oid1[--length] != oid2[length]", "oid1[--length] == oid2[length]"
+5, Increments, 10, "--length", "++length"

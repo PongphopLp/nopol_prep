@@ -1,0 +1,13 @@
+01, Increments, 20, "difAnos--", "difAnos++"
+02, Math, 12, "anosFin - anosInicio", "anosFin + anosInicio"
+03, Math, 15, "mesFin - mesInicio", "mesFin + mesInicio"
+04, Math, 18, "diaFin - diaInicio", "diaFin + diaInicio"
+05, VoidMethodCalls, 8, "calFechaFin.setTime(FechaFin);
+", "DELETED"
+06, VoidMethodCalls, 9, "calFechaInicio.setTime(FechaInicio);
+", "DELETED"
+07, NegateConditionals, 19, "difMeses < 0", "difMeses >= 0"
+08, NegateConditionals, 19, "difMeses == 0", "difMeses != 0"
+09, NegateConditionals, 19, "difDias < 0", "difDias >= 0"
+10, ConditionalsBoundary, 19, "difMeses < 0", "difMeses <= 0"
+11, ConditionalsBoundary, 19, "difDias < 0", "difDias <= 0"

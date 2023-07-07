@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 9, "Arrays.fill(pad,c);
+", "DELETED"
+2, NegateConditionals, 5, "length <= s.length()", "length > s.length()"
+3, Math, 8, "length - s.length()", "length + s.length()"
+4, Math, 10, "new String(pad) + s", "new String(pad) - s"
+5, ConditionalsBoundary, 5, "length <= s.length()", "length < s.length()"

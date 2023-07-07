@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "i < str1.length", "i <= str1.length"
+2, Increments, 7, "i++", "i--"
+3, NegateConditionals, 5, "str1 == null", "str1 != null"
+4, NegateConditionals, 5, "str2 == null", "str2 != null"
+5, NegateConditionals, 6, "str1.length != str2.length", "str1.length == str2.length"
+6, NegateConditionals, 7, "i < str1.length", "i >= str1.length"

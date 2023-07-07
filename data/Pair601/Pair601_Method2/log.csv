@@ -1,0 +1,7 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < 8", "i >= 8"
+3, Math, 7, "(7 - i) * 8", "(7 - i) / 8"
+4, Math, 7, "7 - i", "7 + i"
+5, Math, 8, "(long)(b[i] & 0x00000000000000FF) << shift", "(long)(b[i] & 0x00000000000000FF) >> shift"
+6, Math, 8, "b[i] & 0x00000000000000FF", "b[i] | 0x00000000000000FF"
+7, ConditionalsBoundary, 6, "i < 8", "i <= 8"

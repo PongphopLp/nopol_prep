@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "i < length", "i <= length"
+2, ConditionalsBoundary, 7, "source.length > offset + i", "source.length >= offset + i"
+3, Math, 7, "offset + i", "offset - i"
+4, Math, 8, "offset + i", "offset - i"
+5, NegateConditionals, 6, "i < length", "i >= length"
+6, NegateConditionals, 7, "source.length > offset + i", "source.length <= offset + i"
+7, Increments, 6, "i++", "i--"

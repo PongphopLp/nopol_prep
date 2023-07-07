@@ -1,0 +1,9 @@
+1, VoidMethodCalls, 11, "System.arraycopy(array,0,copy,0,Math.min(oldData.length,newCapacity));
+", "DELETED"
+2, ConditionalsBoundary, 6, "minCapacity > oldCapacity", "minCapacity >= oldCapacity"
+3, ConditionalsBoundary, 9, "newCapacity < minCapacity", "newCapacity <= minCapacity"
+4, Math, 8, "(oldCapacity * 3) / 2 + 1", "(oldCapacity * 3) / 2 - 1"
+5, Math, 8, "(oldCapacity * 3) / 2", "(oldCapacity * 3) * 2"
+6, Math, 8, "oldCapacity * 3", "oldCapacity / 3"
+7, NegateConditionals, 6, "minCapacity > oldCapacity", "minCapacity <= oldCapacity"
+8, NegateConditionals, 9, "newCapacity < minCapacity", "newCapacity >= minCapacity"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "left.length == right.length", "left.length != right.length"
+2, NegateConditionals, 7, "i < left.length", "i >= left.length"
+3, NegateConditionals, 8, "left[i] == null", "left[i] != null"
+4, NegateConditionals, 8, "right[i] == null", "right[i] != null"
+5, NegateConditionals, 8, "left[i] != null", "left[i] == null"
+6, Increments, 7, "i++", "i--"
+7, ConditionalsBoundary, 7, "i < left.length", "i <= left.length"

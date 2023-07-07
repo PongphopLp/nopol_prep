@@ -1,0 +1,7 @@
+1, Math, 8, "num - iLen", "num + iLen"
+2, Math, 8, "pad + sStr", "pad - sStr"
+3, NegateConditionals, 7, "iLen < num", "iLen >= num"
+4, NegateConditionals, 8, "i <= num - iLen", "i > num - iLen"
+5, ConditionalsBoundary, 7, "iLen < num", "iLen <= num"
+6, ConditionalsBoundary, 8, "i <= num - iLen", "i < num - iLen"
+7, Increments, 8, "i++", "i--"

@@ -1,0 +1,16 @@
+01, Math, 10, "n - strLength", "n + strLength"
+02, NegateConditionals, 7, "n > 0", "n <= 0"
+03, NegateConditionals, 7, "n > strLength", "n <= strLength"
+04, NegateConditionals, 8, "i <= n", "i > n"
+05, NegateConditionals, 10, "i < n - strLength", "i >= n - strLength"
+06, NegateConditionals, 13, "i > strLength", "i <= strLength"
+07, ConditionalsBoundary, 7, "n > 0", "n >= 0"
+08, ConditionalsBoundary, 7, "n > strLength", "n >= strLength"
+09, ConditionalsBoundary, 8, "i <= n", "i < n"
+10, ConditionalsBoundary, 10, "i < n - strLength", "i <= n - strLength"
+11, ConditionalsBoundary, 13, "i > strLength", "i >= strLength"
+12, VoidMethodCalls, 10, "str.insert(0,c);
+", "DELETED"
+13, VoidMethodCalls, 13, "str.append(c);
+", "DELETED"
+14, Increments, 8, "i++", "i--"

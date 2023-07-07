@@ -1,0 +1,16 @@
+01, Math, 25, "iPos + iOldLen", "iPos - iOldLen"
+02, NegateConditionals, 6, "szSrc == null", "szSrc != null"
+03, NegateConditionals, 11, "szOld == null", "szOld != null"
+04, NegateConditionals, 14, "szNew == null", "szNew != null"
+05, NegateConditionals, 22, "(iPos=szTmp.indexOf(szOld,iStart)) > -1", "(iPos=szTmp.indexOf(szOld,iStart)) <= -1"
+06, NegateConditionals, 27, "iStart < iSrcLen", "iStart >= iSrcLen"
+07, InvertNegatives, 20, "-1", "1"
+08, InvertNegatives, 22, "-1", "1"
+09, ConditionalsBoundary, 22, "(iPos=szTmp.indexOf(szOld,iStart)) > -1", "(iPos=szTmp.indexOf(szOld,iStart)) >= -1"
+10, ConditionalsBoundary, 27, "iStart < iSrcLen", "iStart <= iSrcLen"
+11, VoidMethodCalls, 23, "sb.append(szTmp.substring(iStart,iPos));
+", "DELETED"
+12, VoidMethodCalls, 24, "sb.append(szNew);
+", "DELETED"
+13, VoidMethodCalls, 28, "sb.append(szTmp.substring(iStart));
+", "DELETED"

@@ -1,0 +1,8 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < d1.length", "i <= d1.length"
+3, ConditionalsBoundary, 6, "i + o >= d2.length", "i + o > d2.length"
+4, Math, 6, "i + o", "i - o"
+5, Math, 7, "o + i", "o - i"
+6, NegateConditionals, 5, "i < d1.length", "i >= d1.length"
+7, NegateConditionals, 6, "i + o >= d2.length", "i + o < d2.length"
+8, NegateConditionals, 7, "d1[i] != d2[o + i]", "d1[i] == d2[o + i]"

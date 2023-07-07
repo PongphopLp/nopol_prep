@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "value == 1", "value != 1"
+2, NegateConditionals, 8, "value == 2", "value != 2"
+3, NegateConditionals, 11, "value == 3", "value != 3"
+4, Math, 15, "value + "th"", "value - "th""

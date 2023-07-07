@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 8, "list.append(iter.next());
+", "DELETED"
+2, VoidMethodCalls, 10, "list.append(separator);
+", "DELETED"
+3, VoidMethodCalls, 11, "list.append(iter.next());
+", "DELETED"

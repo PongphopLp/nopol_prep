@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < len", "i <= len"
+2, NegateConditionals, 6, "i < len", "i >= len"
+3, Math, 7, "i + off", "i - off"
+4, Increments, 6, "i++", "i--"

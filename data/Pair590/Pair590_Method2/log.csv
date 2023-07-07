@@ -1,0 +1,4 @@
+1, Math, 8, "base * base", "base / base"
+2, Math, 9, "base * base * base", "base / base / base"
+3, Math, 10, "base * base * base* base", "base / base / base/ base"
+4, PrimitiveReturns, 6, "1.0", "0"

@@ -1,0 +1,11 @@
+1, VoidMethodCalls, 7, "sb.append(Integer.toHexString(256 + b));
+", "DELETED"
+2, VoidMethodCalls, 8, "sb.append("0").append(Integer.toHexString(b));
+", "DELETED"
+3, VoidMethodCalls, 9, "sb.append(Integer.toHexString(b));
+", "DELETED"
+4, ConditionalsBoundary, 7, "b < 0", "b <= 0"
+5, ConditionalsBoundary, 8, "b < 16", "b <= 16"
+6, Math, 7, "256 + b", "256 - b"
+7, NegateConditionals, 7, "b < 0", "b >= 0"
+8, NegateConditionals, 8, "b < 16", "b >= 16"

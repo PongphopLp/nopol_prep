@@ -1,0 +1,8 @@
+1, NegateConditionals, 7, "pos < len", "pos >= len"
+2, NegateConditionals, 7, "(ch=uri.charAt(pos)) != ':'", "(ch=uri.charAt(pos)) == ':'"
+3, NegateConditionals, 7, "ch != '/'", "ch == '/'"
+4, NegateConditionals, 7, "ch != '?'", "ch == '?'"
+5, NegateConditionals, 7, "ch != '#'", "ch == '#'"
+6, NegateConditionals, 8, "ch == ':'", "ch != ':'"
+7, Increments, 7, "pos++", "pos--"
+8, ConditionalsBoundary, 7, "pos < len", "pos <= len"

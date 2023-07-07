@@ -1,0 +1,4 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < bitLength", "i >= bitLength"
+3, Math, 7, "i + bitOffset", "i - bitOffset"
+4, ConditionalsBoundary, 6, "i < bitLength", "i <= bitLength"

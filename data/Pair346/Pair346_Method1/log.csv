@@ -1,0 +1,9 @@
+1, NegateConditionals, 15, "date1Year == date2Year", "date1Year != date2Year"
+2, NegateConditionals, 15, "date1Month == date2Month", "date1Month != date2Month"
+3, NegateConditionals, 15, "date1Day == date2Day", "date1Day != date2Day"
+4, VoidMethodCalls, 7, "cal1.setTime(date1);
+", "DELETED"
+5, VoidMethodCalls, 8, "cal2.setTime(date2);
+", "DELETED"
+6, Math, 10, "cal1.get(Calendar.MONTH) + 1", "cal1.get(Calendar.MONTH) - 1"
+7, Math, 13, "cal2.get(Calendar.MONTH) + 1", "cal2.get(Calendar.MONTH) - 1"

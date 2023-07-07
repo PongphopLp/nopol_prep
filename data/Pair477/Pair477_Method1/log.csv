@@ -1,0 +1,3 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 6, "str.trim().length() == 0", "str.trim().length() != 0"
+3, NegateConditionals, 7, "str.length() == 0", "str.length() != 0"

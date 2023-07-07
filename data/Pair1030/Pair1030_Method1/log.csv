@@ -1,0 +1,5 @@
+1, Increments, 8, "i++", "i--"
+2, ConditionalsBoundary, 8, "i < password.length", "i <= password.length"
+3, NegateConditionals, 5, "password.length != verifyPassword.length", "password.length == verifyPassword.length"
+4, NegateConditionals, 8, "i < password.length", "i >= password.length"
+5, NegateConditionals, 9, "password[i] != verifyPassword[i]", "password[i] == verifyPassword[i]"

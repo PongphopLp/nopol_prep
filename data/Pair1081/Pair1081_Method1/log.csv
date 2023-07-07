@@ -1,0 +1,6 @@
+1, Math, 10, "(buffer[i++] & 0xff) << shift", "(buffer[i++] & 0xff) >> shift"
+2, Math, 10, "buffer[i++] & 0xff", "buffer[i++] | 0xff"
+3, Increments, 9, "--length", "++length"
+4, Increments, 10, "i++", "i--"
+5, NegateConditionals, 9, "--length >= 0", "--length < 0"
+6, ConditionalsBoundary, 9, "--length >= 0", "--length > 0"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < 8", "i <= 8"
+2, NegateConditionals, 6, "i < 8", "i >= 8"
+3, Increments, 6, "i++", "i--"
+4, Math, 8, "array[7 - i + offset] & 0xFF", "array[7 - i + offset] | 0xFF"
+5, Math, 8, "7 - i + offset", "7 - i - offset"
+6, Math, 8, "7 - i", "7 + i"

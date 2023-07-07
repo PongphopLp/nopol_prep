@@ -1,0 +1,4 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < array1.length", "i <= array1.length"
+3, NegateConditionals, 5, "i < array1.length", "i >= array1.length"
+4, NegateConditionals, 6, "array1[i] != array2[i]", "array1[i] == array2[i]"

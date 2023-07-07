@@ -1,0 +1,13 @@
+01, NegateConditionals, 5, "fldNames != null", "fldNames == null"
+02, NegateConditionals, 5, "fldValues != null", "fldValues == null"
+03, NegateConditionals, 5, "seperator != null", "seperator == null"
+04, NegateConditionals, 5, "fldNames.length == fldValues.length", "fldNames.length != fldValues.length"
+05, NegateConditionals, 7, "i < fldNames.length", "i >= fldNames.length"
+06, NegateConditionals, 9, "i != fldNames.length - 1", "i == fldNames.length - 1"
+07, Increments, 7, "i++", "i--"
+08, ConditionalsBoundary, 7, "i < fldNames.length", "i <= fldNames.length"
+09, Math, 9, "fldNames.length - 1", "fldNames.length + 1"
+10, VoidMethodCalls, 8, "result.append(fldNames[i]).append(fldValues[i]);
+", "DELETED"
+11, VoidMethodCalls, 10, "result.append(seperator);
+", "DELETED"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < len", "i >= len"
+2, NegateConditionals, 7, "s1[i] != s2[i]", "s1[i] == s2[i]"
+3, Increments, 6, "i++", "i--"
+4, ConditionalsBoundary, 6, "i < len", "i <= len"

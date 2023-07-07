@@ -1,0 +1,5 @@
+1, Increments, 10, "index++", "index--"
+2, NegateConditionals, 7, "s1.length == s2.length", "s1.length != s2.length"
+3, NegateConditionals, 8, "index < s1.length", "index >= s1.length"
+4, NegateConditionals, 16, "index == s1.length", "index != s1.length"
+5, ConditionalsBoundary, 8, "index < s1.length", "index <= s1.length"

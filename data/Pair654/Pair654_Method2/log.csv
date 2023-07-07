@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "value < lower", "value >= lower"
+2, NegateConditionals, 6, "value > upper", "value <= upper"
+3, ConditionalsBoundary, 5, "value < lower", "value <= lower"
+4, ConditionalsBoundary, 6, "value > upper", "value >= upper"

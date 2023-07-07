@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "one != null", "one == null"
+2, NegateConditionals, 5, "two != null", "two == null"
+3, NegateConditionals, 6, "one.get(Calendar.YEAR) == two.get(Calendar.YEAR)", "one.get(Calendar.YEAR) != two.get(Calendar.YEAR)"
+4, NegateConditionals, 6, "one.get(Calendar.DAY_OF_YEAR) == two.get(Calendar.DAY_OF_YEAR)", "one.get(Calendar.DAY_OF_YEAR) != two.get(Calendar.DAY_OF_YEAR)"

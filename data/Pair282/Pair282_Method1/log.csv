@@ -1,0 +1,4 @@
+1, Math, 7, "wektorA[i] ^ wektorB[i]", "wektorA[i] & wektorB[i]"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 6, "i < rozmiarBloku", "i >= rozmiarBloku"
+4, ConditionalsBoundary, 6, "i < rozmiarBloku", "i <= rozmiarBloku"

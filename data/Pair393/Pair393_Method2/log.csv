@@ -1,0 +1,8 @@
+1, Math, 8, "width - original.length()", "width + original.length()"
+2, VoidMethodCalls, 14, "Arrays.fill(ch,padChar);
+", "DELETED"
+3, VoidMethodCalls, 15, "sb.insert(0,ch);
+", "DELETED"
+4, NegateConditionals, 5, "original == null", "original != null"
+5, NegateConditionals, 9, "padding <= 0", "padding > 0"
+6, ConditionalsBoundary, 9, "padding <= 0", "padding < 0"

@@ -1,0 +1,16 @@
+01, NegateConditionals, 6, "needed <= 0", "needed > 0"
+02, VoidMethodCalls, 12, "java.util.Arrays.fill(prepadding,c);
+", "DELETED"
+03, VoidMethodCalls, 14, "java.util.Arrays.fill(postpadding,c);
+", "DELETED"
+04, VoidMethodCalls, 16, "sb.append(prepadding);
+", "DELETED"
+05, VoidMethodCalls, 17, "sb.append(s);
+", "DELETED"
+06, VoidMethodCalls, 18, "sb.append(postpadding);
+", "DELETED"
+07, Math, 5, "length - s.length()", "length + s.length()"
+08, Math, 9, "needed / 2", "needed * 2"
+09, Math, 10, "beginning + needed % 2", "beginning - needed % 2"
+10, Math, 10, "needed % 2", "needed * 2"
+11, ConditionalsBoundary, 6, "needed <= 0", "needed < 0"

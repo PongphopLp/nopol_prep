@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "date1 == null", "date1 != null"
+2, NegateConditionals, 5, "date2 == null", "date2 != null"
+3, NegateConditionals, 8, "date1.getYear() == date2.getYear()", "date1.getYear() != date2.getYear()"
+4, NegateConditionals, 8, "date1.getMonth() == date2.getMonth()", "date1.getMonth() != date2.getMonth()"
+5, NegateConditionals, 8, "date1.getDate() == date2.getDate()", "date1.getDate() != date2.getDate()"

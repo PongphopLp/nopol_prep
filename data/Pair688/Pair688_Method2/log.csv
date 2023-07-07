@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "i < 4", "i >= 4"
+2, Increments, 6, "i++", "i--"
+3, Math, 6, "((long)value[i + offset] & 0xFF) << (8 * i)", "((long)value[i + offset] & 0xFF) >> (8 * i)"
+4, Math, 6, "(long)value[i + offset] & 0xFF", "(long)value[i + offset] | 0xFF"
+5, Math, 6, "i + offset", "i - offset"
+6, Math, 6, "8 * i", "8 / i"
+7, ConditionalsBoundary, 6, "i < 4", "i <= 4"

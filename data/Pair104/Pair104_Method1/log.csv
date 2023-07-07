@@ -1,0 +1,6 @@
+1, Increments, 8, "i++", "i--"
+2, ConditionalsBoundary, 5, "prefix.length > array.length", "prefix.length >= array.length"
+3, ConditionalsBoundary, 8, "i < prefix.length", "i <= prefix.length"
+4, NegateConditionals, 5, "prefix.length > array.length", "prefix.length <= array.length"
+5, NegateConditionals, 8, "i < prefix.length", "i >= prefix.length"
+6, NegateConditionals, 9, "array[i] != prefix[i]", "array[i] == prefix[i]"

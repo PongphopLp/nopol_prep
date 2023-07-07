@@ -1,0 +1,6 @@
+1, NegateConditionals, 8, "ca.length < cb.length", "ca.length >= cb.length"
+2, NegateConditionals, 9, "i < len", "i >= len"
+3, NegateConditionals, 9, "ca[i] != cb[i]", "ca[i] == cb[i]"
+4, Increments, 9, "i++", "i--"
+5, ConditionalsBoundary, 8, "ca.length < cb.length", "ca.length <= cb.length"
+6, ConditionalsBoundary, 9, "i < len", "i <= len"

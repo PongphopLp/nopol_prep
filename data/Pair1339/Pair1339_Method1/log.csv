@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < s.length()", "i >= s.length()"
+2, ConditionalsBoundary, 6, "i < s.length()", "i <= s.length()"
+3, Math, 5, "s.length() / 2", "s.length() * 2"
+4, Math, 7, "i / 2", "i * 2"
+5, Math, 7, "i + 2", "i - 2"

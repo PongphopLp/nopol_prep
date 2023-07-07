@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "s.length() < t.length()", "s.length() >= t.length()"
+2, NegateConditionals, 8, "i < MAX", "i >= MAX"
+3, NegateConditionals, 9, "s.charAt(i) != t.charAt(i)", "s.charAt(i) == t.charAt(i)"
+4, ConditionalsBoundary, 6, "s.length() < t.length()", "s.length() <= t.length()"
+5, ConditionalsBoundary, 8, "i < MAX", "i <= MAX"
+6, Increments, 10, "i++", "i--"

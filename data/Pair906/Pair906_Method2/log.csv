@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "ch >= 0x20", "ch < 0x20"
+2, NegateConditionals, 6, "ch == 0x9", "ch != 0x9"
+3, NegateConditionals, 6, "ch == 0xA", "ch != 0xA"
+4, NegateConditionals, 6, "ch == 0xD", "ch != 0xD"
+5, ConditionalsBoundary, 5, "ch >= 0x20", "ch > 0x20"

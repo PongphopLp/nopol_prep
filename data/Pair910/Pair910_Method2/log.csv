@@ -1,0 +1,3 @@
+1, VoidMethodCalls, 11, "System.arraycopy(pBytes,0,lNewBuffer,0,pLength);
+", "DELETED"
+2, NegateConditionals, 6, "pBytes.length == pLength", "pBytes.length != pLength"

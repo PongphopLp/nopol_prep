@@ -1,0 +1,13 @@
+01, NegateConditionals, 11, "count < wanted", "count >= wanted"
+02, NegateConditionals, 12, "delim >= l", "delim < l"
+03, NegateConditionals, 12, "s.charAt(delim) == delimChar", "s.charAt(delim) != delimChar"
+04, NegateConditionals, 16, "delim >= l", "delim < l"
+05, NegateConditionals, 27, "count != wanted", "count == wanted"
+06, ConditionalsBoundary, 11, "count < wanted", "count <= wanted"
+07, ConditionalsBoundary, 12, "delim >= l", "delim > l"
+08, ConditionalsBoundary, 16, "delim >= l", "delim > l"
+09, Increments, 13, "count++", "count--"
+10, Increments, 14, "++delim", "--delim"
+11, Increments, 19, "++delim", "--delim"
+12, VoidMethodCalls, 24, "e.printStackTrace(System.err);
+", "DELETED"

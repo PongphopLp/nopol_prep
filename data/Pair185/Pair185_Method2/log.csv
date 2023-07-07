@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "val < new Integer(boundries[0])", "val >= new Integer(boundries[0])"
+2, NegateConditionals, 6, "val > new Integer(boundries[1])", "val <= new Integer(boundries[1])"
+3, ConditionalsBoundary, 6, "val < new Integer(boundries[0])", "val <= new Integer(boundries[0])"
+4, ConditionalsBoundary, 6, "val > new Integer(boundries[1])", "val >= new Integer(boundries[1])"

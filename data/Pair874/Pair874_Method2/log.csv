@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "i < length", "i >= length"
+2, NegateConditionals, 6, "gcrData[from + i] != gcrData[to + i]", "gcrData[from + i] == gcrData[to + i]"
+3, ConditionalsBoundary, 5, "i < length", "i <= length"
+4, Math, 6, "from + i", "from - i"
+5, Math, 6, "to + i", "to - i"
+6, Increments, 5, "i++", "i--"

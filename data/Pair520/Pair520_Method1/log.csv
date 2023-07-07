@@ -1,0 +1,5 @@
+1, Increments, 12, "nPoints++", "nPoints--"
+2, NegateConditionals, 12, "nPoints < numInstances", "nPoints >= numInstances"
+3, NegateConditionals, 13, "firstClass != classes.get(nPoints)", "firstClass == classes.get(nPoints)"
+4, NegateConditionals, 13, "isDivisible == false", "isDivisible != false"
+5, ConditionalsBoundary, 12, "nPoints < numInstances", "nPoints <= numInstances"

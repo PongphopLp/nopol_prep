@@ -1,0 +1,7 @@
+1, NegateConditionals, 7, "coords[i] + 1 >= sizes[i]", "coords[i] + 1 < sizes[i]"
+2, NegateConditionals, 8, "i == 0", "i != 0"
+3, Increments, 6, "i--", "i++"
+4, Increments, 12, "coords[i]++", "coords[i]--"
+5, ConditionalsBoundary, 7, "coords[i] + 1 >= sizes[i]", "coords[i] + 1 > sizes[i]"
+6, Math, 6, "coords.length - 1", "coords.length + 1"
+7, Math, 7, "coords[i] + 1", "coords[i] - 1"

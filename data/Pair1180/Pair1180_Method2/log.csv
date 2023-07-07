@@ -1,0 +1,10 @@
+1, VoidMethodCalls, 9, "buf.append(text.substring(start,end)).append(with);
+", "DELETED"
+2, VoidMethodCalls, 15, "buf.append(text.substring(start));
+", "DELETED"
+3, InvertNegatives, 8, "-1", "1"
+4, Math, 10, "end + repl.length()", "end - repl.length()"
+5, Increments, 11, "--max", "++max"
+6, NegateConditionals, 5, "text == null", "text != null"
+7, NegateConditionals, 8, "(end=text.indexOf(repl,start)) != -1", "(end=text.indexOf(repl,start)) == -1"
+8, NegateConditionals, 11, "--max == 0", "--max != 0"

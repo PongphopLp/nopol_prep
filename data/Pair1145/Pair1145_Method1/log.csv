@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < a.length", "i <= a.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < a.length", "i >= a.length"
+4, NegateConditionals, 6, "a[i] == null", "a[i] != null"
+5, NegateConditionals, 7, "val == null", "val != null"

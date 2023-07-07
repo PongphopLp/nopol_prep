@@ -1,0 +1,9 @@
+1, Math, 11, "array1.length + array2.length", "array1.length - array2.length"
+2, VoidMethodCalls, 12, "System.arraycopy(array1,0,newArr,0,array1.length);
+", "DELETED"
+3, VoidMethodCalls, 13, "System.arraycopy(array2,0,newArr,array1.length,array2.length);
+", "DELETED"
+4, NegateConditionals, 5, "array1 == null", "array1 != null"
+5, NegateConditionals, 5, "array1.length == 0", "array1.length != 0"
+6, NegateConditionals, 8, "array2 == null", "array2 != null"
+7, NegateConditionals, 8, "array2.length == 0", "array2.length != 0"

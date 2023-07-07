@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "one == null", "one != null"
+2, NegateConditionals, 5, "two == null", "two != null"
+3, NegateConditionals, 8, "one.length != two.length", "one.length == two.length"
+4, NegateConditionals, 13, "byteCount < length", "byteCount >= length"
+5, NegateConditionals, 14, "one[byteCount] != two[byteCount]", "one[byteCount] == two[byteCount]"
+6, Increments, 17, "++byteCount", "--byteCount"
+7, ConditionalsBoundary, 13, "byteCount < length", "byteCount <= length"

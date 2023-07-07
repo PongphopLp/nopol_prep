@@ -1,0 +1,16 @@
+01, ConditionalsBoundary, 14, "lastPos < s.length()", "lastPos <= s.length()"
+02, NegateConditionals, 8, "s.length() == 0", "s.length() != 0"
+03, NegateConditionals, 8, "separator == '\0'", "separator != '\0'"
+04, NegateConditionals, 8, "limit == 0", "limit != 0"
+05, NegateConditionals, 12, "(pos=s.indexOf(separator,pos)) != -1", "(pos=s.indexOf(separator,pos)) == -1"
+06, NegateConditionals, 13, "count == limit", "count != limit"
+07, NegateConditionals, 14, "lastPos < s.length()", "lastPos >= s.length()"
+08, NegateConditionals, 24, "s2.length() == 0", "s2.length() != 0"
+09, InvertNegatives, 12, "-1", "1"
+10, Math, 15, "s.length() - 1", "s.length() + 1"
+11, Increments, 21, "pos++", "pos--"
+12, Increments, 23, "count++", "count--"
+13, VoidMethodCalls, 16, "sv.addElement(s2);
+", "DELETED"
+14, VoidMethodCalls, 27, "sv.addElement(s2);
+", "DELETED"

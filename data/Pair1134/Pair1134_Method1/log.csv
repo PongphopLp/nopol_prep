@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "s1 == null", "s1 != null"
+2, NegateConditionals, 5, "s2 == null", "s2 != null"
+3, NegateConditionals, 6, "cIndex < lCommon", "cIndex >= lCommon"
+4, NegateConditionals, 8, "c1 != c2", "c1 == c2"
+5, Increments, 6, "cIndex++", "cIndex--"
+6, ConditionalsBoundary, 6, "cIndex < lCommon", "cIndex <= lCommon"
+7, Math, 8, "c1 - c2", "c1 + c2"
+8, Math, 10, "l1 - l2", "l1 + l2"

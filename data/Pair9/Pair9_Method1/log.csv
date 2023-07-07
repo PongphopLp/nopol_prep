@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 13, "values.append(sSeparator);
+", "DELETED"
+2, VoidMethodCalls, 15, "values.append(iter.next());
+", "DELETED"

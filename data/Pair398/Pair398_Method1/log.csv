@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "ch >= 'A'", "ch > 'A'"
+2, ConditionalsBoundary, 5, "ch <= 'Z'", "ch < 'Z'"
+3, Math, 5, "ch | 0x20", "ch & 0x20"
+4, NegateConditionals, 5, "ch >= 'A'", "ch < 'A'"
+5, NegateConditionals, 5, "ch <= 'Z'", "ch > 'Z'"

@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "charV == ':'", "charV != ':'"
+2, NegateConditionals, 7, "charV == '_'", "charV != '_'"

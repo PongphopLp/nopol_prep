@@ -1,0 +1,3 @@
+1, Increments, 12, "pos++", "pos--"
+2, NegateConditionals, 6, "pos >= charArray.length", "pos < charArray.length"
+3, ConditionalsBoundary, 6, "pos >= charArray.length", "pos > charArray.length"

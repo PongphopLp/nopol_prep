@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, Increments, 8, "sum++", "sum--"
+3, ConditionalsBoundary, 6, "i < s.length()", "i <= s.length()"
+4, NegateConditionals, 6, "i < s.length()", "i >= s.length()"
+5, NegateConditionals, 7, "s.charAt(i) == c", "s.charAt(i) != c"

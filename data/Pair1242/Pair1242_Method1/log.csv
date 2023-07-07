@@ -1,0 +1,20 @@
+01, Math, 6, "str.length() - 1", "str.length() + 1"
+02, ConditionalsBoundary, 8, "i <= last_char", "i < last_char"
+03, VoidMethodCalls, 11, "buf.append("&amp;");
+", "DELETED"
+04, VoidMethodCalls, 13, "buf.append("&lt;");
+", "DELETED"
+05, VoidMethodCalls, 15, "buf.append("&gt;");
+", "DELETED"
+06, VoidMethodCalls, 18, "buf.append("&apos;");
+", "DELETED"
+07, VoidMethodCalls, 21, "buf.append(cur_char);
+", "DELETED"
+08, VoidMethodCalls, 25, "buf.append("&quot;");
+", "DELETED"
+09, VoidMethodCalls, 28, "buf.append(cur_char);
+", "DELETED"
+10, VoidMethodCalls, 31, "buf.append(cur_char);
+", "DELETED"
+11, Increments, 8, "i++", "i--"
+12, NegateConditionals, 8, "i <= last_char", "i > last_char"

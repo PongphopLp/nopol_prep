@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < c.length", "i <= c.length"
+2, Math, 7, "i + offset", "i - offset"
+3, Increments, 6, "++i", "--i"
+4, NegateConditionals, 6, "i < c.length", "i >= c.length"

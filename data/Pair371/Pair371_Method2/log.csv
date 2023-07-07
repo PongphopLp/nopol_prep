@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "f < values.length", "f <= values.length"
+2, ConditionalsBoundary, 6, "values[f] < min", "values[f] <= min"
+3, NegateConditionals, 6, "f < values.length", "f >= values.length"
+4, NegateConditionals, 6, "values[f] < min", "values[f] >= min"
+5, Increments, 6, "f++", "f--"

@@ -1,0 +1,6 @@
+1, NegateConditionals, 7, "cm_len < mp_len", "cm_len >= mp_len"
+2, NegateConditionals, 8, "i < mp_len", "i >= mp_len"
+3, NegateConditionals, 8, "checkMe[i] != maybePrefix[i]", "checkMe[i] == maybePrefix[i]"
+4, Increments, 8, "++i", "--i"
+5, ConditionalsBoundary, 7, "cm_len < mp_len", "cm_len <= mp_len"
+6, ConditionalsBoundary, 8, "i < mp_len", "i <= mp_len"

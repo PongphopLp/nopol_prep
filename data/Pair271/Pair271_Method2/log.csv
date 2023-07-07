@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < v1.length", "i >= v1.length"
+2, Increments, 6, "++i", "--i"
+3, Math, 7, "v1[i] * v2[i]", "v1[i] / v2[i]"
+4, ConditionalsBoundary, 6, "i < v1.length", "i <= v1.length"

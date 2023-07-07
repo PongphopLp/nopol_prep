@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < 8", "i <= 8"
+2, NegateConditionals, 6, "i < 8", "i >= 8"
+3, Increments, 6, "i++", "i--"
+4, Math, 8, "b[start + i] & 0xff", "b[start + i] | 0xff"
+5, Math, 8, "start + i", "start - i"

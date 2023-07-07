@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 7, "i < numValues", "i <= numValues"
+2, NegateConditionals, 5, "numValues == 0", "numValues != 0"
+3, NegateConditionals, 7, "i < numValues", "i >= numValues"
+4, Math, 8, "total / numValues", "total * numValues"
+5, Increments, 7, "++i", "--i"

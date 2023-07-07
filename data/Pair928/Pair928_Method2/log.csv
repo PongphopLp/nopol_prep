@@ -1,0 +1,21 @@
+01, Increments, 6, "n--", "n++"
+02, Math, 6, "buffer.length() - 1", "buffer.length() + 1"
+03, Math, 12, "buffer.length() - 1", "buffer.length() + 1"
+04, Math, 15, "n + 1", "n - 1"
+05, VoidMethodCalls, 8, "buffer.setCharAt(n,' ');
+", "DELETED"
+06, VoidMethodCalls, 13, "buffer.deleteCharAt(n);
+", "DELETED"
+07, VoidMethodCalls, 16, "buffer.deleteCharAt(n);
+", "DELETED"
+08, VoidMethodCalls, 19, "buffer.deleteCharAt(n);
+", "DELETED"
+09, NegateConditionals, 5, "buffer.length() > 0", "buffer.length() <= 0"
+10, NegateConditionals, 6, "n >= 0", "n < 0"
+11, NegateConditionals, 7, "buffer.charAt(n) == '\n'", "buffer.charAt(n) != '\n'"
+12, NegateConditionals, 11, "theChar == ' '", "theChar != ' '"
+13, NegateConditionals, 12, "n == (buffer.length() - 1)", "n != (buffer.length() - 1)"
+14, NegateConditionals, 15, "buffer.charAt(n + 1) == ' '", "buffer.charAt(n + 1) != ' '"
+15, NegateConditionals, 18, "n == 0", "n != 0"
+16, ConditionalsBoundary, 5, "buffer.length() > 0", "buffer.length() >= 0"
+17, ConditionalsBoundary, 6, "n >= 0", "n > 0"

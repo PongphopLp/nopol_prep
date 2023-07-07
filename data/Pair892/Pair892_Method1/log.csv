@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < l.size()", "i >= l.size()"
+2, ConditionalsBoundary, 6, "i < l.size()", "i <= l.size()"
+3, Math, 9, "accum / l.size()", "accum * l.size()"
+4, Increments, 6, "i++", "i--"

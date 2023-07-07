@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 5, "str.length() == 0", "str.length() != 0"
+3, NegateConditionals, 10, "i < len", "i >= len"
+4, NegateConditionals, 11, "str.charAt(i) > ' '", "str.charAt(i) <= ' '"
+5, ConditionalsBoundary, 10, "i < len", "i <= len"
+6, ConditionalsBoundary, 11, "str.charAt(i) > ' '", "str.charAt(i) >= ' '"
+7, Increments, 10, "i++", "i--"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "name.length() >= i + replacement.length()", "name.length() < i + replacement.length()"
+2, Math, 5, "i + replacement.length()", "i - replacement.length()"
+3, Math, 5, "i + replacement.length()", "i - replacement.length()"
+4, ConditionalsBoundary, 5, "name.length() >= i + replacement.length()", "name.length() > i + replacement.length()"

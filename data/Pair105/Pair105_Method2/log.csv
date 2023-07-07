@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "b.length != 4", "b.length == 4"
+2, Math, 6, "(b[0] << 24) + ((b[1] & 0xFF) << 16) + ((b[2] & 0xFF) << 8)+ (b[3] & 0xFF)", "(b[0] << 24) - ((b[1] & 0xFF) << 16) - ((b[2] & 0xFF) << 8)- (b[3] & 0xFF)"
+3, Math, 6, "b[0] << 24", "b[0] >> 24"
+4, Math, 6, "(b[1] & 0xFF) << 16", "(b[1] & 0xFF) >> 16"
+5, Math, 6, "b[1] & 0xFF", "b[1] | 0xFF"
+6, Math, 6, "(b[2] & 0xFF) << 8", "(b[2] & 0xFF) >> 8"
+7, Math, 6, "b[2] & 0xFF", "b[2] | 0xFF"
+8, Math, 6, "b[3] & 0xFF", "b[3] | 0xFF"

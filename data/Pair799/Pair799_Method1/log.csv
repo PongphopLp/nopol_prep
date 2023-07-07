@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "i < out.length", "i >= out.length"
+2, Increments, 6, "i++", "i--"
+3, Math, 5, "ub1 - lb1 + 1", "ub1 - lb1 - 1"
+4, Math, 5, "ub1 - lb1", "ub1 + lb1"
+5, Math, 7, "lb1 + i", "lb1 - i"
+6, ConditionalsBoundary, 6, "i < out.length", "i <= out.length"

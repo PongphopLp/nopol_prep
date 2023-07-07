@@ -1,0 +1,21 @@
+01, ConditionalsBoundary, 7, "i < 4 - String.valueOf(year).length()", "i <= 4 - String.valueOf(year).length()"
+02, ConditionalsBoundary, 10, "month < 10", "month <= 10"
+03, ConditionalsBoundary, 13, "day < 10", "day <= 10"
+04, VoidMethodCalls, 7, "sb.append('0');
+", "DELETED"
+05, VoidMethodCalls, 8, "sb.append(year).append('-');
+", "DELETED"
+06, VoidMethodCalls, 10, "sb.append('0');
+", "DELETED"
+07, VoidMethodCalls, 11, "sb.append(month).append('-');
+", "DELETED"
+08, VoidMethodCalls, 13, "sb.append('0');
+", "DELETED"
+09, VoidMethodCalls, 14, "sb.append(day);
+", "DELETED"
+10, Increments, 7, "i++", "i--"
+11, Math, 7, "4 - String.valueOf(year).length()", "4 + String.valueOf(year).length()"
+12, Math, 9, "date.get(Calendar.MONTH) + 1", "date.get(Calendar.MONTH) - 1"
+13, NegateConditionals, 7, "i < 4 - String.valueOf(year).length()", "i >= 4 - String.valueOf(year).length()"
+14, NegateConditionals, 10, "month < 10", "month >= 10"
+15, NegateConditionals, 13, "day < 10", "day >= 10"

@@ -1,0 +1,10 @@
+1, ConditionalsBoundary, 5, "s.length() < length", "s.length() <= length"
+2, ConditionalsBoundary, 7, "i < length - s.length()", "i <= length - s.length()"
+3, ConditionalsBoundary, 12, "s.length() > length", "s.length() >= length"
+4, Increments, 7, "i++", "i--"
+5, VoidMethodCalls, 8, "str.append(" ");
+", "DELETED"
+6, NegateConditionals, 5, "s.length() < length", "s.length() >= length"
+7, NegateConditionals, 7, "i < length - s.length()", "i >= length - s.length()"
+8, NegateConditionals, 12, "s.length() > length", "s.length() <= length"
+9, Math, 7, "length - s.length()", "length + s.length()"

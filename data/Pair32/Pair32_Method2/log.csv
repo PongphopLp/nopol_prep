@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 7, "i < content1.length", "i <= content1.length"
+2, NegateConditionals, 5, "content1 == null", "content1 != null"
+3, NegateConditionals, 5, "content2 == null", "content2 != null"
+4, NegateConditionals, 6, "content1.length != content2.length", "content1.length == content2.length"
+5, NegateConditionals, 7, "i < content1.length", "i >= content1.length"
+6, NegateConditionals, 7, "content1[i] != content2[i]", "content1[i] == content2[i]"
+7, Increments, 7, "i++", "i--"

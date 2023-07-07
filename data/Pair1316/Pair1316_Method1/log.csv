@@ -1,0 +1,5 @@
+1, NegateConditionals, 8, "i < iLen", "i >= iLen"
+2, Math, 7, "iLen / 2", "iLen * 2"
+3, Math, 8, "i + 2", "i - 2"
+4, Math, 10, "i / 2", "i * 2"
+5, ConditionalsBoundary, 8, "i < iLen", "i <= iLen"

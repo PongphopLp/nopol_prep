@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "n <= min", "n > min"
+2, NegateConditionals, 6, "n >= max", "n < max"
+3, ConditionalsBoundary, 5, "n <= min", "n < min"
+4, ConditionalsBoundary, 6, "n >= max", "n > max"

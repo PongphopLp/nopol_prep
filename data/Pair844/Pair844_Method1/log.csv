@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "theDoubleValue == null", "theDoubleValue != null"
+2, NegateConditionals, 5, "theDoubleValue.length() == 0", "theDoubleValue.length() != 0"

@@ -1,0 +1,7 @@
+1, Increments, 9, "index++", "index--"
+2, NegateConditionals, 5, "o1 == o2", "o1 != o2"
+3, NegateConditionals, 6, "o1 == null", "o1 != null"
+4, NegateConditionals, 6, "o2 == null", "o2 != null"
+5, NegateConditionals, 8, "length != o2.length", "length == o2.length"
+6, NegateConditionals, 9, "index < length", "index >= length"
+7, ConditionalsBoundary, 9, "index < length", "index <= length"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "list == null", "list != null"
+2, NegateConditionals, 5, "list.size() < 1", "list.size() >= 1"
+3, VoidMethodCalls, 11, "buf.append((String)i.next());
+", "DELETED"
+4, VoidMethodCalls, 13, "buf.append(delim);
+", "DELETED"
+5, ConditionalsBoundary, 5, "list.size() < 1", "list.size() <= 1"

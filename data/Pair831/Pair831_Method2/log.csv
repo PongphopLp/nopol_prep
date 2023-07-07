@@ -1,0 +1,5 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < chv1.length", "i <= chv1.length"
+3, Math, 6, "pos2 + i", "pos2 - i"
+4, NegateConditionals, 5, "i < chv1.length", "i >= chv1.length"
+5, NegateConditionals, 6, "chv1[i] != chv2[pos2 + i]", "chv1[i] == chv2[pos2 + i]"

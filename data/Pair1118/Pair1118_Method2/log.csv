@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "_string.length() > _len", "_string.length() >= _len"
+2, NegateConditionals, 6, "_string.length() > _len", "_string.length() <= _len"
+3, NegateConditionals, 9, "_append != null", "_append == null"
+4, VoidMethodCalls, 7, "_buffer.setLength(_len);
+", "DELETED"

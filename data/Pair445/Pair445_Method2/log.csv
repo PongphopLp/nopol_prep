@@ -1,0 +1,4 @@
+1, Math, 5, "diff / tileSize", "diff * tileSize"
+2, Math, 6, "diff % tileSize", "diff * tileSize"
+3, Increments, 6, "++tiles", "--tiles"
+4, NegateConditionals, 6, "(diff % tileSize) != 0", "(diff % tileSize) == 0"

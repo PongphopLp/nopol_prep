@@ -1,0 +1,4 @@
+1, Math, 6, "start + x", "start - x"
+2, Increments, 6, "x++", "x--"
+3, ConditionalsBoundary, 6, "x < len", "x <= len"
+4, NegateConditionals, 6, "x < len", "x >= len"

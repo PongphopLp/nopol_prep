@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "array == null", "array != null"
+2, NegateConditionals, 5, "element == null", "element != null"
+3, NegateConditionals, 8, "i < array.length", "i >= array.length"
+4, Increments, 8, "i++", "i--"
+5, InvertNegatives, 6, "-1", "1"
+6, InvertNegatives, 13, "-1", "1"
+7, ConditionalsBoundary, 8, "i < array.length", "i <= array.length"

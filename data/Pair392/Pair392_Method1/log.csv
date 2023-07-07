@@ -1,0 +1,8 @@
+1, VoidMethodCalls, 10, "sb.append(padWith);
+", "DELETED"
+2, ConditionalsBoundary, 7, "numToPad > 0", "numToPad >= 0"
+3, ConditionalsBoundary, 9, "i <= numToPad", "i < numToPad"
+4, Increments, 9, "i++", "i--"
+5, Math, 6, "total - strLen", "total + strLen"
+6, NegateConditionals, 7, "numToPad > 0", "numToPad <= 0"
+7, NegateConditionals, 9, "i <= numToPad", "i > numToPad"

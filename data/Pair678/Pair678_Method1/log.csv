@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 11, "ulist.add(o);
+", "DELETED"
+2, VoidMethodCalls, 13, "ulist.trimToSize();
+", "DELETED"
+3, Math, 7, "s * 4 / 3", "s * 4 * 3"
+4, Math, 7, "s * 4", "s / 4"

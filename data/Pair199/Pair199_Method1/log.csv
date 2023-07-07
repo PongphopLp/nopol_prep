@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, Increments, 10, "j++", "j--"
+3, NegateConditionals, 6, "i < bound.length", "i >= bound.length"
+4, NegateConditionals, 7, "src[j] != bound[i]", "src[j] == bound[i]"
+5, ConditionalsBoundary, 6, "i < bound.length", "i <= bound.length"

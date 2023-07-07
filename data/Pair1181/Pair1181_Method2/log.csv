@@ -1,0 +1,7 @@
+1, Math, 9, "ind + variable.length()", "ind - variable.length()"
+2, NegateConditionals, 8, "ind >= 0", "ind < 0"
+3, NegateConditionals, 8, "subsLeftToPreform-- != 0", "subsLeftToPreform-- == 0"
+4, ConditionalsBoundary, 8, "ind >= 0", "ind > 0"
+5, Increments, 8, "subsLeftToPreform--", "subsLeftToPreform++"
+6, VoidMethodCalls, 9, "buf.replace(ind,ind + variable.length(),value);
+", "DELETED"

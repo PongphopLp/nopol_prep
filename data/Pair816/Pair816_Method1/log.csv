@@ -1,0 +1,30 @@
+01, VoidMethodCalls, 12, "result.append(timeInHours).append(':');
+", "DELETED"
+02, VoidMethodCalls, 13, "result.append('0');
+", "DELETED"
+03, VoidMethodCalls, 14, "result.append(minutes).append(':');
+", "DELETED"
+04, VoidMethodCalls, 15, "result.append('0');
+", "DELETED"
+05, VoidMethodCalls, 16, "result.append(seconds).append(".");
+", "DELETED"
+06, VoidMethodCalls, 17, "result.append("00");
+", "DELETED"
+07, VoidMethodCalls, 18, "result.append('0');
+", "DELETED"
+08, VoidMethodCalls, 19, "result.append(millis);
+", "DELETED"
+09, Math, 5, "time % 1000", "time * 1000"
+10, Math, 6, "time / 1000", "time * 1000"
+11, Math, 7, "timeInSec % 60", "timeInSec * 60"
+12, Math, 8, "timeInSec / 60", "timeInSec * 60"
+13, Math, 9, "timeInMin % 60", "timeInMin * 60"
+14, Math, 10, "timeInMin / 60", "timeInMin * 60"
+15, NegateConditionals, 13, "minutes < 10", "minutes >= 10"
+16, NegateConditionals, 15, "seconds < 10", "seconds >= 10"
+17, NegateConditionals, 17, "millis < 10", "millis >= 10"
+18, NegateConditionals, 18, "millis < 100", "millis >= 100"
+19, ConditionalsBoundary, 13, "minutes < 10", "minutes <= 10"
+20, ConditionalsBoundary, 15, "seconds < 10", "seconds <= 10"
+21, ConditionalsBoundary, 17, "millis < 10", "millis <= 10"
+22, ConditionalsBoundary, 18, "millis < 100", "millis <= 100"

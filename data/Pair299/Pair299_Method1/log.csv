@@ -1,0 +1,7 @@
+1, Increments, 6, "i++", "i--"
+2, Math, 7, "(tok[i] & 0xFF) - (tok2[i] & 0xFF)", "(tok[i] & 0xFF) + (tok2[i] & 0xFF)"
+3, Math, 7, "tok[i] & 0xFF", "tok[i] | 0xFF"
+4, Math, 7, "tok2[i] & 0xFF", "tok2[i] | 0xFF"
+5, Math, 10, "tok.length - tok2.length", "tok.length + tok2.length"
+6, NegateConditionals, 6, "i != l", "i == l"
+7, NegateConditionals, 8, "c != 0", "c == 0"

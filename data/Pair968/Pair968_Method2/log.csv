@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < buf.length", "i <= buf.length"
+2, NegateConditionals, 5, "i < buf.length", "i >= buf.length"
+3, NegateConditionals, 6, "buf[i] == b", "buf[i] != b"
+4, InvertNegatives, 8, "-1", "1"
+5, Increments, 5, "i++", "i--"

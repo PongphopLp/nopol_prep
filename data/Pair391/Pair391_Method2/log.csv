@@ -1,0 +1,7 @@
+1, Increments, 6, "x++", "x--"
+2, NegateConditionals, 6, "x < length", "x >= length"
+3, ConditionalsBoundary, 6, "x < length", "x <= length"
+4, VoidMethodCalls, 7, "builder.append(padchar);
+", "DELETED"
+5, VoidMethodCalls, 9, "builder.append(in);
+", "DELETED"

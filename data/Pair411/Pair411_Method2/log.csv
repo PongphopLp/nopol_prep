@@ -1,0 +1,6 @@
+1, Math, 6, "(result << 8) | (hash[k] & 0xff)", "(result << 8) & (hash[k] & 0xff)"
+2, Math, 6, "result << 8", "result >> 8"
+3, Math, 6, "hash[k] & 0xff", "hash[k] | 0xff"
+4, ConditionalsBoundary, 6, "k < 8", "k <= 8"
+5, NegateConditionals, 6, "k < 8", "k >= 8"
+6, Increments, 6, "++k", "--k"

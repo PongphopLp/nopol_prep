@@ -1,0 +1,8 @@
+1, Increments, 8, "i++", "i--"
+2, ConditionalsBoundary, 5, "seq.length() - start < match.length()", "seq.length() - start <= match.length()"
+3, ConditionalsBoundary, 8, "i < match.length()", "i <= match.length()"
+4, NegateConditionals, 5, "seq.length() - start < match.length()", "seq.length() - start >= match.length()"
+5, NegateConditionals, 8, "i < match.length()", "i >= match.length()"
+6, NegateConditionals, 9, "match.charAt(i) != seq.charAt(start + i)", "match.charAt(i) == seq.charAt(start + i)"
+7, Math, 5, "seq.length() - start", "seq.length() + start"
+8, Math, 9, "start + i", "start - i"

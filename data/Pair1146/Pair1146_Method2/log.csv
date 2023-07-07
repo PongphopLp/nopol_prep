@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "i < sarr.length", "i <= sarr.length"
+2, NegateConditionals, 6, "null != sarr", "null == sarr"
+3, NegateConditionals, 6, "null != str", "null == str"
+4, NegateConditionals, 7, "i < sarr.length", "i >= sarr.length"
+5, NegateConditionals, 8, "sarr[i].compareTo(str) == 0", "sarr[i].compareTo(str) != 0"
+6, Increments, 7, "i++", "i--"

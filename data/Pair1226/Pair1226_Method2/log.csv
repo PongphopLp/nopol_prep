@@ -1,0 +1,15 @@
+1, NegateConditionals, 7, "i < length", "i >= length"
+2, ConditionalsBoundary, 7, "i < length", "i <= length"
+3, Increments, 7, "i++", "i--"
+4, VoidMethodCalls, 10, "output.append("&amp;");
+", "DELETED"
+5, VoidMethodCalls, 13, "output.append("&quot;");
+", "DELETED"
+6, VoidMethodCalls, 16, "output.append(ch);
+", "DELETED"
+7, VoidMethodCalls, 19, "output.append("&lt;");
+", "DELETED"
+8, VoidMethodCalls, 21, "output.append("&gt;");
+", "DELETED"
+9, VoidMethodCalls, 23, "output.append(ch);
+", "DELETED"

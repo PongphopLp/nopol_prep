@@ -1,0 +1,22 @@
+01, ConditionalsBoundary, 7, "i < length", "i <= length"
+02, VoidMethodCalls, 10, "buffer.append("&amp;");
+", "DELETED"
+03, VoidMethodCalls, 13, "buffer.append("&apos;");
+", "DELETED"
+04, VoidMethodCalls, 16, "buffer.append("&quot;");
+", "DELETED"
+05, VoidMethodCalls, 19, "buffer.append("&lt;");
+", "DELETED"
+06, VoidMethodCalls, 22, "buffer.append("&gt;");
+", "DELETED"
+07, VoidMethodCalls, 25, "buffer.append(currentChar);
+", "DELETED"
+08, Increments, 7, "++i", "--i"
+09, NegateConditionals, 5, "data == null", "data != null"
+10, NegateConditionals, 7, "i < length", "i >= length"
+11, NegateConditionals, 9, "currentChar == '&'", "currentChar != '&'"
+12, NegateConditionals, 12, "currentChar == '\''", "currentChar != '\''"
+13, NegateConditionals, 12, "currentChar == '`'", "currentChar != '`'"
+14, NegateConditionals, 15, "currentChar == '\"'", "currentChar != '\"'"
+15, NegateConditionals, 18, "currentChar == '<'", "currentChar != '<'"
+16, NegateConditionals, 21, "currentChar == '>'", "currentChar != '>'"

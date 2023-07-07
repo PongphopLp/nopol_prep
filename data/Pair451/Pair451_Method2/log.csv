@@ -1,0 +1,6 @@
+1, InvertNegatives, 8, "-1", "1"
+2, NegateConditionals, 5, "i < source.length()", "i >= source.length()"
+3, NegateConditionals, 6, "charSet.indexOf(source.charAt(i)) >= 0", "charSet.indexOf(source.charAt(i)) < 0"
+4, Increments, 5, "i++", "i--"
+5, ConditionalsBoundary, 5, "i < source.length()", "i <= source.length()"
+6, ConditionalsBoundary, 6, "charSet.indexOf(source.charAt(i)) >= 0", "charSet.indexOf(source.charAt(i)) > 0"

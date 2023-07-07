@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "list != null", "list == null"
+3, NegateConditionals, 6, "value != null", "value == null"
+4, NegateConditionals, 7, "i < list.length", "i >= list.length"
+5, ConditionalsBoundary, 7, "i < list.length", "i <= list.length"

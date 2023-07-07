@@ -1,0 +1,2 @@
+1, NegateConditionals, 11, "candidate == null", "candidate != null"
+2, NegateConditionals, 14, "candidate != elem", "candidate == elem"

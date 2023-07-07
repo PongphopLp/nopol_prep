@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "(double)min % 5 != 0", "(double)min % 5 == 0"
+2, Math, 5, "(double)min % 5", "(double)min * 5"

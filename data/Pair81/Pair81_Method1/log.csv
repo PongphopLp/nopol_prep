@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "null == a", "null != a"
+2, NegateConditionals, 5, "null == b", "null != b"
+3, NegateConditionals, 6, "null == b", "null != b"
+4, NegateConditionals, 7, "a.length == b.length", "a.length != b.length"
+5, NegateConditionals, 8, "cc < count", "cc >= count"
+6, NegateConditionals, 9, "a[cc] != b[cc]", "a[cc] == b[cc]"
+7, Increments, 8, "cc++", "cc--"
+8, ConditionalsBoundary, 8, "cc < count", "cc <= count"

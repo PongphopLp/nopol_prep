@@ -1,0 +1,14 @@
+01, VoidMethodCalls, 7, "sb.append("<").append(tag).append(">");
+", "DELETED"
+02, VoidMethodCalls, 8, "sb.append(content);
+", "DELETED"
+03, VoidMethodCalls, 9, "sb.append("</").append(tag).append(">");
+", "DELETED"
+04, ConditionalsBoundary, 7, "tag.length() > 0", "tag.length() >= 0"
+05, ConditionalsBoundary, 9, "tag.length() > 0", "tag.length() >= 0"
+06, NegateConditionals, 6, "content == null", "content != null"
+07, NegateConditionals, 6, "content.length() == 0", "content.length() != 0"
+08, NegateConditionals, 7, "tag != null", "tag == null"
+09, NegateConditionals, 7, "tag.length() > 0", "tag.length() <= 0"
+10, NegateConditionals, 9, "tag != null", "tag == null"
+11, NegateConditionals, 9, "tag.length() > 0", "tag.length() <= 0"

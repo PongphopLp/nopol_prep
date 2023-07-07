@@ -1,0 +1,7 @@
+1, Math, 7, "(b[3 - i] & 0xff) << (i << 3)", "(b[3 - i] & 0xff) >> (i << 3)"
+2, Math, 7, "b[3 - i] & 0xff", "b[3 - i] | 0xff"
+3, Math, 7, "3 - i", "3 + i"
+4, Math, 7, "i << 3", "i >> 3"
+5, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+6, NegateConditionals, 6, "i < 4", "i >= 4"
+7, Increments, 6, "++i", "--i"

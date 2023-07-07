@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "i < word.length()", "i >= word.length()"
+2, NegateConditionals, 6, "offset + i >= count", "offset + i < count"
+3, NegateConditionals, 7, "text[offset + i] == word.charAt(i)", "text[offset + i] != word.charAt(i)"
+4, Math, 6, "offset + i", "offset - i"
+5, Math, 7, "offset + i", "offset - i"
+6, ConditionalsBoundary, 5, "i < word.length()", "i <= word.length()"
+7, ConditionalsBoundary, 6, "offset + i >= count", "offset + i > count"
+8, Increments, 5, "i++", "i--"

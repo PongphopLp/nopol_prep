@@ -1,0 +1,8 @@
+1, Increments, 12, "++count", "--count"
+2, NegateConditionals, 5, "str == null", "str != null"
+3, NegateConditionals, 5, "sub == null", "sub != null"
+4, NegateConditionals, 5, "str.length() == 0", "str.length() != 0"
+5, NegateConditionals, 5, "sub.length() == 0", "sub.length() != 0"
+6, NegateConditionals, 11, "(idx=str.indexOf(sub,pos)) != -1", "(idx=str.indexOf(sub,pos)) == -1"
+7, Math, 13, "idx + sub.length()", "idx - sub.length()"
+8, InvertNegatives, 11, "-1", "1"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "i < col.size()", "i >= col.size()"
+2, NegateConditionals, 7, "it.intValue() == o", "it.intValue() != o"
+3, ConditionalsBoundary, 5, "i < col.size()", "i <= col.size()"
+4, Increments, 5, "i++", "i--"

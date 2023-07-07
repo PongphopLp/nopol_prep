@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "(a.length - offset) >= a2.length", "(a.length - offset) < a2.length"
+2, NegateConditionals, 6, "i < a2.length", "i >= a2.length"
+3, NegateConditionals, 7, "a[i + offset] != a2[i]", "a[i + offset] == a2[i]"
+4, Increments, 6, "i++", "i--"
+5, Math, 5, "a.length - offset", "a.length + offset"
+6, Math, 7, "i + offset", "i - offset"
+7, ConditionalsBoundary, 5, "(a.length - offset) >= a2.length", "(a.length - offset) > a2.length"
+8, ConditionalsBoundary, 6, "i < a2.length", "i <= a2.length"

@@ -1,0 +1,6 @@
+1, Math, 6, "offset + length", "offset - length"
+2, Math, 7, "out << 8", "out >> 8"
+3, Math, 8, "0xFF & data[i]", "0xFF | data[i]"
+4, ConditionalsBoundary, 6, "i < offset + length", "i <= offset + length"
+5, NegateConditionals, 6, "i < offset + length", "i >= offset + length"
+6, Increments, 6, "i++", "i--"

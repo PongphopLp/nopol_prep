@@ -1,0 +1,5 @@
+1, Math, 9, "index + 1", "index - 1"
+2, NegateConditionals, 6, "text == null", "text != null"
+3, NegateConditionals, 6, "separator == null", "separator != null"
+4, NegateConditionals, 8, "index < 0", "index >= 0"
+5, ConditionalsBoundary, 8, "index < 0", "index <= 0"

@@ -1,0 +1,12 @@
+01, VoidMethodCalls, 6, "srcDateC.setTime(srcDate);
+", "DELETED"
+02, VoidMethodCalls, 8, "descDateC.setTime(descDate);
+", "DELETED"
+03, InvertNegatives, 18, "-1", "1"
+04, InvertNegatives, 22, "-1", "1"
+05, NegateConditionals, 11, "srcYear == descYear", "srcYear != descYear"
+06, NegateConditionals, 14, "srcDayOfYear == descDayOfYear", "srcDayOfYear != descDayOfYear"
+07, NegateConditionals, 18, "srcDayOfYear > descDayOfYear", "srcDayOfYear <= descDayOfYear"
+08, NegateConditionals, 22, "srcYear > descYear", "srcYear <= descYear"
+09, ConditionalsBoundary, 18, "srcDayOfYear > descDayOfYear", "srcDayOfYear >= descDayOfYear"
+10, ConditionalsBoundary, 22, "srcYear > descYear", "srcYear >= descYear"

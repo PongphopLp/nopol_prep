@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "(newv > v) != (dv > 0)", "(newv > v) == (dv > 0)"
+2, NegateConditionals, 6, "newv > v", "newv <= v"
+3, NegateConditionals, 6, "dv > 0", "dv <= 0"
+4, NegateConditionals, 7, "dv < 0", "dv >= 0"
+5, Math, 5, "v + dv", "v - dv"
+6, ConditionalsBoundary, 6, "newv > v", "newv >= v"
+7, ConditionalsBoundary, 6, "dv > 0", "dv >= 0"
+8, ConditionalsBoundary, 7, "dv < 0", "dv <= 0"

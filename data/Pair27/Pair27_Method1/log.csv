@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "value < lb", "value >= lb"
+2, NegateConditionals, 8, "value > ub", "value <= ub"
+3, ConditionalsBoundary, 5, "value < lb", "value <= lb"
+4, ConditionalsBoundary, 8, "value > ub", "value >= ub"

@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "string.length() > width", "string.length() >= width"
+2, ConditionalsBoundary, 8, "string.length() < width", "string.length() <= width"
+3, NegateConditionals, 5, "string.length() > width", "string.length() <= width"
+4, NegateConditionals, 8, "string.length() < width", "string.length() >= width"
+5, Math, 9, "width - string.length()", "width + string.length()"
+6, VoidMethodCalls, 10, "Arrays.fill(fill,' ');
+", "DELETED"

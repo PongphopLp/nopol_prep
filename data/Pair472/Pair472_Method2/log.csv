@@ -1,0 +1,6 @@
+1, Math, 5, "i % 4", "i * 4"
+2, Math, 8, "i % 400", "i * 400"
+3, Math, 11, "i % 100", "i * 100"
+4, NegateConditionals, 5, "i % 4 != 0", "i % 4 == 0"
+5, NegateConditionals, 8, "i % 400 == 0", "i % 400 != 0"
+6, NegateConditionals, 11, "i % 100 == 0", "i % 100 != 0"

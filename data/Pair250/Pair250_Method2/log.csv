@@ -1,0 +1,5 @@
+1, InvertNegatives, 8, "-1", "1"
+2, NegateConditionals, 7, "i1.intValue() == i2.intValue()", "i1.intValue() != i2.intValue()"
+3, NegateConditionals, 8, "i1.intValue() < i2.intValue()", "i1.intValue() >= i2.intValue()"
+4, ConditionalsBoundary, 8, "i1.intValue() < i2.intValue()", "i1.intValue() <= i2.intValue()"
+5, PrimitiveReturns, 9, "1", "0"

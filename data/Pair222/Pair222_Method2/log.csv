@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "p0.length != p1.length", "p0.length == p1.length"
+2, NegateConditionals, 10, "x < size", "x >= size"
+3, NegateConditionals, 11, "p0[x] == p1[x]", "p0[x] != p1[x]"
+4, Increments, 10, "x++", "x--"
+5, ConditionalsBoundary, 10, "x < size", "x <= size"

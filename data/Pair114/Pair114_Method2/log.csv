@@ -1,0 +1,3 @@
+1, Increments, 5, "i++", "i--"
+2, NegateConditionals, 5, "i != a.length", "i == a.length"
+3, NegateConditionals, 6, "a[i] != b[i]", "a[i] == b[i]"

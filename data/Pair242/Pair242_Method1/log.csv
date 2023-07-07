@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "i < requiredVersion.length", "i <= requiredVersion.length"
+2, ConditionalsBoundary, 6, "realVersion[i] < requiredVersion[i]", "realVersion[i] <= requiredVersion[i]"
+3, ConditionalsBoundary, 9, "realVersion[i] > requiredVersion[i]", "realVersion[i] >= requiredVersion[i]"
+4, Increments, 5, "i++", "i--"
+5, NegateConditionals, 5, "i < requiredVersion.length", "i >= requiredVersion.length"
+6, NegateConditionals, 6, "realVersion[i] < requiredVersion[i]", "realVersion[i] >= requiredVersion[i]"
+7, NegateConditionals, 9, "realVersion[i] > requiredVersion[i]", "realVersion[i] <= requiredVersion[i]"

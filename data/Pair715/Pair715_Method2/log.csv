@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "n <= 9", "n < 9"
+2, ConditionalsBoundary, 8, "n <= 99", "n < 99"
+3, Math, 6, ""00" + n", ""00" - n"
+4, Math, 9, ""0" + n", ""0" - n"
+5, Math, 12, """ + n", """ - n"
+6, NegateConditionals, 5, "n <= 9", "n > 9"
+7, NegateConditionals, 8, "n <= 99", "n > 99"

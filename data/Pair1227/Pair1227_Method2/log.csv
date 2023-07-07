@@ -1,0 +1,17 @@
+01, ConditionalsBoundary, 12, "i < oldsize", "i <= oldsize"
+02, VoidMethodCalls, 9, "input.getChars(0,oldsize,old,0);
+", "DELETED"
+03, VoidMethodCalls, 30, "out.append(old,selstart,i - selstart);
+", "DELETED"
+04, VoidMethodCalls, 31, "out.append(entity);
+", "DELETED"
+05, VoidMethodCalls, 37, "out.append(old,selstart,oldsize - selstart);
+", "DELETED"
+06, Math, 30, "i - selstart", "i + selstart"
+07, Math, 32, "i + 1", "i - 1"
+08, Math, 37, "oldsize - selstart", "oldsize + selstart"
+09, Increments, 12, "i++", "i--"
+10, NegateConditionals, 6, "input == null", "input != null"
+11, NegateConditionals, 12, "i < oldsize", "i >= oldsize"
+12, NegateConditionals, 29, "entity != null", "entity == null"
+13, NegateConditionals, 36, "selstart == 0", "selstart != 0"

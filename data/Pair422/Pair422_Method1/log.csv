@@ -1,0 +1,7 @@
+1, Increments, 11, "++i", "--i"
+2, Increments, 29, "++i", "--i"
+3, Increments, 31, "stack++", "stack--"
+4, Increments, 32, "stack--", "stack++"
+5, NegateConditionals, 11, "++i < n", "++i >= n"
+6, NegateConditionals, 29, "c[++i] != ';'", "c[++i] == ';'"
+7, ConditionalsBoundary, 11, "++i < n", "++i <= n"

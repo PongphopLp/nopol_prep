@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "i < lengthA", "i <= lengthA"
+2, Increments, 6, "i++", "i--"
+3, Increments, 6, "offsetA++", "offsetA--"
+4, Increments, 6, "offsetB++", "offsetB--"
+5, NegateConditionals, 5, "lengthA != lengthB", "lengthA == lengthB"
+6, NegateConditionals, 6, "i < lengthA", "i >= lengthA"
+7, NegateConditionals, 6, "arrayA[offsetA++] != arrayB[offsetB++]", "arrayA[offsetA++] == arrayB[offsetB++]"

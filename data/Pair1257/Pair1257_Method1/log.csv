@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "sSource.length() < 1", "sSource.length() <= 1"
+2, Math, 7, "sSource.length() - 1", "sSource.length() + 1"
+3, Math, 7, "sSource.length() - 1", "sSource.length() + 1"
+4, NegateConditionals, 5, "null == sSource", "null != sSource"
+5, NegateConditionals, 6, "sSource.length() < 1", "sSource.length() >= 1"
+6, NegateConditionals, 7, "sSource.charAt(sSource.length() - 1) == cEndsWith", "sSource.charAt(sSource.length() - 1) != cEndsWith"

@@ -1,0 +1,3 @@
+1, Increments, 10, "bytesCopied++", "bytesCopied--"
+2, VoidMethodCalls, 14, "System.arraycopy(groomedData,0,packedData,0,bytesCopied);
+", "DELETED"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "result > Byte.MAX_VALUE", "result >= Byte.MAX_VALUE"
+2, ConditionalsBoundary, 9, "result < Byte.MIN_VALUE", "result <= Byte.MIN_VALUE"
+3, NegateConditionals, 6, "result > Byte.MAX_VALUE", "result <= Byte.MAX_VALUE"
+4, NegateConditionals, 9, "result < Byte.MIN_VALUE", "result >= Byte.MIN_VALUE"

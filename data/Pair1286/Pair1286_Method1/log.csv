@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "formals.length != actuals.length", "formals.length == actuals.length"
+2, NegateConditionals, 6, "i < formals.length", "i >= formals.length"
+3, NegateConditionals, 7, "formals[i] == actuals[i]", "formals[i] != actuals[i]"
+4, Increments, 6, "i++", "i--"
+5, ConditionalsBoundary, 6, "i < formals.length", "i <= formals.length"

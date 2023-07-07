@@ -1,0 +1,14 @@
+01, ConditionalsBoundary, 17, "fromIndex < input.length()", "fromIndex <= input.length()"
+02, VoidMethodCalls, 12, "buf.append(input.substring(fromIndex,index));
+", "DELETED"
+03, VoidMethodCalls, 13, "buf.append(with);
+", "DELETED"
+04, VoidMethodCalls, 18, "buf.append(input.substring(fromIndex,input.length()));
+", "DELETED"
+05, Math, 10, "input.length() + with.length()", "input.length() - with.length()"
+06, Math, 14, "index + sub.length()", "index - sub.length()"
+07, NegateConditionals, 7, "index == -1", "index != -1"
+08, NegateConditionals, 16, "(index=input.indexOf(sub,fromIndex)) != -1", "(index=input.indexOf(sub,fromIndex)) == -1"
+09, NegateConditionals, 17, "fromIndex < input.length()", "fromIndex >= input.length()"
+10, InvertNegatives, 7, "-1", "1"
+11, InvertNegatives, 16, "-1", "1"

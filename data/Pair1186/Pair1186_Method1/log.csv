@@ -1,0 +1,5 @@
+1, Math, 8, "array[index + i] & 0xFF", "array[index + i] | 0xFF"
+2, Math, 8, "index + i", "index - i"
+3, ConditionalsBoundary, 6, "i < size", "i <= size"
+4, NegateConditionals, 6, "i < size", "i >= size"
+5, Increments, 6, "i++", "i--"

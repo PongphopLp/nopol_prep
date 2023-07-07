@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "i < checksum.length", "i >= checksum.length"
+2, Math, 7, "(0xffL & (long)checksum[i]) << ((checksum.length - i - 1) * 8)", "(0xffL & (long)checksum[i]) >> ((checksum.length - i - 1) * 8)"
+3, Math, 7, "0xffL & (long)checksum[i]", "0xffL | (long)checksum[i]"
+4, Math, 7, "(checksum.length - i - 1) * 8", "(checksum.length - i - 1) / 8"
+5, Math, 7, "checksum.length - i - 1", "checksum.length + i + 1"
+6, ConditionalsBoundary, 6, "i < checksum.length", "i <= checksum.length"
+7, Increments, 6, "i++", "i--"

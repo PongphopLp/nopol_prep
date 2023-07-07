@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "character >= 'A'", "character > 'A'"
+2, ConditionalsBoundary, 6, "character <= 'Z'", "character < 'Z'"
+3, ConditionalsBoundary, 7, "character >= 'a'", "character > 'a'"
+4, ConditionalsBoundary, 7, "character <= 'z'", "character < 'z'"
+5, NegateConditionals, 6, "character >= 'A'", "character < 'A'"
+6, NegateConditionals, 6, "character <= 'Z'", "character > 'Z'"
+7, NegateConditionals, 7, "character >= 'a'", "character < 'a'"
+8, NegateConditionals, 7, "character <= 'z'", "character > 'z'"

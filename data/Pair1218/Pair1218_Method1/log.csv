@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "start1 < input.length", "start1 >= input.length"
+2, NegateConditionals, 6, "fragmentIndex < fragment.length", "fragmentIndex >= fragment.length"
+3, NegateConditionals, 6, "input[start1++] == fragment[fragmentIndex]", "input[start1++] != fragment[fragmentIndex]"
+4, Increments, 6, "start1++", "start1--"
+5, Increments, 7, "fragmentIndex++", "fragmentIndex--"
+6, ConditionalsBoundary, 6, "start1 < input.length", "start1 <= input.length"
+7, ConditionalsBoundary, 6, "fragmentIndex < fragment.length", "fragmentIndex <= fragment.length"

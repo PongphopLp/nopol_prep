@@ -1,0 +1,4 @@
+1, Increments, 6, "start++", "start--"
+2, NegateConditionals, 6, "start < n", "start >= n"
+3, NegateConditionals, 7, "text.charAt(start) == ch", "text.charAt(start) != ch"
+4, ConditionalsBoundary, 6, "start < n", "start <= n"

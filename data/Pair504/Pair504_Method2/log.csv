@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "n < 4", "n <= 4"
+2, Math, 7, "(0xff & ba[off + n]) << ((3 - n) * 8)", "(0xff & ba[off + n]) >> ((3 - n) * 8)"
+3, Math, 7, "0xff & ba[off + n]", "0xff | ba[off + n]"
+4, Math, 7, "off + n", "off - n"
+5, Math, 7, "(3 - n) * 8", "(3 - n) / 8"
+6, Math, 7, "3 - n", "3 + n"
+7, NegateConditionals, 6, "n < 4", "n >= 4"
+8, Increments, 6, "n++", "n--"

@@ -1,0 +1,5 @@
+1, Increments, 5, "startAt++", "startAt--"
+2, ConditionalsBoundary, 5, "startAt < limit", "startAt <= limit"
+3, InvertNegatives, 8, "-1", "1"
+4, NegateConditionals, 5, "startAt < limit", "startAt >= limit"
+5, NegateConditionals, 6, "buf[startAt] == lookFor", "buf[startAt] != lookFor"

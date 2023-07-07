@@ -1,0 +1,6 @@
+1, Increments, 7, "offset++", "offset--"
+2, VoidMethodCalls, 9, "result.append(c);
+", "DELETED"
+3, NegateConditionals, 6, "offset < buffer.length", "offset >= buffer.length"
+4, NegateConditionals, 8, "c == 0", "c != 0"
+5, ConditionalsBoundary, 6, "offset < buffer.length", "offset <= buffer.length"

@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 5, "delimiter == null", "delimiter != null"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "sample < Short.MIN_VALUE", "sample <= Short.MIN_VALUE"
+2, ConditionalsBoundary, 8, "sample > Short.MAX_VALUE", "sample >= Short.MAX_VALUE"
+3, NegateConditionals, 5, "sample < Short.MIN_VALUE", "sample >= Short.MIN_VALUE"
+4, NegateConditionals, 8, "sample > Short.MAX_VALUE", "sample <= Short.MAX_VALUE"

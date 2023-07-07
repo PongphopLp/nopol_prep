@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "i < magic.length", "i <= magic.length"
+2, Increments, 5, "i++", "i--"
+3, NegateConditionals, 5, "i < magic.length", "i >= magic.length"
+4, NegateConditionals, 5, "buffer[i] != magic[i]", "buffer[i] == magic[i]"

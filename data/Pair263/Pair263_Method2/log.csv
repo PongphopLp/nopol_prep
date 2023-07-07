@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "str == null", "str != null"
+2, NegateConditionals, 5, "strArray == null", "strArray != null"
+3, NegateConditionals, 6, "i < strArray.length", "i >= strArray.length"
+4, Increments, 6, "i++", "i--"
+5, InvertNegatives, 5, "-1", "1"
+6, InvertNegatives, 9, "-1", "1"
+7, ConditionalsBoundary, 6, "i < strArray.length", "i <= strArray.length"

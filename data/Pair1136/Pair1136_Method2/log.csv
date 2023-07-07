@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "boundary == null", "boundary != null"
+2, NegateConditionals, 5, "ba == null", "ba != null"
+3, NegateConditionals, 6, "i < boundary.length()", "i >= boundary.length()"
+4, NegateConditionals, 6, "(byte)boundary.charAt(i) != ba[i]", "(byte)boundary.charAt(i) == ba[i]"
+5, ConditionalsBoundary, 6, "i < boundary.length()", "i <= boundary.length()"
+6, Increments, 6, "i++", "i--"

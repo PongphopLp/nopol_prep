@@ -1,0 +1,7 @@
+1, Increments, 7, "++i", "--i"
+2, Math, 6, "offset + length", "offset - length"
+3, NegateConditionals, 7, "i < end", "i >= end"
+4, NegateConditionals, 8, "header[i] == 0", "header[i] != 0"
+5, VoidMethodCalls, 9, "result.append((char)header[i]);
+", "DELETED"
+6, ConditionalsBoundary, 7, "i < end", "i <= end"

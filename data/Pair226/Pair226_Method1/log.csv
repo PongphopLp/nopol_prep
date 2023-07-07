@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 9, "index < length1", "index <= length1"
+2, NegateConditionals, 5, "itemSet2 == null", "itemSet2 != null"
+3, NegateConditionals, 8, "length1 != length2", "length1 == length2"
+4, NegateConditionals, 9, "index < length1", "index >= length1"
+5, NegateConditionals, 10, "itemSet1[index] != itemSet2[index]", "itemSet1[index] == itemSet2[index]"
+6, Increments, 9, "index++", "index--"

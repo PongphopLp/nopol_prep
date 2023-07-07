@@ -1,0 +1,6 @@
+1, Increments, 7, "i++", "i--"
+2, ConditionalsBoundary, 7, "i < N", "i <= N"
+3, Math, 6, "x + coef[0]", "x - coef[0]"
+4, Math, 7, "ans * x + coef[i]", "ans * x - coef[i]"
+5, Math, 7, "ans * x", "ans / x"
+6, NegateConditionals, 7, "i < N", "i >= N"

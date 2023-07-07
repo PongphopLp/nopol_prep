@@ -1,0 +1,5 @@
+1, Math, 8, "str.length() - 1", "str.length() + 1"
+2, NegateConditionals, 5, "str == null", "str != null"
+3, NegateConditionals, 6, "str.length() == 1", "str.length() != 1"
+4, NegateConditionals, 6, "str.charAt(0) == ch", "str.charAt(0) != ch"
+5, NegateConditionals, 9, "str.charAt(l) == ch", "str.charAt(l) != ch"

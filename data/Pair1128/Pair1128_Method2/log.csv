@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "offset < length", "offset <= length"
+2, ConditionalsBoundary, 9, "inputChar < 0x80", "inputChar <= 0x80"
+3, ConditionalsBoundary, 12, "inputChar < 0x800", "inputChar <= 0x800"
+4, NegateConditionals, 7, "offset < length", "offset >= length"
+5, NegateConditionals, 9, "inputChar < 0x80", "inputChar >= 0x80"
+6, NegateConditionals, 12, "inputChar < 0x800", "inputChar >= 0x800"
+7, Increments, 10, "outputSize++", "outputSize--"
+8, Increments, 18, "offset++", "offset--"

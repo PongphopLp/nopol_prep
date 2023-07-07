@@ -1,0 +1,6 @@
+1, InvertNegatives, 8, "-1", "1"
+2, NegateConditionals, 7, "s1.length() < s2.length()", "s1.length() >= s2.length()"
+3, NegateConditionals, 10, "s1.length() > s2.length()", "s1.length() <= s2.length()"
+4, ConditionalsBoundary, 7, "s1.length() < s2.length()", "s1.length() <= s2.length()"
+5, ConditionalsBoundary, 10, "s1.length() > s2.length()", "s1.length() >= s2.length()"
+6, PrimitiveReturns, 11, "1", "0"

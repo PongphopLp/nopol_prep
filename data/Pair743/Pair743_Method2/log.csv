@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < str.length()", "i <= str.length()"
+2, Increments, 5, "i++", "i--"
+3, Math, 6, "i + offset", "i - offset"
+4, NegateConditionals, 5, "i < str.length()", "i >= str.length()"
+5, NegateConditionals, 6, "((byte)(str.charAt(i))) != buffer[i + offset]", "((byte)(str.charAt(i))) == buffer[i + offset]"

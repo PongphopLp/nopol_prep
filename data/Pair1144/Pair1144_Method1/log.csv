@@ -1,0 +1,8 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "strings != null", "strings == null"
+3, NegateConditionals, 6, "strings.length > 0", "strings.length <= 0"
+4, NegateConditionals, 7, "i < strings.length", "i >= strings.length"
+5, NegateConditionals, 8, "strings[i] != null", "strings[i] == null"
+6, NegateConditionals, 15, "target == null", "target != null"
+7, ConditionalsBoundary, 6, "strings.length > 0", "strings.length >= 0"
+8, ConditionalsBoundary, 7, "i < strings.length", "i <= strings.length"

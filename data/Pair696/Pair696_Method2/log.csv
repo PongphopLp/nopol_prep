@@ -1,0 +1,8 @@
+1, Increments, 9, "i--", "i++"
+2, NegateConditionals, 6, "slen >= len", "slen < len"
+3, NegateConditionals, 9, "i >= 0", "i < 0"
+4, Math, 8, "len - slen", "len + slen"
+5, Math, 9, "len - slen - 1", "len + slen + 1"
+6, Math, 10, "s + new String(pad)", "s - new String(pad)"
+7, ConditionalsBoundary, 6, "slen >= len", "slen > len"
+8, ConditionalsBoundary, 9, "i >= 0", "i > 0"

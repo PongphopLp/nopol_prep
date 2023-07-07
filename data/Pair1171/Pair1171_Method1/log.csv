@@ -1,0 +1,6 @@
+1, Math, 7, "l - n - 1", "l + n + 1"
+2, NegateConditionals, 7, "n < l", "n >= l"
+3, NegateConditionals, 7, "s.charAt(l - n - 1) == ' '", "s.charAt(l - n - 1) != ' '"
+4, NegateConditionals, 8, "n == s.length()", "n != s.length()"
+5, ConditionalsBoundary, 7, "n < l", "n <= l"
+6, Increments, 7, "n++", "n--"

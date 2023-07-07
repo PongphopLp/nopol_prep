@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "collectionA == null", "collectionA != null"
+2, NegateConditionals, 5, "collectionB == null", "collectionB != null"
+3, NegateConditionals, 6, "collectionA == null", "collectionA != null"
+4, NegateConditionals, 6, "collectionB == null", "collectionB != null"
+5, NegateConditionals, 7, "collectionA.size() != collectionB.size()", "collectionA.size() == collectionB.size()"

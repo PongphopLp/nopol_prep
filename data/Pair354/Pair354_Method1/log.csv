@@ -1,0 +1,8 @@
+1, Math, 8, "b & 1L", "b | 1L"
+2, Math, 11, "((long)Math.sqrt(b)) + 2", "((long)Math.sqrt(b)) - 2"
+3, Math, 13, "b % x", "b * x"
+4, NegateConditionals, 5, "b == 2", "b != 2"
+5, NegateConditionals, 8, "(b & 1L) == 0", "(b & 1L) != 0"
+6, NegateConditionals, 12, "x < maxlen", "x >= maxlen"
+7, NegateConditionals, 13, "b % x == 0", "b % x != 0"
+8, ConditionalsBoundary, 12, "x < maxlen", "x <= maxlen"

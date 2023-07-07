@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "toMod > 0", "toMod >= 0"
+2, Math, 5, "toMod % mod", "toMod * mod"
+3, Math, 6, "(mod + (toMod % mod)) % mod", "(mod + (toMod % mod)) * mod"
+4, Math, 6, "mod + (toMod % mod)", "mod - (toMod % mod)"
+5, Math, 6, "toMod % mod", "toMod * mod"
+6, NegateConditionals, 5, "toMod > 0", "toMod <= 0"

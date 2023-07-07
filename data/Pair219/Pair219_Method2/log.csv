@@ -1,0 +1,2 @@
+1, NegateConditionals, 7, "null == value", "null != value"
+2, NegateConditionals, 7, "0 == value.length()", "0 != value.length()"

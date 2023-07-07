@@ -1,0 +1,11 @@
+1, ConditionalsBoundary, 6, "setList.size() > 0", "setList.size() >= 0"
+2, ConditionalsBoundary, 9, "i < setList.size()", "i <= setList.size()"
+3, VoidMethodCalls, 7, "sb.append((String)setList.get(0));
+", "DELETED"
+4, VoidMethodCalls, 10, "sb.append(",");
+", "DELETED"
+5, VoidMethodCalls, 11, "sb.append((String)setList.get(i));
+", "DELETED"
+6, Increments, 9, "i++", "i--"
+7, NegateConditionals, 6, "setList.size() > 0", "setList.size() <= 0"
+8, NegateConditionals, 9, "i < setList.size()", "i >= setList.size()"

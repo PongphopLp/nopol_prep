@@ -1,0 +1,6 @@
+1, Math, 6, "(fromIndex + n) - 1", "(fromIndex + n) + 1"
+2, Math, 6, "fromIndex + n", "fromIndex - n"
+3, NegateConditionals, 6, "textToSearch.length() > ((fromIndex + n) - 1)", "textToSearch.length() <= ((fromIndex + n) - 1)"
+4, Increments, 10, "fromIndex++", "fromIndex--"
+5, InvertNegatives, 12, "-1", "1"
+6, ConditionalsBoundary, 6, "textToSearch.length() > ((fromIndex + n) - 1)", "textToSearch.length() >= ((fromIndex + n) - 1)"

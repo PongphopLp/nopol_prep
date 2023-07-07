@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "heading >= 0", "heading < 0"
+2, NegateConditionals, 5, "heading <= 5", "heading > 5"
+3, ConditionalsBoundary, 5, "heading >= 0", "heading > 0"
+4, ConditionalsBoundary, 5, "heading <= 5", "heading < 5"
+5, PrimitiveReturns, 6, "6", "0"
+6, Math, 5, "(9 + heading) % 6", "(9 + heading) * 6"
+7, Math, 5, "9 + heading", "9 - heading"

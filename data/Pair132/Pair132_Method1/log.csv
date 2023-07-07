@@ -1,0 +1,8 @@
+1, Math, 7, "(bytes[i] << i * 8) & (0xFF << i * 8)", "(bytes[i] << i * 8) | (0xFF << i * 8)"
+2, Math, 7, "bytes[i] << i * 8", "bytes[i] >> i * 8"
+3, Math, 7, "i * 8", "i / 8"
+4, Math, 7, "0xFF << i * 8", "0xFF >> i * 8"
+5, Math, 7, "i * 8", "i / 8"
+6, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+7, NegateConditionals, 6, "i < 4", "i >= 4"
+8, Increments, 6, "i++", "i--"

@@ -1,0 +1,15 @@
+01, ConditionalsBoundary, 6, "s.length() > 1", "s.length() >= 1"
+02, VoidMethodCalls, 8, "s.append("th");
+", "DELETED"
+03, VoidMethodCalls, 14, "s.append("st");
+", "DELETED"
+04, VoidMethodCalls, 16, "s.append("nd");
+", "DELETED"
+05, VoidMethodCalls, 18, "s.append("rd");
+", "DELETED"
+06, VoidMethodCalls, 20, "s.append("th");
+", "DELETED"
+07, NegateConditionals, 6, "s.length() > 1", "s.length() <= 1"
+08, NegateConditionals, 7, "s.charAt(s.length() - 2) == '1'", "s.charAt(s.length() - 2) != '1'"
+09, Math, 7, "s.length() - 2", "s.length() + 2"
+10, Math, 12, "s.length() - 1", "s.length() + 1"

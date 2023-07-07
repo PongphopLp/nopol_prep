@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "source == compare", "source != compare"
+2, NegateConditionals, 8, "compare == null", "compare != null"
+3, NegateConditionals, 11, "source == null", "source != null"
+4, NegateConditionals, 14, "null != compare", "null == compare"
+5, NegateConditionals, 16, "source == compare", "source != compare"

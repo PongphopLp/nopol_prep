@@ -1,0 +1,7 @@
+1, NegateConditionals, 9, "calendar.get(Calendar.YEAR) == comparedCalendar.get(Calendar.YEAR)", "calendar.get(Calendar.YEAR) != comparedCalendar.get(Calendar.YEAR)"
+2, NegateConditionals, 9, "calendar.get(Calendar.MONTH) == comparedCalendar.get(Calendar.MONTH)", "calendar.get(Calendar.MONTH) != comparedCalendar.get(Calendar.MONTH)"
+3, NegateConditionals, 9, "calendar.get(Calendar.DATE) == comparedCalendar.get(Calendar.DATE)", "calendar.get(Calendar.DATE) != comparedCalendar.get(Calendar.DATE)"
+4, VoidMethodCalls, 6, "calendar.setTime(date);
+", "DELETED"
+5, VoidMethodCalls, 8, "comparedCalendar.setTime(comparedDate);
+", "DELETED"

@@ -1,0 +1,8 @@
+1, Math, 5, "idx + pat.length", "idx - pat.length"
+2, Math, 6, "i + idx", "i - idx"
+3, ConditionalsBoundary, 5, "(idx + pat.length) > in.length", "(idx + pat.length) >= in.length"
+4, ConditionalsBoundary, 6, "i < pat.length", "i <= pat.length"
+5, NegateConditionals, 5, "(idx + pat.length) > in.length", "(idx + pat.length) <= in.length"
+6, NegateConditionals, 6, "i < pat.length", "i >= pat.length"
+7, NegateConditionals, 6, "pat[i] != in[i + idx]", "pat[i] == in[i + idx]"
+8, Increments, 6, "i++", "i--"

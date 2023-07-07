@@ -1,0 +1,14 @@
+01, Increments, 14, "--max", "++max"
+02, InvertNegatives, 11, "-1", "1"
+03, VoidMethodCalls, 12, "buf.append(text.substring(start,end)).append(with);
+", "DELETED"
+04, VoidMethodCalls, 18, "buf.append(text.substring(start));
+", "DELETED"
+05, NegateConditionals, 5, "text == null", "text != null"
+06, NegateConditionals, 5, "repl == null", "repl != null"
+07, NegateConditionals, 5, "with == null", "with != null"
+08, NegateConditionals, 5, "repl.length() == 0", "repl.length() != 0"
+09, NegateConditionals, 5, "max == 0", "max != 0"
+10, NegateConditionals, 11, "(end=text.indexOf(repl,start)) != -1", "(end=text.indexOf(repl,start)) == -1"
+11, NegateConditionals, 14, "--max == 0", "--max != 0"
+12, Math, 13, "end + repl.length()", "end - repl.length()"

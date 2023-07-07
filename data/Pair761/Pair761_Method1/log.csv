@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "a == null", "a != null"
+2, NegateConditionals, 5, "a.length() == 0", "a.length() != 0"
+3, NegateConditionals, 5, "b == null", "b != null"
+4, NegateConditionals, 5, "b.length() == 0", "b.length() != 0"
+5, NegateConditionals, 6, "a == null", "a != null"

@@ -1,0 +1,4 @@
+1, InvertNegatives, 6, "-1", "1"
+2, NegateConditionals, 5, "c1 == c2", "c1 != c2"
+3, NegateConditionals, 6, "c1 == null", "c1 != null"
+4, NegateConditionals, 7, "c2 == null", "c2 != null"

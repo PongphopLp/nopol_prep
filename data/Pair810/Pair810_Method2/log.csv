@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "one == null", "one != null"
+2, NegateConditionals, 5, "two == null", "two != null"
+3, NegateConditionals, 8, "one == null", "one != null"
+4, NegateConditionals, 8, "two == null", "two != null"
+5, NegateConditionals, 11, "one.compareTo(two) == 0", "one.compareTo(two) != 0"
+6, Math, 5, "one == null ^ two == null", "one == null & two == null"

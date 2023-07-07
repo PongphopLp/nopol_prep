@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 5, "str.length() > index", "str.length() >= index"
+2, NegateConditionals, 5, "str.length() > index", "str.length() <= index"

@@ -1,0 +1,5 @@
+1, VoidMethodCalls, 9, "System.arraycopy(in,0,copier,0,to);
+", "DELETED"
+2, NegateConditionals, 5, "null == in", "null != in"
+3, NegateConditionals, 6, "in.length <= to", "in.length > to"
+4, ConditionalsBoundary, 6, "in.length <= to", "in.length < to"

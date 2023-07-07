@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < toTake", "i <= toTake"
+2, NegateConditionals, 6, "i < toTake", "i >= toTake"
+3, Increments, 6, "i++", "i--"
+4, Math, 7, "start + i", "start - i"

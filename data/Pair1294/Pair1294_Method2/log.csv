@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "sinceDate != null", "sinceDate == null"
+2, NegateConditionals, 6, "untilDate != null", "untilDate == null"

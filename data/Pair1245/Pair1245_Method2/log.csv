@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 9, "nonPrefixPosition < input.length()", "nonPrefixPosition <= input.length()"
+2, Increments, 10, "++nonPrefixPosition", "--nonPrefixPosition"
+3, NegateConditionals, 5, "input == null", "input != null"
+4, NegateConditionals, 5, "input.length() == 0", "input.length() != 0"
+5, NegateConditionals, 5, "input.charAt(0) != prefix", "input.charAt(0) == prefix"
+6, NegateConditionals, 9, "nonPrefixPosition < input.length()", "nonPrefixPosition >= input.length()"
+7, NegateConditionals, 9, "input.charAt(nonPrefixPosition) == prefix", "input.charAt(nonPrefixPosition) != prefix"

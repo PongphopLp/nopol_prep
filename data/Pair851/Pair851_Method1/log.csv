@@ -1,0 +1,3 @@
+1, NegateConditionals, 6, "dValue != null", "dValue == null"
+2, NegateConditionals, 6, "dValue.trim().length() > 0", "dValue.trim().length() <= 0"
+3, ConditionalsBoundary, 6, "dValue.trim().length() > 0", "dValue.trim().length() >= 0"

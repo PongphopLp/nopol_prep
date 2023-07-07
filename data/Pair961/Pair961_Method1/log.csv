@@ -1,0 +1,7 @@
+1, InvertNegatives, 8, "-1", "1"
+2, Increments, 9, "count++", "count--"
+3, NegateConditionals, 5, "string == null", "string != null"
+4, NegateConditionals, 5, "string.length() == 0", "string.length() != 0"
+5, NegateConditionals, 5, "sub == null", "sub != null"
+6, NegateConditionals, 5, "sub.length() == 0", "sub.length() != 0"
+7, NegateConditionals, 8, "(index=string.indexOf(sub,index)) != -1", "(index=string.indexOf(sub,index)) == -1"

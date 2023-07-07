@@ -1,0 +1,4 @@
+1, Increments, 6, "++from", "--from"
+2, NegateConditionals, 5, "from < length", "from >= length"
+3, NegateConditionals, 5, "chars[from] != chr", "chars[from] == chr"
+4, ConditionalsBoundary, 5, "from < length", "from <= length"

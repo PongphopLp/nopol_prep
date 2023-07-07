@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < offset + len", "i >= offset + len"
+2, NegateConditionals, 7, "(sector)[i] != 0", "(sector)[i] == 0"
+3, Increments, 6, "i++", "i--"
+4, Math, 6, "offset + len", "offset - len"
+5, ConditionalsBoundary, 6, "i < offset + len", "i <= offset + len"

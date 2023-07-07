@@ -1,0 +1,7 @@
+1, Increments, 9, "i++", "i--"
+2, NegateConditionals, 5, "values == null", "values != null"
+3, NegateConditionals, 5, "values.length == 0", "values.length != 0"
+4, NegateConditionals, 9, "i < values.length", "i >= values.length"
+5, NegateConditionals, 10, "max < values[i]", "max >= values[i]"
+6, ConditionalsBoundary, 9, "i < values.length", "i <= values.length"
+7, ConditionalsBoundary, 10, "max < values[i]", "max <= values[i]"

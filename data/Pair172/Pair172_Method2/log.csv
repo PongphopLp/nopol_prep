@@ -1,0 +1,17 @@
+01, Math, 10, "prevIndex + 1", "prevIndex - 1"
+02, Math, 13, "prevIndex + 1", "prevIndex - 1"
+03, Math, 16, "str.length() - 1", "str.length() + 1"
+04, Math, 17, "prevIndex + 1", "prevIndex - 1"
+05, ConditionalsBoundary, 8, "offset < str.length()", "offset <= str.length()"
+06, ConditionalsBoundary, 9, "offset > 0", "offset >= 0"
+07, ConditionalsBoundary, 16, "offset < str.length() - 1", "offset <= str.length() - 1"
+08, VoidMethodCalls, 11, "vec.add(cur);
+", "DELETED"
+09, VoidMethodCalls, 17, "vec.add(str.substring(prevIndex + 1));
+", "DELETED"
+10, InvertNegatives, 6, "-1", "1"
+11, InvertNegatives, 8, "-1", "1"
+12, NegateConditionals, 8, "offset != -1", "offset == -1"
+13, NegateConditionals, 8, "offset < str.length()", "offset >= str.length()"
+14, NegateConditionals, 9, "offset > 0", "offset <= 0"
+15, NegateConditionals, 16, "offset < str.length() - 1", "offset >= str.length() - 1"

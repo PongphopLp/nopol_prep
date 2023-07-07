@@ -1,0 +1,4 @@
+1, Math, 6, "offset + i", "offset - i"
+2, ConditionalsBoundary, 6, "i < copiedBytes.length", "i <= copiedBytes.length"
+3, NegateConditionals, 6, "i < copiedBytes.length", "i >= copiedBytes.length"
+4, Increments, 6, "i++", "i--"

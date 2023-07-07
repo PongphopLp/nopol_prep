@@ -1,0 +1,12 @@
+01, InvertNegatives, 13, "-1", "1"
+02, Math, 13, "eCut + findlen", "eCut - findlen"
+03, Math, 14, "eCut - sCut", "eCut + sCut"
+04, Math, 16, "strlen - sCut", "strlen + sCut"
+05, NegateConditionals, 7, "str == null", "str != null"
+06, NegateConditionals, 7, "(strlen=(chars=str.toCharArray()).length) < (findlen=find.length())", "(strlen=(chars=str.toCharArray()).length) >= (findlen=find.length())"
+07, NegateConditionals, 13, "(eCut=str.indexOf(find,sCut)) != -1", "(eCut=str.indexOf(find,sCut)) == -1"
+08, NegateConditionals, 16, "sCut > 0", "sCut <= 0"
+09, VoidMethodCalls, 14, "sb.append(chars,sCut,(eCut - sCut)).append(replaceChars);
+", "DELETED"
+10, ConditionalsBoundary, 7, "(strlen=(chars=str.toCharArray()).length) < (findlen=find.length())", "(strlen=(chars=str.toCharArray()).length) <= (findlen=find.length())"
+11, ConditionalsBoundary, 16, "sCut > 0", "sCut >= 0"

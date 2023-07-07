@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "i < date1.length", "i <= date1.length"
+2, ConditionalsBoundary, 6, "date1[i] < date2[i]", "date1[i] <= date2[i]"
+3, ConditionalsBoundary, 7, "date1[i] > date2[i]", "date1[i] >= date2[i]"
+4, Increments, 5, "i++", "i--"
+5, NegateConditionals, 5, "i < date1.length", "i >= date1.length"
+6, NegateConditionals, 6, "date1[i] < date2[i]", "date1[i] >= date2[i]"
+7, NegateConditionals, 7, "date1[i] > date2[i]", "date1[i] <= date2[i]"

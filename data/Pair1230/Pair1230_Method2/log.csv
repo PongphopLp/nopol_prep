@@ -1,0 +1,23 @@
+01, Math, 5, "input.length() * 2", "input.length() / 2"
+02, Increments, 6, "i++", "i--"
+03, NegateConditionals, 6, "i < input.length()", "i >= input.length()"
+04, NegateConditionals, 9, "i == 0", "i != 0"
+05, VoidMethodCalls, 9, "out.append('\\');
+", "DELETED"
+06, VoidMethodCalls, 10, "out.append(' ');
+", "DELETED"
+07, VoidMethodCalls, 12, "out.append("\\t");
+", "DELETED"
+08, VoidMethodCalls, 14, "out.append("\\n");
+", "DELETED"
+09, VoidMethodCalls, 16, "out.append("\\r");
+", "DELETED"
+10, VoidMethodCalls, 18, "out.append("\\f");
+", "DELETED"
+11, VoidMethodCalls, 20, "out.append('\\');
+", "DELETED"
+12, VoidMethodCalls, 21, "out.append(c);
+", "DELETED"
+13, VoidMethodCalls, 23, "out.append(c);
+", "DELETED"
+14, ConditionalsBoundary, 6, "i < input.length()", "i <= input.length()"

@@ -1,0 +1,10 @@
+1, Increments, 8, "++k", "--k"
+2, VoidMethodCalls, 13, "buf.append((char)cid);
+", "DELETED"
+3, NegateConditionals, 8, "k < end", "k >= end"
+4, NegateConditionals, 12, "(cid & 0x8000) == 0", "(cid & 0x8000) != 0"
+5, ConditionalsBoundary, 8, "k < end", "k <= end"
+6, Math, 6, "start + length", "start - length"
+7, Math, 9, "seq[k] & 0xff", "seq[k] | 0xff"
+8, Math, 12, "cid & 0x8000", "cid | 0x8000"
+9, Math, 16, "cid & 0x7fff", "cid | 0x7fff"

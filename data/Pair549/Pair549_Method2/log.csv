@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < dims.length", "i <= dims.length"
+2, ConditionalsBoundary, 7, "i > 0", "i >= 0"
+3, NegateConditionals, 6, "i < dims.length", "i >= dims.length"
+4, NegateConditionals, 7, "i > 0", "i <= 0"

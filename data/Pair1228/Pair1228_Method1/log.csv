@@ -1,0 +1,191 @@
+001, Increments, 8, "i++", "i--"
+002, VoidMethodCalls, 12, "out.append('\"');
+", "DELETED"
+003, VoidMethodCalls, 16, "out.append("&quot;");
+", "DELETED"
+004, VoidMethodCalls, 18, "out.append("&amp;");
+", "DELETED"
+005, VoidMethodCalls, 20, "out.append("&lt;");
+", "DELETED"
+006, VoidMethodCalls, 22, "out.append("&gt;");
+", "DELETED"
+007, VoidMethodCalls, 24, "out.append("&nbsp;");
+", "DELETED"
+008, VoidMethodCalls, 26, "out.append("&iexcl;");
+", "DELETED"
+009, VoidMethodCalls, 28, "out.append("&cent;");
+", "DELETED"
+010, VoidMethodCalls, 30, "out.append("&pound;");
+", "DELETED"
+011, VoidMethodCalls, 34, "out.append("&yen;");
+", "DELETED"
+012, VoidMethodCalls, 36, "out.append("&brvbar;");
+", "DELETED"
+013, VoidMethodCalls, 38, "out.append("&sect;");
+", "DELETED"
+014, VoidMethodCalls, 40, "out.append("&uml;");
+", "DELETED"
+015, VoidMethodCalls, 42, "out.append("&copy;");
+", "DELETED"
+016, VoidMethodCalls, 44, "out.append("&ordf;");
+", "DELETED"
+017, VoidMethodCalls, 46, "out.append("&laquo;");
+", "DELETED"
+018, VoidMethodCalls, 50, "out.append("&shy;");
+", "DELETED"
+019, VoidMethodCalls, 52, "out.append("&reg;");
+", "DELETED"
+020, VoidMethodCalls, 54, "out.append("&macr;");
+", "DELETED"
+021, VoidMethodCalls, 56, "out.append("&deg;");
+", "DELETED"
+022, VoidMethodCalls, 58, "out.append("&plusmn;");
+", "DELETED"
+023, VoidMethodCalls, 60, "out.append("&sup2;");
+", "DELETED"
+024, VoidMethodCalls, 62, "out.append("&sup3;");
+", "DELETED"
+025, VoidMethodCalls, 64, "out.append("&acute;");
+", "DELETED"
+026, VoidMethodCalls, 66, "out.append("&micro;");
+", "DELETED"
+027, VoidMethodCalls, 68, "out.append("&para;");
+", "DELETED"
+028, VoidMethodCalls, 70, "out.append("&middot;");
+", "DELETED"
+029, VoidMethodCalls, 72, "out.append("&cedil;");
+", "DELETED"
+030, VoidMethodCalls, 74, "out.append("&sup1;");
+", "DELETED"
+031, VoidMethodCalls, 76, "out.append("&ordm;");
+", "DELETED"
+032, VoidMethodCalls, 78, "out.append("&raquo;");
+", "DELETED"
+033, VoidMethodCalls, 80, "out.append("&frac14;");
+", "DELETED"
+034, VoidMethodCalls, 82, "out.append("&frac12;");
+", "DELETED"
+035, VoidMethodCalls, 84, "out.append("&frac34;");
+", "DELETED"
+036, VoidMethodCalls, 86, "out.append("&iquest;");
+", "DELETED"
+037, VoidMethodCalls, 88, "out.append("&Agrave;");
+", "DELETED"
+038, VoidMethodCalls, 90, "out.append("&Aacute;");
+", "DELETED"
+039, VoidMethodCalls, 92, "out.append("&Acirc;");
+", "DELETED"
+040, VoidMethodCalls, 94, "out.append("&Atilde;");
+", "DELETED"
+041, VoidMethodCalls, 96, "out.append("&Auml;");
+", "DELETED"
+042, VoidMethodCalls, 98, "out.append("&Aring;");
+", "DELETED"
+043, VoidMethodCalls, 100, "out.append("&AElig;");
+", "DELETED"
+044, VoidMethodCalls, 102, "out.append("&Ccedil;");
+", "DELETED"
+045, VoidMethodCalls, 104, "out.append("&Egrave;");
+", "DELETED"
+046, VoidMethodCalls, 106, "out.append("&Eacute;");
+", "DELETED"
+047, VoidMethodCalls, 110, "out.append("&Euml;");
+", "DELETED"
+048, VoidMethodCalls, 112, "out.append("&Igrave;");
+", "DELETED"
+049, VoidMethodCalls, 114, "out.append("&Iacute;");
+", "DELETED"
+050, VoidMethodCalls, 118, "out.append("&Iuml;");
+", "DELETED"
+051, VoidMethodCalls, 120, "out.append("&ETH;");
+", "DELETED"
+052, VoidMethodCalls, 122, "out.append("&Ntilde;");
+", "DELETED"
+053, VoidMethodCalls, 126, "out.append("&Oacute;");
+", "DELETED"
+054, VoidMethodCalls, 128, "out.append("&Ocirc;");
+", "DELETED"
+055, VoidMethodCalls, 130, "out.append("&Otilde;");
+", "DELETED"
+056, VoidMethodCalls, 132, "out.append("&Ouml;");
+", "DELETED"
+057, VoidMethodCalls, 134, "out.append("&times;");
+", "DELETED"
+058, VoidMethodCalls, 140, "out.append("&Uacute;");
+", "DELETED"
+059, VoidMethodCalls, 142, "out.append("&Ucirc;");
+", "DELETED"
+060, VoidMethodCalls, 144, "out.append("&Uuml;");
+", "DELETED"
+061, VoidMethodCalls, 148, "out.append("&THORN;");
+", "DELETED"
+062, VoidMethodCalls, 150, "out.append("&szlig;");
+", "DELETED"
+063, VoidMethodCalls, 154, "out.append("&aacute;");
+", "DELETED"
+064, VoidMethodCalls, 156, "out.append("&acirc;");
+", "DELETED"
+065, VoidMethodCalls, 158, "out.append("&atilde;");
+", "DELETED"
+066, VoidMethodCalls, 160, "out.append("&auml;");
+", "DELETED"
+067, VoidMethodCalls, 164, "out.append("&aelig;");
+", "DELETED"
+068, VoidMethodCalls, 166, "out.append("&ccedil;");
+", "DELETED"
+069, VoidMethodCalls, 168, "out.append("&egrave;");
+", "DELETED"
+070, VoidMethodCalls, 172, "out.append("&ecirc;");
+", "DELETED"
+071, VoidMethodCalls, 174, "out.append("&euml;");
+", "DELETED"
+072, VoidMethodCalls, 176, "out.append("&igrave;");
+", "DELETED"
+073, VoidMethodCalls, 178, "out.append("&iacute;");
+", "DELETED"
+074, VoidMethodCalls, 180, "out.append("&icirc;");
+", "DELETED"
+075, VoidMethodCalls, 182, "out.append("&iuml;");
+", "DELETED"
+076, VoidMethodCalls, 184, "out.append("&eth;");
+", "DELETED"
+077, VoidMethodCalls, 186, "out.append("&ntilde;");
+", "DELETED"
+078, VoidMethodCalls, 188, "out.append("&ograve;");
+", "DELETED"
+079, VoidMethodCalls, 190, "out.append("&oacute;");
+", "DELETED"
+080, VoidMethodCalls, 192, "out.append("&ocirc;");
+", "DELETED"
+081, VoidMethodCalls, 194, "out.append("&otilde;");
+", "DELETED"
+082, VoidMethodCalls, 198, "out.append("&divide;");
+", "DELETED"
+083, VoidMethodCalls, 200, "out.append("&oslash;");
+", "DELETED"
+084, VoidMethodCalls, 204, "out.append("&uacute;");
+", "DELETED"
+085, VoidMethodCalls, 206, "out.append("&ucirc;");
+", "DELETED"
+086, VoidMethodCalls, 208, "out.append("&uuml;");
+", "DELETED"
+087, VoidMethodCalls, 210, "out.append("&yacute;");
+", "DELETED"
+088, VoidMethodCalls, 212, "out.append("&thorn;");
+", "DELETED"
+089, VoidMethodCalls, 214, "out.append("&yuml;");
+", "DELETED"
+090, VoidMethodCalls, 216, "out.append("&euro;");
+", "DELETED"
+091, VoidMethodCalls, 218, "out.append("&#").append((int)c).append(';');
+", "DELETED"
+092, VoidMethodCalls, 223, "out.append(c);
+", "DELETED"
+093, ConditionalsBoundary, 8, "i < text.length()", "i <= text.length()"
+094, ConditionalsBoundary, 10, "c >= 128", "c > 128"
+095, NegateConditionals, 5, "text == null", "text != null"
+096, NegateConditionals, 8, "i < text.length()", "i >= text.length()"
+097, NegateConditionals, 10, "c >= 128", "c < 128"
+098, NegateConditionals, 10, "c == '<'", "c != '<'"
+099, NegateConditionals, 10, "c == '>'", "c != '>'"
+100, NegateConditionals, 10, "c == '&'", "c != '&'"

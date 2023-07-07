@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "i < arr1.length", "i <= arr1.length"
+2, NegateConditionals, 5, "arr1 == null", "arr1 != null"
+3, NegateConditionals, 5, "arr2 == null", "arr2 != null"
+4, NegateConditionals, 5, "arr1 == arr2", "arr1 != arr2"
+5, NegateConditionals, 6, "arr1.length != arr2.length", "arr1.length == arr2.length"
+6, NegateConditionals, 7, "i < arr1.length", "i >= arr1.length"
+7, NegateConditionals, 8, "arr1[i] != arr2[i]", "arr1[i] == arr2[i]"
+8, Increments, 7, "i++", "i--"

@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "o1 == null", "o1 != null"
+2, NegateConditionals, 5, "o2 == null", "o2 != null"
+3, NegateConditionals, 6, "o1 == null", "o1 != null"
+4, NegateConditionals, 7, "o2 == null", "o2 != null"
+5, InvertNegatives, 6, "-1", "1"
+6, InvertNegatives, 12, "-1", "1"
+7, PrimitiveReturns, 7, "1", "0"
+8, PrimitiveReturns, 11, "1", "0"

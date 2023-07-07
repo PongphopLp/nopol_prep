@@ -1,0 +1,6 @@
+1, InvertNegatives, 11, "-1", "1"
+2, NegateConditionals, 7, "sample1.doubleValue() > sample2.doubleValue()", "sample1.doubleValue() <= sample2.doubleValue()"
+3, NegateConditionals, 10, "sample1.doubleValue() < sample2.doubleValue()", "sample1.doubleValue() >= sample2.doubleValue()"
+4, ConditionalsBoundary, 7, "sample1.doubleValue() > sample2.doubleValue()", "sample1.doubleValue() >= sample2.doubleValue()"
+5, ConditionalsBoundary, 10, "sample1.doubleValue() < sample2.doubleValue()", "sample1.doubleValue() <= sample2.doubleValue()"
+6, PrimitiveReturns, 8, "1", "0"

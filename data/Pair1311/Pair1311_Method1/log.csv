@@ -1,0 +1,8 @@
+1, Math, 8, "str.length() * iCount", "str.length() / iCount"
+2, NegateConditionals, 5, "iCount == 0", "iCount != 0"
+3, NegateConditionals, 5, "str.length() == 0", "str.length() != 0"
+4, NegateConditionals, 9, "i > 0", "i <= 0"
+5, ConditionalsBoundary, 9, "i > 0", "i >= 0"
+6, VoidMethodCalls, 10, "sb.append(str);
+", "DELETED"
+7, Increments, 9, "i--", "i++"

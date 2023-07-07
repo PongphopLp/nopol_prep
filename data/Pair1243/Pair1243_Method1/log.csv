@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "quotedString.length() > 0", "quotedString.length() <= 0"
+2, NegateConditionals, 5, "quotedString.charAt(0) != '"'", "quotedString.charAt(0) == '"'"
+3, NegateConditionals, 8, "quotedString.length() > 2", "quotedString.length() <= 2"
+4, Math, 9, "quotedString.length() - 1", "quotedString.length() + 1"
+5, ConditionalsBoundary, 5, "quotedString.length() > 0", "quotedString.length() >= 0"
+6, ConditionalsBoundary, 8, "quotedString.length() > 2", "quotedString.length() >= 2"

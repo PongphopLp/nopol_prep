@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "x < length", "x >= length"
+2, NegateConditionals, 8, "y < 0", "y >= 0"
+3, NegateConditionals, 10, "d.length() == 1", "d.length() != 1"
+4, Increments, 6, "x++", "x--"
+5, ConditionalsBoundary, 6, "x < length", "x <= length"
+6, ConditionalsBoundary, 8, "y < 0", "y <= 0"

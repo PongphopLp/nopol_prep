@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 9, "classSpecifications.addAll(additionalClassSpecifications);
+", "DELETED"
+2, NegateConditionals, 5, "additionalClassSpecifications != null", "additionalClassSpecifications == null"
+3, NegateConditionals, 6, "classSpecifications == null", "classSpecifications != null"

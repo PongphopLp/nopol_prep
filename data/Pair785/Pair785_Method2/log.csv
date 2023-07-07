@@ -1,0 +1,15 @@
+01, ConditionalsBoundary, 7, "nAvailCapacity < nNumOfBytes", "nAvailCapacity <= nNumOfBytes"
+02, ConditionalsBoundary, 11, "nNumOfBytes > 0", "nNumOfBytes >= 0"
+03, VoidMethodCalls, 9, "sbuf.setLength(nNumOfBytes >> 1);
+", "DELETED"
+04, VoidMethodCalls, 12, "sbuf.setCharAt(nSBufPos++,(char)(((int)data[nStartPos] << 8) | ((int)data[nStartPos + 1] & 0x0ff)));
+", "DELETED"
+05, Math, 6, "data.length - nStartPos", "data.length + nStartPos"
+06, Math, 9, "nNumOfBytes >> 1", "nNumOfBytes << 1"
+07, Math, 12, "((int)data[nStartPos] << 8) | ((int)data[nStartPos + 1] & 0x0ff)", "((int)data[nStartPos] << 8) & ((int)data[nStartPos + 1] & 0x0ff)"
+08, Math, 12, "(int)data[nStartPos] << 8", "(int)data[nStartPos] >> 8"
+09, Math, 12, "(int)data[nStartPos + 1] & 0x0ff", "(int)data[nStartPos + 1] | 0x0ff"
+10, Math, 12, "nStartPos + 1", "nStartPos - 1"
+11, Increments, 12, "nSBufPos++", "nSBufPos--"
+12, NegateConditionals, 7, "nAvailCapacity < nNumOfBytes", "nAvailCapacity >= nNumOfBytes"
+13, NegateConditionals, 11, "nNumOfBytes > 0", "nNumOfBytes <= 0"

@@ -1,0 +1,16 @@
+01, VoidMethodCalls, 12, "System.arraycopy(ary,1,copy,0,nlen);
+", "DELETED"
+02, VoidMethodCalls, 18, "System.arraycopy(ary,0,copy,0,(idx));
+", "DELETED"
+03, VoidMethodCalls, 19, "System.arraycopy(ary,(idx + 1),copy,(idx),(nlen - idx));
+", "DELETED"
+04, ConditionalsBoundary, 5, "0 > idx", "0 >= idx"
+05, ConditionalsBoundary, 8, "idx >= len", "idx > len"
+06, Math, 10, "len - 1", "len + 1"
+07, Math, 16, "len - 1", "len + 1"
+08, Math, 19, "idx + 1", "idx - 1"
+09, Math, 19, "nlen - idx", "nlen + idx"
+10, NegateConditionals, 5, "null == ary", "null != ary"
+11, NegateConditionals, 5, "0 > idx", "0 <= idx"
+12, NegateConditionals, 8, "idx >= len", "idx < len"
+13, NegateConditionals, 9, "0 == idx", "0 != idx"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 8, "index >= 0", "index > 0"
+2, NegateConditionals, 5, "str == null", "str != null"
+3, NegateConditionals, 6, "separator == null", "separator != null"
+4, NegateConditionals, 8, "index >= 0", "index < 0"

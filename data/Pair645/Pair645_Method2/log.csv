@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < l.size()", "i <= l.size()"
+2, Increments, 6, "i++", "i--"
+3, VoidMethodCalls, 7, "m.put(l.get(i),new Integer(i));
+", "DELETED"
+4, NegateConditionals, 6, "i < l.size()", "i >= l.size()"

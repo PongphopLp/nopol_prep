@@ -1,0 +1,7 @@
+1, Math, 6, "offset + length", "offset - length"
+2, Math, 8, "(result << 8) + (bytes[i] & 0xFF)", "(result << 8) - (bytes[i] & 0xFF)"
+3, Math, 8, "result << 8", "result >> 8"
+4, Math, 8, "bytes[i] & 0xFF", "bytes[i] | 0xFF"
+5, ConditionalsBoundary, 7, "i < end", "i <= end"
+6, NegateConditionals, 7, "i < end", "i >= end"
+7, Increments, 7, "i++", "i--"

@@ -1,0 +1,16 @@
+01, VoidMethodCalls, 8, "sb.append('0');
+", "DELETED"
+02, VoidMethodCalls, 9, "sb.append(Integer.toHexString(no));
+", "DELETED"
+03, VoidMethodCalls, 10, "sb.append(sep);
+", "DELETED"
+04, Math, 7, "data[i] & 0xff", "data[i] | 0xff"
+05, Math, 10, "data.length - 1", "data.length + 1"
+06, ConditionalsBoundary, 6, "i < data.length", "i <= data.length"
+07, ConditionalsBoundary, 8, "no < 0x10", "no <= 0x10"
+08, ConditionalsBoundary, 10, "i < data.length - 1", "i <= data.length - 1"
+09, NegateConditionals, 6, "i < data.length", "i >= data.length"
+10, NegateConditionals, 8, "no < 0x10", "no >= 0x10"
+11, NegateConditionals, 10, "sep != null", "sep == null"
+12, NegateConditionals, 10, "i < data.length - 1", "i >= data.length - 1"
+13, Increments, 6, "++i", "--i"

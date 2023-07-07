@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < tokens.length", "i <= tokens.length"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 5, "tokens != null", "tokens == null"
+4, NegateConditionals, 6, "i < tokens.length", "i >= tokens.length"
+5, NegateConditionals, 7, "tokens[i] == null", "tokens[i] != null"
+6, NegateConditionals, 8, "target == null", "target != null"

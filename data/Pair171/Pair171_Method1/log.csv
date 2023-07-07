@@ -1,0 +1,5 @@
+1, NegateConditionals, 7, "v1 < v2", "v1 >= v2"
+2, NegateConditionals, 8, "v1 == v2", "v1 != v2"
+3, PrimitiveReturns, 9, "1", "0"
+4, ConditionalsBoundary, 7, "v1 < v2", "v1 <= v2"
+5, InvertNegatives, 7, "-1", "1"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "s.length() <= longueur", "s.length() > longueur"
+2, ConditionalsBoundary, 5, "s.length() <= longueur", "s.length() < longueur"
+3, Math, 6, "longueur - 3", "longueur + 3"
+4, Math, 7, "debut + "..."", "debut - "...""

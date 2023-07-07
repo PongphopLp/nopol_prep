@@ -1,0 +1,7 @@
+1, Math, 7, "(l << 8) | (data[offset++] & 0xFF)", "(l << 8) & (data[offset++] & 0xFF)"
+2, Math, 7, "l << 8", "l >> 8"
+3, Math, 7, "data[offset++] & 0xFF", "data[offset++] | 0xFF"
+4, ConditionalsBoundary, 6, "k < 4", "k <= 4"
+5, NegateConditionals, 6, "k < 4", "k >= 4"
+6, Increments, 6, "k++", "k--"
+7, Increments, 7, "offset++", "offset--"

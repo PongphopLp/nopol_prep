@@ -1,0 +1,5 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < buffer.length", "i <= buffer.length"
+3, InvertNegatives, 6, "-1", "1"
+4, NegateConditionals, 5, "i < buffer.length", "i >= buffer.length"
+5, NegateConditionals, 5, "buffer[i] == c", "buffer[i] != c"

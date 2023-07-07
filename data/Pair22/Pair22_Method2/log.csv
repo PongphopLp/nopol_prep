@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "val1 < val2", "val1 <= val2"
+2, ConditionalsBoundary, 6, "val1 < val3", "val1 <= val3"
+3, ConditionalsBoundary, 9, "val2 < val3", "val2 <= val3"
+4, NegateConditionals, 5, "val1 < val2", "val1 >= val2"
+5, NegateConditionals, 6, "val1 < val3", "val1 >= val3"
+6, NegateConditionals, 9, "val2 < val3", "val2 >= val3"

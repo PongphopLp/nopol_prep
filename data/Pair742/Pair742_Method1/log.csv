@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 14, "i < count", "i <= count"
+2, ConditionalsBoundary, 18, "i < count", "i <= count"
+3, Increments, 14, "i++", "i--"
+4, Increments, 18, "i++", "i--"
+5, NegateConditionals, 5, "str == null", "str != null"
+6, NegateConditionals, 10, "count == 0", "count != 0"
+7, NegateConditionals, 14, "i < count", "i >= count"
+8, NegateConditionals, 18, "i < count", "i >= count"

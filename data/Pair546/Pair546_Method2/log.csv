@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "arg0[0] < arg1[0]", "arg0[0] <= arg1[0]"
+2, ConditionalsBoundary, 8, "arg0[0] > arg1[0]", "arg0[0] >= arg1[0]"
+3, NegateConditionals, 5, "arg0[0] < arg1[0]", "arg0[0] >= arg1[0]"
+4, NegateConditionals, 8, "arg0[0] > arg1[0]", "arg0[0] <= arg1[0]"
+5, InvertNegatives, 6, "-1", "1"
+6, PrimitiveReturns, 9, "1", "0"

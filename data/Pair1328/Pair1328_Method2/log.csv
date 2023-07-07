@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "toTest.length < tester.length", "toTest.length <= tester.length"
+2, ConditionalsBoundary, 8, "i < tester.length", "i <= tester.length"
+3, NegateConditionals, 5, "toTest.length < tester.length", "toTest.length >= tester.length"
+4, NegateConditionals, 8, "i < tester.length", "i >= tester.length"
+5, NegateConditionals, 9, "toTest[i] != tester[i]", "toTest[i] == tester[i]"
+6, Increments, 8, "i++", "i--"

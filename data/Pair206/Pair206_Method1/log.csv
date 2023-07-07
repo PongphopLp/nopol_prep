@@ -1,0 +1,6 @@
+1, Increments, 6, "i--", "i++"
+2, ConditionalsBoundary, 6, "i >= 0", "i > 0"
+3, Math, 6, "xs.length - 1", "xs.length + 1"
+4, NegateConditionals, 5, "xs.length != ys.length", "xs.length == ys.length"
+5, NegateConditionals, 6, "i >= 0", "i < 0"
+6, NegateConditionals, 7, "xs[i] != ys[i]", "xs[i] == ys[i]"

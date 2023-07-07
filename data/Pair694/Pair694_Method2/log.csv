@@ -1,0 +1,6 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 5, "bytes == null", "bytes != null"
+3, NegateConditionals, 7, "i < 4", "i >= 4"
+4, ConditionalsBoundary, 7, "i < 4", "i <= 4"
+5, Math, 7, "((int)bytes[i] & 0xFF) << j", "((int)bytes[i] & 0xFF) >> j"
+6, Math, 7, "(int)bytes[i] & 0xFF", "(int)bytes[i] | 0xFF"

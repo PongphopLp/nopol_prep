@@ -1,0 +1,70 @@
+01, VoidMethodCalls, 14, "argBuf.append(ch);
+", "DELETED"
+02, VoidMethodCalls, 18, "argBuf.append(ch);
+", "DELETED"
+03, VoidMethodCalls, 21, "result.addElement(argBuf.toString());
+", "DELETED"
+04, VoidMethodCalls, 22, "argBuf.setLength(0);
+", "DELETED"
+05, VoidMethodCalls, 26, "argBuf.append("\\");
+", "DELETED"
+06, VoidMethodCalls, 31, "argBuf.append("'");
+", "DELETED"
+07, VoidMethodCalls, 35, "result.addElement(argBuf.toString());
+", "DELETED"
+08, VoidMethodCalls, 36, "argBuf.setLength(0);
+", "DELETED"
+09, VoidMethodCalls, 44, "argBuf.append("\"");
+", "DELETED"
+10, VoidMethodCalls, 48, "result.addElement(argBuf.toString());
+", "DELETED"
+11, VoidMethodCalls, 49, "argBuf.setLength(0);
+", "DELETED"
+12, VoidMethodCalls, 58, "argBuf.append('\b');
+", "DELETED"
+13, VoidMethodCalls, 60, "argBuf.append('\f');
+", "DELETED"
+14, VoidMethodCalls, 62, "argBuf.append('\n');
+", "DELETED"
+15, VoidMethodCalls, 64, "argBuf.append('\r');
+", "DELETED"
+16, VoidMethodCalls, 66, "argBuf.append('\t');
+", "DELETED"
+17, VoidMethodCalls, 72, "argBuf.append((char)octal);
+", "DELETED"
+18, VoidMethodCalls, 76, "argBuf.append('\0');
+", "DELETED"
+19, VoidMethodCalls, 79, "argBuf.append(ch);
+", "DELETED"
+20, VoidMethodCalls, 85, "argBuf.append(ch);
+", "DELETED"
+21, VoidMethodCalls, 92, "result.addElement(argBuf.toString());
+", "DELETED"
+22, Math, 68, "cIdx + 1", "cIdx - 1"
+23, Math, 69, "cIdx + 2", "cIdx - 2"
+24, Math, 71, "((ch - '0') * 64) + ((ch2 - '0') * 8) + (ch3 - '0')", "((ch - '0') * 64) - ((ch2 - '0') * 8) - (ch3 - '0')"
+25, Math, 71, "(ch - '0') * 64", "(ch - '0') / 64"
+26, Math, 71, "ch - '0'", "ch + '0'"
+27, Math, 71, "(ch2 - '0') * 8", "(ch2 - '0') / 8"
+28, Math, 71, "ch2 - '0'", "ch2 + '0'"
+29, Math, 71, "ch3 - '0'", "ch3 + '0'"
+30, ConditionalsBoundary, 10, "cIdx < argStr.length()", "cIdx <= argStr.length()"
+31, ConditionalsBoundary, 20, "argBuf.length() > 0", "argBuf.length() >= 0"
+32, ConditionalsBoundary, 70, "ch >= '0'", "ch > '0'"
+33, ConditionalsBoundary, 70, "ch <= '7'", "ch < '7'"
+34, ConditionalsBoundary, 70, "ch2 >= '0'", "ch2 > '0'"
+35, ConditionalsBoundary, 70, "ch2 <= '7'", "ch2 < '7'"
+36, ConditionalsBoundary, 70, "ch3 >= '0'", "ch3 > '0'"
+37, ConditionalsBoundary, 70, "ch3 <= '7'", "ch3 < '7'"
+38, ConditionalsBoundary, 91, "argBuf.length() > 0", "argBuf.length() >= 0"
+39, NegateConditionals, 10, "cIdx < argStr.length()", "cIdx >= argStr.length()"
+40, NegateConditionals, 20, "argBuf.length() > 0", "argBuf.length() <= 0"
+41, NegateConditionals, 70, "ch >= '0'", "ch < '0'"
+42, NegateConditionals, 70, "ch <= '7'", "ch > '7'"
+43, NegateConditionals, 70, "ch2 >= '0'", "ch2 < '0'"
+44, NegateConditionals, 70, "ch2 <= '7'", "ch2 > '7'"
+45, NegateConditionals, 70, "ch3 >= '0'", "ch3 < '0'"
+46, NegateConditionals, 70, "ch3 <= '7'", "ch3 > '7'"
+47, NegateConditionals, 75, "ch == '0'", "ch != '0'"
+48, NegateConditionals, 91, "argBuf.length() > 0", "argBuf.length() <= 0"
+49, Increments, 10, "++cIdx", "--cIdx"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "ch > ' '", "ch >= ' '"
+2, NegateConditionals, 5, "ch > ' '", "ch <= ' '"
+3, NegateConditionals, 6, "ch == '\t'", "ch != '\t'"
+4, NegateConditionals, 6, "ch == '\n'", "ch != '\n'"
+5, NegateConditionals, 6, "ch == '\r'", "ch != '\r'"
+6, NegateConditionals, 6, "ch == ' '", "ch != ' '"

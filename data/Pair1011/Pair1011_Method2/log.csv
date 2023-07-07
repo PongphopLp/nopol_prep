@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 8, "hour < 10", "hour <= 10"
+2, ConditionalsBoundary, 10, "minute < 10", "minute <= 10"
+3, Math, 8, ""0" + hour", ""0" - hour"
+4, Math, 9, """ + hour", """ - hour"
+5, Math, 10, "str + ":0" + minute", "str - ":0" - minute"
+6, Math, 11, "str + ":" + minute", "str - ":" - minute"
+7, NegateConditionals, 8, "hour < 10", "hour >= 10"
+8, NegateConditionals, 10, "minute < 10", "minute >= 10"

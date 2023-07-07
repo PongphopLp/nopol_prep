@@ -1,0 +1,6 @@
+1, Increments, 10, "i++", "i--"
+2, NegateConditionals, 7, "m == 0", "m != 0"
+3, NegateConditionals, 10, "i < m", "i >= m"
+4, NegateConditionals, 11, "X[i] > max", "X[i] <= max"
+5, ConditionalsBoundary, 10, "i < m", "i <= m"
+6, ConditionalsBoundary, 11, "X[i] > max", "X[i] >= max"

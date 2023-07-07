@@ -1,0 +1,8 @@
+1, VoidMethodCalls, 6, "cal.setTime(date);
+", "DELETED"
+2, ConditionalsBoundary, 9, "cal.get(Calendar.MONTH) + 1 < 10", "cal.get(Calendar.MONTH) + 1 <= 10"
+3, ConditionalsBoundary, 11, "cal.get(Calendar.DAY_OF_MONTH) < 10", "cal.get(Calendar.DAY_OF_MONTH) <= 10"
+4, Math, 9, "cal.get(Calendar.MONTH) + 1", "cal.get(Calendar.MONTH) - 1"
+5, Math, 10, "cal.get(Calendar.MONTH) + 1", "cal.get(Calendar.MONTH) - 1"
+6, NegateConditionals, 9, "cal.get(Calendar.MONTH) + 1 < 10", "cal.get(Calendar.MONTH) + 1 >= 10"
+7, NegateConditionals, 11, "cal.get(Calendar.DAY_OF_MONTH) < 10", "cal.get(Calendar.DAY_OF_MONTH) >= 10"

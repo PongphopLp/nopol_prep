@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 5, "values.length <= 0", "values.length < 0"
+2, ConditionalsBoundary, 6, "i < values.length", "i <= values.length"
+3, Increments, 6, "i++", "i--"
+4, NegateConditionals, 5, "values == null", "values != null"
+5, NegateConditionals, 5, "values.length <= 0", "values.length > 0"
+6, NegateConditionals, 5, "key == null", "key != null"
+7, NegateConditionals, 6, "i < values.length", "i >= values.length"

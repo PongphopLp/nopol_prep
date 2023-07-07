@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "exponent > 0", "exponent <= 0"
+3, NegateConditionals, 7, "i < exponent", "i >= exponent"
+4, ConditionalsBoundary, 6, "exponent > 0", "exponent >= 0"
+5, ConditionalsBoundary, 7, "i < exponent", "i <= exponent"

@@ -1,0 +1,6 @@
+1, Math, 7, "i * 8", "i / 8"
+2, Math, 8, "(bytes[i] & 0xFF) << shift", "(bytes[i] & 0xFF) >> shift"
+3, Math, 8, "bytes[i] & 0xFF", "bytes[i] | 0xFF"
+4, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+5, NegateConditionals, 6, "i < 4", "i >= 4"
+6, Increments, 6, "i++", "i--"

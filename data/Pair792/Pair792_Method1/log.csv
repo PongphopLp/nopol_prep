@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "idx < count", "idx <= count"
+2, Math, 5, "count * stringToCopy.length()", "count / stringToCopy.length()"
+3, Increments, 7, "++idx", "--idx"
+4, VoidMethodCalls, 8, "sb.append(stringToCopy);
+", "DELETED"
+5, NegateConditionals, 7, "idx < count", "idx >= count"

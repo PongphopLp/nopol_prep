@@ -1,0 +1,8 @@
+1, PrimitiveReturns, 7, "1", "0"
+2, PrimitiveReturns, 8, "2", "0"
+3, PrimitiveReturns, 9, "3", "0"
+4, PrimitiveReturns, 10, "4", "0"
+5, PrimitiveReturns, 11, "5", "0"
+6, PrimitiveReturns, 12, "6", "0"
+7, PrimitiveReturns, 13, "7", "0"
+8, InvertNegatives, 15, "-1", "1"

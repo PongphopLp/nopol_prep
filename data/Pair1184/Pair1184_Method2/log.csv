@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i > 255", "i <= 255"
+2, NegateConditionals, 6, "i < 0", "i >= 0"
+3, ConditionalsBoundary, 5, "i > 255", "i >= 255"
+4, ConditionalsBoundary, 6, "i < 0", "i <= 0"
+5, InvertNegatives, 5, "-1", "1"

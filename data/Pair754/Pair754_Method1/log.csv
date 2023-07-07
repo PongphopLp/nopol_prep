@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "l < k", "l <= k"
+2, Math, 5, "i + l", "i - l"
+3, Math, 5, "j + l", "j - l"
+4, Increments, 5, "l++", "l--"
+5, NegateConditionals, 5, "l < k", "l >= k"
+6, NegateConditionals, 5, "byte0[i + l] != byte1[j + l]", "byte0[i + l] == byte1[j + l]"

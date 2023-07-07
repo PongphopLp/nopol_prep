@@ -1,0 +1,10 @@
+1, VoidMethodCalls, 12, "replacement.append(in.substring(prevIndex,nextIndex));
+", "DELETED"
+2, VoidMethodCalls, 13, "replacement.append(with);
+", "DELETED"
+3, VoidMethodCalls, 17, "replacement.append(in.substring(prevIndex,in.length()));
+", "DELETED"
+4, InvertNegatives, 11, "-1", "1"
+5, NegateConditionals, 6, "in == null", "in != null"
+6, NegateConditionals, 11, "nextIndex != -1", "nextIndex == -1"
+7, Math, 14, "nextIndex + what.length()", "nextIndex - what.length()"

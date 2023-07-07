@@ -1,0 +1,7 @@
+1, InvertNegatives, 5, "-1", "1"
+2, ConditionalsBoundary, 7, "k < s1.length", "k <= s1.length"
+3, NegateConditionals, 5, "s1.length != s2.length", "s1.length == s2.length"
+4, NegateConditionals, 7, "k < s1.length", "k >= s1.length"
+5, NegateConditionals, 7, "s1[k] != s2[k]", "s1[k] == s2[k]"
+6, Increments, 7, "++k", "--k"
+7, Increments, 7, "++counter", "--counter"

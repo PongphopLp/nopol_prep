@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 7, "i < str.length()", "i <= str.length()"
+2, NegateConditionals, 7, "i < str.length()", "i >= str.length()"
+3, NegateConditionals, 10, "ch == '&'", "ch != '&'"
+4, NegateConditionals, 12, "ch != '&'", "ch == '&'"
+5, Increments, 7, "i++", "i--"

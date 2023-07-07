@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "first.length == second.length", "first.length != second.length"
+2, NegateConditionals, 6, "i < first.length", "i >= first.length"
+3, NegateConditionals, 7, "first[i] == second[i]", "first[i] != second[i]"
+4, Increments, 6, "i++", "i--"
+5, ConditionalsBoundary, 6, "i < first.length", "i <= first.length"

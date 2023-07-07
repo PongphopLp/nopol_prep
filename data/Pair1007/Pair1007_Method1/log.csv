@@ -1,0 +1,16 @@
+01, VoidMethodCalls, 6, "ret.append(inDate.get(Calendar.YEAR));
+", "DELETED"
+02, VoidMethodCalls, 7, "ret.append('0');
+", "DELETED"
+03, VoidMethodCalls, 8, "ret.append((inDate.get(Calendar.MONTH) + 1));
+", "DELETED"
+04, VoidMethodCalls, 9, "ret.append('0');
+", "DELETED"
+05, VoidMethodCalls, 10, "ret.append(inDate.get(Calendar.DAY_OF_MONTH));
+", "DELETED"
+06, Math, 7, "inDate.get(Calendar.MONTH) + 1", "inDate.get(Calendar.MONTH) - 1"
+07, Math, 8, "inDate.get(Calendar.MONTH) + 1", "inDate.get(Calendar.MONTH) - 1"
+08, NegateConditionals, 7, "inDate.get(Calendar.MONTH) + 1 < 10", "inDate.get(Calendar.MONTH) + 1 >= 10"
+09, NegateConditionals, 9, "inDate.get(Calendar.DAY_OF_MONTH) < 10", "inDate.get(Calendar.DAY_OF_MONTH) >= 10"
+10, ConditionalsBoundary, 7, "inDate.get(Calendar.MONTH) + 1 < 10", "inDate.get(Calendar.MONTH) + 1 <= 10"
+11, ConditionalsBoundary, 9, "inDate.get(Calendar.DAY_OF_MONTH) < 10", "inDate.get(Calendar.DAY_OF_MONTH) <= 10"

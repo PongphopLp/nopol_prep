@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "ch == '<'", "ch != '<'"
+2, NegateConditionals, 8, "ch == '>'", "ch != '>'"
+3, NegateConditionals, 11, "ch == '&'", "ch != '&'"
+4, NegateConditionals, 14, "ch == '"'", "ch != '"'"

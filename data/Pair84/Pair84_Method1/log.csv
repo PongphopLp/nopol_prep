@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "bytes.length < lookFor.length", "bytes.length <= lookFor.length"
+2, ConditionalsBoundary, 8, "i < lookFor.length", "i <= lookFor.length"
+3, NegateConditionals, 5, "bytes.length < lookFor.length", "bytes.length >= lookFor.length"
+4, NegateConditionals, 8, "i < lookFor.length", "i >= lookFor.length"
+5, NegateConditionals, 9, "bytes[i] != lookFor[i]", "bytes[i] == lookFor[i]"
+6, Increments, 8, "++i", "--i"

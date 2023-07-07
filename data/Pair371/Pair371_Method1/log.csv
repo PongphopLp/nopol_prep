@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "index < arrFunc.length", "index >= arrFunc.length"
+2, NegateConditionals, 6, "arrFunc[index] < dblMin", "arrFunc[index] >= dblMin"
+3, Increments, 6, "index++", "index--"
+4, ConditionalsBoundary, 6, "index < arrFunc.length", "index <= arrFunc.length"
+5, ConditionalsBoundary, 6, "arrFunc[index] < dblMin", "arrFunc[index] <= dblMin"

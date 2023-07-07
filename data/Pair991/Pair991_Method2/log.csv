@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < dataIn.length", "i >= dataIn.length"
+2, Increments, 6, "i++", "i--"
+3, Math, 9, "mean / dataIn.length", "mean * dataIn.length"
+4, ConditionalsBoundary, 6, "i < dataIn.length", "i <= dataIn.length"

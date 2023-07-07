@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "v1 == null", "v1 != null"
+2, NegateConditionals, 5, "v2 == null", "v2 != null"
+3, NegateConditionals, 6, "v1 == null", "v1 != null"
+4, NegateConditionals, 6, "v2 == null", "v2 != null"

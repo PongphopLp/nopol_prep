@@ -1,0 +1,6 @@
+1, Increments, 8, "count--", "count++"
+2, Math, 5, "v.length() * count", "v.length() / count"
+3, NegateConditionals, 6, "count > 0", "count <= 0"
+4, ConditionalsBoundary, 6, "count > 0", "count >= 0"
+5, VoidMethodCalls, 7, "sb.append(v);
+", "DELETED"

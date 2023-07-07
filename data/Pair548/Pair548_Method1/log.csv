@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 9, "i < code1.length", "i <= code1.length"
+2, NegateConditionals, 5, "code1.length != code2.length", "code1.length == code2.length"
+3, NegateConditionals, 9, "i < code1.length", "i >= code1.length"
+4, NegateConditionals, 10, "code1[i] != code2[i]", "code1[i] == code2[i]"
+5, InvertNegatives, 6, "-1", "1"
+6, Increments, 9, "i++", "i--"
+7, Increments, 11, "distance++", "distance--"

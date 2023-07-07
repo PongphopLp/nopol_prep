@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < array.length", "i >= array.length"
+2, NegateConditionals, 7, "array[i] > max", "array[i] <= max"
+3, Increments, 6, "i++", "i--"
+4, ConditionalsBoundary, 6, "i < array.length", "i <= array.length"
+5, ConditionalsBoundary, 7, "array[i] > max", "array[i] >= max"

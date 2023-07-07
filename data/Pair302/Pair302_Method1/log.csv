@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "action == null", "action != null"
+2, NegateConditionals, 6, "name == null", "name != null"
+3, NegateConditionals, 6, "description == null", "description != null"
+4, NegateConditionals, 6, "user == null", "user != null"

@@ -1,0 +1,6 @@
+1, Math, 6, "c - 32", "c + 32"
+2, Math, 7, "prefix.length() + target.length()", "prefix.length() - target.length()"
+3, NegateConditionals, 6, "c > 96", "c <= 96"
+4, NegateConditionals, 6, "c < 123", "c >= 123"
+5, ConditionalsBoundary, 6, "c > 96", "c >= 96"
+6, ConditionalsBoundary, 6, "c < 123", "c <= 123"

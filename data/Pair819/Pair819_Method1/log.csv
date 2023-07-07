@@ -1,0 +1,6 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < count", "i <= count"
+3, NegateConditionals, 5, "i < count", "i >= count"
+4, NegateConditionals, 9, "0 != c", "0 == c"
+5, Math, 6, "from1 + i", "from1 - i"
+6, Math, 7, "from2 + i", "from2 - i"

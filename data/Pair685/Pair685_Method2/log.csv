@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < end", "i >= end"
+2, NegateConditionals, 6, "buf[i] != 0", "buf[i] == 0"
+3, NegateConditionals, 7, "buf[i] != 0", "buf[i] == 0"
+4, ConditionalsBoundary, 6, "i < end", "i <= end"
+5, Increments, 6, "i++", "i--"

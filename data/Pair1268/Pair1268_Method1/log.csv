@@ -1,0 +1,14 @@
+01, Increments, 11, "i++", "i--"
+02, Math, 12, "i + matchLength", "i - matchLength"
+03, Math, 15, "upperSearhLimit - 1", "upperSearhLimit + 1"
+04, NegateConditionals, 5, "in == null", "in != null"
+05, NegateConditionals, 5, "match == null", "match != null"
+06, NegateConditionals, 5, "replacement == null", "replacement != null"
+07, NegateConditionals, 11, "i < inLength", "i >= inLength"
+08, NegateConditionals, 13, "upperSearhLimit <= inLength", "upperSearhLimit > inLength"
+09, VoidMethodCalls, 14, "out.append(replacement);
+", "DELETED"
+10, VoidMethodCalls, 18, "out.append(in.charAt(i));
+", "DELETED"
+11, ConditionalsBoundary, 11, "i < inLength", "i <= inLength"
+12, ConditionalsBoundary, 13, "upperSearhLimit <= inLength", "upperSearhLimit < inLength"

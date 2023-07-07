@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "angle > Math.PI", "angle <= Math.PI"
+2, NegateConditionals, 7, "angle < -Math.PI", "angle >= -Math.PI"
+3, InvertNegatives, 7, "-Math.PI", "Math.PI"
+4, ConditionalsBoundary, 6, "angle > Math.PI", "angle >= Math.PI"
+5, ConditionalsBoundary, 7, "angle < -Math.PI", "angle <= -Math.PI"
+6, Math, 6, "Math.PI * 2", "Math.PI / 2"
+7, Math, 7, "Math.PI * 2", "Math.PI / 2"

@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "i < (size - (phrase.length()))", "i >= (size - (phrase.length()))"
+2, Increments, 6, "i++", "i--"
+3, VoidMethodCalls, 7, "buf.append(value);
+", "DELETED"
+4, VoidMethodCalls, 9, "buf.append(phrase);
+", "DELETED"
+5, ConditionalsBoundary, 6, "i < (size - (phrase.length()))", "i <= (size - (phrase.length()))"
+6, Math, 6, "size - (phrase.length())", "size + (phrase.length())"

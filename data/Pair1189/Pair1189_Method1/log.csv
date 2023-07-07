@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "c >= '0'", "c < '0'"
+2, NegateConditionals, 5, "c <= '9'", "c > '9'"
+3, NegateConditionals, 5, "c == '.'", "c != '.'"
+4, ConditionalsBoundary, 5, "c >= '0'", "c > '0'"
+5, ConditionalsBoundary, 5, "c <= '9'", "c < '9'"

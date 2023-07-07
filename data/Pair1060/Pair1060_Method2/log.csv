@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "c >= 'a'", "c < 'a'"
+2, NegateConditionals, 5, "c <= 'z'", "c > 'z'"
+3, NegateConditionals, 6, "c >= 'A'", "c < 'A'"
+4, NegateConditionals, 6, "c <= 'Z'", "c > 'Z'"
+5, ConditionalsBoundary, 5, "c >= 'a'", "c > 'a'"
+6, ConditionalsBoundary, 5, "c <= 'z'", "c < 'z'"
+7, ConditionalsBoundary, 6, "c >= 'A'", "c > 'A'"
+8, ConditionalsBoundary, 6, "c <= 'Z'", "c < 'Z'"

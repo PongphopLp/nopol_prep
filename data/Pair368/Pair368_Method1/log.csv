@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < A.length", "i >= A.length"
+3, NegateConditionals, 7, "max > A[i]", "max <= A[i]"
+4, ConditionalsBoundary, 6, "i < A.length", "i <= A.length"
+5, ConditionalsBoundary, 7, "max > A[i]", "max >= A[i]"

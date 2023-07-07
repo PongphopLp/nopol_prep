@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "i < size", "i >= size"
+2, NegateConditionals, 6, "val <= table[i]", "val > table[i]"
+3, Increments, 5, "i++", "i--"
+4, ConditionalsBoundary, 5, "i < size", "i <= size"
+5, ConditionalsBoundary, 6, "val <= table[i]", "val < table[i]"

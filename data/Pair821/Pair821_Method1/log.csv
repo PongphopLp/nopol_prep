@@ -1,0 +1,5 @@
+1, Math, 11, "vec1[i] + vec2[i]", "vec1[i] - vec2[i]"
+2, NegateConditionals, 5, "vec1.length != vec2.length", "vec1.length == vec2.length"
+3, NegateConditionals, 10, "i < vec1.length", "i >= vec1.length"
+4, ConditionalsBoundary, 10, "i < vec1.length", "i <= vec1.length"
+5, Increments, 10, "i++", "i--"

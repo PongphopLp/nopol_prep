@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < vec1.length", "i >= vec1.length"
+2, Increments, 6, "++i", "--i"
+3, Math, 7, "vec1[i] * vec2[i]", "vec1[i] / vec2[i]"
+4, ConditionalsBoundary, 6, "i < vec1.length", "i <= vec1.length"

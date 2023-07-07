@@ -1,0 +1,8 @@
+1, Math, 7, "n | (bytes[i] & 0xff)", "n & (bytes[i] & 0xff)"
+2, Math, 7, "bytes[i] & 0xff", "bytes[i] | 0xff"
+3, Math, 8, "n << 8", "n >> 8"
+4, Math, 10, "n | (bytes[7] & 0xff)", "n & (bytes[7] & 0xff)"
+5, Math, 10, "bytes[7] & 0xff", "bytes[7] | 0xff"
+6, ConditionalsBoundary, 6, "i < 7", "i <= 7"
+7, NegateConditionals, 6, "i < 7", "i >= 7"
+8, Increments, 6, "i++", "i--"

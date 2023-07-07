@@ -1,0 +1,8 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 5, "bytes == null", "bytes != null"
+3, NegateConditionals, 7, "i < 2", "i >= 2"
+4, ConditionalsBoundary, 7, "i < 2", "i <= 2"
+5, Math, 7, "((short)bytes[i] & 0xFF) << (8 - 8 * i)", "((short)bytes[i] & 0xFF) >> (8 - 8 * i)"
+6, Math, 7, "(short)bytes[i] & 0xFF", "(short)bytes[i] | 0xFF"
+7, Math, 7, "8 - 8 * i", "8 + 8 * i"
+8, Math, 7, "8 * i", "8 / i"

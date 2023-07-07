@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "string.length < start.length", "string.length <= start.length"
+2, ConditionalsBoundary, 6, "i < start.length", "i <= start.length"
+3, NegateConditionals, 5, "string.length < start.length", "string.length >= start.length"
+4, NegateConditionals, 6, "i < start.length", "i >= start.length"
+5, NegateConditionals, 7, "string[i] != start[i]", "string[i] == start[i]"
+6, Increments, 6, "i++", "i--"

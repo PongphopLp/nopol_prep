@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "i < len", "i >= len"
+2, NegateConditionals, 7, "buf[i] <= 0x007F", "buf[i] > 0x007F"
+3, NegateConditionals, 8, "buf[i] <= 0x07FF", "buf[i] > 0x07FF"
+4, ConditionalsBoundary, 6, "i < len", "i <= len"
+5, ConditionalsBoundary, 7, "buf[i] <= 0x007F", "buf[i] < 0x007F"
+6, ConditionalsBoundary, 8, "buf[i] <= 0x07FF", "buf[i] < 0x07FF"
+7, Increments, 6, "i++", "i--"
+8, Increments, 7, "++num_bytes", "--num_bytes"

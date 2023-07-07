@@ -1,0 +1,3 @@
+1, NegateConditionals, 9, "(int)data[0] < 0", "(int)data[0] >= 0"
+2, ConditionalsBoundary, 9, "(int)data[0] < 0", "(int)data[0] <= 0"
+3, Math, 8, "data[1] << 8", "data[1] >> 8"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "target.length < testlen", "target.length <= testlen"
+2, ConditionalsBoundary, 9, "i < testlen", "i <= testlen"
+3, NegateConditionals, 6, "target.length < testlen", "target.length >= testlen"
+4, NegateConditionals, 9, "i < testlen", "i >= testlen"
+5, NegateConditionals, 10, "target[i] != prefix[i]", "target[i] == prefix[i]"
+6, Increments, 9, "i++", "i--"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "ba.length == 0", "ba.length != 0"
+2, NegateConditionals, 5, "ba2.length == 0", "ba2.length != 0"
+3, NegateConditionals, 6, "ba.length != ba2.length", "ba.length == ba2.length"
+4, NegateConditionals, 8, "i < c", "i >= c"
+5, NegateConditionals, 8, "ba[i] == ba2[i]", "ba[i] != ba2[i]"
+6, ConditionalsBoundary, 8, "i < c", "i <= c"
+7, Increments, 8, "i++", "i--"

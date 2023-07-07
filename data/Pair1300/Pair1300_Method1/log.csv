@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "l < (m=Integer.MAX_VALUE)", "l >= (m=Integer.MAX_VALUE)"
+2, NegateConditionals, 6, "l > (m=Integer.MIN_VALUE)", "l <= (m=Integer.MIN_VALUE)"
+3, ConditionalsBoundary, 6, "l < (m=Integer.MAX_VALUE)", "l <= (m=Integer.MAX_VALUE)"
+4, ConditionalsBoundary, 6, "l > (m=Integer.MIN_VALUE)", "l >= (m=Integer.MIN_VALUE)"

@@ -1,0 +1,11 @@
+1, VoidMethodCalls, 12, "rtn.append(orig.substring(prev,idx));
+", "DELETED"
+2, VoidMethodCalls, 13, "rtn.append(replaceWith);
+", "DELETED"
+3, VoidMethodCalls, 17, "rtn.append(orig.substring(prev,orig.length()));
+", "DELETED"
+4, ConditionalsBoundary, 6, "idx < 0", "idx <= 0"
+5, ConditionalsBoundary, 11, "idx >= 0", "idx > 0"
+6, Math, 14, "idx + lookFor.length()", "idx - lookFor.length()"
+7, NegateConditionals, 6, "idx < 0", "idx >= 0"
+8, NegateConditionals, 11, "idx >= 0", "idx < 0"

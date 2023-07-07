@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 9, "div <= raiz", "div < raiz"
+2, Math, 6, "n % 2", "n * 2"
+3, Math, 10, "n % div", "n * div"
+4, NegateConditionals, 5, "n == 2", "n != 2"
+5, NegateConditionals, 6, "n % 2 == 0", "n % 2 != 0"
+6, NegateConditionals, 9, "div <= raiz", "div > raiz"
+7, NegateConditionals, 10, "n % div == 0", "n % div != 0"

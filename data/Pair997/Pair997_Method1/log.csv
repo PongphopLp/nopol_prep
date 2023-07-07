@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < a_dim.length", "i >= a_dim.length"
+2, Increments, 6, "i++", "i--"
+3, Math, 7, "elements * a_dim[i]", "elements / a_dim[i]"
+4, ConditionalsBoundary, 6, "i < a_dim.length", "i <= a_dim.length"

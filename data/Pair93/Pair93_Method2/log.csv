@@ -1,0 +1,16 @@
+01, VoidMethodCalls, 9, "sb.append("\n");
+", "DELETED"
+02, VoidMethodCalls, 13, "sb.append(s);
+", "DELETED"
+03, ConditionalsBoundary, 8, "i < bytes.length", "i <= bytes.length"
+04, ConditionalsBoundary, 11, "s.length() < 2", "s.length() <= 2"
+05, ConditionalsBoundary, 12, "s.length() > 2", "s.length() >= 2"
+06, Math, 9, "i % 32", "i * 32"
+07, Math, 11, ""0" + s", ""0" - s"
+08, Math, 12, "s.length() - 2", "s.length() + 2"
+09, Increments, 8, "i++", "i--"
+10, NegateConditionals, 8, "i < bytes.length", "i >= bytes.length"
+11, NegateConditionals, 9, "i % 32 == 0", "i % 32 != 0"
+12, NegateConditionals, 9, "i != 0", "i == 0"
+13, NegateConditionals, 11, "s.length() < 2", "s.length() >= 2"
+14, NegateConditionals, 12, "s.length() > 2", "s.length() <= 2"

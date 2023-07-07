@@ -1,0 +1,13 @@
+01, Increments, 8, "i++", "i--"
+02, Math, 6, "buffer.length - offset", "buffer.length + offset"
+03, Math, 8, "offset + 1", "offset - 1"
+04, NegateConditionals, 6, "(buffer.length - offset) > 0", "(buffer.length - offset) <= 0"
+05, NegateConditionals, 8, "i < buffer.length", "i >= buffer.length"
+06, VoidMethodCalls, 7, "dump.append(String.format("%02x",buffer[offset]));
+", "DELETED"
+07, VoidMethodCalls, 9, "dump.append("_");
+", "DELETED"
+08, VoidMethodCalls, 10, "dump.append(String.format("%02x",buffer[i]));
+", "DELETED"
+09, ConditionalsBoundary, 6, "(buffer.length - offset) > 0", "(buffer.length - offset) >= 0"
+10, ConditionalsBoundary, 8, "i < buffer.length", "i <= buffer.length"

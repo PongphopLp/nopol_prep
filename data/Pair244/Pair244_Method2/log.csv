@@ -1,0 +1,4 @@
+1, Increments, 6, "idx++", "idx--"
+2, NegateConditionals, 6, "idx < arrayOne.length", "idx >= arrayOne.length"
+3, NegateConditionals, 7, "arrayOne[idx] != arrayTwo[idx]", "arrayOne[idx] == arrayTwo[idx]"
+4, ConditionalsBoundary, 6, "idx < arrayOne.length", "idx <= arrayOne.length"

@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "i < no.length()", "i <= no.length()"
+2, Math, 5, "no.length() / 2", "no.length() * 2"
+3, Math, 8, "i + 2", "i - 2"
+4, Math, 9, "i / 2", "i * 2"
+5, Math, 9, "j & 0x000000ff", "j | 0x000000ff"
+6, NegateConditionals, 7, "i < no.length()", "i >= no.length()"

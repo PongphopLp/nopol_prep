@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "day == Calendar.MONDAY", "day != Calendar.MONDAY"
+2, NegateConditionals, 6, "day == Calendar.TUESDAY", "day != Calendar.TUESDAY"
+3, NegateConditionals, 7, "day == Calendar.WEDNESDAY", "day != Calendar.WEDNESDAY"
+4, NegateConditionals, 8, "day == Calendar.THURSDAY", "day != Calendar.THURSDAY"
+5, NegateConditionals, 9, "day == Calendar.FRIDAY", "day != Calendar.FRIDAY"
+6, NegateConditionals, 10, "day == Calendar.SATURDAY", "day != Calendar.SATURDAY"
+7, NegateConditionals, 11, "day == Calendar.SUNDAY", "day != Calendar.SUNDAY"

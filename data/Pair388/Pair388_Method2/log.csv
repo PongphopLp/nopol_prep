@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "d < min", "d >= min"
+2, ConditionalsBoundary, 6, "d < min", "d <= min"

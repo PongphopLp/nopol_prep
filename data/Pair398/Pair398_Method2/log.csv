@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "ch >= 65", "ch > 65"
+2, ConditionalsBoundary, 5, "ch <= 90", "ch < 90"
+3, NegateConditionals, 5, "ch >= 65", "ch < 65"
+4, NegateConditionals, 5, "ch <= 90", "ch > 90"
+5, Math, 6, "ch + 32", "ch - 32"

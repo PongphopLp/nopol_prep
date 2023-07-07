@@ -1,0 +1,5 @@
+1, Increments, 5, "n++", "n--"
+2, NegateConditionals, 5, "n < c.length()", "n >= c.length()"
+3, NegateConditionals, 6, "c.charAt(n) == l", "c.charAt(n) != l"
+4, ConditionalsBoundary, 5, "n < c.length()", "n <= c.length()"
+5, InvertNegatives, 8, "-1", "1"

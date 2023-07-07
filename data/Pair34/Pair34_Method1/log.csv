@@ -1,0 +1,6 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 5, "header.length < suggestedEncodingBytes.length", "header.length <= suggestedEncodingBytes.length"
+3, ConditionalsBoundary, 6, "i < suggestedEncodingBytes.length", "i <= suggestedEncodingBytes.length"
+4, NegateConditionals, 5, "header.length < suggestedEncodingBytes.length", "header.length >= suggestedEncodingBytes.length"
+5, NegateConditionals, 6, "i < suggestedEncodingBytes.length", "i >= suggestedEncodingBytes.length"
+6, NegateConditionals, 6, "header[i] != suggestedEncodingBytes[i]", "header[i] == suggestedEncodingBytes[i]"

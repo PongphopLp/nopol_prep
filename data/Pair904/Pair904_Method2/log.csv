@@ -1,0 +1,11 @@
+01, Math, 5, "offset + length", "offset - length"
+02, NegateConditionals, 5, "offset < 0", "offset >= 0"
+03, NegateConditionals, 5, "length < 1", "length >= 1"
+04, NegateConditionals, 5, "offset > array.length", "offset <= array.length"
+05, NegateConditionals, 5, "offset + length > array.length", "offset + length <= array.length"
+06, ConditionalsBoundary, 5, "offset < 0", "offset <= 0"
+07, ConditionalsBoundary, 5, "length < 1", "length <= 1"
+08, ConditionalsBoundary, 5, "offset > array.length", "offset >= array.length"
+09, ConditionalsBoundary, 5, "offset + length > array.length", "offset + length >= array.length"
+10, VoidMethodCalls, 7, "System.arraycopy(array,offset,result,0,length);
+", "DELETED"

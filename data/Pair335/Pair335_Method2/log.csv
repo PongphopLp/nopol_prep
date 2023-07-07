@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 8, "i < ignoredValue.length", "i <= ignoredValue.length"
+2, Increments, 8, "i++", "i--"
+3, NegateConditionals, 5, "ignoredValue == null", "ignoredValue != null"
+4, NegateConditionals, 5, "ignoredValue.length == 0", "ignoredValue.length != 0"
+5, NegateConditionals, 8, "i < ignoredValue.length", "i >= ignoredValue.length"
+6, NegateConditionals, 9, "ignoredValue[i] == null", "ignoredValue[i] != null"
+7, NegateConditionals, 10, "value == null", "value != null"

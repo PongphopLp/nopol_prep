@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "i < arity", "i <= arity"
+2, ConditionalsBoundary, 6, "tuple1[i] <= tuple2[i]", "tuple1[i] < tuple2[i]"
+3, ConditionalsBoundary, 6, "tuple1[i] < tuple2[i]", "tuple1[i] <= tuple2[i]"
+4, NegateConditionals, 6, "i < arity", "i >= arity"
+5, NegateConditionals, 6, "tuple1[i] <= tuple2[i]", "tuple1[i] > tuple2[i]"
+6, NegateConditionals, 6, "tuple1[i] < tuple2[i]", "tuple1[i] >= tuple2[i]"
+7, Increments, 6, "i++", "i--"

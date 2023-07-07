@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i >= 0", "i > 0"
+2, NegateConditionals, 6, "i >= 0", "i < 0"
+3, Increments, 6, "i--", "i++"
+4, Math, 8, "bytes[offset + i] & 0xFF", "bytes[offset + i] | 0xFF"
+5, Math, 8, "offset + i", "offset - i"

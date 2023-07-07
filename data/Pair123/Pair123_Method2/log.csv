@@ -1,0 +1,5 @@
+1, Increments, 9, "i++", "i--"
+2, ConditionalsBoundary, 9, "i < length", "i <= length"
+3, NegateConditionals, 6, "length != h2.length", "length == h2.length"
+4, NegateConditionals, 9, "i < length", "i >= length"
+5, NegateConditionals, 10, "h1[i] != h2[i]", "h1[i] == h2[i]"

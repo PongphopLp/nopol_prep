@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "aValue != null", "aValue == null"
+2, NegateConditionals, 7, "aValue == "true"", "aValue != "true""
+3, NegateConditionals, 7, "aValue == "yes"", "aValue != "yes""
+4, NegateConditionals, 10, "aValue == "false"", "aValue != "false""
+5, NegateConditionals, 10, "aValue == "no"", "aValue != "no""

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 7, "n < l", "n <= l"
+2, Increments, 7, "n++", "n--"
+3, NegateConditionals, 7, "n < l", "n >= l"
+4, NegateConditionals, 7, "s.charAt(n) == ' '", "s.charAt(n) != ' '"

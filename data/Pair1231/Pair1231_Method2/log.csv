@@ -1,0 +1,6 @@
+1, InvertNegatives, 5, "-1", "1"
+2, NegateConditionals, 5, "num > -1", "num <= -1"
+3, NegateConditionals, 5, "num < 10", "num >= 10"
+4, Math, 5, ""0" + (new Integer(num).toString())", ""0" - (new Integer(num).toString())"
+5, ConditionalsBoundary, 5, "num > -1", "num >= -1"
+6, ConditionalsBoundary, 5, "num < 10", "num <= 10"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 5, "s1.length() >= minLength", "s1.length() > minLength"
+2, ConditionalsBoundary, 5, "s2.length() >= minLength", "s2.length() > minLength"
+3, NegateConditionals, 5, "s1.length() >= minLength", "s1.length() < minLength"
+4, NegateConditionals, 5, "s2.length() >= minLength", "s2.length() < minLength"

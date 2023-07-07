@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "rangeInt < minValue", "rangeInt <= minValue"
+2, ConditionalsBoundary, 9, "rangeInt > maxValue", "rangeInt >= maxValue"
+3, NegateConditionals, 6, "rangeInt < minValue", "rangeInt >= minValue"
+4, NegateConditionals, 9, "rangeInt > maxValue", "rangeInt <= maxValue"

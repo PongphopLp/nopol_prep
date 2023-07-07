@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "origId == null", "origId != null"
+2, NegateConditionals, 5, "newId == null", "newId != null"
+3, NegateConditionals, 6, "origId == null", "origId != null"
+4, NegateConditionals, 6, "newId == null", "newId != null"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "k < max", "k >= max"
+2, NegateConditionals, 6, "value == okItem[k]", "value != okItem[k]"
+3, ConditionalsBoundary, 5, "k < max", "k <= max"
+4, Increments, 5, "k++", "k--"

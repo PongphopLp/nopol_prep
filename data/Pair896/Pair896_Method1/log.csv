@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 7, "x < cells", "x <= cells"
+2, NegateConditionals, 7, "x < cells", "x >= cells"
+3, Math, 5, "end - start + 1", "end - start - 1"
+4, Math, 5, "end - start", "end + start"
+5, Math, 8, "x + start", "x - start"
+6, Increments, 7, "x++", "x--"

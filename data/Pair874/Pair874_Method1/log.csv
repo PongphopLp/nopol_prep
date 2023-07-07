@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "i < aCompCount", "i >= aCompCount"
+2, NegateConditionals, 7, "aArray[aIndexA + i] != aArray[aIndexB + i]", "aArray[aIndexA + i] == aArray[aIndexB + i]"
+3, Math, 7, "aIndexA + i", "aIndexA - i"
+4, Math, 7, "aIndexB + i", "aIndexB - i"
+5, ConditionalsBoundary, 6, "i < aCompCount", "i <= aCompCount"
+6, Increments, 6, "i++", "i--"

@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < ssid1.length", "i <= ssid1.length"
+3, NegateConditionals, 5, "ssid1.length == ssid2.length", "ssid1.length != ssid2.length"
+4, NegateConditionals, 6, "i < ssid1.length", "i >= ssid1.length"
+5, NegateConditionals, 7, "ssid1[i] != ssid2[i]", "ssid1[i] == ssid2[i]"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "b > a", "b <= a"
+2, NegateConditionals, 8, "c > a", "c <= a"
+3, ConditionalsBoundary, 5, "b > a", "b >= a"
+4, ConditionalsBoundary, 8, "c > a", "c >= a"

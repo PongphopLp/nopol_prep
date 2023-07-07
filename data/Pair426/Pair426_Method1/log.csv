@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < vec1.length", "i <= vec1.length"
+2, NegateConditionals, 5, "vec1.length != vec2.length", "vec1.length == vec2.length"
+3, NegateConditionals, 6, "i < vec1.length", "i >= vec1.length"
+4, NegateConditionals, 6, "vec1[i] != vec2[i]", "vec1[i] == vec2[i]"
+5, Increments, 6, "++i", "--i"

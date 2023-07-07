@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "i < x.length", "i >= x.length"
+2, NegateConditionals, 6, "Math.abs(y[i] - x[i]) > delta", "Math.abs(y[i] - x[i]) <= delta"
+3, Increments, 5, "i++", "i--"
+4, ConditionalsBoundary, 5, "i < x.length", "i <= x.length"
+5, ConditionalsBoundary, 6, "Math.abs(y[i] - x[i]) > delta", "Math.abs(y[i] - x[i]) >= delta"
+6, Math, 6, "y[i] - x[i]", "y[i] + x[i]"

@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "d > 0f", "d <= 0f"
+2, NegateConditionals, 6, "d < 1f", "d >= 1f"
+3, ConditionalsBoundary, 5, "d > 0f", "d >= 0f"
+4, ConditionalsBoundary, 6, "d < 1f", "d <= 1f"
+5, PrimitiveReturns, 9, "1f", "0"

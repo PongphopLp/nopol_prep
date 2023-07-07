@@ -1,0 +1,6 @@
+1, InvertNegatives, 7, "-1", "1"
+2, NegateConditionals, 7, "k0 < k1", "k0 >= k1"
+3, NegateConditionals, 8, "k0 > k1", "k0 <= k1"
+4, ConditionalsBoundary, 7, "k0 < k1", "k0 <= k1"
+5, ConditionalsBoundary, 8, "k0 > k1", "k0 >= k1"
+6, PrimitiveReturns, 8, "1", "0"

@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "a.compareTo(b) > 0", "a.compareTo(b) >= 0"
+2, NegateConditionals, 5, "a == null", "a != null"
+3, NegateConditionals, 5, "b == null", "b != null"
+4, NegateConditionals, 6, "a.compareTo(b) > 0", "a.compareTo(b) <= 0"

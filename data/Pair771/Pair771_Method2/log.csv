@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "paramTypes.length != args.length", "paramTypes.length == args.length"
+2, NegateConditionals, 6, "i < args.length", "i >= args.length"
+3, Increments, 6, "i++", "i--"
+4, ConditionalsBoundary, 6, "i < args.length", "i <= args.length"

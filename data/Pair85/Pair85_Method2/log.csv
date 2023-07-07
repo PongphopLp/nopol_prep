@@ -1,0 +1,4 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < n", "i <= n"
+3, NegateConditionals, 6, "i < n", "i >= n"
+4, NegateConditionals, 7, "blob[i] != sig[i]", "blob[i] == sig[i]"

@@ -1,0 +1,6 @@
+1, Math, 5, "secondAngle - firstAngle", "secondAngle + firstAngle"
+2, InvertNegatives, 6, "-180", "180"
+3, NegateConditionals, 6, "difference < -180", "difference >= -180"
+4, NegateConditionals, 9, "difference > 180", "difference <= 180"
+5, ConditionalsBoundary, 6, "difference < -180", "difference <= -180"
+6, ConditionalsBoundary, 9, "difference > 180", "difference >= 180"

@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 8, "i < key1.length", "i <= key1.length"
+2, NegateConditionals, 5, "key1 == null", "key1 != null"
+3, NegateConditionals, 5, "key2 == null", "key2 != null"
+4, NegateConditionals, 6, "key2 == null", "key2 != null"
+5, NegateConditionals, 7, "key1.length != key2.length", "key1.length == key2.length"
+6, NegateConditionals, 8, "i < key1.length", "i >= key1.length"
+7, NegateConditionals, 8, "key1[i] != key2[i]", "key1[i] == key2[i]"
+8, Increments, 8, "i++", "i--"

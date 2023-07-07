@@ -1,0 +1,21 @@
+01, NegateConditionals, 5, "buf == null", "buf != null"
+02, NegateConditionals, 6, "i < path.length()", "i >= path.length()"
+03, NegateConditionals, 13, "buf == null", "buf != null"
+04, NegateConditionals, 16, "i < path.length()", "i >= path.length()"
+05, Math, 9, "path.length() << 1", "path.length() >> 1"
+06, ConditionalsBoundary, 6, "i < path.length()", "i <= path.length()"
+07, ConditionalsBoundary, 16, "i < path.length()", "i <= path.length()"
+08, Increments, 6, "i++", "i--"
+09, Increments, 16, "i++", "i--"
+10, VoidMethodCalls, 19, "buf.append("%25");
+", "DELETED"
+11, VoidMethodCalls, 21, "buf.append("%3F");
+", "DELETED"
+12, VoidMethodCalls, 23, "buf.append("%3B");
+", "DELETED"
+13, VoidMethodCalls, 25, "buf.append("%23");
+", "DELETED"
+14, VoidMethodCalls, 27, "buf.append("%20");
+", "DELETED"
+15, VoidMethodCalls, 29, "buf.append(c);
+", "DELETED"

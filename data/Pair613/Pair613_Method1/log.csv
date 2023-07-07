@@ -1,0 +1,6 @@
+1, NegateConditionals, 9, "tens == 11", "tens != 11"
+2, NegateConditionals, 12, "tens == 12", "tens != 12"
+3, NegateConditionals, 15, "tens == 13", "tens != 13"
+4, Math, 5, "num % 10", "num * 10"
+5, Math, 6, "num % 100", "num * 100"
+6, Math, 20, "num + suffix", "num - suffix"

@@ -1,0 +1,2 @@
+1, NegateConditionals, 5, "thisArray == thatArray", "thisArray != thatArray"
+2, NegateConditionals, 5, "thisFace == thatFace", "thisFace != thatFace"

@@ -1,0 +1,7 @@
+1, Math, 7, "(res << 8) | (data[offset + i] & 0xff)", "(res << 8) & (data[offset + i] & 0xff)"
+2, Math, 7, "res << 8", "res >> 8"
+3, Math, 7, "data[offset + i] & 0xff", "data[offset + i] | 0xff"
+4, Math, 7, "offset + i", "offset - i"
+5, ConditionalsBoundary, 6, "i < 4", "i <= 4"
+6, NegateConditionals, 6, "i < 4", "i >= 4"
+7, Increments, 6, "i++", "i--"

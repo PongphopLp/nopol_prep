@@ -1,0 +1,7 @@
+1, NegateConditionals, 9, "cal_a.get(Calendar.DATE) == cal_b.get(Calendar.DATE)", "cal_a.get(Calendar.DATE) != cal_b.get(Calendar.DATE)"
+2, NegateConditionals, 9, "cal_a.get(Calendar.MONTH) == cal_b.get(Calendar.MONTH)", "cal_a.get(Calendar.MONTH) != cal_b.get(Calendar.MONTH)"
+3, NegateConditionals, 9, "cal_a.get(Calendar.YEAR) == cal_b.get(Calendar.YEAR)", "cal_a.get(Calendar.YEAR) != cal_b.get(Calendar.YEAR)"
+4, VoidMethodCalls, 7, "cal_a.setTime(a);
+", "DELETED"
+5, VoidMethodCalls, 8, "cal_b.setTime(b);
+", "DELETED"

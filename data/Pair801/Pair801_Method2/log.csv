@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 7, "l < min", "l <= min"
+2, NegateConditionals, 7, "l < min", "l >= min"

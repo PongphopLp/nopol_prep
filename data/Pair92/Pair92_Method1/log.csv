@@ -1,0 +1,9 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "list != null", "list == null"
+3, NegateConditionals, 7, "i < list.size()", "i >= list.size()"
+4, NegateConditionals, 9, "i != 0", "i == 0"
+5, VoidMethodCalls, 9, "sb.append(",");
+", "DELETED"
+6, VoidMethodCalls, 10, "sb.append(s);
+", "DELETED"
+7, ConditionalsBoundary, 7, "i < list.size()", "i <= list.size()"

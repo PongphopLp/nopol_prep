@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "prefix.length > bytes.length", "prefix.length >= bytes.length"
+2, ConditionalsBoundary, 6, "i < n", "i <= n"
+3, Increments, 6, "++i", "--i"
+4, NegateConditionals, 5, "prefix.length > bytes.length", "prefix.length <= bytes.length"
+5, NegateConditionals, 6, "i < n", "i >= n"
+6, NegateConditionals, 6, "bytes[i] != prefix[i]", "bytes[i] == prefix[i]"

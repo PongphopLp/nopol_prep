@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 11, "str.indexOf(pattern.substring(1,pattern.length() - 1)) >= 0", "str.indexOf(pattern.substring(1,pattern.length() - 1)) > 0"
+2, NegateConditionals, 10, "pattern.length() == 2", "pattern.length() != 2"
+3, NegateConditionals, 11, "str.indexOf(pattern.substring(1,pattern.length() - 1)) >= 0", "str.indexOf(pattern.substring(1,pattern.length() - 1)) < 0"
+4, Math, 11, "pattern.length() - 1", "pattern.length() + 1"
+5, Math, 16, "pattern.length() - 1", "pattern.length() + 1"

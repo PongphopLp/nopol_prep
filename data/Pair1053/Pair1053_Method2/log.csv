@@ -1,0 +1,6 @@
+1, NegateConditionals, 7, "from < fromArray.length", "from >= fromArray.length"
+2, NegateConditionals, 7, "from != index", "from == index"
+3, Math, 5, "fromArray.length - 1", "fromArray.length + 1"
+4, ConditionalsBoundary, 7, "from < fromArray.length", "from <= fromArray.length"
+5, Increments, 7, "from++", "from--"
+6, Increments, 9, "to++", "to--"

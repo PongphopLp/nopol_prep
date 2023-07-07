@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 9, "buffer.append(separator);
+", "DELETED"
+2, VoidMethodCalls, 14, "buffer.append(o);
+", "DELETED"

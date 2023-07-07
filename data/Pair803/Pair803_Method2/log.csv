@@ -1,0 +1,4 @@
+1, Math, 7, "row[i] * col[i]", "row[i] / col[i]"
+2, Increments, 6, "i++", "i--"
+3, ConditionalsBoundary, 6, "i < size", "i <= size"
+4, NegateConditionals, 6, "i < size", "i >= size"

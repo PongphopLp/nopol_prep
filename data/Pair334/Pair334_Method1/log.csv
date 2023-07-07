@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 17, "i < nbIndent", "i <= nbIndent"
+2, Math, 6, ""I-" + field", ""I-" - field"
+3, Math, 8, "" " + s2", "" " - s2"
+4, Math, 11, ""I-" + lastTag0", ""I-" - lastTag0"
+5, Math, 12, "" " + s2", "" " - s2"
+6, Math, 20, "outField + s2", "outField - s2"
+7, Increments, 17, "i++", "i--"
+8, NegateConditionals, 17, "i < nbIndent", "i >= nbIndent"

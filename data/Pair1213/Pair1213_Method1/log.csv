@@ -1,0 +1,18 @@
+01, VoidMethodCalls, 14, "sb.append(working[i]);
+", "DELETED"
+02, VoidMethodCalls, 17, "sb.append(newStr);
+", "DELETED"
+03, VoidMethodCalls, 22, "sb.append(working[i]);
+", "DELETED"
+04, Math, 6, "in.length() + newStr.length()", "in.length() - newStr.length()"
+05, ConditionalsBoundary, 8, "startindex < 0", "startindex <= 0"
+06, ConditionalsBoundary, 12, "startindex > -1", "startindex >= -1"
+07, ConditionalsBoundary, 13, "i < startindex", "i <= startindex"
+08, ConditionalsBoundary, 21, "i < working.length", "i <= working.length"
+09, NegateConditionals, 8, "startindex < 0", "startindex >= 0"
+10, NegateConditionals, 12, "startindex > -1", "startindex <= -1"
+11, NegateConditionals, 13, "i < startindex", "i >= startindex"
+12, NegateConditionals, 21, "i < working.length", "i >= working.length"
+13, InvertNegatives, 12, "-1", "1"
+14, Increments, 13, "++i", "--i"
+15, Increments, 21, "++i", "--i"

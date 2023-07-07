@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "text.length() > maxLength", "text.length() <= maxLength"
+2, Math, 6, "text.substring(0,maxLength - 3) + "..."", "text.substring(0,maxLength - 3) - "...""
+3, Math, 6, "maxLength - 3", "maxLength + 3"
+4, ConditionalsBoundary, 5, "text.length() > maxLength", "text.length() >= maxLength"

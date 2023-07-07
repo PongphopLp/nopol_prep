@@ -1,0 +1,4 @@
+1, VoidMethodCalls, 7, "sb.append((String)it.next());
+", "DELETED"
+2, VoidMethodCalls, 8, "sb.append(", ");
+", "DELETED"

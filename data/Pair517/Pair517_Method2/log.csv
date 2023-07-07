@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 6, "nb < 10", "nb <= 10"
+2, ConditionalsBoundary, 7, "nb < 100", "nb <= 100"
+3, ConditionalsBoundary, 8, "nb < 1000", "nb <= 1000"
+4, NegateConditionals, 6, "nb < 10", "nb >= 10"
+5, NegateConditionals, 7, "nb < 100", "nb >= 100"
+6, NegateConditionals, 8, "nb < 1000", "nb >= 1000"
+7, Math, 9, "res + nb", "res - nb"

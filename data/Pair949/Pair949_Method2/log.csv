@@ -1,0 +1,12 @@
+1, VoidMethodCalls, 8, "((Vector)a1).addElement(e.nextElement());
+", "DELETED"
+2, VoidMethodCalls, 12, "((Vector)a1).addElement(a2);
+", "DELETED"
+3, VoidMethodCalls, 16, "((Vector)a2).addElement(a1);
+", "DELETED"
+4, VoidMethodCalls, 21, "v.addElement(a1);
+", "DELETED"
+5, VoidMethodCalls, 22, "v.addElement(a2);
+", "DELETED"
+6, NegateConditionals, 5, "a1 == null", "a1 != null"
+7, NegateConditionals, 6, "a2 == null", "a2 != null"

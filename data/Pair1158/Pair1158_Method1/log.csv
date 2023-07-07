@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 11, "--scan >= 0", "--scan > 0"
+2, Increments, 11, "--scan", "++scan"
+3, NegateConditionals, 6, "list1.length != list2.length", "list1.length == list2.length"
+4, NegateConditionals, 11, "--scan >= 0", "--scan < 0"
+5, NegateConditionals, 12, "list1[scan] != list2[scan]", "list1[scan] == list2[scan]"

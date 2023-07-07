@@ -1,0 +1,5 @@
+1, Increments, 7, "++fromIndex", "--fromIndex"
+2, ConditionalsBoundary, 5, "fromIndex < toIndex", "fromIndex <= toIndex"
+3, InvertNegatives, 9, "-1", "1"
+4, NegateConditionals, 5, "fromIndex < toIndex", "fromIndex >= toIndex"
+5, NegateConditionals, 6, "a[fromIndex] == c", "a[fromIndex] != c"

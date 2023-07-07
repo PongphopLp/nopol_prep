@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 14, "i < bytesA.length", "i <= bytesA.length"
+2, NegateConditionals, 5, "bytesA == bytesB", "bytesA != bytesB"
+3, NegateConditionals, 8, "bytesA == null", "bytesA != null"
+4, NegateConditionals, 8, "bytesB == null", "bytesB != null"
+5, NegateConditionals, 11, "bytesA.length != bytesB.length", "bytesA.length == bytesB.length"
+6, NegateConditionals, 14, "i < bytesA.length", "i >= bytesA.length"
+7, NegateConditionals, 15, "bytesA[i] != bytesB[i]", "bytesA[i] == bytesB[i]"
+8, Increments, 14, "i++", "i--"

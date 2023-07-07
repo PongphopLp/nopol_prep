@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "x == y", "x != y"
+2, NegateConditionals, 6, "x == null", "x != null"
+3, NegateConditionals, 6, "y != null", "y == null"
+4, NegateConditionals, 7, "y.length() == 0", "y.length() != 0"
+5, NegateConditionals, 10, "x != null", "x == null"
+6, NegateConditionals, 10, "y == null", "y != null"
+7, NegateConditionals, 11, "x.length() == 0", "x.length() != 0"

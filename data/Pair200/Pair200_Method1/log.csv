@@ -1,0 +1,8 @@
+1, Increments, 10, "i++", "i--"
+2, Math, 5, "values.length + firstByte", "values.length - firstByte"
+3, Math, 9, "firstByte + i", "firstByte - i"
+4, NegateConditionals, 5, "values.length + firstByte > bytes.length", "values.length + firstByte <= bytes.length"
+5, NegateConditionals, 8, "i < values.length", "i >= values.length"
+6, NegateConditionals, 9, "bytes[firstByte + i] == values[i]", "bytes[firstByte + i] != values[i]"
+7, ConditionalsBoundary, 5, "values.length + firstByte > bytes.length", "values.length + firstByte >= bytes.length"
+8, ConditionalsBoundary, 8, "i < values.length", "i <= values.length"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "length < min", "length >= min"
+2, NegateConditionals, 6, "length > max", "length <= max"
+3, ConditionalsBoundary, 6, "length < min", "length <= min"
+4, ConditionalsBoundary, 6, "length > max", "length >= max"

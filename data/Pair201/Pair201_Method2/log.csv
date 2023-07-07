@@ -1,0 +1,5 @@
+1, Increments, 6, "ctr++", "ctr--"
+2, ConditionalsBoundary, 6, "ctr < data1.length", "ctr <= data1.length"
+3, NegateConditionals, 5, "data1.length != data2.length", "data1.length == data2.length"
+4, NegateConditionals, 6, "ctr < data1.length", "ctr >= data1.length"
+5, NegateConditionals, 7, "data1[ctr] != data2[ctr]", "data1[ctr] == data2[ctr]"

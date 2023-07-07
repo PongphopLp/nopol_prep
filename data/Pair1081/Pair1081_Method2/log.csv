@@ -1,0 +1,6 @@
+1, NegateConditionals, 7, "size > 0", "size <= 0"
+2, Increments, 10, "pos++", "pos--"
+3, Increments, 11, "size--", "size++"
+4, Math, 8, "(data[pos] & 0xff) << shifter", "(data[pos] & 0xff) >> shifter"
+5, Math, 8, "data[pos] & 0xff", "data[pos] | 0xff"
+6, ConditionalsBoundary, 7, "size > 0", "size >= 0"

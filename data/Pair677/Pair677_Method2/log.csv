@@ -1,0 +1,7 @@
+1, NegateConditionals, 6, "i < 4", "i >= 4"
+2, Increments, 6, "i++", "i--"
+3, Math, 6, "(buff[startPos + i] & 0xff) << (i * 8)", "(buff[startPos + i] & 0xff) >> (i * 8)"
+4, Math, 6, "buff[startPos + i] & 0xff", "buff[startPos + i] | 0xff"
+5, Math, 6, "startPos + i", "startPos - i"
+6, Math, 6, "i * 8", "i / 8"
+7, ConditionalsBoundary, 6, "i < 4", "i <= 4"

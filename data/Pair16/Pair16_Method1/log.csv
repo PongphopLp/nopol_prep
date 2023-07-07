@@ -1,0 +1,45 @@
+01, ConditionalsBoundary, 7, "i < args.length", "i <= args.length"
+02, ConditionalsBoundary, 16, "i >= 0", "i > 0"
+03, ConditionalsBoundary, 25, "i > format.length() - 3", "i >= format.length() - 3"
+04, ConditionalsBoundary, 31, "argnum < 0", "argnum <= 0"
+05, ConditionalsBoundary, 37, "argnum >= argStrings.length", "argnum > argStrings.length"
+06, ConditionalsBoundary, 48, "lastI < format.length()", "lastI <= format.length()"
+07, NegateConditionals, 7, "i < args.length", "i >= args.length"
+08, NegateConditionals, 8, "args[i] == null", "args[i] != null"
+09, NegateConditionals, 16, "i >= 0", "i < 0"
+10, NegateConditionals, 17, "i != 0", "i == 0"
+11, NegateConditionals, 17, "format.charAt(i - 1) == '\\'", "format.charAt(i - 1) != '\\'"
+12, NegateConditionals, 18, "i != 1", "i == 1"
+13, NegateConditionals, 25, "i > format.length() - 3", "i <= format.length() - 3"
+14, NegateConditionals, 31, "argnum < 0", "argnum >= 0"
+15, NegateConditionals, 31, "format.charAt(i + 2) != '}'", "format.charAt(i + 2) == '}'"
+16, NegateConditionals, 37, "argnum >= argStrings.length", "argnum < argStrings.length"
+17, NegateConditionals, 48, "lastI < format.length()", "lastI >= format.length()"
+18, Math, 5, "format.length() + (args.length * 20)", "format.length() - (args.length * 20)"
+19, Math, 5, "args.length * 20", "args.length / 20"
+20, Math, 17, "i - 1", "i + 1"
+21, Math, 19, "i - 1", "i + 1"
+22, Math, 22, "i + 1", "i - 1"
+23, Math, 25, "format.length() - 3", "format.length() + 3"
+24, Math, 30, "i + 1", "i - 1"
+25, Math, 31, "i + 2", "i - 2"
+26, Math, 32, "i + 1", "i - 1"
+27, Math, 33, "i + 1", "i - 1"
+28, Math, 43, "i + 3", "i - 3"
+29, Increments, 7, "++i", "--i"
+30, VoidMethodCalls, 19, "answer.append(format.substring(lastI,i - 1));
+", "DELETED"
+31, VoidMethodCalls, 21, "answer.append('{');
+", "DELETED"
+32, VoidMethodCalls, 26, "answer.append(format.substring(lastI,format.length()));
+", "DELETED"
+33, VoidMethodCalls, 32, "answer.append(format.substring(lastI,i + 1));
+", "DELETED"
+34, VoidMethodCalls, 36, "answer.append(format.substring(lastI,i));
+", "DELETED"
+35, VoidMethodCalls, 38, "answer.append("<missing argument>");
+", "DELETED"
+36, VoidMethodCalls, 41, "answer.append(argStrings[argnum]);
+", "DELETED"
+37, VoidMethodCalls, 49, "answer.append(format.substring(lastI,format.length()));
+", "DELETED"

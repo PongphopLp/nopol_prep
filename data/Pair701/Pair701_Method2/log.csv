@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "a == b", "a != b"
+2, NegateConditionals, 6, "a == null", "a != null"
+3, NegateConditionals, 6, "b == null", "b != null"
+4, NegateConditionals, 7, "a.getClass() == b.getClass()", "a.getClass() != b.getClass()"

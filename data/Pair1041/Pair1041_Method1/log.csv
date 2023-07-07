@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "offset >= args.length", "offset < args.length"
+2, VoidMethodCalls, 9, "System.arraycopy(args,offset,ret,0,ret.length);
+", "DELETED"
+3, Math, 8, "args.length - offset", "args.length + offset"
+4, ConditionalsBoundary, 5, "offset >= args.length", "offset > args.length"

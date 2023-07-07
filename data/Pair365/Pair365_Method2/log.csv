@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 7, "i < arry.length", "i <= arry.length"
+2, Increments, 7, "i++", "i--"
+3, Increments, 10, "++cnt", "--cnt"
+4, NegateConditionals, 7, "i < arry.length", "i >= arry.length"
+5, NegateConditionals, 8, "arry[i] != 0", "arry[i] == 0"

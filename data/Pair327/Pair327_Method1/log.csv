@@ -1,0 +1,5 @@
+1, NegateConditionals, 9, "val > max", "val <= max"
+2, NegateConditionals, 12, "val < min", "val >= min"
+3, Math, 8, "max - min", "max + min"
+4, ConditionalsBoundary, 9, "val > max", "val >= max"
+5, ConditionalsBoundary, 12, "val < min", "val <= min"

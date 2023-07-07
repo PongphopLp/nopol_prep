@@ -1,0 +1,7 @@
+1, InvertNegatives, 9, "-1", "1"
+2, InvertNegatives, 15, "-1", "1"
+3, Math, 10, "pos1 + 1", "pos1 - 1"
+4, NegateConditionals, 9, "pos1 > -1", "pos1 <= -1"
+5, NegateConditionals, 10, "value.substring(pos1 + 1).charAt(0) != 'x'", "value.substring(pos1 + 1).charAt(0) == 'x'"
+6, NegateConditionals, 15, "value.indexOf('.') != -1", "value.indexOf('.') == -1"
+7, ConditionalsBoundary, 9, "pos1 > -1", "pos1 >= -1"

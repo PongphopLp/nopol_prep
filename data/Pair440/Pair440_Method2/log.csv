@@ -1,0 +1,7 @@
+1, Math, 6, "npcId % 10", "npcId * 10"
+2, ConditionalsBoundary, 5, "npcId < 18009", "npcId <= 18009"
+3, ConditionalsBoundary, 5, "npcId > 18108", "npcId >= 18108"
+4, NegateConditionals, 5, "npcId < 18009", "npcId >= 18009"
+5, NegateConditionals, 5, "npcId > 18108", "npcId <= 18108"
+6, NegateConditionals, 7, "identifier == 4", "identifier != 4"
+7, NegateConditionals, 7, "identifier == 9", "identifier != 9"

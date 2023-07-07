@@ -1,0 +1,11 @@
+01, Math, 6, "e1.length() - 1", "e1.length() + 1"
+02, Math, 7, "e2.length() - 1", "e2.length() + 1"
+03, NegateConditionals, 8, "e1Index >= 0", "e1Index < 0"
+04, NegateConditionals, 8, "e2Index >= 0", "e2Index < 0"
+05, NegateConditionals, 9, "e1.charAt(e1Index) == e2.charAt(e2Index)", "e1.charAt(e1Index) != e2.charAt(e2Index)"
+06, ConditionalsBoundary, 8, "e1Index >= 0", "e1Index > 0"
+07, ConditionalsBoundary, 8, "e2Index >= 0", "e2Index > 0"
+08, VoidMethodCalls, 10, "re.insert(0,e1.charAt(e1Index));
+", "DELETED"
+09, Increments, 13, "e1Index--", "e1Index++"
+10, Increments, 14, "e2Index--", "e2Index++"

@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 11, "i < m1", "i <= m1"
+2, NegateConditionals, 7, "m1 != m2", "m1 == m2"
+3, NegateConditionals, 11, "i < m1", "i >= m1"
+4, NegateConditionals, 12, "(int)(mark1[i]) != (int)(mark2[i])", "(int)(mark1[i]) == (int)(mark2[i])"
+5, Increments, 11, "i++", "i--"

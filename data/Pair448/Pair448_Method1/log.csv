@@ -1,0 +1,6 @@
+1, InvertNegatives, 6, "-1", "1"
+2, Math, 7, "i - fromIdx", "i + fromIdx"
+3, NegateConditionals, 6, "i < str.length()", "i >= str.length()"
+4, NegateConditionals, 6, "charSet.indexOf(str.charAt(i)) != -1", "charSet.indexOf(str.charAt(i)) == -1"
+5, ConditionalsBoundary, 6, "i < str.length()", "i <= str.length()"
+6, Increments, 6, "i++", "i--"

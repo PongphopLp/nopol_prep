@@ -1,0 +1,15 @@
+01, NegateConditionals, 6, "i < _buffer.length", "i >= _buffer.length"
+02, NegateConditionals, 7, "_buffer[i] <= 0x0F", "_buffer[i] > 0x0F"
+03, NegateConditionals, 7, "_buffer[i] > 0x00", "_buffer[i] <= 0x00"
+04, NegateConditionals, 8, "_buffer[i] == 0x00", "_buffer[i] != 0x00"
+05, ConditionalsBoundary, 6, "i < _buffer.length", "i <= _buffer.length"
+06, ConditionalsBoundary, 7, "_buffer[i] <= 0x0F", "_buffer[i] < 0x0F"
+07, ConditionalsBoundary, 7, "_buffer[i] > 0x00", "_buffer[i] >= 0x00"
+08, Increments, 6, "i++", "i--"
+09, Math, 12, "_buffer[i] & 0xFF", "_buffer[i] | 0xFF"
+10, VoidMethodCalls, 7, "buffer.append('0');
+", "DELETED"
+11, VoidMethodCalls, 9, "buffer.append("00");
+", "DELETED"
+12, VoidMethodCalls, 12, "buffer.append(Integer.toHexString(_buffer[i] & 0xFF).toUpperCase());
+", "DELETED"

@@ -1,0 +1,9 @@
+1, VoidMethodCalls, 8, "sb.append(c);
+", "DELETED"
+2, ConditionalsBoundary, 5, "s.length() < l", "s.length() <= l"
+3, ConditionalsBoundary, 7, "i < l - s.length()", "i <= l - s.length()"
+4, Increments, 7, "i++", "i--"
+5, Math, 7, "l - s.length()", "l + s.length()"
+6, Math, 10, "s + sb.toString()", "s - sb.toString()"
+7, NegateConditionals, 5, "s.length() < l", "s.length() >= l"
+8, NegateConditionals, 7, "i < l - s.length()", "i >= l - s.length()"

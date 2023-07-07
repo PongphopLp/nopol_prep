@@ -1,0 +1,10 @@
+1, VoidMethodCalls, 12, "parameters.put(para[0],para[1]);
+", "DELETED"
+2, NegateConditionals, 6, "args != null", "args == null"
+3, NegateConditionals, 6, "args.length() > 0", "args.length() <= 0"
+4, NegateConditionals, 8, "pairs != null", "pairs == null"
+5, NegateConditionals, 8, "pairs.length > 0", "pairs.length <= 0"
+6, NegateConditionals, 11, "para != null", "para == null"
+7, NegateConditionals, 11, "para.length == 2", "para.length != 2"
+8, ConditionalsBoundary, 6, "args.length() > 0", "args.length() >= 0"
+9, ConditionalsBoundary, 8, "pairs.length > 0", "pairs.length >= 0"

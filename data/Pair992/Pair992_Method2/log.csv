@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "i > result", "i <= result"
+2, ConditionalsBoundary, 6, "i > result", "i >= result"

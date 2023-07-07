@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < a.size()", "i <= a.size()"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 5, "a.size() != b.size()", "a.size() == b.size()"
+4, NegateConditionals, 6, "i < a.size()", "i >= a.size()"

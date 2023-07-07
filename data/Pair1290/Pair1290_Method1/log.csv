@@ -1,0 +1,10 @@
+1, NegateConditionals, 5, "from.length() == to.length()", "from.length() != to.length()"
+2, NegateConditionals, 8, "i < len", "i >= len"
+3, NegateConditionals, 10, "ind >= 0", "ind < 0"
+4, NegateConditionals, 11, "sb == null", "sb != null"
+5, NegateConditionals, 17, "sb == null", "sb != null"
+6, Increments, 8, "i++", "i--"
+7, ConditionalsBoundary, 8, "i < len", "i <= len"
+8, ConditionalsBoundary, 10, "ind >= 0", "ind > 0"
+9, VoidMethodCalls, 14, "sb.setCharAt(i,to.charAt(ind));
+", "DELETED"

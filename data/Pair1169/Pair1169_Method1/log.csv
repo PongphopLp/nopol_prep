@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 10, "(indice=chaine.indexOf(partie,indice)) >= 0", "(indice=chaine.indexOf(partie,indice)) > 0"
+2, Increments, 12, "nb++", "nb--"
+3, NegateConditionals, 5, "chaine == null", "chaine != null"
+4, NegateConditionals, 5, "partie == null", "partie != null"
+5, NegateConditionals, 10, "(indice=chaine.indexOf(partie,indice)) >= 0", "(indice=chaine.indexOf(partie,indice)) < 0"

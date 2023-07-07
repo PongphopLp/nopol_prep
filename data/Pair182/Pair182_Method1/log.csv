@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < f.length", "i >= f.length"
+2, NegateConditionals, 7, "f[i] < lowest", "f[i] >= lowest"
+3, Increments, 6, "i++", "i--"
+4, ConditionalsBoundary, 6, "i < f.length", "i <= f.length"
+5, ConditionalsBoundary, 7, "f[i] < lowest", "f[i] <= lowest"

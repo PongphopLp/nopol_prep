@@ -1,0 +1,57 @@
+01, Increments, 8, "i++", "i--"
+02, Math, 5, "buffer.length - (buffer.length % 3)", "buffer.length + (buffer.length % 3)"
+03, Math, 5, "buffer.length % 3", "buffer.length * 3"
+04, Math, 8, "buffer[i] & 0xff", "buffer[i] | 0xff"
+05, Math, 10, "buff[i] >> 2", "buff[i] << 2"
+06, Math, 11, "((buff[i] << 4) & 0x30) | (buff[i + 1] >> 4)", "((buff[i] << 4) & 0x30) & (buff[i + 1] >> 4)"
+07, Math, 11, "(buff[i] << 4) & 0x30", "(buff[i] << 4) | 0x30"
+08, Math, 11, "buff[i] << 4", "buff[i] >> 4"
+09, Math, 11, "buff[i + 1] >> 4", "buff[i + 1] << 4"
+10, Math, 11, "i + 1", "i - 1"
+11, Math, 12, "((buff[i + 1] << 2) & 0x3c) | (buff[i + 2] >> 6)", "((buff[i + 1] << 2) & 0x3c) & (buff[i + 2] >> 6)"
+12, Math, 12, "(buff[i + 1] << 2) & 0x3c", "(buff[i + 1] << 2) | 0x3c"
+13, Math, 12, "buff[i + 1] << 2", "buff[i + 1] >> 2"
+14, Math, 12, "i + 1", "i - 1"
+15, Math, 12, "buff[i + 2] >> 6", "buff[i + 2] << 6"
+16, Math, 12, "i + 2", "i - 2"
+17, Math, 13, "buff[i + 2] & 0x3f", "buff[i + 2] | 0x3f"
+18, Math, 13, "i + 2", "i - 2"
+19, Math, 16, "buff.length - i", "buff.length + i"
+20, Math, 17, "buff[i] >> 2", "buff[i] << 2"
+21, Math, 18, "(buff[i] << 4) & 0x30", "(buff[i] << 4) | 0x30"
+22, Math, 18, "buff[i] << 4", "buff[i] >> 4"
+23, Math, 21, "buff[i] >> 2", "buff[i] << 2"
+24, Math, 22, "((buff[i] << 4) & 0x30) | (buff[i + 1] >> 4)", "((buff[i] << 4) & 0x30) & (buff[i + 1] >> 4)"
+25, Math, 22, "(buff[i] << 4) & 0x30", "(buff[i] << 4) | 0x30"
+26, Math, 22, "buff[i] << 4", "buff[i] >> 4"
+27, Math, 22, "buff[i + 1] >> 4", "buff[i + 1] << 4"
+28, Math, 22, "i + 1", "i - 1"
+29, Math, 23, "(buff[i + 1] << 2) & 0x3c", "(buff[i + 1] << 2) | 0x3c"
+30, Math, 23, "buff[i + 1] << 2", "buff[i + 1] >> 2"
+31, Math, 23, "i + 1", "i - 1"
+32, ConditionalsBoundary, 8, "i < buffer.length", "i <= buffer.length"
+33, ConditionalsBoundary, 9, "i < limit", "i <= limit"
+34, VoidMethodCalls, 10, "out.append(table.charAt(buff[i] >> 2));
+", "DELETED"
+35, VoidMethodCalls, 11, "out.append(table.charAt(((buff[i] << 4) & 0x30) | (buff[i + 1] >> 4)));
+", "DELETED"
+36, VoidMethodCalls, 12, "out.append(table.charAt(((buff[i + 1] << 2) & 0x3c) | (buff[i + 2] >> 6)));
+", "DELETED"
+37, VoidMethodCalls, 13, "out.append(table.charAt(buff[i + 2] & 0x3f));
+", "DELETED"
+38, VoidMethodCalls, 17, "out.append(table.charAt(buff[i] >> 2));
+", "DELETED"
+39, VoidMethodCalls, 18, "out.append(table.charAt(((buff[i] << 4) & 0x30)));
+", "DELETED"
+40, VoidMethodCalls, 19, "out.append(pad).append(pad);
+", "DELETED"
+41, VoidMethodCalls, 21, "out.append(table.charAt(buff[i] >> 2));
+", "DELETED"
+42, VoidMethodCalls, 22, "out.append(table.charAt(((buff[i] << 4) & 0x30) | (buff[i + 1] >> 4)));
+", "DELETED"
+43, VoidMethodCalls, 23, "out.append(table.charAt(((buff[i + 1] << 2) & 0x3c)));
+", "DELETED"
+44, VoidMethodCalls, 24, "out.append(pad);
+", "DELETED"
+45, NegateConditionals, 8, "i < buffer.length", "i >= buffer.length"
+46, NegateConditionals, 9, "i < limit", "i >= limit"

@@ -1,0 +1,5 @@
+1, Math, 10, "d.charAt((int)(x & m)) + r", "d.charAt((int)(x & m)) - r"
+2, Math, 10, "x & m", "x | m"
+3, Math, 11, "x >>> n", "x << n"
+4, NegateConditionals, 5, "x == 0", "x != 0"
+5, NegateConditionals, 9, "x != 0", "x == 0"

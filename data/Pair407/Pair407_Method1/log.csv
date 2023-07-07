@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "i < list.length", "i >= list.length"
+2, NegateConditionals, 7, "t == (Class)list[i]", "t != (Class)list[i]"
+3, Increments, 7, "count++", "count--"
+4, ConditionalsBoundary, 6, "i < list.length", "i <= list.length"

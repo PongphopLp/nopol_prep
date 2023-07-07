@@ -1,0 +1,9 @@
+1, Increments, 6, "++i", "--i"
+2, NegateConditionals, 6, "i < s.length()", "i >= s.length()"
+3, NegateConditionals, 8, "t != -1", "t == -1"
+4, NegateConditionals, 9, "sNew == null", "sNew != null"
+5, NegateConditionals, 13, "sNew == null", "sNew != null"
+6, VoidMethodCalls, 10, "sNew.setCharAt(i,to.charAt(t));
+", "DELETED"
+7, InvertNegatives, 8, "-1", "1"
+8, ConditionalsBoundary, 6, "i < s.length()", "i <= s.length()"

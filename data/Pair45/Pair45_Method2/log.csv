@@ -1,0 +1,6 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < length", "i <= length"
+3, Math, 7, "i + start", "i - start"
+4, NegateConditionals, 5, "a2.length != length", "a2.length == length"
+5, NegateConditionals, 6, "i < length", "i >= length"
+6, NegateConditionals, 7, "a[i + start] != a2[i]", "a[i + start] == a2[i]"

@@ -1,0 +1,17 @@
+01, NegateConditionals, 6, "i < input.length()", "i >= input.length()"
+02, NegateConditionals, 8, "ch >= 0x0020", "ch < 0x0020"
+03, NegateConditionals, 8, "ch <= 0x007e", "ch > 0x007e"
+04, NegateConditionals, 14, "hex.length() == 2", "hex.length() != 2"
+05, Increments, 6, "i++", "i--"
+06, ConditionalsBoundary, 6, "i < input.length()", "i <= input.length()"
+07, ConditionalsBoundary, 8, "ch >= 0x0020", "ch > 0x0020"
+08, ConditionalsBoundary, 8, "ch <= 0x007e", "ch < 0x007e"
+09, Math, 13, "input.charAt(i) & 0xFFFF", "input.charAt(i) | 0xFFFF"
+10, VoidMethodCalls, 9, "returnValue.append(ch);
+", "DELETED"
+11, VoidMethodCalls, 12, "returnValue.append("\\u");
+", "DELETED"
+12, VoidMethodCalls, 15, "returnValue.append("00");
+", "DELETED"
+13, VoidMethodCalls, 17, "returnValue.append(hex.toUpperCase());
+", "DELETED"

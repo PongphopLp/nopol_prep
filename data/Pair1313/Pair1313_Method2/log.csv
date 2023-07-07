@@ -1,0 +1,7 @@
+1, Increments, 14, "conta++", "conta--"
+2, Math, 5, "digester.length() / 2", "digester.length() * 2"
+3, Math, 9, "i + 2", "i - 2"
+4, NegateConditionals, 8, "i < digester.length()", "i >= digester.length()"
+5, NegateConditionals, 11, "car >= 128", "car < 128"
+6, ConditionalsBoundary, 8, "i < digester.length()", "i <= digester.length()"
+7, ConditionalsBoundary, 11, "car >= 128", "car > 128"

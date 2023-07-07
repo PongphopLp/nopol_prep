@@ -1,0 +1,6 @@
+1, InvertNegatives, 8, "-1", "1"
+2, ConditionalsBoundary, 5, "i >= from", "i > from"
+3, Math, 5, "to - 1", "to + 1"
+4, NegateConditionals, 5, "i >= from", "i < from"
+5, NegateConditionals, 6, "a[i] == v", "a[i] != v"
+6, Increments, 5, "--i", "++i"

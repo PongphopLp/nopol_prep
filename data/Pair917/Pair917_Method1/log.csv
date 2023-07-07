@@ -1,0 +1,5 @@
+1, NegateConditionals, 7, "i < vec.length", "i >= vec.length"
+2, NegateConditionals, 8, "prev > vec[i]", "prev <= vec[i]"
+3, Increments, 7, "i++", "i--"
+4, ConditionalsBoundary, 7, "i < vec.length", "i <= vec.length"
+5, ConditionalsBoundary, 8, "prev > vec[i]", "prev >= vec[i]"

@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "v < -180.0f", "v <= -180.0f"
+2, ConditionalsBoundary, 6, "v > 180.0f", "v >= 180.0f"
+3, NegateConditionals, 5, "v < -180.0f", "v >= -180.0f"
+4, NegateConditionals, 6, "v > 180.0f", "v <= 180.0f"
+5, InvertNegatives, 5, "-180.0f", "180.0f"

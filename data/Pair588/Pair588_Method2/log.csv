@@ -1,0 +1,19 @@
+01, VoidMethodCalls, 17, "lineIndices.append(String.valueOf((char)lineIndexHash.get(line).intValue()));
+", "DELETED"
+02, VoidMethodCalls, 20, "lineList.add(line);
+", "DELETED"
+03, VoidMethodCalls, 21, "lineIndexHash.put(line,lineList.size() - 1);
+", "DELETED"
+04, VoidMethodCalls, 22, "lineIndices.append(String.valueOf((char)(lineList.size() - 1)));
+", "DELETED"
+05, Math, 9, "text.length() - 1", "text.length() + 1"
+06, Math, 12, "text.length() - 1", "text.length() + 1"
+07, Math, 14, "lineEnd + 1", "lineEnd - 1"
+08, Math, 15, "lineEnd + 1", "lineEnd - 1"
+09, Math, 21, "lineList.size() - 1", "lineList.size() + 1"
+10, Math, 22, "lineList.size() - 1", "lineList.size() + 1"
+11, ConditionalsBoundary, 9, "lineEnd < text.length() - 1", "lineEnd <= text.length() - 1"
+12, NegateConditionals, 9, "lineEnd < text.length() - 1", "lineEnd >= text.length() - 1"
+13, NegateConditionals, 11, "lineEnd == -1", "lineEnd != -1"
+14, InvertNegatives, 6, "-1", "1"
+15, InvertNegatives, 11, "-1", "1"

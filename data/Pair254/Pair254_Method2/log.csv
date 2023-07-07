@@ -1,0 +1,6 @@
+1, NegateConditionals, 6, "contentString == null", "contentString != null"
+2, NegateConditionals, 10, "paramsArray != null", "paramsArray == null"
+3, NegateConditionals, 13, "keyValue != null", "keyValue == null"
+4, NegateConditionals, 13, "keyValue.length == 2", "keyValue.length != 2"
+5, VoidMethodCalls, 14, "params.put(keyValue[0],keyValue[1]);
+", "DELETED"

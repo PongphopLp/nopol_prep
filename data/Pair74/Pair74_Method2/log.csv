@@ -1,0 +1,6 @@
+1, Increments, 6, "++i", "--i"
+2, NegateConditionals, 6, "i < string.length", "i >= string.length"
+3, NegateConditionals, 7, "string[i] == (byte)'\0'", "string[i] != (byte)'\0'"
+4, VoidMethodCalls, 10, "ret.append((char)string[i]);
+", "DELETED"
+5, ConditionalsBoundary, 6, "i < string.length", "i <= string.length"

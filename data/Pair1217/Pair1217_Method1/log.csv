@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < str.length()", "i <= str.length()"
+2, InvertNegatives, 16, "-1", "1"
+3, Increments, 6, "i++", "i--"
+4, NegateConditionals, 6, "i < str.length()", "i >= str.length()"
+5, NegateConditionals, 8, "c == '\\'", "c != '\\'"
+6, NegateConditionals, 12, "c == toFind", "c != toFind"

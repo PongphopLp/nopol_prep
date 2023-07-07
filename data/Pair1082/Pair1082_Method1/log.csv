@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "pSeq1 == pSeq2", "pSeq1 != pSeq2"
+2, NegateConditionals, 8, "pSeq1.length() != pSeq2.length()", "pSeq1.length() == pSeq2.length()"
+3, NegateConditionals, 11, "i < pSeq1.length()", "i >= pSeq1.length()"
+4, NegateConditionals, 12, "pSeq1.charAt(i) != pSeq2.charAt(i)", "pSeq1.charAt(i) == pSeq2.charAt(i)"
+5, Increments, 11, "i++", "i--"
+6, ConditionalsBoundary, 11, "i < pSeq1.length()", "i <= pSeq1.length()"

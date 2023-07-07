@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "(unsignedA ^ unsignedB) < 0L", "(unsignedA ^ unsignedB) >= 0L"
+2, NegateConditionals, 6, "(unsignedA=unsignedB - unsignedA) != 0L", "(unsignedA=unsignedB - unsignedA) == 0L"
+3, NegateConditionals, 8, "unsignedA < 0L", "unsignedA >= 0L"
+4, InvertNegatives, 7, "-1", "1"
+5, ConditionalsBoundary, 6, "(unsignedA ^ unsignedB) < 0L", "(unsignedA ^ unsignedB) <= 0L"
+6, ConditionalsBoundary, 8, "unsignedA < 0L", "unsignedA <= 0L"
+7, Math, 6, "unsignedA ^ unsignedB", "unsignedA & unsignedB"
+8, Math, 6, "unsignedB - unsignedA", "unsignedB + unsignedA"

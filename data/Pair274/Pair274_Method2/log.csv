@@ -1,0 +1,4 @@
+1, NegateConditionals, 7, "i < length", "i >= length"
+2, Increments, 7, "++i", "--i"
+3, Math, 8, "a[i] * b[i]", "a[i] / b[i]"
+4, ConditionalsBoundary, 7, "i < length", "i <= length"

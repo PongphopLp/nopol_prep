@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "alen != blen", "alen == blen"
+2, NegateConditionals, 7, "i < alen", "i >= alen"
+3, NegateConditionals, 7, "a[aoff + i] != b[boff + i]", "a[aoff + i] == b[boff + i]"
+4, ConditionalsBoundary, 7, "i < alen", "i <= alen"
+5, Math, 7, "aoff + i", "aoff - i"
+6, Math, 7, "boff + i", "boff - i"
+7, Increments, 7, "++i", "--i"

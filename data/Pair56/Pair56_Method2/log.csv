@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "tl != tok.length", "tl == tok.length"
+2, NegateConditionals, 7, "t != tl", "t == tl"
+3, NegateConditionals, 7, "tok2[t] != tok[t]", "tok2[t] == tok[t]"
+4, Increments, 7, "t++", "t--"

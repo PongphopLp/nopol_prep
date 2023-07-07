@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 7, "length - data.length < 0", "length - data.length <= 0"
+2, NegateConditionals, 7, "length - data.length < 0", "length - data.length >= 0"
+3, Math, 7, "length - data.length", "length + data.length"
+4, Math, 7, "data.length - length", "data.length + length"
+5, Math, 9, "data.length - debut", "data.length + debut"
+6, VoidMethodCalls, 9, "System.arraycopy(data,0,ans,0,data.length - debut);
+", "DELETED"

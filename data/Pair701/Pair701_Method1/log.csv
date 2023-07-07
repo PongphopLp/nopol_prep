@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "own == otherObject", "own != otherObject"
+2, NegateConditionals, 8, "otherObject == null", "otherObject != null"
+3, NegateConditionals, 8, "own == null", "own != null"
+4, NegateConditionals, 11, "own.getClass() != otherObject.getClass()", "own.getClass() == otherObject.getClass()"

@@ -1,0 +1,6 @@
+1, Math, 6, "index + 1", "index - 1"
+2, NegateConditionals, 6, "n > 0", "n <= 0"
+3, NegateConditionals, 6, "(index=s.indexOf(c,index + 1)) >= 0", "(index=s.indexOf(c,index + 1)) < 0"
+4, ConditionalsBoundary, 6, "n > 0", "n >= 0"
+5, ConditionalsBoundary, 6, "(index=s.indexOf(c,index + 1)) >= 0", "(index=s.indexOf(c,index + 1)) > 0"
+6, InvertNegatives, 5, "-1", "1"

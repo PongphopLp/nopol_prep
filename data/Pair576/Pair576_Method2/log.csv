@@ -1,0 +1,4 @@
+1, Math, 7, "o1[i] * o2[i]", "o1[i] / o2[i]"
+2, Increments, 6, "i++", "i--"
+3, NegateConditionals, 6, "i < o1.length", "i >= o1.length"
+4, ConditionalsBoundary, 6, "i < o1.length", "i <= o1.length"

@@ -1,0 +1,8 @@
+1, Increments, 10, "right--", "right++"
+2, Increments, 11, "left++", "left--"
+3, NegateConditionals, 10, "array[right] > pivot_key", "array[right] <= pivot_key"
+4, NegateConditionals, 11, "array[left] < pivot_key", "array[left] >= pivot_key"
+5, NegateConditionals, 12, "left < right", "left >= right"
+6, ConditionalsBoundary, 10, "array[right] > pivot_key", "array[right] >= pivot_key"
+7, ConditionalsBoundary, 11, "array[left] < pivot_key", "array[left] <= pivot_key"
+8, ConditionalsBoundary, 12, "left < right", "left <= right"

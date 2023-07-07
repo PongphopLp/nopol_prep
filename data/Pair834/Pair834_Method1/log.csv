@@ -1,0 +1,16 @@
+01, Increments, 14, "index++", "index--"
+02, VoidMethodCalls, 11, "items.add(str.substring(last,index));
+", "DELETED"
+03, VoidMethodCalls, 16, "items.add(str.substring(last));
+", "DELETED"
+04, VoidMethodCalls, 17, "items.add(trailing);
+", "DELETED"
+05, VoidMethodCalls, 19, "items.copyInto(result);
+", "DELETED"
+06, NegateConditionals, 9, "index < len", "index >= len"
+07, NegateConditionals, 10, "str.charAt(index) == delim", "str.charAt(index) != delim"
+08, NegateConditionals, 16, "last != len", "last == len"
+09, NegateConditionals, 17, "trailing != null", "trailing == null"
+10, NegateConditionals, 17, "trailing.length() != 0", "trailing.length() == 0"
+11, ConditionalsBoundary, 9, "index < len", "index <= len"
+12, Math, 12, "index + 1", "index - 1"

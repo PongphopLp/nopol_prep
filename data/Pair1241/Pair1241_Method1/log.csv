@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "i < sql.length()", "i >= sql.length()"
+2, NegateConditionals, 5, "sql.charAt(i) == ch", "sql.charAt(i) != ch"
+3, NegateConditionals, 7, "num == 0", "num != 0"
+4, Increments, 5, "i++", "i--"
+5, Increments, 6, "num--", "num++"
+6, InvertNegatives, 9, "-1", "1"
+7, ConditionalsBoundary, 5, "i < sql.length()", "i <= sql.length()"

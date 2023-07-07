@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "expected.length != actual.length", "expected.length == actual.length"
+3, NegateConditionals, 7, "i < expected.length", "i >= expected.length"
+4, NegateConditionals, 8, "expected[i] != actual[i]", "expected[i] == actual[i]"
+5, ConditionalsBoundary, 7, "i < expected.length", "i <= expected.length"

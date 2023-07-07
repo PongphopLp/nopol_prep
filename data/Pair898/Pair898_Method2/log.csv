@@ -1,0 +1,5 @@
+1, NegateConditionals, 5, "s == null", "s != null"
+2, NegateConditionals, 5, "end == null", "end != null"
+3, NegateConditionals, 6, "end.length() > s.length()", "end.length() <= s.length()"
+4, Math, 7, "s.length() - end.length()", "s.length() + end.length()"
+5, ConditionalsBoundary, 6, "end.length() > s.length()", "end.length() >= s.length()"

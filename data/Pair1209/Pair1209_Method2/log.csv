@@ -1,0 +1,11 @@
+1, Math, 7, "string.length() + replacement.length()", "string.length() - replacement.length()"
+2, Math, 17, "begin + length", "begin - length"
+3, VoidMethodCalls, 13, "result.append(tail);
+", "DELETED"
+4, VoidMethodCalls, 16, "result.append(tail.substring(0,begin)).append(replacement);
+", "DELETED"
+5, NegateConditionals, 5, "string == null", "string != null"
+6, NegateConditionals, 5, "toBeReplaced == null", "toBeReplaced != null"
+7, NegateConditionals, 5, "replacement == null", "replacement != null"
+8, NegateConditionals, 12, "begin == -1", "begin != -1"
+9, InvertNegatives, 12, "-1", "1"

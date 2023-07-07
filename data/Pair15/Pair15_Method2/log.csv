@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "i < ary.length", "i <= ary.length"
+2, NegateConditionals, 5, "i < ary.length", "i >= ary.length"
+3, NegateConditionals, 6, "ch == ary[i]", "ch != ary[i]"
+4, InvertNegatives, 10, "-1", "1"
+5, Increments, 5, "i++", "i--"

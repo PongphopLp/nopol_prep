@@ -1,0 +1,2 @@
+1, ConditionalsBoundary, 9, "min.compareTo(o) > 0", "min.compareTo(o) >= 0"
+2, NegateConditionals, 9, "min.compareTo(o) > 0", "min.compareTo(o) <= 0"

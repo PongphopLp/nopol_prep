@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "n < nLength", "n <= nLength"
+2, Math, 7, "nSourceOffset + n", "nSourceOffset - n"
+3, NegateConditionals, 6, "n < nLength", "n >= nLength"
+4, Increments, 6, "n++", "n--"

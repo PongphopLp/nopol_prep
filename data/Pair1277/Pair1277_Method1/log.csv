@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "i < str.length()", "i >= str.length()"
+2, ConditionalsBoundary, 5, "i < str.length()", "i <= str.length()"
+3, Increments, 5, "i++", "i--"
+4, Increments, 7, "offset++", "offset--"

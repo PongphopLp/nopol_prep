@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 6, "i < 0", "i <= 0"
+2, ConditionalsBoundary, 7, "--i >= 0", "--i > 0"
+3, Increments, 7, "--i", "++i"
+4, NegateConditionals, 6, "i < 0", "i >= 0"
+5, NegateConditionals, 7, "--i >= 0", "--i < 0"

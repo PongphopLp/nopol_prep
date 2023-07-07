@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "type == java.sql.Types.BIGINT", "type != java.sql.Types.BIGINT"
+2, NegateConditionals, 5, "type == java.sql.Types.DECIMAL", "type != java.sql.Types.DECIMAL"
+3, NegateConditionals, 5, "type == java.sql.Types.DOUBLE", "type != java.sql.Types.DOUBLE"
+4, NegateConditionals, 5, "type == java.sql.Types.FLOAT", "type != java.sql.Types.FLOAT"
+5, NegateConditionals, 5, "type == java.sql.Types.INTEGER", "type != java.sql.Types.INTEGER"
+6, NegateConditionals, 5, "type == java.sql.Types.NUMERIC", "type != java.sql.Types.NUMERIC"
+7, NegateConditionals, 5, "type == java.sql.Types.SMALLINT", "type != java.sql.Types.SMALLINT"
+8, NegateConditionals, 5, "type == java.sql.Types.TINYINT", "type != java.sql.Types.TINYINT"

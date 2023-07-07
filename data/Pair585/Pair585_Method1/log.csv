@@ -1,0 +1,6 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i <= lastIdx", "i > lastIdx"
+3, Math, 7, "sum / (double)(lastIdx - firstIdx + 1)", "sum * (double)(lastIdx - firstIdx + 1)"
+4, Math, 7, "lastIdx - firstIdx + 1", "lastIdx - firstIdx - 1"
+5, Math, 7, "lastIdx - firstIdx", "lastIdx + firstIdx"
+6, ConditionalsBoundary, 6, "i <= lastIdx", "i < lastIdx"

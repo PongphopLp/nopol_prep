@@ -1,0 +1,2 @@
+1, NegateConditionals, 6, "dayOfWeek == Calendar.SATURDAY", "dayOfWeek != Calendar.SATURDAY"
+2, NegateConditionals, 6, "dayOfWeek == Calendar.SUNDAY", "dayOfWeek != Calendar.SUNDAY"

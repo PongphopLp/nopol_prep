@@ -1,0 +1,6 @@
+1, NegateConditionals, 8, "c >= 0", "c < 0"
+2, NegateConditionals, 9, "chars[c--] != delim", "chars[c--] == delim"
+3, ConditionalsBoundary, 8, "c >= 0", "c > 0"
+4, Increments, 9, "c--", "c++"
+5, Math, 6, "chars.length - 1", "chars.length + 1"
+6, Math, 12, "c + 2", "c - 2"

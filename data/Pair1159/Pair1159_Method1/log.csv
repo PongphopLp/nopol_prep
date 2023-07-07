@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "carcatere > 47", "carcatere <= 47"
+2, NegateConditionals, 5, "carcatere < 58", "carcatere >= 58"
+3, ConditionalsBoundary, 5, "carcatere > 47", "carcatere >= 47"
+4, ConditionalsBoundary, 5, "carcatere < 58", "carcatere <= 58"

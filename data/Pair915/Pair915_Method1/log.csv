@@ -1,0 +1,5 @@
+1, Math, 5, "array.length - start", "array.length + start"
+2, Math, 7, "start + x", "start - x"
+3, ConditionalsBoundary, 7, "x < len", "x <= len"
+4, NegateConditionals, 7, "x < len", "x >= len"
+5, Increments, 7, "x++", "x--"

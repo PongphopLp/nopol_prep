@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "oldValue == null", "oldValue != null"
+2, NegateConditionals, 5, "newValue != null", "newValue == null"
+3, NegateConditionals, 6, "newValue == null", "newValue != null"
+4, NegateConditionals, 6, "oldValue != null", "oldValue == null"
+5, NegateConditionals, 7, "oldValue == null", "oldValue != null"
+6, NegateConditionals, 7, "newValue == null", "newValue != null"

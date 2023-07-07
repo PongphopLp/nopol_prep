@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "c >= 0x20", "c > 0x20"
+2, ConditionalsBoundary, 6, "c < 0x7f", "c <= 0x7f"
+3, NegateConditionals, 6, "c >= 0x20", "c < 0x20"
+4, NegateConditionals, 6, "c < 0x7f", "c >= 0x7f"

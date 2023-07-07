@@ -1,0 +1,13 @@
+01, Increments, 6, "++i", "--i"
+02, VoidMethodCalls, 7, "Arrays.sort(ar2);
+", "DELETED"
+03, NegateConditionals, 6, "i < ar.length", "i >= ar.length"
+04, NegateConditionals, 8, "ar2.length % 2 == 0", "ar2.length % 2 != 0"
+05, ConditionalsBoundary, 6, "i < ar.length", "i <= ar.length"
+06, Math, 8, "ar2.length % 2", "ar2.length * 2"
+07, Math, 8, "(ar2[ar.length / 2] + ar2[ar.length / 2 - 1]) / 2.", "(ar2[ar.length / 2] + ar2[ar.length / 2 - 1]) * 2."
+08, Math, 8, "ar2[ar.length / 2] + ar2[ar.length / 2 - 1]", "ar2[ar.length / 2] - ar2[ar.length / 2 - 1]"
+09, Math, 8, "ar.length / 2", "ar.length * 2"
+10, Math, 8, "ar.length / 2 - 1", "ar.length / 2 + 1"
+11, Math, 8, "ar.length / 2", "ar.length * 2"
+12, Math, 9, "ar.length / 2", "ar.length * 2"

@@ -1,0 +1,4 @@
+1, NegateConditionals, 6, "c == ' '", "c != ' '"
+2, NegateConditionals, 6, "c == '\n'", "c != '\n'"
+3, NegateConditionals, 6, "c == '\t'", "c != '\t'"
+4, NegateConditionals, 6, "c == '\r'", "c != '\r'"

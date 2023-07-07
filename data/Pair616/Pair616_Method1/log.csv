@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "chars.length > bytes.length", "chars.length >= bytes.length"
+2, ConditionalsBoundary, 10, "i < chars.length", "i <= chars.length"
+3, Increments, 10, "i++", "i--"
+4, NegateConditionals, 6, "chars.length > bytes.length", "chars.length <= bytes.length"
+5, NegateConditionals, 10, "i < chars.length", "i >= chars.length"
+6, NegateConditionals, 11, "bytes[i] != chars[i]", "bytes[i] == chars[i]"

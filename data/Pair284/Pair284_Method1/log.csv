@@ -1,0 +1,14 @@
+01, Increments, 8, "i++", "i--"
+02, VoidMethodCalls, 10, "result.setLength(0);
+", "DELETED"
+03, VoidMethodCalls, 12, "result.append(text.substring(startIndex,foundIndex));
+", "DELETED"
+04, VoidMethodCalls, 13, "result.append(replace[i]);
+", "DELETED"
+05, VoidMethodCalls, 16, "result.append(text.substring(startIndex));
+", "DELETED"
+06, NegateConditionals, 8, "i < pattern.length", "i >= pattern.length"
+07, NegateConditionals, 11, "(foundIndex=text.indexOf(pattern[i],startIndex)) >= 0", "(foundIndex=text.indexOf(pattern[i],startIndex)) < 0"
+08, ConditionalsBoundary, 8, "i < pattern.length", "i <= pattern.length"
+09, ConditionalsBoundary, 11, "(foundIndex=text.indexOf(pattern[i],startIndex)) >= 0", "(foundIndex=text.indexOf(pattern[i],startIndex)) > 0"
+10, Math, 14, "foundIndex + pattern[i].length()", "foundIndex - pattern[i].length()"

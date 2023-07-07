@@ -1,0 +1,6 @@
+1, PrimitiveReturns, 10, "1", "0"
+2, ConditionalsBoundary, 9, "t1 < t2", "t1 <= t2"
+3, ConditionalsBoundary, 10, "t1 > t2", "t1 >= t2"
+4, InvertNegatives, 9, "-1", "1"
+5, NegateConditionals, 9, "t1 < t2", "t1 >= t2"
+6, NegateConditionals, 10, "t1 > t2", "t1 <= t2"

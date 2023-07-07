@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "s[si] == t[ti]", "s[si] != t[ti]"
+2, NegateConditionals, 5, "s[si] == 0", "s[si] != 0"
+3, NegateConditionals, 6, "t[ti] == 0", "t[ti] != 0"
+4, Math, 7, "s[si] - t[ti]", "s[si] + t[ti]"
+5, Increments, 5, "si++", "si--"
+6, Increments, 5, "ti++", "ti--"

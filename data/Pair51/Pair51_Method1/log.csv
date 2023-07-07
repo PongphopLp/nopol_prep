@@ -1,0 +1,8 @@
+1, Increments, 6, "o++", "o--"
+2, NegateConditionals, 6, "d[o] != 0", "d[o] == 0"
+3, NegateConditionals, 6, "o < d.length", "o >= d.length"
+4, VoidMethodCalls, 8, "System.arraycopy(d,start,str,0,o - start);
+", "DELETED"
+5, Math, 7, "o - start", "o + start"
+6, Math, 8, "o - start", "o + start"
+7, ConditionalsBoundary, 6, "o < d.length", "o <= d.length"

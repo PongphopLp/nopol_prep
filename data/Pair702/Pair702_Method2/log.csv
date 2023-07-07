@@ -1,0 +1,10 @@
+1, Math, 5, "length - s.length()", "length + s.length()"
+2, NegateConditionals, 6, "needed <= 0", "needed > 0"
+3, NegateConditionals, 10, "i < needed", "i >= needed"
+4, ConditionalsBoundary, 6, "needed <= 0", "needed < 0"
+5, ConditionalsBoundary, 10, "i < needed", "i <= needed"
+6, VoidMethodCalls, 11, "sb.append(c);
+", "DELETED"
+7, VoidMethodCalls, 13, "sb.append(s);
+", "DELETED"
+8, Increments, 10, "i++", "i--"

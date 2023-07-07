@@ -1,0 +1,8 @@
+1, NegateConditionals, 6, "secret1 == null", "secret1 != null"
+2, NegateConditionals, 6, "secret2 == null", "secret2 != null"
+3, NegateConditionals, 7, "secret1 == secret2", "secret1 != secret2"
+4, NegateConditionals, 10, "secret1.length == secret2.length", "secret1.length != secret2.length"
+5, NegateConditionals, 12, "i < secret1.length", "i >= secret1.length"
+6, NegateConditionals, 13, "secret1[i] == secret2[i]", "secret1[i] != secret2[i]"
+7, Increments, 12, "i++", "i--"
+8, ConditionalsBoundary, 12, "i < secret1.length", "i <= secret1.length"

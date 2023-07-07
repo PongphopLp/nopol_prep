@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "i < s.length()", "i <= s.length()"
+2, Math, 5, "s.length() / 2", "s.length() * 2"
+3, Math, 8, "j + String.valueOf(s.charAt(i + 1))", "j - String.valueOf(s.charAt(i + 1))"
+4, Math, 8, "i + 1", "i - 1"
+5, Math, 9, "i / 2", "i * 2"
+6, NegateConditionals, 6, "i < s.length()", "i >= s.length()"

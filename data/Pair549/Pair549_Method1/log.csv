@@ -1,0 +1,5 @@
+1, NegateConditionals, 7, "i >= 0", "i < 0"
+2, Increments, 7, "i--", "i++"
+3, Math, 7, "stateVector.length - 1", "stateVector.length + 1"
+4, Math, 8, "completeVector[i] * acumulador", "completeVector[i] / acumulador"
+5, ConditionalsBoundary, 7, "i >= 0", "i > 0"

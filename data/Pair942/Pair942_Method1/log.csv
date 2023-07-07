@@ -1,0 +1,18 @@
+01, ConditionalsBoundary, 13, "cal1Year < cal2Year", "cal1Year <= cal2Year"
+02, ConditionalsBoundary, 16, "cal1Day < cal2Day", "cal1Day <= cal2Day"
+03, ConditionalsBoundary, 19, "cal1Year > cal2Year", "cal1Year >= cal2Year"
+04, ConditionalsBoundary, 22, "cal1Day > cal2Day", "cal1Day >= cal2Day"
+05, InvertNegatives, 14, "-1", "1"
+06, InvertNegatives, 17, "-1", "1"
+07, VoidMethodCalls, 7, "cal1.setTime(date1);
+", "DELETED"
+08, VoidMethodCalls, 8, "cal2.setTime(date2);
+", "DELETED"
+09, PrimitiveReturns, 20, "1", "0"
+10, PrimitiveReturns, 23, "1", "0"
+11, NegateConditionals, 13, "cal1Year < cal2Year", "cal1Year >= cal2Year"
+12, NegateConditionals, 16, "cal1Year == cal2Year", "cal1Year != cal2Year"
+13, NegateConditionals, 16, "cal1Day < cal2Day", "cal1Day >= cal2Day"
+14, NegateConditionals, 19, "cal1Year > cal2Year", "cal1Year <= cal2Year"
+15, NegateConditionals, 22, "cal1Year == cal2Year", "cal1Year != cal2Year"
+16, NegateConditionals, 22, "cal1Day > cal2Day", "cal1Day <= cal2Day"

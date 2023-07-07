@@ -1,0 +1,5 @@
+1, NegateConditionals, 8, "i < limite", "i >= limite"
+2, Increments, 8, "i++", "i--"
+3, Increments, 10, "j++", "j--"
+4, Math, 6, "limite - apartir", "limite + apartir"
+5, ConditionalsBoundary, 8, "i < limite", "i <= limite"

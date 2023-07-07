@@ -1,0 +1,5 @@
+1, Math, 5, "c1.get(Calendar.YEAR) - c2.get(Calendar.YEAR)", "c1.get(Calendar.YEAR) + c2.get(Calendar.YEAR)"
+2, Math, 7, "c1.get(Calendar.MONTH) - c2.get(Calendar.MONTH)", "c1.get(Calendar.MONTH) + c2.get(Calendar.MONTH)"
+3, Math, 8, "c1.get(Calendar.DAY_OF_MONTH) - c2.get(Calendar.DAY_OF_MONTH)", "c1.get(Calendar.DAY_OF_MONTH) + c2.get(Calendar.DAY_OF_MONTH)"
+4, NegateConditionals, 6, "vDiff != 0", "vDiff == 0"
+5, NegateConditionals, 7, "(vDiff=c1.get(Calendar.MONTH) - c2.get(Calendar.MONTH)) != 0", "(vDiff=c1.get(Calendar.MONTH) - c2.get(Calendar.MONTH)) == 0"

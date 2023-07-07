@@ -1,0 +1,18 @@
+01, Math, 5, "length - s.length()", "length + s.length()"
+02, Math, 9, "needed / 2", "needed * 2"
+03, Math, 10, "beginning + needed % 2", "beginning - needed % 2"
+04, Math, 10, "needed % 2", "needed * 2"
+05, NegateConditionals, 6, "needed <= 0", "needed > 0"
+06, NegateConditionals, 12, "i < beginning", "i >= beginning"
+07, NegateConditionals, 16, "i < end", "i >= end"
+08, ConditionalsBoundary, 6, "needed <= 0", "needed < 0"
+09, ConditionalsBoundary, 12, "i < beginning", "i <= beginning"
+10, ConditionalsBoundary, 16, "i < end", "i <= end"
+11, VoidMethodCalls, 13, "sb.append(c);
+", "DELETED"
+12, VoidMethodCalls, 15, "sb.append(s);
+", "DELETED"
+13, VoidMethodCalls, 17, "sb.append(c);
+", "DELETED"
+14, Increments, 12, "i++", "i--"
+15, Increments, 16, "i++", "i--"

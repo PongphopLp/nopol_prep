@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "bannedIPList == null", "bannedIPList != null"
+2, NegateConditionals, 8, "i < bannedIPList.length", "i >= bannedIPList.length"
+3, ConditionalsBoundary, 8, "i < bannedIPList.length", "i <= bannedIPList.length"
+4, Increments, 8, "i++", "i--"

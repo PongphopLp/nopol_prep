@@ -1,0 +1,8 @@
+1, Math, 7, "(((int)buf[off]) << 8) & 0x0000FF00", "(((int)buf[off]) << 8) | 0x0000FF00"
+2, Math, 7, "((int)buf[off]) << 8", "((int)buf[off]) >> 8"
+3, Math, 8, "(((int)buf[++off])) & 0x000000FF", "(((int)buf[++off])) | 0x000000FF"
+4, Math, 11, "(((int)buf[off])) & 0x000000FF", "(((int)buf[off])) | 0x000000FF"
+5, Math, 12, "(((int)buf[++off]) << 8) & 0x0000FF00", "(((int)buf[++off]) << 8) | 0x0000FF00"
+6, Math, 12, "((int)buf[++off]) << 8", "((int)buf[++off]) >> 8"
+7, Increments, 8, "++off", "--off"
+8, Increments, 12, "++off", "--off"

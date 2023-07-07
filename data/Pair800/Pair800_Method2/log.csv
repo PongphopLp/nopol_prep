@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "text.length() >= rangoInicial", "text.length() < rangoInicial"
+2, NegateConditionals, 5, "text.length() <= rangoFinal", "text.length() > rangoFinal"
+3, ConditionalsBoundary, 5, "text.length() >= rangoInicial", "text.length() > rangoInicial"
+4, ConditionalsBoundary, 5, "text.length() <= rangoFinal", "text.length() < rangoFinal"

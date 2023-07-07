@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < result.length", "i >= result.length"
+3, Math, 5, "lines.length - amountToRemove", "lines.length + amountToRemove"
+4, Math, 7, "i + amountToRemove", "i - amountToRemove"
+5, ConditionalsBoundary, 6, "i < result.length", "i <= result.length"

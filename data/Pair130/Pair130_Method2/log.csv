@@ -1,0 +1,7 @@
+1, NegateConditionals, 8, "i >= 0", "i < 0"
+2, NegateConditionals, 10, "blu < 0", "blu >= 0"
+3, Increments, 8, "i--", "i++"
+4, Math, 10, "256 + blu", "256 - blu"
+5, Math, 11, "blu * mal", "blu / mal"
+6, ConditionalsBoundary, 8, "i >= 0", "i > 0"
+7, ConditionalsBoundary, 10, "blu < 0", "blu <= 0"

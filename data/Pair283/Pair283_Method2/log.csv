@@ -1,0 +1,4 @@
+1, Math, 6, "position + i", "position - i"
+2, Increments, 5, "i++", "i--"
+3, ConditionalsBoundary, 5, "i < b2.length", "i <= b2.length"
+4, NegateConditionals, 5, "i < b2.length", "i >= b2.length"

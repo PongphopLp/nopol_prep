@@ -1,0 +1,10 @@
+1, VoidMethodCalls, 8, "builder.append("&lt;");
+", "DELETED"
+2, VoidMethodCalls, 10, "builder.append("&gt;");
+", "DELETED"
+3, VoidMethodCalls, 12, "builder.append("&amp;");
+", "DELETED"
+4, VoidMethodCalls, 15, "builder.append("&quot;");
+", "DELETED"
+5, VoidMethodCalls, 18, "builder.append(c);
+", "DELETED"

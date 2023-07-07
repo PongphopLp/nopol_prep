@@ -1,0 +1,7 @@
+1, Math, 8, "originalArgs.length - stripCount", "originalArgs.length + stripCount"
+2, Math, 10, "i + stripCount", "i - stripCount"
+3, Increments, 9, "i++", "i--"
+4, NegateConditionals, 5, "originalArgs.length <= stripCount", "originalArgs.length > stripCount"
+5, NegateConditionals, 9, "i < stripped.length", "i >= stripped.length"
+6, ConditionalsBoundary, 5, "originalArgs.length <= stripCount", "originalArgs.length < stripCount"
+7, ConditionalsBoundary, 9, "i < stripped.length", "i <= stripped.length"

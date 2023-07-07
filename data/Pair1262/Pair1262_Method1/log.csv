@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "c < len + offset", "c <= len + offset"
+2, Math, 5, "len + offset", "len - offset"
+3, Increments, 5, "c++", "c--"
+4, NegateConditionals, 5, "c < len + offset", "c >= len + offset"
+5, NegateConditionals, 5, "data[c] != 0", "data[c] == 0"

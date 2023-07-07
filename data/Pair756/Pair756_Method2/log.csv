@@ -1,0 +1,6 @@
+1, VoidMethodCalls, 10, "result.insert(0,s);
+", "DELETED"
+2, NegateConditionals, 5, "original.length() >= minLen", "original.length() < minLen"
+3, NegateConditionals, 9, "result.length() < minLen", "result.length() >= minLen"
+4, ConditionalsBoundary, 5, "original.length() >= minLen", "original.length() > minLen"
+5, ConditionalsBoundary, 9, "result.length() < minLen", "result.length() <= minLen"

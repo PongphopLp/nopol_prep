@@ -1,0 +1,12 @@
+1, ConditionalsBoundary, 7, "missing <= 0", "missing < 0"
+2, ConditionalsBoundary, 14, "i <= missing", "i < missing"
+3, Math, 6, "len - str.length()", "len + str.length()"
+4, VoidMethodCalls, 12, "buffer.append(str);
+", "DELETED"
+5, VoidMethodCalls, 15, "buffer.append(ch);
+", "DELETED"
+6, VoidMethodCalls, 18, "buffer.append(str);
+", "DELETED"
+7, Increments, 14, "i++", "i--"
+8, NegateConditionals, 7, "missing <= 0", "missing > 0"
+9, NegateConditionals, 14, "i <= missing", "i > missing"

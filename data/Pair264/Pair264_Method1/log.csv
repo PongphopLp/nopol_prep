@@ -1,0 +1,5 @@
+1, Math, 5, "b & 0x00FF", "b | 0x00FF"
+2, NegateConditionals, 6, "ib < 32", "ib >= 32"
+3, NegateConditionals, 6, "ib > 126", "ib <= 126"
+4, ConditionalsBoundary, 6, "ib < 32", "ib <= 32"
+5, ConditionalsBoundary, 6, "ib > 126", "ib >= 126"

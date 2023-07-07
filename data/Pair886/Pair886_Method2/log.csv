@@ -1,0 +1,5 @@
+1, Increments, 5, "i++", "i--"
+2, NegateConditionals, 5, "i < list.size()", "i >= list.size()"
+3, NegateConditionals, 6, "list.get(i) == obj", "list.get(i) != obj"
+4, ConditionalsBoundary, 5, "i < list.size()", "i <= list.size()"
+5, InvertNegatives, 10, "-1", "1"

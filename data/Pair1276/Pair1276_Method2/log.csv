@@ -1,0 +1,13 @@
+01, ConditionalsBoundary, 7, "(replaceIndex=str.indexOf(strToReplace)) > -1", "(replaceIndex=str.indexOf(strToReplace)) >= -1"
+02, Math, 8, "String.valueOf(str.substring(0,replaceIndex)) + String.valueOf(replaceStr)", "String.valueOf(str.substring(0,replaceIndex)) - String.valueOf(replaceStr)"
+03, Math, 9, "replaceIndex + strToReplace.length()", "replaceIndex - strToReplace.length()"
+04, VoidMethodCalls, 8, "sb.append(String.valueOf(str.substring(0,replaceIndex)) + String.valueOf(replaceStr));
+", "DELETED"
+05, VoidMethodCalls, 11, "sb.append(str);
+", "DELETED"
+06, InvertNegatives, 7, "-1", "1"
+07, InvertNegatives, 7, "-1", "1"
+08, NegateConditionals, 5, "str == null", "str != null"
+09, NegateConditionals, 5, "strToReplace == null", "strToReplace != null"
+10, NegateConditionals, 5, "replaceStr == null", "replaceStr != null"
+11, NegateConditionals, 7, "(replaceIndex=str.indexOf(strToReplace)) > -1", "(replaceIndex=str.indexOf(strToReplace)) <= -1"

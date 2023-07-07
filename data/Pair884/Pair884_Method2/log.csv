@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 8, "i < size1", "i <= size1"
+2, Math, 9, "i + offset1", "i - offset1"
+3, Math, 9, "i + offset2", "i - offset2"
+4, NegateConditionals, 5, "size1 != size2", "size1 == size2"
+5, NegateConditionals, 8, "i < size1", "i >= size1"
+6, NegateConditionals, 9, "data1[i + offset1] != data2[i + offset2]", "data1[i + offset1] == data2[i + offset2]"

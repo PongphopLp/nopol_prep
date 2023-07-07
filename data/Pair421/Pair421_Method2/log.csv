@@ -1,0 +1,6 @@
+1, NegateConditionals, 5, "(year % 100) == 0", "(year % 100) != 0"
+2, NegateConditionals, 5, "(year % 400) == 0", "(year % 400) != 0"
+3, NegateConditionals, 6, "(year % 4) == 0", "(year % 4) != 0"
+4, Math, 5, "year % 100", "year * 100"
+5, Math, 5, "year % 400", "year * 400"
+6, Math, 6, "year % 4", "year * 4"

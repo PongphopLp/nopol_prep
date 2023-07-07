@@ -1,0 +1,73 @@
+01, Increments, 11, "i++", "i--"
+02, Increments, 79, "i++", "i--"
+03, NegateConditionals, 5, "in.indexOf("\\") != -1", "in.indexOf("\\") == -1"
+04, NegateConditionals, 11, "i < in.length()", "i >= in.length()"
+05, NegateConditionals, 13, "c == '\\'", "c != '\\'"
+06, NegateConditionals, 20, "c == '?'", "c != '?'"
+07, NegateConditionals, 24, "c == '*'", "c != '*'"
+08, NegateConditionals, 38, "nextChar == '\"'", "nextChar != '\"'"
+09, NegateConditionals, 42, "nextChar == '\''", "nextChar != '\''"
+10, NegateConditionals, 46, "nextChar == '%'", "nextChar != '%'"
+11, NegateConditionals, 50, "nextChar == '_'", "nextChar != '_'"
+12, NegateConditionals, 79, "i < in.length()", "i >= in.length()"
+13, NegateConditionals, 81, "c == '?'", "c != '?'"
+14, NegateConditionals, 85, "c == '*'", "c != '*'"
+15, NegateConditionals, 89, "c == '\"'", "c != '\"'"
+16, NegateConditionals, 93, "c == '\''", "c != '\''"
+17, NegateConditionals, 97, "c == '%'", "c != '%'"
+18, NegateConditionals, 101, "c == '_'", "c != '_'"
+19, VoidMethodCalls, 7, "out.append("\'");
+", "DELETED"
+20, VoidMethodCalls, 21, "out.append('_');
+", "DELETED"
+21, VoidMethodCalls, 25, "out.append('%');
+", "DELETED"
+22, VoidMethodCalls, 39, "out.append("\\\"");
+", "DELETED"
+23, VoidMethodCalls, 43, "out.append("\\\'");
+", "DELETED"
+24, VoidMethodCalls, 47, "out.append("\\%");
+", "DELETED"
+25, VoidMethodCalls, 51, "out.append("\\_");
+", "DELETED"
+26, VoidMethodCalls, 55, "out.append(nextChar);
+", "DELETED"
+27, VoidMethodCalls, 61, "out.append("\'");
+", "DELETED"
+28, VoidMethodCalls, 63, "out.insert(0," LIKE ");
+", "DELETED"
+29, VoidMethodCalls, 66, "out.insert(0," = ");
+", "DELETED"
+30, VoidMethodCalls, 68, "out.insert(0,name);
+", "DELETED"
+31, VoidMethodCalls, 70, "out.insert(0,' ');
+", "DELETED"
+32, VoidMethodCalls, 76, "out.append("\'");
+", "DELETED"
+33, VoidMethodCalls, 82, "out.append('_');
+", "DELETED"
+34, VoidMethodCalls, 86, "out.append('%');
+", "DELETED"
+35, VoidMethodCalls, 90, "out.append("\\\"");
+", "DELETED"
+36, VoidMethodCalls, 94, "out.append("\\\'");
+", "DELETED"
+37, VoidMethodCalls, 98, "out.append("\\%");
+", "DELETED"
+38, VoidMethodCalls, 102, "out.append("\\_");
+", "DELETED"
+39, VoidMethodCalls, 106, "out.append(c);
+", "DELETED"
+40, VoidMethodCalls, 109, "out.append("\'");
+", "DELETED"
+41, VoidMethodCalls, 111, "out.insert(0," LIKE ");
+", "DELETED"
+42, VoidMethodCalls, 114, "out.insert(0," = ");
+", "DELETED"
+43, VoidMethodCalls, 116, "out.insert(0,name);
+", "DELETED"
+44, VoidMethodCalls, 118, "out.insert(0,' ');
+", "DELETED"
+45, ConditionalsBoundary, 11, "i < in.length()", "i <= in.length()"
+46, ConditionalsBoundary, 79, "i < in.length()", "i <= in.length()"
+47, InvertNegatives, 5, "-1", "1"

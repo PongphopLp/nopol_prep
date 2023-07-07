@@ -1,0 +1,7 @@
+1, Increments, 7, "i++", "i--"
+2, VoidMethodCalls, 8, "ret.append(delim);
+", "DELETED"
+3, VoidMethodCalls, 10, "ret.append(element);
+", "DELETED"
+4, NegateConditionals, 8, "i > 0", "i <= 0"
+5, ConditionalsBoundary, 8, "i > 0", "i >= 0"

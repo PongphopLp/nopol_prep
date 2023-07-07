@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 13, "i > 0", "i >= 0"
+2, ConditionalsBoundary, 18, "k > 0", "k >= 0"
+3, ConditionalsBoundary, 18, "l > 0", "l >= 0"
+4, Math, 11, "s1 + "=" + '"'", "s1 - "=" - '"'"
+5, Math, 14, "i + s2.length()", "i - s2.length()"
+6, NegateConditionals, 13, "i > 0", "i <= 0"
+7, NegateConditionals, 18, "k > 0", "k <= 0"
+8, NegateConditionals, 18, "l > 0", "l <= 0"

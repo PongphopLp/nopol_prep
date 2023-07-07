@@ -1,0 +1,3 @@
+1, VoidMethodCalls, 10, "System.arraycopy(a,0,b,0,size);
+", "DELETED"
+2, NegateConditionals, 5, "a.length == size", "a.length != size"

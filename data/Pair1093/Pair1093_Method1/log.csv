@@ -1,0 +1,12 @@
+01, Math, 8, "ar2.length % 2", "ar2.length * 2"
+02, Math, 8, "(ar2[ar.length / 2] + ar2[ar.length / 2 - 1]) / 2.", "(ar2[ar.length / 2] + ar2[ar.length / 2 - 1]) * 2."
+03, Math, 8, "ar2[ar.length / 2] + ar2[ar.length / 2 - 1]", "ar2[ar.length / 2] - ar2[ar.length / 2 - 1]"
+04, Math, 8, "ar.length / 2", "ar.length * 2"
+05, Math, 8, "ar.length / 2 - 1", "ar.length / 2 + 1"
+06, Math, 8, "ar.length / 2", "ar.length * 2"
+07, Math, 9, "ar.length / 2", "ar.length * 2"
+08, VoidMethodCalls, 6, "System.arraycopy(ar,0,ar2,0,ar.length);
+", "DELETED"
+09, VoidMethodCalls, 7, "Arrays.sort(ar2);
+", "DELETED"
+10, NegateConditionals, 8, "ar2.length % 2 == 0", "ar2.length % 2 != 0"

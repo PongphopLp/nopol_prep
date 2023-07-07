@@ -1,0 +1,4 @@
+1, NegateConditionals, 5, "apple == null", "apple != null"
+2, NegateConditionals, 5, "orange == null", "orange != null"
+3, NegateConditionals, 8, "apple == null", "apple != null"
+4, NegateConditionals, 8, "orange == null", "orange != null"

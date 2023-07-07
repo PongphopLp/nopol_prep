@@ -1,0 +1,8 @@
+1, NegateConditionals, 11, "avg == 0", "avg != 0"
+2, Math, 10, "sum / values.length", "sum * values.length"
+3, Math, 14, "(d - avg) * (d - avg)", "(d - avg) / (d - avg)"
+4, Math, 14, "d - avg", "d + avg"
+5, Math, 14, "d - avg", "d + avg"
+6, Math, 16, "(double)sum / (double)(values.length - 1)", "(double)sum * (double)(values.length - 1)"
+7, Math, 16, "values.length - 1", "values.length + 1"
+8, Math, 17, "stdev / avg", "stdev * avg"

@@ -1,0 +1,24 @@
+01, NegateConditionals, 6, "i < pHexBinary.length", "i >= pHexBinary.length"
+02, NegateConditionals, 9, "c <= 9", "c > 9"
+03, NegateConditionals, 16, "c <= 9", "c > 9"
+04, Increments, 6, "i++", "i--"
+05, VoidMethodCalls, 10, "result.append((char)('0' + c));
+", "DELETED"
+06, VoidMethodCalls, 13, "result.append((char)('A' + c - 10));
+", "DELETED"
+07, VoidMethodCalls, 17, "result.append((char)('0' + c));
+", "DELETED"
+08, VoidMethodCalls, 20, "result.append((char)('A' + c - 10));
+", "DELETED"
+09, ConditionalsBoundary, 6, "i < pHexBinary.length", "i <= pHexBinary.length"
+10, ConditionalsBoundary, 9, "c <= 9", "c < 9"
+11, ConditionalsBoundary, 16, "c <= 9", "c < 9"
+12, Math, 8, "(b & 0xf0) >> 4", "(b & 0xf0) << 4"
+13, Math, 8, "b & 0xf0", "b | 0xf0"
+14, Math, 10, "'0' + c", "'0' - c"
+15, Math, 13, "'A' + c - 10", "'A' + c + 10"
+16, Math, 13, "'A' + c", "'A' - c"
+17, Math, 15, "b & 0x0f", "b | 0x0f"
+18, Math, 17, "'0' + c", "'0' - c"
+19, Math, 20, "'A' + c - 10", "'A' + c + 10"
+20, Math, 20, "'A' + c", "'A' - c"

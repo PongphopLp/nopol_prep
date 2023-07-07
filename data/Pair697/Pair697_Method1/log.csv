@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "p < s.length", "p >= s.length"
+2, NegateConditionals, 6, "s[p] != 0", "s[p] == 0"
+3, Increments, 6, "p++", "p--"
+4, Math, 7, "p - from", "p + from"
+5, ConditionalsBoundary, 6, "p < s.length", "p <= s.length"

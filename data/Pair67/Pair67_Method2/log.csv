@@ -1,0 +1,11 @@
+01, VoidMethodCalls, 10, "b.append(c);
+", "DELETED"
+02, ConditionalsBoundary, 6, "i < in.length", "i <= in.length"
+03, ConditionalsBoundary, 9, "lo < 0", "lo <= 0"
+04, Math, 9, "hi * 256 + lo + (lo < 0 ? 256 : 0)", "hi * 256 + lo - (lo < 0 ? 256 : 0)"
+05, Math, 9, "hi * 256 + lo", "hi * 256 - lo"
+06, Math, 9, "hi * 256", "hi / 256"
+07, Increments, 7, "i++", "i--"
+08, Increments, 8, "i++", "i--"
+09, NegateConditionals, 6, "i < in.length", "i >= in.length"
+10, NegateConditionals, 9, "lo < 0", "lo >= 0"

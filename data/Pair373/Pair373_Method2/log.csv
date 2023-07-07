@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < v.length", "i >= v.length"
+2, NegateConditionals, 7, "max < v[i]", "max >= v[i]"
+3, Increments, 6, "i++", "i--"
+4, ConditionalsBoundary, 6, "i < v.length", "i <= v.length"
+5, ConditionalsBoundary, 7, "max < v[i]", "max <= v[i]"

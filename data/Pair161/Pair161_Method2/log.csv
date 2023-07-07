@@ -1,0 +1,16 @@
+01, Math, 17, "didx + dlen", "didx - dlen"
+02, ConditionalsBoundary, 5, "str.length() < 1", "str.length() <= 1"
+03, ConditionalsBoundary, 11, "didx >= 0", "didx > 0"
+04, ConditionalsBoundary, 14, "previdx < str.length()", "previdx <= str.length()"
+05, ConditionalsBoundary, 19, "previdx >= dlen", "previdx > dlen"
+06, ConditionalsBoundary, 21, "i < strarr.length", "i <= strarr.length"
+07, VoidMethodCalls, 12, "strs.add(str.substring(previdx,didx));
+", "DELETED"
+08, VoidMethodCalls, 15, "strs.add(str.substring(previdx));
+", "DELETED"
+09, Increments, 21, "i++", "i--"
+10, NegateConditionals, 5, "str.length() < 1", "str.length() >= 1"
+11, NegateConditionals, 11, "didx >= 0", "didx < 0"
+12, NegateConditionals, 14, "previdx < str.length()", "previdx >= str.length()"
+13, NegateConditionals, 19, "previdx >= dlen", "previdx < dlen"
+14, NegateConditionals, 21, "i < strarr.length", "i >= strarr.length"

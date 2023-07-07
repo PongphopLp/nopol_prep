@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 7, "bufferOffset < 0", "bufferOffset <= 0"
+2, ConditionalsBoundary, 8, "i < strLen", "i <= strLen"
+3, Math, 6, "sb.length() - strLen", "sb.length() + strLen"
+4, Math, 10, "bufferOffset + i", "bufferOffset - i"
+5, Increments, 8, "i++", "i--"
+6, NegateConditionals, 7, "bufferOffset < 0", "bufferOffset >= 0"
+7, NegateConditionals, 8, "i < strLen", "i >= strLen"
+8, NegateConditionals, 10, "ch != sb.charAt(bufferOffset + i)", "ch == sb.charAt(bufferOffset + i)"

@@ -1,0 +1,4 @@
+1, Math, 7, "m1[i] * m2[i]", "m1[i] / m2[i]"
+2, ConditionalsBoundary, 6, "i < m1.length", "i <= m1.length"
+3, NegateConditionals, 6, "i < m1.length", "i >= m1.length"
+4, Increments, 6, "i++", "i--"

@@ -1,0 +1,4 @@
+1, Increments, 8, "i++", "i--"
+2, NegateConditionals, 5, "arr1.length != arr2.length", "arr1.length == arr2.length"
+3, NegateConditionals, 8, "i != arr1.length", "i == arr1.length"
+4, NegateConditionals, 9, "arr1[i] != arr2[i]", "arr1[i] == arr2[i]"

@@ -1,0 +1,7 @@
+1, NegateConditionals, 5, "s == null", "s != null"
+2, NegateConditionals, 5, "search == null", "search != null"
+3, NegateConditionals, 8, "start == null", "start != null"
+4, NegateConditionals, 9, "i < 0", "i >= 0"
+5, Math, 8, "start.intValue() - 1", "start.intValue() + 1"
+6, Math, 9, "s.indexOf(search,(i < 0) ? 0 : i) + 1", "s.indexOf(search,(i < 0) ? 0 : i) - 1"
+7, ConditionalsBoundary, 9, "i < 0", "i <= 0"

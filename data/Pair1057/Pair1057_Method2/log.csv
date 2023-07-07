@@ -1,0 +1,7 @@
+1, ConditionalsBoundary, 7, "i < bitset1.length()", "i <= bitset1.length()"
+2, InvertNegatives, 7, "-1", "1"
+3, Math, 5, "bitset1.length() - bitset2.length()", "bitset1.length() + bitset2.length()"
+4, Increments, 7, "i++", "i--"
+5, NegateConditionals, 5, "bitset1.length() != bitset2.length()", "bitset1.length() == bitset2.length()"
+6, NegateConditionals, 7, "i < bitset1.length()", "i >= bitset1.length()"
+7, NegateConditionals, 7, "bitset1.get(i) != bitset2.get(i)", "bitset1.get(i) == bitset2.get(i)"

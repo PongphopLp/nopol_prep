@@ -1,0 +1,27 @@
+01, Increments, 7, "i++", "i--"
+02, NegateConditionals, 7, "i < len", "i >= len"
+03, NegateConditionals, 9, "c == '<'", "c != '<'"
+04, NegateConditionals, 10, "buf == null", "buf != null"
+05, NegateConditionals, 15, "c == '>'", "c != '>'"
+06, NegateConditionals, 16, "buf == null", "buf != null"
+07, NegateConditionals, 21, "c == '&'", "c != '&'"
+08, NegateConditionals, 22, "buf == null", "buf != null"
+09, NegateConditionals, 27, "c == '\''", "c != '\''"
+10, NegateConditionals, 28, "buf == null", "buf != null"
+11, NegateConditionals, 33, "c == '"'", "c != '"'"
+12, NegateConditionals, 34, "buf == null", "buf != null"
+13, NegateConditionals, 39, "buf != null", "buf == null"
+14, NegateConditionals, 43, "buf == null", "buf != null"
+15, VoidMethodCalls, 13, "buf.append("&lt;");
+", "DELETED"
+16, VoidMethodCalls, 19, "buf.append("&gt;");
+", "DELETED"
+17, VoidMethodCalls, 25, "buf.append("&amp;");
+", "DELETED"
+18, VoidMethodCalls, 31, "buf.append("&apos;");
+", "DELETED"
+19, VoidMethodCalls, 37, "buf.append("&quot;");
+", "DELETED"
+20, VoidMethodCalls, 40, "buf.append(c);
+", "DELETED"
+21, ConditionalsBoundary, 7, "i < len", "i <= len"

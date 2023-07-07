@@ -1,0 +1,3 @@
+1, Increments, 6, "i++", "i--"
+2, NegateConditionals, 6, "i < newLength", "i >= newLength"
+3, ConditionalsBoundary, 6, "i < newLength", "i <= newLength"

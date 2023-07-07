@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < sizes.length", "i <= sizes.length"
+2, NegateConditionals, 6, "i < sizes.length", "i >= sizes.length"
+3, Math, 6, "sizes[i] * total", "sizes[i] / total"
+4, Increments, 6, "i++", "i--"

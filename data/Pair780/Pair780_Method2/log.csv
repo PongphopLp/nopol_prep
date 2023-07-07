@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 7, "i < length", "i <= length"
+2, Increments, 7, "i++", "i--"
+3, Increments, 9, "readpoint++", "readpoint--"
+4, NegateConditionals, 7, "i < length", "i >= length"

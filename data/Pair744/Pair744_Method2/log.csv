@@ -1,0 +1,5 @@
+1, NegateConditionals, 6, "i < ret.length", "i >= ret.length"
+2, Increments, 6, "i++", "i--"
+3, Math, 5, "source.length - count", "source.length + count"
+4, Math, 7, "i + count", "i - count"
+5, ConditionalsBoundary, 6, "i < ret.length", "i <= ret.length"

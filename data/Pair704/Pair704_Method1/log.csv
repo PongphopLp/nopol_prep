@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 6, "angle < 0", "angle <= 0"
+2, ConditionalsBoundary, 7, "angle < -180", "angle <= -180"
+3, ConditionalsBoundary, 9, "angle > 180", "angle >= 180"
+4, Math, 5, "windAngle - boatAngle", "windAngle + boatAngle"
+5, NegateConditionals, 6, "angle < 0", "angle >= 0"
+6, NegateConditionals, 7, "angle < -180", "angle >= -180"
+7, NegateConditionals, 9, "angle > 180", "angle <= 180"
+8, InvertNegatives, 7, "-180", "180"

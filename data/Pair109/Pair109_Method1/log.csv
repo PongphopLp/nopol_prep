@@ -1,0 +1,5 @@
+1, Increments, 7, "i++", "i--"
+2, NegateConditionals, 6, "bytea.length == byteb.length", "bytea.length != byteb.length"
+3, NegateConditionals, 7, "i < bytea.length", "i >= bytea.length"
+4, NegateConditionals, 8, "bytea[i] != byteb[i]", "bytea[i] == byteb[i]"
+5, ConditionalsBoundary, 7, "i < bytea.length", "i <= bytea.length"

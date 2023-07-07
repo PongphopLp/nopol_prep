@@ -1,0 +1,17 @@
+01, Math, 7, "bytes[i] & 0xFF", "bytes[i] | 0xFF"
+02, Math, 8, "bytes[i] & 0xFF", "bytes[i] | 0xFF"
+03, Math, 12, "bytes.length - 1", "bytes.length + 1"
+04, Increments, 6, "i++", "i--"
+05, NegateConditionals, 6, "i < bytes.length", "i >= bytes.length"
+06, NegateConditionals, 8, "(bytes[i] & 0xFF) < 16", "(bytes[i] & 0xFF) >= 16"
+07, NegateConditionals, 12, "separator != null", "separator == null"
+08, NegateConditionals, 12, "i < bytes.length - 1", "i >= bytes.length - 1"
+09, VoidMethodCalls, 9, "sb.append('0');
+", "DELETED"
+10, VoidMethodCalls, 11, "sb.append(code);
+", "DELETED"
+11, VoidMethodCalls, 13, "sb.append(separator);
+", "DELETED"
+12, ConditionalsBoundary, 6, "i < bytes.length", "i <= bytes.length"
+13, ConditionalsBoundary, 8, "(bytes[i] & 0xFF) < 16", "(bytes[i] & 0xFF) <= 16"
+14, ConditionalsBoundary, 12, "i < bytes.length - 1", "i <= bytes.length - 1"

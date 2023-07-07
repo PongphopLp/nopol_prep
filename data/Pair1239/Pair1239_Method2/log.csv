@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 5, "sysex.length < 16", "sysex.length <= 16"
+2, NegateConditionals, 5, "sysex.length < 16", "sysex.length >= 16"
+3, NegateConditionals, 8, "sysex[0] == (byte)0xF0", "sysex[0] != (byte)0xF0"
+4, NegateConditionals, 8, "sysex[1] == 0x41", "sysex[1] != 0x41"
+5, NegateConditionals, 8, "sysex[3] == 0x60", "sysex[3] != 0x60"
+6, NegateConditionals, 8, "sysex[4] == 0x12", "sysex[4] != 0x12"

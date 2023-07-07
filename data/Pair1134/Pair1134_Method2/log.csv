@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "text1 == null", "text1 != null"
+2, NegateConditionals, 6, "text2 == null", "text2 != null"
+3, NegateConditionals, 8, "i < len", "i >= len"
+4, NegateConditionals, 11, "ch1 != ch2", "ch1 == ch2"
+5, ConditionalsBoundary, 8, "i < len", "i <= len"
+6, Math, 12, "ch1 - ch2", "ch1 + ch2"
+7, Math, 15, "text1.length() - text2.length()", "text1.length() + text2.length()"
+8, Increments, 8, "i++", "i--"

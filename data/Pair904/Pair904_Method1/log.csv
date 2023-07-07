@@ -1,0 +1,9 @@
+1, ConditionalsBoundary, 5, "offset < 0", "offset <= 0"
+2, ConditionalsBoundary, 5, "length <= 0", "length < 0"
+3, ConditionalsBoundary, 5, "offset + length > buffer.length", "offset + length >= buffer.length"
+4, Math, 5, "offset + length", "offset - length"
+5, VoidMethodCalls, 9, "System.arraycopy(buffer,offset,region,0,length);
+", "DELETED"
+6, NegateConditionals, 5, "offset < 0", "offset >= 0"
+7, NegateConditionals, 5, "length <= 0", "length > 0"
+8, NegateConditionals, 5, "offset + length > buffer.length", "offset + length <= buffer.length"

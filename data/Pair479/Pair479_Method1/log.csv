@@ -1,0 +1,6 @@
+1, ConditionalsBoundary, 6, "exponent < 0", "exponent <= 0"
+2, ConditionalsBoundary, 10, "exponent-- > 0", "exponent-- >= 0"
+3, Increments, 10, "exponent--", "exponent++"
+4, Math, 13, "1 / result", "1 * result"
+5, NegateConditionals, 6, "exponent < 0", "exponent >= 0"
+6, NegateConditionals, 10, "exponent-- > 0", "exponent-- <= 0"

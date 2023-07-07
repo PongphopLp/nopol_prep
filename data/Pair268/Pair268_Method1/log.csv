@@ -1,0 +1,14 @@
+01, VoidMethodCalls, 10, "locales.add(locale);
+", "DELETED"
+02, VoidMethodCalls, 13, "locales.add(locales.size() == 0 ? locale : new __target__(language,country,""));
+", "DELETED"
+03, VoidMethodCalls, 16, "locales.add(locales.size() == 0 ? locale : new Locale(language,"",""));
+", "DELETED"
+04, ConditionalsBoundary, 9, "variant.length() > 0", "variant.length() >= 0"
+05, ConditionalsBoundary, 12, "country.length() > 0", "country.length() >= 0"
+06, ConditionalsBoundary, 15, "language.length() > 0", "language.length() >= 0"
+07, NegateConditionals, 9, "variant.length() > 0", "variant.length() <= 0"
+08, NegateConditionals, 12, "country.length() > 0", "country.length() <= 0"
+09, NegateConditionals, 13, "locales.size() == 0", "locales.size() != 0"
+10, NegateConditionals, 15, "language.length() > 0", "language.length() <= 0"
+11, NegateConditionals, 16, "locales.size() == 0", "locales.size() != 0"

@@ -1,0 +1,7 @@
+1, InvertNegatives, 9, "-1", "1"
+2, NegateConditionals, 7, "source != null", "source == null"
+3, NegateConditionals, 7, "mark != null", "mark == null"
+4, NegateConditionals, 7, "toMark != null", "toMark == null"
+5, NegateConditionals, 9, "p == -1", "p != -1"
+6, Math, 12, "result.substring(0,p) + toMark + result.substring(p + mark.length())", "result.substring(0,p) - toMark - result.substring(p + mark.length())"
+7, Math, 12, "p + mark.length()", "p - mark.length()"

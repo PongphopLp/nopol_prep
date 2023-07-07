@@ -1,0 +1,5 @@
+1, Math, 7, "(b[i] & 0xff) << shiftBy", "(b[i] & 0xff) >> shiftBy"
+2, Math, 7, "b[i] & 0xff", "b[i] | 0xff"
+3, ConditionalsBoundary, 6, "shiftBy < 32", "shiftBy <= 32"
+4, NegateConditionals, 6, "shiftBy < 32", "shiftBy >= 32"
+5, Increments, 6, "i++", "i--"

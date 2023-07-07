@@ -1,0 +1,8 @@
+1, ConditionalsBoundary, 5, "a1 >= a2", "a1 > a2"
+2, ConditionalsBoundary, 5, "a1 >= a3", "a1 > a3"
+3, ConditionalsBoundary, 8, "a2 >= a1", "a2 > a1"
+4, ConditionalsBoundary, 8, "a2 >= a3", "a2 > a3"
+5, NegateConditionals, 5, "a1 >= a2", "a1 < a2"
+6, NegateConditionals, 5, "a1 >= a3", "a1 < a3"
+7, NegateConditionals, 8, "a2 >= a1", "a2 < a1"
+8, NegateConditionals, 8, "a2 >= a3", "a2 < a3"

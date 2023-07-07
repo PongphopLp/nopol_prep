@@ -1,0 +1,5 @@
+1, ConditionalsBoundary, 5, "r < data.length", "r <= data.length"
+2, NegateConditionals, 5, "data != null", "data == null"
+3, NegateConditionals, 5, "r < data.length", "r >= data.length"
+4, VoidMethodCalls, 7, "System.arraycopy(data,0,b,0,r);
+", "DELETED"

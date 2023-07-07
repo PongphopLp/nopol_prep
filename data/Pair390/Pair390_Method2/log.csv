@@ -1,0 +1,8 @@
+1, NegateConditionals, 5, "c == 'a'", "c != 'a'"
+2, NegateConditionals, 8, "c == 'c'", "c != 'c'"
+3, NegateConditionals, 11, "c == 'g'", "c != 'g'"
+4, NegateConditionals, 14, "c == 't'", "c != 't'"
+5, NegateConditionals, 17, "c == 'A'", "c != 'A'"
+6, NegateConditionals, 20, "c == 'C'", "c != 'C'"
+7, NegateConditionals, 23, "c == 'G'", "c != 'G'"
+8, NegateConditionals, 26, "c == 'T'", "c != 'T'"

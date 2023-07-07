@@ -1,0 +1,4 @@
+1, ConditionalsBoundary, 6, "i < e", "i <= e"
+2, NegateConditionals, 6, "i < e", "i >= e"
+3, Increments, 6, "i++", "i--"
+4, Math, 9, "total / e", "total * e"

@@ -1,0 +1,4 @@
+1, Increments, 5, "i++", "i--"
+2, ConditionalsBoundary, 5, "i < tableau.length", "i <= tableau.length"
+3, NegateConditionals, 5, "i < tableau.length", "i >= tableau.length"
+4, NegateConditionals, 6, "tableau[0].length != tableau[i].length", "tableau[0].length == tableau[i].length"

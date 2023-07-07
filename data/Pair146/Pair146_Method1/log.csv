@@ -1,0 +1,5 @@
+1, Increments, 6, "i++", "i--"
+2, ConditionalsBoundary, 6, "i < baFirst.length", "i <= baFirst.length"
+3, NegateConditionals, 5, "baFirst.length == baSecond.length", "baFirst.length != baSecond.length"
+4, NegateConditionals, 6, "i < baFirst.length", "i >= baFirst.length"
+5, NegateConditionals, 7, "baFirst[i] != baSecond[i]", "baFirst[i] == baSecond[i]"
